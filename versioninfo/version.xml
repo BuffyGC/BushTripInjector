@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BushTripInjector xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Id="BushTripInjector">
+  <MinVersion>
+    <Major>0</Major>
+    <Minor>6</Minor>
+    <Build>0</Build>
+    <Revision>0</Revision>
+  </MinVersion>
+  <PrevVersion>
+    <Major>0</Major>
+    <Minor>6</Minor>
+    <Build>4</Build>
+    <Revision>868</Revision>
+  </PrevVersion>
+  <CurrentVersion>
+    <Major>0</Major>
+    <Minor>6</Minor>
+    <Build>4</Build>
+    <Revision>868</Revision>
+  </CurrentVersion>
+  <Downloadlink>https://flightsim.to/d/buffygc/bushtripinjector</Downloadlink>
+</BushTripInjector>
