@@ -19,4 +19,9 @@
     <Revision>868</Revision>
   </CurrentVersion>
   <Downloadlink>https://flightsim.to/d/buffygc/bushtripinjector</Downloadlink>
+  <ChangeLog>
+Feature: When starting on a parking spot on first leg, the AI-Traffic on this airport is disabled to avoid spawning into an AI Aircraft. As with so many other things, this doesn't always work in the sim and the bug has already been reported. Feel free to report it to zendesk, too.
+
+Feature: If a flight was started at a waypoint/airfield in the 3D image generator, you can now return to the capture mode for capturing 3D images to this waypoint by clicking "Stop flying".
+  </ChangeLog>
 </BushTripInjector>
