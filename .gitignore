@@ -1,52 +1,98 @@
-# Prerequisites
-*.d
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
 
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
+# compiler output
+*.com
+*.class
 *.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
 *.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
 *.pdb
+*.dll.config
+*.cache
+*.suo
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# comiler output folders
+bin/
+obj/
+TestResults/
+
+# maybe upgrade stuff
+_UpgradeReport_Files/
+
+# logs and databases
+*.log
+*.sqlite
+*.mdf
+*.ldf
+
+
+# windows stuff
+.DS_Store?
+ehthumbs.db
+Icon?
+Thumbs.db
+Desktop.ini
+
+# vs user files
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studo cache/options directory
+.vs/
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# artifacts
+project.lock.json
+artifacts/
+
+# other vs files
+*_i.c
+*_p.c
+*_i.h
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+
+
+# Click-Once directory
+publish/
+
+# NuGet Packages
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/packages/*
+
+
