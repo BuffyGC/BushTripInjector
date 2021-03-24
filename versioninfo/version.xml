@@ -15,12 +15,15 @@
   <CurrentVersion>
     <Major>0</Major>
     <Minor>6</Minor>
-    <Build>5</Build>
-    <Revision>884</Revision>
+    <Build>6</Build>
+    <Revision>889</Revision>
   </CurrentVersion>
   <Downloadlink>https://flightsim.to/file/4131/bushtripinjector</Downloadlink>
   <ChangeLog>
+0.6.5.884:
 Feature: Added an Update-Check on startup to reduce the number of different BTI versions to support
 Bug-Fix: Added a check for valid flightplan BTI can handle (min. 2 Entries, Dep- and Dest must be an airport)  
+0.6.6.889:
+User-Request: For Landing detections, you can now choose yourself which parameters in any combination are to be used for ending the leg.
   </ChangeLog>
 </BushTripInjector>
