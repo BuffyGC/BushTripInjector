@@ -15,8 +15,8 @@
   <CurrentVersion>
     <Major>0</Major>
     <Minor>6</Minor>
-    <Build>6</Build>
-    <Revision>889</Revision>
+    <Build>7</Build>
+    <Revision>906</Revision>
   </CurrentVersion>
   <Downloadlink>https://flightsim.to/file/4131/bushtripinjector</Downloadlink>
   <ChangeLog>
@@ -25,5 +25,12 @@ Feature: Added an Update-Check on startup to reduce the number of different BTI 
 Bug-Fix: Added a check for valid flightplan BTI can handle (min. 2 Entries, Dep- and Dest must be an airport)  
 0.6.6.889:
 User-Request: For Landing detections, you can now choose yourself which parameters in any combination are to be used for ending the leg.
+
+0.6.7.903:
+User-Request: Added SimVar "PLANE TOUCHDOWN NORMAL VELOCITY" to Event+Triggers Editor. With this you can now create events depending on the touchdown rate in ft/min.
+User-Request: No more horizontal scrolling on long Intro-Texts
+User-Request: Added SimVar "VERTICAL SPEED" with ft/min in addition to ft/sec to Event+Triggers Editor
+Enhancement: Workaround for an Sim-Bug when Mission-Failure Texts have chars outside of ASCII-7. BTI converts those text now to ASCII-7 by v13 of Unicode Standard
+Fix: Fixed an issue when invalid values for the window positions were being stored in BushTripInjector.ini
   </ChangeLog>
 </BushTripInjector>
