@@ -9,33 +9,23 @@
   <PrevVersion>
     <Major>0</Major>
     <Minor>6</Minor>
-    <Build>4</Build>
-    <Revision>868</Revision>
+    <Build>8</Build>
+    <Revision>915</Revision>
   </PrevVersion>
   <CurrentVersion>
     <Major>0</Major>
-    <Minor>6</Minor>
-    <Build>8</Build>
-    <Revision>915</Revision>
+    <Minor>7</Minor>
+    <Build>0</Build>
+    <Revision>931</Revision>
   </CurrentVersion>
   <Downloadlink>https://flightsim.to/file/4131/bushtripinjector</Downloadlink>
   <ChangeLog>
-0.6.5.884:
-Feature: Added an Update-Check on startup to reduce the number of different BTI versions to support
-Bug-Fix: Added a check for valid flightplan BTI can handle (min. 2 Entries, Dep- and Dest must be an airport)  
-0.6.6.889:
-User-Request: For Landing detections, you can now choose yourself which parameters in any combination are to be used for ending the leg.
-0.6.7.903:
-User-Request: Added SimVar "PLANE TOUCHDOWN NORMAL VELOCITY" to Event+Triggers Editor. With this you can now create events depending on the touchdown rate in ft/min.
-User-Request: No more horizontal scrolling on long Intro-Texts
-User-Request: Added SimVar "VERTICAL SPEED" with ft/min in addition to ft/sec to Event+Triggers Editor
-Enhancement: Workaround for an Sim-Bug when Mission-Failure Texts have chars outside of ASCII-7. BTI converts those text now to ASCII-7 by v13 of Unicode Standard
-Fix: Fixed an issue when invalid values for the window positions were being stored in BushTripInjector.ini
+0.7.0.931
+Feature: Select the Parkingspot inside of BTI.
+To activate this feature, you must download the Database File for the Parking Positions seperatly from Flightsim.to
+BTI will calculate Position and Heading for you.
 
-0.6.8.915
-FIX: Some liveries couldn't be loaded when aircraft.cfg format is malformed
-MAINT: Load Liveries in background on startup
-MAINT: Some more logging in load liveries
-FIX: Don't lock the log file in multi-threading
+Maint: Full re-work of True and Magnetic Heading for spawn.
+Maint: Re-work to prepare the Events & Trigger Editor for the next steps.
   </ChangeLog>
 </BushTripInjector>
