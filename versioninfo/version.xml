@@ -26,6 +26,6 @@ To activate this feature, you must download the Database File for the Parking Po
 BTI will calculate Position and Heading for you.
 
 Maint: Full re-work of True and Magnetic Heading for spawn.
-Maint: Re-work to prepare the Events & Trigger Editor for the next steps.
+Maint: Re-work to prepare the Events+Trigger Editor for the next steps.
   </ChangeLog>
 </BushTripInjector>
