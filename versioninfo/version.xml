@@ -15,15 +15,14 @@
   <CurrentVersion>
     <Major>0</Major>
     <Minor>7</Minor>
-    <Build>1</Build>
-    <Revision>956</Revision>
+    <Build>3</Build>
+    <Revision>981</Revision>
   </CurrentVersion>
   <ChangeLog>&#xD;
 0.7.0.931&#xD;
 Feature: Select the Parkingspot inside of BTI.&#xD;
 To activate this feature, you must download the Database File for the Parking Positions seperatly from Flightsim.to&#xD;
 BTI will calculate Position and Heading for you.&#xD;
-&#xD;
 0.7.1.955&#xD;
 User-Req: Enable/Disable loading the flightplan into GPS (Koschi)&#xD;
 Feature: Allow Multi-Actions in Events&amp;Triggers Editor&#xD;
@@ -32,6 +31,18 @@ GUI: some typos (thanks to Pennsocke)&#xD;
 Maint: Parking Database included into UpdateCheck&#xD;
 Maint: Context Menu in WorldMap for future features&#xD;
 FIX: Fixed a bug when calculating runway heading (true/magnetic), when airport is not in BTI database (cptdev)&#xD;
+0.7.2.962&#xD;
+FEATURE: Parking Selection now with Gate/Ramp Type&#xD;
+MAINT: AirportCreation: Optimization of Wizard Steps&#xD;
+BUGFIX: Update Check was broken (thanks to Koschi)&#xD;
+&#xD;
+0.7.3.981&#xD;
+FEATURE: Let ATC decide the starting runway. ==&gt; Runway must be empty in BTI. &#xD;
+FEATURE: Select Mode for Worldmap: Aerial, Aerial with Labels, Road&#xD;
+FEATURE: Configure your own map tile server, see .config/example.maps.comfig&#xD;
+UPDATE: support for deepl.com app V2.3.1&#xD;
+UPDATE: remove compatibility code to v0.5&#xD;
+&#xD;
 </ChangeLog>
   <Downloadlink>https://flightsim.to/file/4131/bushtripinjector</Downloadlink>
   <RequiredDbVersion>
