@@ -55,6 +55,6 @@ UPDATE: remove compatibility code to v0.5&#xD;
     <Major>1</Major>
     <Minor>15</Minor>
     <Build>7</Build>
-    <Revision>1</Revision>
+    <Revision>0</Revision>
   </CurrentMSFSDatabaseVersion>
 </BushTripInjector>
