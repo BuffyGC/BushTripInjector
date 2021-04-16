@@ -15,27 +15,10 @@
   <CurrentVersion>
     <Major>0</Major>
     <Minor>7</Minor>
-    <Build>3</Build>
-    <Revision>981</Revision>
+    <Build>4</Build>
+    <Revision>991</Revision>
   </CurrentVersion>
   <ChangeLog>&#xD;
-0.7.0.931&#xD;
-Feature: Select the Parkingspot inside of BTI.&#xD;
-To activate this feature, you must download the Database File for the Parking Positions seperatly from Flightsim.to&#xD;
-BTI will calculate Position and Heading for you.&#xD;
-0.7.1.955&#xD;
-User-Req: Enable/Disable loading the flightplan into GPS (Koschi)&#xD;
-Feature: Allow Multi-Actions in Events&amp;Triggers Editor&#xD;
-Feature: Activate sound files in Events&amp;Triggers (incl. a warning message because of sim bug)&#xD;
-GUI: some typos (thanks to Pennsocke)&#xD;
-Maint: Parking Database included into UpdateCheck&#xD;
-Maint: Context Menu in WorldMap for future features&#xD;
-FIX: Fixed a bug when calculating runway heading (true/magnetic), when airport is not in BTI database (cptdev)&#xD;
-0.7.2.962&#xD;
-FEATURE: Parking Selection now with Gate/Ramp Type&#xD;
-MAINT: AirportCreation: Optimization of Wizard Steps&#xD;
-BUGFIX: Update Check was broken (thanks to Koschi)&#xD;
-&#xD;
 0.7.3.981&#xD;
 FEATURE: Let ATC decide the starting runway. ==&gt; Runway must be empty in BTI. &#xD;
 FEATURE: Select Mode for Worldmap: Aerial, Aerial with Labels, Road&#xD;
@@ -43,6 +26,14 @@ FEATURE: Configure your own map tile server, see .config/example.maps.comfig&#xD
 UPDATE: support for deepl.com app V2.3.1&#xD;
 UPDATE: remove compatibility code to v0.5&#xD;
 &#xD;
+0.7.4.991&#xD;
+UPDATE: Updated the BTI internal database to sim version 1.15.7.&#xD;
+        Airports: 36981 -&gt; 37165 (+183), added: 211, changed 244, deleted 28&#xD;
+        Runways:  87362 -&gt; 87642 (+279), added: 401, changed 100, deleted 122&#xD;
+        Detailed Changelog inside of the package&#xD;
+UPDATE: Optimized Logging: increased performance for Release Builds&#xD;
+BUGFIX: Another fix for deepl-app&#xD;
+BUGFIX: Memory-Leak in Translation and 3D Image Window fixed.&#xD;
 </ChangeLog>
   <Downloadlink>https://flightsim.to/file/4131/bushtripinjector</Downloadlink>
   <RequiredDbVersion>
@@ -53,8 +44,8 @@ UPDATE: remove compatibility code to v0.5&#xD;
   </RequiredDbVersion>
   <CurrentMSFSDatabaseVersion>
     <Major>1</Major>
-    <Minor>14</Minor>
-    <Build>5</Build>
-    <Revision>1</Revision>
+    <Minor>15</Minor>
+    <Build>7</Build>
+    <Revision>0</Revision>
   </CurrentMSFSDatabaseVersion>
 </BushTripInjector>
