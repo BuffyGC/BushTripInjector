@@ -8,32 +8,36 @@
   </MinVersion>
   <PrevVersion>
     <Major>0</Major>
-    <Minor>6</Minor>
-    <Build>8</Build>
-    <Revision>915</Revision>
+    <Minor>7</Minor>
+    <Build>4</Build>
+    <Revision>911</Revision>
   </PrevVersion>
   <CurrentVersion>
     <Major>0</Major>
     <Minor>7</Minor>
-    <Build>4</Build>
-    <Revision>991</Revision>
+    <Build>5</Build>
+    <Revision>1008</Revision>
   </CurrentVersion>
   <ChangeLog>&#xD;
-0.7.3.981&#xD;
-FEATURE: Let ATC decide the starting runway. ==&gt; Runway must be empty in BTI. &#xD;
-FEATURE: Select Mode for Worldmap: Aerial, Aerial with Labels, Road&#xD;
-FEATURE: Configure your own map tile server, see .config/example.maps.comfig&#xD;
-UPDATE: support for deepl.com app V2.3.1&#xD;
-UPDATE: remove compatibility code to v0.5&#xD;
+0.7.5.1008&#xD;
+FEATURE: Activated Failures in Events&amp;Triggers Editor. Not all Failures will work with any plane. Checkout by yourself and blame Asobo/MS if not working, not me!&#xD;
+Feel free to report working and non-working combinations, I will add them to the FAQ.&#xD;
 &#xD;
-0.7.4.991&#xD;
-UPDATE: Updated the BTI internal database to sim version 1.15.7.&#xD;
-        Airports: 36981 -&gt; 37165 (+183), added: 211, changed 244, deleted 28&#xD;
-        Runways:  87362 -&gt; 87642 (+279), added: 401, changed 100, deleted 122&#xD;
-        Detailed Changelog inside of the package&#xD;
-UPDATE: Optimized Logging: increased performance for Release Builds&#xD;
-BUGFIX: Another fix for deepl-app&#xD;
-BUGFIX: Memory-Leak in Translation and 3D Image Window fixed.&#xD;
+FEATURE: Unintentional released the timer triggers in Event&amp;Triggers with v0.7.3.981. Complete Change-log here!&#xD;
+&#xD;
+FEATURE: Workaround for sim bug: Added the option to disable translation for Waypoint Names for displaying them in POI markers&#xD;
+&#xD;
+FEATURE: Workaround for bad TTS: Added the option to disable translation for TTS.&#xD;
+&#xD;
+UPDATE:  Create 2D Landing Images from WorldMap manually&#xD;
+&#xD;
+UPDATE:  Moved 'Add TTS' and 'Create Waypoint Image' into ContextMenu of WorldMap&#xD;
+&#xD;
+UPDATE:  Updated Property Definitions for SPB-Compiler to Sim Version 1.15.7&#xD;
+&#xD;
+BUGFIX:  Fixed a bug in creation of TTS for WayPoints after an airport. This could lead to not playing the TTS. You need to remove those TTS and re-create them, sorry! &#xD;
+&#xD;
+BUGFIX:  Fixed a bug drawing the TTS rectangle on WorldMap.&#xD;
 </ChangeLog>
   <Downloadlink>https://flightsim.to/file/4131/bushtripinjector</Downloadlink>
   <RequiredDbVersion>
