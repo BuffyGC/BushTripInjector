@@ -49,7 +49,7 @@ BUGFIX:  Fixed a bug drawing the TTS rectangle on WorldMap.&#xD;
   <CurrentMSFSDatabaseVersion>
     <Major>1</Major>
     <Minor>15</Minor>
-    <Build>7</Build>
+    <Build>8</Build>
     <Revision>0</Revision>
   </CurrentMSFSDatabaseVersion>
 </BushTripInjector>
