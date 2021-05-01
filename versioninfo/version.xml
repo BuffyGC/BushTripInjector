@@ -15,10 +15,20 @@
   <CurrentVersion>
     <Major>0</Major>
     <Minor>7</Minor>
-    <Build>7</Build>
-    <Revision>1046</Revision>
+    <Build>8</Build>
+    <Revision>1056</Revision>
   </CurrentVersion>
   <ChangeLog>&#xD;
+0.7.8.1056&#xD;
+HIGHLIGHT: BushTripInjector introduces 'Landmarks'!&#xD;
+Define your own highlights of your tour with your own POIs: Cities, Fauna, Landmarks&#xD;
+Just right click in the WorldMap to add a new POI.&#xD;
+&#xD;
+UPDATE: Startup Optimization: Parallel loading of Airport, Runway and Parking Database.&#xD;
+If you encounter some issues, set 'LoadDatabaseParallel' to 'False' in BushTripInjector.ini &#xD;
+UPDATE: If BTI detects steam, but no params to compile are set, detect them from steam&#xD;
+UPDATE: Performance optimizations Logger.&#xD;
+&#xD;
 0.7.7.1046&#xD;
 USER-REQ: Create 3D LandingImages with 3D Image Generator for Airports&#xD;
 UPDATE: Internal database for airports and runway updated to Sim 1.15.8.0 (AIRAC incl. Hotfix)&#xD;
