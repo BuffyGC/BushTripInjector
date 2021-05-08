@@ -9,16 +9,28 @@
   <PrevVersion>
     <Major>0</Major>
     <Minor>7</Minor>
-    <Build>5</Build>
-    <Revision>1008</Revision>
+    <Build>7</Build>
+    <Revision>1046</Revision>
   </PrevVersion>
   <CurrentVersion>
     <Major>0</Major>
-    <Minor>7</Minor>
-    <Build>9</Build>
-    <Revision>1078</Revision>
+    <Minor>8</Minor>
+    <Build>0</Build>
+    <Revision>1092</Revision>
   </CurrentVersion>
   <ChangeLog>&#xD;
+0.8.0.1092&#xD;
+HIGHLIGHT: Unlocking the Secret of 'AssistancePresets'!&#xD;
+ *Your Controls:* BushTripInjector gives you the control over all assistance options. It is your choice which settings are set and whether they should be unlocked for the user.&#xD;
+Attention: Not all combination could be testet, some of the settings may not work or break the BushTrip. Please check your desired settings with your trip.&#xD;
+&#xD;
+USER-REQ: Paste Coords from Google Maps (and others) into Landmarks-Dialog (koschi)&#xD;
+USER-REQ: Determinate the Altitude of Landmark in Landmarkwindow.&#xD;
+UPDATE: New Runway Surfaces for Airport Creation: FOREST, GRASS_BUMPY, HARD_TURF, LONG_GRASS, SHORT_GRASS, URBAN and WRIGHT_FLYER_TRACK&#xD;
+UPDATE: Fixed another thing for crazy steam installations (seems to be steam fix weeks again)&#xD;
+UPDATE: *Some better Map REST-API Handling to investigate an issue with expired SessionIds.*&#xD;
+&#xD;
+---&#xD;
 0.7.9.1078&#xD;
 A small intermediate update in front of a bigger thing.&#xD;
 &#xD;
@@ -36,23 +48,6 @@ UPDATE: Startup Optimization: Parallel loading of Airport, Runway and Parking Da
 If you encounter some issues, set 'LoadDatabaseParallel' to 'False' in BushTripInjector.ini &#xD;
 UPDATE: If BTI detects steam, but no params to compile are set, detect them from steam&#xD;
 UPDATE: Performance optimizations Logger.&#xD;
-&#xD;
----&#xD;
-0.7.7.1046&#xD;
-USER-REQ: Create 3D LandingImages with 3D Image Generator for Airports&#xD;
-UPDATE: Internal database for airports and runway updated to Sim 1.15.8.0 (AIRAC incl. Hotfix)&#xD;
-        103 changes on airports, 28 renamed runways, 2 other changes in runways&#xD;
-UPDATE: Localization has been added for Japanese and Dutch&#xD;
-UPDATE: Small things on the GUI&#xD;
-UPDATE: Removed compatibility code to v0.5 (TTS)&#xD;
-&#xD;
----&#xD;
-0.7.6.1027&#xD;
-FEATURE: Selecting the Textcolors for Activity Widget&#xD;
-FEATURE: Select the Language to use for WPNames and/or TTS, if you don*t want to use translated entries&#xD;
-UPDATE: Another try to avoid spawning in other aircrafts when parking spots are used&#xD;
-UPDATE: new window for update info&#xD;
-UPDATE: Workaround for bing maps issue with antimeridian crossings&#xD;
 </ChangeLog>
   <Downloadlink>https://flightsim.to/file/4131/bushtripinjector</Downloadlink>
   <RequiredDbVersion>
