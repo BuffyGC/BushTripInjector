@@ -3,22 +3,32 @@
   <MinVersion>
     <Major>0</Major>
     <Minor>6</Minor>
-    <Build>6</Build>
-    <Revision>889</Revision>
+    <Build>8</Build>
+    <Revision>915</Revision>
   </MinVersion>
   <PrevVersion>
     <Major>0</Major>
     <Minor>7</Minor>
-    <Build>7</Build>
-    <Revision>1046</Revision>
+    <Build>9</Build>
+    <Revision>1078</Revision>
   </PrevVersion>
   <CurrentVersion>
     <Major>0</Major>
     <Minor>8</Minor>
-    <Build>0</Build>
-    <Revision>1092</Revision>
+    <Build>1</Build>
+    <Revision>1117</Revision>
   </CurrentVersion>
   <ChangeLog>&#xD;
+0.8.1.1117&#xD;
+ 'USER-REQ: Added the feature to convert first or last waypoint to an airport.' &#xD;
+&#xD;
+FEATURE: Enhanced the Events&amp;Triggers Editor to change AssistancePreset inflight.&#xD;
+UPDATE: Fixed an issue when creating TTS for first waypoints of a leg. You need to re-create those TTS, not only the trip, I'm sorry!&#xD;
+UPDATE: Fixed an issue with the elevation of the runway startpoints on user-airports.&#xD;
+UPDATE: Calculate airport boundaries as the sim calculates them for display in Worldmap&#xD;
+UPDATE: Apptitle not updated on changes sometimes&#xD;
+&#xD;
+&#xD;
 0.8.0.1092&#xD;
 HIGHLIGHT: Unlocking the Secret of 'AssistancePresets'!&#xD;
  *Your Controls:* BushTripInjector gives you the control over all assistance options. It is your choice which settings are set and whether they should be unlocked for the user.&#xD;
@@ -38,16 +48,6 @@ UPDATE: Fixed a bug for steam and DVD version, if the link is configured to run 
 UPDATE: Fixed a bug on startup, if community folder is not accessible (f99mlu)&#xD;
 UPDATE: Fixed a bug for refueling after leaving the trip (koschi)&#xD;
 &#xD;
----&#xD;
-0.7.8.1056&#xD;
-HIGHLIGHT: BushTripInjector introduces 'Landmarks'!&#xD;
-Define your own highlights of your tour with your own POIs: Cities, Fauna, Landmarks&#xD;
-Just right click in the WorldMap to add a new POI.&#xD;
-&#xD;
-UPDATE: Startup Optimization: Parallel loading of Airport, Runway and Parking Database.&#xD;
-If you encounter some issues, set 'LoadDatabaseParallel' to 'False' in BushTripInjector.ini &#xD;
-UPDATE: If BTI detects steam, but no params to compile are set, detect them from steam&#xD;
-UPDATE: Performance optimizations Logger.&#xD;
 </ChangeLog>
   <Downloadlink>https://flightsim.to/file/4131/bushtripinjector</Downloadlink>
   <RequiredDbVersion>
