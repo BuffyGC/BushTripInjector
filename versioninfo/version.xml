@@ -15,15 +15,28 @@
   <CurrentVersion>
     <Major>0</Major>
     <Minor>8</Minor>
-    <Build>2</Build>
-    <Revision>1149</Revision>
+    <Build>3</Build>
+    <Revision>1188</Revision>
   </CurrentVersion>
   <ChangeLog>&#xD;
+0.8.3.1188&#xD;
+UPDATE: *Modifications for Sim 1.16.2.0 to compile without errors about MarketplaceData and business.json* . But also with the errors, the trip was working!&#xD;
+UPDATE: *Compatibility with XBOX Version.* &#xD;
+USER-REQ: Added a function to remove obsolete images from images-folder (Pennsocke)&#xD;
+FEATURE: Added the AdjustTimerAction to Event&amp;Triggers Editor: Increase or Decrease the time of a TimerTrigger&#xD;
+FEATURE: Added the ResetTimerAction to Event&amp;Triggers Editor: Reset the time of a TimerTrigger&#xD;
+FEATURE: Added the InstructorDialog to Event&amp;Triggers Editor: Display and play dialog in the adventure window.&#xD;
+UPDATE: Accepting the EULA is now mandatory.&#xD;
+UPDATE: Fixed a bug with horizontal scrolling in TTS Window (thanks to Koschi)&#xD;
+UPDATE: Fixed a bug, Elevations of Waypoints were not calculated after loading a plan.&#xD;
+UPDATE: Hidden feature for a good friend :)&#xD;
+&#xD;
+---&#xD;
 0.8.2.1149&#xD;
 FEATURE: Activated the ObjectActivationAction in Event&amp;Triggers. Activate or deactivate other triggers depending on Conditions, Timers, Areas.&#xD;
 FEATURE: For each Trigger in E&amp;T Editor, you can select whether the trigger can be fired once or more&#xD;
 USER-REQ: Added a flag to set MultiPlayer in the flt-file&#xD;
-UPDATE: Workaround for soundfiles. Fix for announced change in sim-beta. &#xD;
+UPDATE: Workaround for sound files. Fix for announced change in sim-beta, unfortunately the fix is not included in most recent sim-beta. &#xD;
 UPDATE: Some GUI optimizations for the Event&amp;Triggers Editor&#xD;
 UPDATE: Tons of Tooltips&#xD;
 UPDATE: Validate the triggers before generating a BushTrip.&#xD;
