@@ -16,9 +16,13 @@
     <Major>0</Major>
     <Minor>8</Minor>
     <Build>3</Build>
-    <Revision>1188</Revision>
+    <Revision>1192</Revision>
   </CurrentVersion>
   <ChangeLog>&#xD;
+0.8.3.1192&#xD;
+UPDATE: Fixed a bug that prevented saving the acceptance of the EULA&#xD;
+&#xD;
+---&#xD;
 0.8.3.1188&#xD;
 UPDATE: *Modifications for Sim 1.16.2.0 to compile without errors about MarketplaceData and business.json* . But also with the errors, the trip was working!&#xD;
 UPDATE: *Compatibility with XBOX Version.* &#xD;
