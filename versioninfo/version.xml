@@ -2,9 +2,9 @@
 <BushTripInjector xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Id="BushTripInjector">
   <MinVersion>
     <Major>0</Major>
-    <Minor>6</Minor>
-    <Build>8</Build>
-    <Revision>915</Revision>
+    <Minor>7</Minor>
+    <Build>7</Build>
+    <Revision>1046</Revision>
   </MinVersion>
   <PrevVersion>
     <Major>0</Major>
@@ -15,10 +15,20 @@
   <CurrentVersion>
     <Major>0</Major>
     <Minor>8</Minor>
-    <Build>3</Build>
-    <Revision>1192</Revision>
+    <Build>4</Build>
+    <Revision>1207</Revision>
   </CurrentVersion>
   <ChangeLog>&#xD;
+0.8.4.1207&#xD;
+FEATURE: Activated the *CounterTriggers* in Event&amp;Triggers Editor: Will be fired when reaching the Counter. Increase or Decrease the Counter with CountAction&#xD;
+FEATURE: Activated the *CountAction* in Event&amp;Triggers Editor: Increase or Decrease the count of a CounterTrigger.&#xD;
+UPDATE: *Updated the internal airport and runway database to Sim-Version 1.16.2.0*: &lt;br&gt;185 Airports added, 127 changed, 2 deleted (HSMY / LEDS) &lt;br&gt;410 new runways, 20 changes and 32 deleted runways. &lt;br&gt;Details see "db-changelog-1.15.8.0--1.16.2.0.txt".&#xD;
+UPDATE: Fixed an bug in AdjustElevation function when waypoint has an elevation of zero&#xD;
+UPDATE: Added the DelaySeconds to Event&amp;Triggers GUI for TTS.&#xD;
+UPDATE: Deactivated the code for soundfiles fix announced for 1.16.2.0. It did not find the way to the sim&#xD;
+UPDATE: Adaption of TTS to Sim changes introduced with 1.16.2.0, which prevented the translated texts from being read. &#xD;
+&#xD;
+---&#xD;
 0.8.3.1192&#xD;
 UPDATE: Fixed a bug that prevented saving the acceptance of the EULA&#xD;
 &#xD;
@@ -77,8 +87,8 @@ UPDATE: *Some better Map REST-API Handling to investigate an issue with expired 
   </RequiredDbVersion>
   <CurrentMSFSDatabaseVersion>
     <Major>1</Major>
-    <Minor>15</Minor>
-    <Build>8</Build>
+    <Minor>16</Minor>
+    <Build>2</Build>
     <Revision>0</Revision>
   </CurrentMSFSDatabaseVersion>
 </BushTripInjector>
