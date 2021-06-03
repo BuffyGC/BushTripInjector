@@ -3,8 +3,8 @@
   <MinVersion>
     <Major>0</Major>
     <Minor>7</Minor>
-    <Build>7</Build>
-    <Revision>1046</Revision>
+    <Build>9</Build>
+    <Revision>1078</Revision>
   </MinVersion>
   <PrevVersion>
     <Major>0</Major>
@@ -15,10 +15,19 @@
   <CurrentVersion>
     <Major>0</Major>
     <Minor>8</Minor>
-    <Build>4</Build>
-    <Revision>1207</Revision>
+    <Build>5</Build>
+    <Revision>1228</Revision>
   </CurrentVersion>
   <ChangeLog>&#xD;
+0.8.5.1228&#xD;
+FEATURE: *Activated the ProximityTrigger in Events&amp;Trigger Editor!* &lt;br&gt;Select a cube over Landmarks, Waypoints or other coordinates as a trigger and fire any action you want. Use the "Paste" button to paste coordinates from GoogleMaps or BingMaps.&lt;br&gt; *Attention:* In Combination with TTS for Waypoints, this can lead to massive FPS dropdowns. In a future version of BushTripInjector, the TTS for Waypoints will be moved to Events&amp;Triggers Editor.&#xD;
+FEATURE: Added some SimVars to Conditional Editor and SimWatcher Window (Fuel and Payload)&#xD;
+UPDATE: Play the TTS for Waypoints only once (as intended). Some players report multiple output every 10 sec, maybe a change with Sim 1.16.2.0, but cannot reproduce on development machine. Please report issues!&#xD;
+UPDATE: Cleanup FLT File from unnecessary stuff&#xD;
+UPDATE: SimWatcher Window saves position and size&#xD;
+&#xD;
+&#xD;
+---&#xD;
 0.8.4.1207&#xD;
 FEATURE: Activated the *CounterTriggers* in Event&amp;Triggers Editor: Will be fired when reaching the Counter. Increase or Decrease the Counter with CountAction&#xD;
 FEATURE: Activated the *CountAction* in Event&amp;Triggers Editor: Increase or Decrease the count of a CounterTrigger.&#xD;
