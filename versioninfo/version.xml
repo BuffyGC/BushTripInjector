@@ -2,23 +2,40 @@
 <BushTripInjector xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Id="BushTripInjector">
   <MinVersion>
     <Major>0</Major>
-    <Minor>7</Minor>
-    <Build>9</Build>
-    <Revision>1078</Revision>
+    <Minor>8</Minor>
+    <Build>2</Build>
+    <Revision>1149</Revision>
   </MinVersion>
   <PrevVersion>
     <Major>0</Major>
     <Minor>8</Minor>
-    <Build>0</Build>
+    <Build>5</Build>
     <Revision>-1</Revision>
   </PrevVersion>
   <CurrentVersion>
     <Major>0</Major>
-    <Minor>8</Minor>
-    <Build>6</Build>
-    <Revision>1246</Revision>
+    <Minor>9</Minor>
+    <Build>0</Build>
+    <Revision>1272</Revision>
   </CurrentVersion>
   <ChangeLog>&#xD;
+0.9.0.1272&#xD;
+HIGHLIGHT: BushTripInjector integrates Scenery-Map from Flightsim.to&#xD;
+ *Show Add-Ons of Flightsim.to on map and grid.* Select your preferred add-ons and generate a template for your project page!&#xD;
+Find great add-ons for Airfields and Airports, Airstrips and Smaller Airfields, Bridges, Buildings, Castles, Cities/Towns/Villages, General Scenery, Helipads, Mountains and Nature, Regional Packages and Stadiums to integrate in your Bushtrips.&#xD;
+More than 5700 add-ons available, daily growing.&lt;br&gt;Direkt link for each add-on to the project page on Flightsim.to&#xD;
+ *Select on WorldMap-Page:* &lt;br&gt; *All* - show all add-ons (slow)&lt;br&gt; *Trip* - Show add-ons of the trip bounding box&lt;br&gt; *Leg* - Build bounding boxes for each leg and show inside add-ons&lt;br&gt; *Waypoints* - same as legs, only for Waypoints&#xD;
+ *Many thanks to Flightsim.to for cooperation.*&#xD;
+&#xD;
+FEATURE: *Activated the AirportLandingTrigger in Events&amp;Trigger Editor!* &lt;br&gt;Already used to enable fueling on airports, it is now unlocked for use in E&amp;T. Refueling will be merged when generating a trip.&#xD;
+FEATURE: *Added the OneShotSoundAction to Events&amp;Triggers Editor.* &lt;br&gt;Plays soundfiles one time for events. Because of the well known sim bug, they will not be played after you left a trip and re-join it.&#xD;
+UPDATE: Fixed an issue in Event&amp;Triggers Editor that activate the triggers after load, altough user deactivated them&#xD;
+UPDATE: Fixed an issue with ProximityTrigger didn't detect invalid actions in some cases.&#xD;
+UPDATE: Fixed a bug detecting changes on landmarks&#xD;
+UPDATE: Remove some HTML Tags in TTS, when no localisation is used.&#xD;
+UPDATE: Fixed an issue that prevent triggers to be included in the Xml/Spb file when they are using CountAction, ObjectActivationAction, ResetTimerAction and/or TimerAdjustAction (Koschi)&#xD;
+&#xD;
+---&#xD;
 0.8.6.1246&#xD;
 FEATURE: *Activated the AreaLandingTrigger in Events&amp;Trigger Editor!* &lt;br&gt;Select a cube over Landmarks, Waypoints or other coordinates as a trigger and fire any action if you land there. Use the "Paste" button to paste coordinates from Google Maps or Bing Maps.&#xD;
 FEATURE: *Added the AdjustPayloadAction to Events&amp;Triggers Editor.* &lt;br&gt;This allows you to add freight or passengers on your trip. Can be nice in combination with the AreaLandingTrigger&#xD;
@@ -36,66 +53,6 @@ UPDATE: Play the TTS for Waypoints only once (as intended). Some players report 
 UPDATE: Cleanup FLT File from unnecessary stuff&#xD;
 UPDATE: SimWatcher Window saves position and size&#xD;
 &#xD;
-&#xD;
----&#xD;
-0.8.4.1207&#xD;
-FEATURE: Activated the *CounterTriggers* in Event&amp;Triggers Editor: Will be fired when reaching the Counter. Increase or Decrease the Counter with CountAction&#xD;
-FEATURE: Activated the *CountAction* in Event&amp;Triggers Editor: Increase or Decrease the count of a CounterTrigger.&#xD;
-UPDATE: *Updated the internal airport and runway database to Sim-Version 1.16.2.0*: &lt;br&gt;185 Airports added, 127 changed, 2 deleted (HSMY / LEDS) &lt;br&gt;410 new runways, 20 changes and 32 deleted runways. &lt;br&gt;Details see "db-changelog-1.15.8.0--1.16.2.0.txt".&#xD;
-UPDATE: Fixed an bug in AdjustElevation function when waypoint has an elevation of zero&#xD;
-UPDATE: Added the DelaySeconds to Event&amp;Triggers GUI for TTS.&#xD;
-UPDATE: Deactivated the code for soundfiles fix announced for 1.16.2.0. It did not find the way to the sim&#xD;
-UPDATE: Adaption of TTS to Sim changes introduced with 1.16.2.0, which prevented the translated texts from being read. &#xD;
-&#xD;
----&#xD;
-0.8.3.1192&#xD;
-UPDATE: Fixed a bug that prevented saving the acceptance of the EULA&#xD;
-&#xD;
----&#xD;
-0.8.3.1188&#xD;
-UPDATE: *Modifications for Sim 1.16.2.0 to compile without errors about MarketplaceData and business.json* . But also with the errors, the trip was working!&#xD;
-UPDATE: *Compatibility with XBOX Version.* &#xD;
-USER-REQ: Added a function to remove obsolete images from images-folder (Pennsocke)&#xD;
-FEATURE: Added the AdjustTimerAction to Event&amp;Triggers Editor: Increase or Decrease the time of a TimerTrigger&#xD;
-FEATURE: Added the ResetTimerAction to Event&amp;Triggers Editor: Reset the time of a TimerTrigger&#xD;
-FEATURE: Added the InstructorDialog to Event&amp;Triggers Editor: Display and play dialog in the adventure window.&#xD;
-UPDATE: Accepting the EULA is now mandatory.&#xD;
-UPDATE: Fixed a bug with horizontal scrolling in TTS Window (thanks to Koschi)&#xD;
-UPDATE: Fixed a bug, Elevations of Waypoints were not calculated after loading a plan.&#xD;
-UPDATE: Hidden feature for a good friend :)&#xD;
-&#xD;
----&#xD;
-0.8.2.1149&#xD;
-FEATURE: Activated the ObjectActivationAction in Event&amp;Triggers. Activate or deactivate other triggers depending on Conditions, Timers, Areas.&#xD;
-FEATURE: For each Trigger in E&amp;T Editor, you can select whether the trigger can be fired once or more&#xD;
-USER-REQ: Added a flag to set MultiPlayer in the flt-file&#xD;
-UPDATE: Workaround for sound files. Fix for announced change in sim-beta, unfortunately the fix is not included in most recent sim-beta. &#xD;
-UPDATE: Some GUI optimizations for the Event&amp;Triggers Editor&#xD;
-UPDATE: Tons of Tooltips&#xD;
-UPDATE: Validate the triggers before generating a BushTrip.&#xD;
-TEASER: Implemented some more triggers and actions for selected testers. *Be curious what else is in store for you.*&#xD;
-&#xD;
----&#xD;
-0.8.1.1117&#xD;
- 'USER-REQ: Added the feature to convert first or last waypoint to an airport.' &#xD;
-&#xD;
-FEATURE: Enhanced the Events&amp;Triggers Editor to change AssistancePreset inflight.&#xD;
-UPDATE: Fixed an issue when creating TTS for first waypoints of a leg. You need to re-create those TTS, not only the trip, I'm sorry!&#xD;
-UPDATE: Fixed an issue with the elevation of the runway startpoints on user-airports.&#xD;
-UPDATE: Calculate airport boundaries as the sim calculates them for display in Worldmap&#xD;
-UPDATE: Apptitle not updated on changes sometimes&#xD;
-&#xD;
----&#xD;
-0.8.0.1092&#xD;
-HIGHLIGHT: Unlocking the Secret of 'AssistancePresets'!&#xD;
- *Your Controls:* BushTripInjector gives you the control over all assistance options. It is your choice which settings are set and whether they should be unlocked for the user.&#xD;
-Attention: Not all combination could be testet, some of the settings may not work or break the BushTrip. Please check your desired settings with your trip.&#xD;
-&#xD;
-USER-REQ: Paste Coords from Google Maps (and others) into Landmarks-Dialog (koschi)&#xD;
-USER-REQ: Determinate the Altitude of Landmark in Landmarkwindow.&#xD;
-UPDATE: New Runway Surfaces for Airport Creation: FOREST, GRASS_BUMPY, HARD_TURF, LONG_GRASS, SHORT_GRASS, URBAN and WRIGHT_FLYER_TRACK&#xD;
-UPDATE: Fixed another thing for crazy steam installations (seems to be steam fix weeks again)&#xD;
-UPDATE: *Some better Map REST-API Handling to investigate an issue with expired SessionIds.*&#xD;
 </ChangeLog>
   <Downloadlink>https://flightsim.to/file/4131/bushtripinjector</Downloadlink>
   <RequiredDbVersion>
