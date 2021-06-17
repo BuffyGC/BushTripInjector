@@ -16,12 +16,9 @@
     <Major>0</Major>
     <Minor>9</Minor>
     <Build>1</Build>
-    <Revision>1289</Revision>
+    <Revision>1288</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
-0.9.1.1289&#xD;
-&#xD;
----&#xD;
 0.9.1.1288&#xD;
 USER-REQ: *Show invalid triggers in another font color.*&lt;br&gt;Some uses do not see the *"INVALID"* statement in Events&amp;Triggers Editor, so the invalid triggers are now written in red.&#xD;
 USER-REQ: *Load Aircrafts and Liveries from Official Folder*&lt;br&gt;Load all *free* aircrafts and liveries from Official folder. Those can be selected as aircraft in base data-sheet.&#xD;
