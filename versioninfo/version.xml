@@ -15,10 +15,25 @@
   <CurrentVersion>
     <Major>0</Major>
     <Minor>9</Minor>
-    <Build>0</Build>
-    <Revision>1272</Revision>
+    <Build>1</Build>
+    <Revision>1289</Revision>
   </CurrentVersion>
-  <ChangeLog>&#xD;
+  <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+0.9.1.1289&#xD;
+&#xD;
+---&#xD;
+0.9.1.1288&#xD;
+USER-REQ: *Show invalid triggers in another font color.*&lt;br&gt;Some uses do not see the *"INVALID"* statement in Events&amp;Triggers Editor, so the invalid triggers are now written in red.&#xD;
+USER-REQ: *Load Aircrafts and Liveries from Official Folder*&lt;br&gt;Load all *free* aircrafts and liveries from Official folder. Those can be selected as aircraft in base data-sheet.&#xD;
+USER-REQ: *Colored markers for Departure and Destination:*&lt;br&gt;The markers in WorldMap and the Overview Image for the sim are now colored in green (departure) and red (destination).&#xD;
+FEATURE: *Added 3 more languages for localization!*&lt;br&gt;Let's welcome * 'suomi'*, * 'norsk bokmål'* and * 'svenska'*!&#xD;
+FEATURE: *Use Flightsim.to Scenery-Objects as Landmarks*&lt;br&gt;Import the flightsim.to scenery data into the landmarks. You can select them for the landmark creation to show the POI markers on your bush trip.&#xD;
+FEATURE: *Use LittleNavMap UserPoints as Landmarks*&lt;br&gt;Copy your LittleNavMap Userpoints-file into the folder "UserPoints" of your BushTripInjector. With this version, you can add them as landmarks at Landmark-Sheet.&lt;br&gt;Compatible with LittleNavMap Userpoint files (csv) for Import and Export, ie. VRP files or BushTalkRadio POIs.&#xD;
+FEATURE: Select/Deselect Flightsim.to Add-Ons from Worldmap&lt;br&gt;With the context menu it is now possible to select and deselect Flightsim.to sceneries.&#xD;
+FEATURE:Implemented the possibility to delete multiple landmarks at once&#xD;
+UPDATE: Adjust Altitude of Landmarks in background&#xD;
+&#xD;
+---&#xD;
 0.9.0.1272&#xD;
 HIGHLIGHT: BushTripInjector integrates Scenery-Map from Flightsim.to&#xD;
  *Show Add-Ons of Flightsim.to on map and grid.* Select your preferred add-ons and generate a template for your project page!&#xD;
