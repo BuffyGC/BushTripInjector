@@ -2,9 +2,9 @@
 <BushTripInjector xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Id="BushTripInjector">
   <MinVersion>
     <Major>0</Major>
-    <Minor>8</Minor>
-    <Build>2</Build>
-    <Revision>1149</Revision>
+    <Minor>9</Minor>
+    <Build>1</Build>
+    <Revision>1288</Revision>
   </MinVersion>
   <PrevVersion>
     <Major>0</Major>
