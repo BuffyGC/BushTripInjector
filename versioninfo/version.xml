@@ -8,17 +8,33 @@
   </MinVersion>
   <PrevVersion>
     <Major>0</Major>
-    <Minor>8</Minor>
-    <Build>5</Build>
+    <Minor>9</Minor>
+    <Build>0</Build>
     <Revision>-1</Revision>
   </PrevVersion>
   <CurrentVersion>
     <Major>0</Major>
     <Minor>9</Minor>
-    <Build>1</Build>
-    <Revision>1288</Revision>
+    <Build>2</Build>
+    <Revision>1331</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+HIGHLIGHT: Searching for Betatesters.&#xD;
+I'm sorry, the upcoming version is not completed in total yet, but I'm searching for Beta-Testers!&#xD;
+Click *Download with WebBrowser* to find more information on bushtripinjector.de!&#xD;
+&#xD;
+0.9.2.1331&#xD;
+USER-REQ: *Swap Action in ProximityTrigger:*&lt;br&gt;In Events&amp;Triggers Editor, now you can swap the actions between Enter (Fly-In) and Exit (Fly-Out) actions.&#xD;
+USER-REQ: Show changelog on first start of an updated BushTripInjector.&#xD;
+UPDATE: Replaced the outdated maps key with a new one.&#xD;
+UPDATE: *Anti-Meridian-Handling* &lt;br&gt;Fixed an issue when the trip goes over antemeridian, and the second part is deeper over antemeridian than the first one.&lt;br&gt;Known issue: Scenery and Landmark pushpins are not shown.&#xD;
+UPDATE: *SPB-Viewer*&lt;br&gt;Updated the Property Definitions for SPB-Viewer to Sim-Version 1.17.3.0&#xD;
+UPDATE: Fixed an issue with adding Landmarks from Flightsim.to or LittleNavMap Userpoints when no further Landmarks present.&#xD;
+UPDATE: Fixed an issue with removing HTML-Tags for TTS when "no translation" is selected.&#xD;
+UPDATE: some changes to EULA&#xD;
+UPDATE: Moved some local computing parts of BTI into the cloud.&#xD;
+&#xD;
+---&#xD;
 0.9.1.1288&#xD;
 USER-REQ: *Show invalid triggers in another font color.*&lt;br&gt;Some uses do not see the *"INVALID"* statement in Events&amp;Triggers Editor, so the invalid triggers are now written in red.&#xD;
 USER-REQ: *Load Aircrafts and Liveries from Official Folder*&lt;br&gt;Load all *free* aircrafts and liveries from Official folder. Those can be selected as aircraft in base data-sheet.&#xD;
@@ -47,26 +63,8 @@ UPDATE: Fixed a bug detecting changes on landmarks&#xD;
 UPDATE: Remove some HTML Tags in TTS, when no localisation is used.&#xD;
 UPDATE: Fixed an issue that prevent triggers to be included in the Xml/Spb file when they are using CountAction, ObjectActivationAction, ResetTimerAction and/or TimerAdjustAction (Koschi)&#xD;
 &#xD;
----&#xD;
-0.8.6.1246&#xD;
-FEATURE: *Activated the AreaLandingTrigger in Events&amp;Trigger Editor!* &lt;br&gt;Select a cube over Landmarks, Waypoints or other coordinates as a trigger and fire any action if you land there. Use the "Paste" button to paste coordinates from Google Maps or Bing Maps.&#xD;
-FEATURE: *Added the AdjustPayloadAction to Events&amp;Triggers Editor.* &lt;br&gt;This allows you to add freight or passengers on your trip. Can be nice in combination with the AreaLandingTrigger&#xD;
-FEATURE: *Added the RefillAction to Events&amp;Triggers Editor.* &lt;br&gt;I have no idea how MS/Asobo calculates with percentages, but I know, it is not how I do. Just try and test it, if you have any clue, let me know, please!&#xD;
-UPDATE: Removed the Business&amp;Marketplace Tab from Community Version of BushTripInjector.&#xD;
-UPDATE: Fix for some GUI glitches in Events&amp;Triggers Editor&#xD;
-UPDATE: Optimized detection of Refueling Airports&#xD;
-UPDATE: Detection  of runway designator in flightplan improved&#xD;
-&#xD;
----&#xD;
-0.8.5.1228&#xD;
-FEATURE: *Activated the ProximityTrigger in Events&amp;Trigger Editor!* &lt;br&gt;Select a cube over Landmarks, Waypoints or other coordinates as a trigger and fire any action you want. Use the "Paste" button to paste coordinates from GoogleMaps or BingMaps.&lt;br&gt; *Attention:* In Combination with TTS for Waypoints, this can lead to massive FPS dropdowns. In a future version of BushTripInjector, the TTS for Waypoints will be moved to Events&amp;Triggers Editor.&#xD;
-FEATURE: Added some SimVars to Conditional Editor and SimWatcher Window (Fuel and Payload)&#xD;
-UPDATE: Play the TTS for Waypoints only once (as intended). Some players report multiple output every 10 sec, maybe a change with Sim 1.16.2.0, but cannot reproduce on development machine. Please report issues!&#xD;
-UPDATE: Cleanup FLT File from unnecessary stuff&#xD;
-UPDATE: SimWatcher Window saves position and size&#xD;
-&#xD;
 </ChangeLog>
-  <Downloadlink>https://flightsim.to/file/4131/bushtripinjector</Downloadlink>
+  <Downloadlink>https://www.bushtripinjector.de/category/news/</Downloadlink>
   <RequiredDbVersion>
     <Major>1</Major>
     <Minor>14</Minor>
