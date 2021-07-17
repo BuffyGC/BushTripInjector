@@ -3,7 +3,7 @@
   <MinVersion>
     <Major>0</Major>
     <Minor>9</Minor>
-    <Build>1</Build>
+    <Build>2</Build>
     <Revision>1288</Revision>
   </MinVersion>
   <PrevVersion>
@@ -16,24 +16,23 @@
     <Major>0</Major>
     <Minor>9</Minor>
     <Build>2</Build>
-    <Revision>1360</Revision>
+    <Revision>1371</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
-0.9.2.1360&#xD;
- 'Beta-Tester': Please contact me for the new version!&#xD;
-&#xD;
-FEATURE: *ProdctKey Activation*&lt;br&gt;With this version you need a ProductKey to run BushTripInjector. Fill out the in-app registration form and send it by mail as requested.&lt;br&gt;Please allow up to 24h for grant.&#xD;
+0.9.2.1371&#xD;
+UPDATE: *Productkey &amp; Activation*&lt;br&gt;With this version you need a Productkey to run BushTripInjector. Fill out the in-app registration form and send it by mail as requested.&lt;br&gt;Please allow up to 24h for grant.&#xD;
 USER-REQ: *Swap Action in ProximityTrigger:*&lt;br&gt;In Events&amp;Triggers Editor, now you can swap the actions between Enter (Fly-In) and Exit (Fly-Out) actions.&#xD;
 USER-REQ: Show changelog on first start of an updated BushTripInjector.&#xD;
 UPDATE: Some changes and additions in the EULA/Terms and Conditions&#xD;
 UPDATE: Replaced the outdated maps key with a new one.&#xD;
 UPDATE: *Anti-Meridian-Handling* &lt;br&gt;Fixed an issue when the trip goes over antemeridian, and the second part is deeper over antemeridian than the first one.&lt;br&gt;Known issue: Scenery and Landmark pushpins are not shown.&#xD;
 UPDATE: *SPB-Viewer*&lt;br&gt;Updated the Property Definitions for SPB-Viewer to Sim-Version 1.17.3.0&#xD;
-UPDATE: Fixed an issue with adding Landmarks from Flightsim.to or LittleNavMap Userpoints when no further Landmarks present.&#xD;
+UPDATE: Fixed an issue with adding Landmarks from Flightsim.to or LittleNavMap Userpoints when no further Landmarks are present.&#xD;
 UPDATE: Fixed an issue with removing HTML-Tags for TTS when "no translation" is selected.&#xD;
 UPDATE: some changes to EULA&#xD;
 UPDATE: Moved some local computing parts of BTI into the cloud.&#xD;
 UPDATE: Removed some typos (and add some more :) )&#xD;
+UPDATE: Updated dependencies/NuGet packages (Microsoft.Xaml.Behaviors)&#xD;
 &#xD;
 ---&#xD;
 0.9.1.1288&#xD;
@@ -65,7 +64,7 @@ UPDATE: Remove some HTML Tags in TTS, when no localisation is used.&#xD;
 UPDATE: Fixed an issue that prevent triggers to be included in the Xml/Spb file when they are using CountAction, ObjectActivationAction, ResetTimerAction and/or TimerAdjustAction (Koschi)&#xD;
 &#xD;
 </ChangeLog>
-  <Downloadlink>https://www.bushtripinjector.de/category/news/</Downloadlink>
+  <Downloadlink>https://flightsim.to/file/4131/bushtripinjector</Downloadlink>
   <RequiredDbVersion>
     <Major>1</Major>
     <Minor>14</Minor>
