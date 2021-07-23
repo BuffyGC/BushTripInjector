@@ -15,10 +15,19 @@
   <CurrentVersion>
     <Major>0</Major>
     <Minor>9</Minor>
-    <Build>2</Build>
-    <Revision>1371</Revision>
+    <Build>3</Build>
+    <Revision>1396</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+0.9.3.1396&#xD;
+USER-REQ: *Export and Import* all language entries&lt;br&gt;Translate all language entries for a language in a single step. Export to file and Clipboard, import from file or ClipBoard.&#xD;
+UPDATE: *Database-Update Parking-Db*&lt;br&gt;Updated the Parking Database to Sim Version 1.17.3.0&lt;br&gt;275351 -&gt; 277294 1900+ parking positions, 826 airports affected&lt;br&gt;Parkings added: 3884&lt;br&gt;Parkings changed 1806&lt;br&gt;Parkings deleted 1947&lt;br&gt;The Parking-Db is available as seperate download package only!&#xD;
+UPDATE: *Database-Update Airport-Db*&lt;br&gt;Updated the internal database (Airports and Runways) to Sim Version 1.17.3.0&lt;br&gt;Airport Count 37348 -&gt; 37335 (-13) / Airport added: 24, changed 228, deleted 37 (-13)&lt;br&gt;Runway Count 88020 -&gt; 88054 (34) / Runway added: 96, changed 120, deleted 62 (34)&lt;br&gt;For details see db-changelog-1.16.2.0--1.17.3.0.txt included in this package&#xD;
+UPDATE: Added more countries to combobox of KeyRequestWindow&#xD;
+BUGFIX: Fixed an issue with RunwayFilter in AirportlandingTrigger preventing the MSFS Compiler to generate the SPB file.&#xD;
+BUGFIX: Do not show flightsim.to tab when no bush trip is loaded to avoid subsequent defects&#xD;
+&#xD;
+---&#xD;
 0.9.2.1371&#xD;
 UPDATE: *Productkey &amp; Activation*&lt;br&gt;With this version you need a Productkey to run BushTripInjector. Fill out the in-app registration form and send it by mail as requested.&lt;br&gt;Please allow up to 24h for grant.&#xD;
 USER-REQ: *Swap Action in ProximityTrigger:*&lt;br&gt;In Events&amp;Triggers Editor, now you can swap the actions between Enter (Fly-In) and Exit (Fly-Out) actions.&#xD;
