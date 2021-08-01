@@ -15,10 +15,31 @@
   <CurrentVersion>
     <Major>0</Major>
     <Minor>9</Minor>
-    <Build>3</Build>
-    <Revision>1396</Revision>
+    <Build>4</Build>
+    <Revision>1423</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+&lt;h4&gt;BushTrips needs to be compiled with Sim Version 1.18.13/1.18.14 when using assistance settings.&lt;/h4&gt;&#xD;
+With SimUpdate 5, there are additional assistance settings. Those were added in the middle of an enumeration type by Asobo, so previous SPB files using Presets now reference incorrectly after the first addition.&#xD;
+&#xD;
+&lt;h5&gt;Known issues Sim Update 5 / 1.18.14.0&lt;/h5&gt;&#xD;
+&lt;ul&gt;&#xD;
+&lt;li&gt;TTS not working, when continue the bush trip after finishing a leg. Workaround: Quit to main menu and continue the trip again!&lt;/li&gt;&#xD;
+&lt;li&gt;POI in VFR Map and flight plan in GPS not available after first leg randomly&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+&#xD;
+0.9.4.1423&#xD;
+Pro-Version: *MarketPlaceData:* Fixed an issue preventing the fields on Business &amp; Marketplace-Sheet to be enabled.&#xD;
+Pro-Version: *Watermarks in Images:* Do not add watermarks in images anymore. Of course, existing images keep them and you need to replace them manually.&#xD;
+Pro-Version: *Change Static Images:* Added the possibility  to change the static images for marketplace in a new sheet. Simple GUI, will be improved in a later version.&#xD;
+Pro-Version: *SPB-Viewer* New Property Definitions of Sim 1.18.13.0&#xD;
+FEATURE: *Change Static Images:* Added the possibility  to change activity_widget and loading_screen in a new sheet. Simple GUI, will be improved in a later version.&#xD;
+UPDATE: *Text-to-speech at End of Leg:* Better handling of TTS when finishing a leg.&#xD;
+UPDATE: Optimized detection of WAV duration to reduce time for generating bush trips with many soundfiles.&#xD;
+BUGFIX: Fixed an issue with sound blipping when using soundfiles when generating the bush trip.&#xD;
+BUGFIX: Fixed an issue with Key Request. Sometimes the send mail button did not become active.&#xD;
+&#xD;
+---&#xD;
 0.9.3.1396&#xD;
 USER-REQ: *Export and Import* all language entries&lt;br&gt;Translate all language entries for a language in a single step. Export to file and Clipboard, import from file or ClipBoard.&#xD;
 UPDATE: *Database-Update Parking-Db*&lt;br&gt;Updated the Parking Database to Sim Version 1.17.3.0&lt;br&gt;275351 -&gt; 277294 1900+ parking positions, 826 airports affected&lt;br&gt;Parkings added: 3884&lt;br&gt;Parkings changed 1806&lt;br&gt;Parkings deleted 1947&lt;br&gt;The Parking-Db is available as seperate download package only!&#xD;
