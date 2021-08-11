@@ -15,19 +15,25 @@
   <CurrentVersion>
     <Major>0</Major>
     <Minor>9</Minor>
-    <Build>4</Build>
-    <Revision>1423</Revision>
+    <Build>5</Build>
+    <Revision>1452</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
-&lt;h4&gt;BushTrips needs to be compiled with Sim Version 1.18.13/1.18.14 when using assistance settings.&lt;/h4&gt;&#xD;
-With SimUpdate 5, there are additional assistance settings. Those were added in the middle of an enumeration type by Asobo, so previous SPB files using Presets now reference incorrectly after the first addition.&#xD;
 &#xD;
-&lt;h5&gt;Known issues Sim Update 5 / 1.18.14.0&lt;/h5&gt;&#xD;
-&lt;ul&gt;&#xD;
-&lt;li&gt;TTS not working, when continue the bush trip after finishing a leg. Workaround: Quit to main menu and continue the trip again!&lt;/li&gt;&#xD;
-&lt;li&gt;POI in VFR Map and flight plan in GPS not available after first leg randomly&lt;/li&gt;&#xD;
-&lt;/ul&gt;&#xD;
+0.9.5.1452&#xD;
+FEATURE: *Assistance-Options:* Added the Assistance Items introduced in Sim Update 5 into AssistancePresets and Event&amp;Triggers Editor&lt;br&gt;Unfortunately, Landmark-POI are no longer visible in BushTrips since Sim Update 5 by default. To activate them again, you need to activate Fly-Assistance and select the landmark.&#xD;
+FEATURE: *Fly Assistant:* Added the option to enable the Fly-Assistant in Menu-Bar. This allows to show Fauna and POI landmarks again in bush trips.&#xD;
+USER-REQ: *ModifyDate:* Stores the generation date of the bush trip in loc-files as modification date.&#xD;
+USER-REQ: *Revised Registration System:* Complete revision of the registration system for private users&lt;br&gt;For community users, most mandatory fields have been removed.&lt;br&gt;Encrypted storage of the free input fields for registration on user-pc.&lt;br&gt; Special thanks goes to *Frontech* to work this out together.&#xD;
+USER-REQ: *Encrypt private data in mail:*&lt;br&gt;All privacy  data are now encrypted in license request to avoid being read out on transport layer of the mail. Many thanks go to a lady who does not wish to be named.&#xD;
+USER-REQ: Use GamerTag from registration as author name for new bush trips&#xD;
+USER-REQ: Check for invalid author before generating a bush trip and revoke the generation.&#xD;
+UPDATE: *Steam-Detection:* Some improvement to find the folders for steam installations (thanks to Martin vd S).&#xD;
+UPDATE: *TTS on Waypoints:* Remove some more special chars.&#xD;
+UPDATE: *Landmarks:* Adjusted the Height Offset for SimUpdate 5 Hotfix 2, if not set by user. Unfortunately, landmarks work randomly with SU5. Need more investigation.&#xD;
+BUGFIX: Fixed an issue some users cannot save the trip because of missing BushTripInjector_SAVES Folder.&#xD;
 &#xD;
+---&#xD;
 0.9.4.1423&#xD;
 Pro-Version: *MarketPlaceData:* Fixed an issue preventing the fields on Business &amp; Marketplace-Sheet to be enabled.&#xD;
 Pro-Version: *Watermarks in Images:* Do not add watermarks in images anymore. Of course, existing images keep them and you need to replace them manually.&#xD;
