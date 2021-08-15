@@ -109,8 +109,8 @@ UPDATE: Fixed an issue that prevent triggers to be included in the Xml/Spb file 
   </RequiredDbVersion>
   <CurrentMSFSDatabaseVersion>
     <Major>1</Major>
-    <Minor>17</Minor>
-    <Build>3</Build>
+    <Minor>18</Minor>
+    <Build>15</Build>
     <Revision>0</Revision>
   </CurrentMSFSDatabaseVersion>
 </BushTripInjector>
