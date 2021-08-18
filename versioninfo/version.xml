@@ -15,11 +15,26 @@
   <CurrentVersion>
     <Major>0</Major>
     <Minor>9</Minor>
-    <Build>5</Build>
-    <Revision>1452</Revision>
+    <Build>6</Build>
+    <Revision>1511</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+0.9.6.1511&#xD;
+HIGHLIGHT: Create a Flight-Book for your bush trips&#xD;
+Create your individual *Flight-Book* for your bush trip in all supported languages (if you have done the translations)&lt;br&gt;You find the created documents in the folder *documents* of your BushTripInjector installation path.&#xD;
+Documents should be compatible with ISO/IEC 29500 but no warranty (I like 6000+ pages of documentations to create features)&#xD;
 &#xD;
+UPDATE: *Author name adjustments:* Remove characters from author name that prevent the sim from displaying the bush trip in the activities menu.&#xD;
+UPDATE: *GamerTag in registration form:* Same checks as author name because it is used as author name in Bush Trips. Must start with a letter, no special chars possible.&#xD;
+UPDATE: *Database-Update 1.18.15.0:* Updated the Database for Airports and Runways.&lt;br&gt;807 Airports added (mainly water airports), 229 changes, 5 airports deleted!&lt;br&gt;1694 runways added, 24 changes and 84 runways deleted&lt;br&gt;For details see db-changelog-1.17.3.0--1.18.15.0.txt included in this package.&#xD;
+UPDATE: *Updated Web-View2 component:* Updated the WebView2 component to the most recent version 1.0.902.49&#xD;
+UPDATE: *AssistanceOptions:* Added some more AssistanceOptions of SU5: AIPilotingCursorModus, AntiStall, ControllerSensitivity&lt;br&gt;removed deprecated options: NoCollisions, AutoTuneFreqAtStart, WaypointPylon, Breadcrumb, BackOnTrack&#xD;
+UPDATE: *Export Translations Files*: Changed the Tag to split the entries for google translator.&#xD;
+UPDATE: Typo in EULA&#xD;
+BUGFIX: *CTD in E&amp;T:* Fixed a crash to desktop in Event &amp; Triggers Editor in a combination of ObjectActivations and Proximity-, AirportLanding-, AreaLanding-, Timer- and CounterTriggers&#xD;
+BUGFIX: *Load project on startup:* Avoid message spamming when flightplan not found in startup. &#xD;
+&#xD;
+---&#xD;
 0.9.5.1452&#xD;
 FEATURE: *Assistance-Options:* Added the Assistance Items introduced in Sim Update 5 into AssistancePresets and Event&amp;Triggers Editor&lt;br&gt;Unfortunately, Landmark-POI are no longer visible in BushTrips since Sim Update 5 by default. To activate them again, you need to activate Fly-Assistance and select the landmark.&#xD;
 FEATURE: *Fly Assistant:* Added the option to enable the Fly-Assistant in Menu-Bar. This allows to show Fauna and POI landmarks again in bush trips.&#xD;
