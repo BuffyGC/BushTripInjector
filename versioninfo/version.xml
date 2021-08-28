@@ -3,8 +3,8 @@
   <MinVersion>
     <Major>0</Major>
     <Minor>9</Minor>
-    <Build>2</Build>
-    <Revision>1288</Revision>
+    <Build>4</Build>
+    <Revision>1423</Revision>
   </MinVersion>
   <PrevVersion>
     <Major>0</Major>
@@ -15,10 +15,25 @@
   <CurrentVersion>
     <Major>0</Major>
     <Minor>9</Minor>
-    <Build>6</Build>
-    <Revision>1511</Revision>
+    <Build>7</Build>
+    <Revision>1546</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+0.9.7.1546&#xD;
+HIGHLIGHT: Introducing Mandatory Waypoints&lt;br&gt;&#xD;
+ ' *Select the waypoints that the BushTrip pilot must fly to!*' &lt;br&gt;Select the waypoints that the BushTrip pilot must fly to in order to be rewarded at the end of the leg. A missed waypoint prevents the successful completion of the leg, and it must be searched which waypoint was not reached. Useful for AirRaces, Roundtrips and SAR operations.&#xD;
+The bug that occurred with Sim Update 5, that region-based triggers are no longer executed, affects not only the text to speech output but also the mandatory waypoints. It is necessary to switch to the main menu immediately after starting the next leg and continue from there.&lt;br&gt; *Use this function with caution. If your user does not return to the main menu, the end of a leg will NOT be registered, and the user will be frustrated.*&lt;br&gt;Hopefully this issue will be fixed with the next sim update&#xD;
+&#xD;
+UPDATE: *Preflight-Check:* Added a check for waypoints between the airports before generating a bush trip. No waypoints between departures and arrivals *can* lead to missing VFR Map and GPS information. Information only, trip will be generated as it is.&#xD;
+UPDATE: *Flight book:* Make Template field editable for the keyboard usage people&#xD;
+UPDATE: *Flight book:* Added fields to edit the Image sizes in inches, too.&#xD;
+UPDATE: *Message Handling Flight book:* Some better messages, so users can handle to fix the issue by themself.&#xD;
+UPDATE: *Translate:* Modifications for deepl.com-app version 2.7.22108+&#xD;
+UPDATE: some more typos in messages. Thanks to all reporters!&#xD;
+BUGFIX: Fixed a bug when the same sound file was used in different TTS and then removed from a TTS.&#xD;
+BUGFIX: *Flightsim.to-Integration:* Sometimes the update of the database went wrong.&#xD;
+&#xD;
+---&#xD;
 0.9.6.1511&#xD;
 HIGHLIGHT: Create a Flight-Book for your bush trips&#xD;
 Create your individual *Flight-Book* for your bush trip in all supported languages (if you have done the translations)&lt;br&gt;You find the created documents in the folder *documents* of your BushTripInjector installation path.&#xD;
