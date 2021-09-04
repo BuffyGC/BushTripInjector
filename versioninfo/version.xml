@@ -3,8 +3,8 @@
   <MinVersion>
     <Major>0</Major>
     <Minor>9</Minor>
-    <Build>4</Build>
-    <Revision>1423</Revision>
+    <Build>5</Build>
+    <Revision>1452</Revision>
   </MinVersion>
   <PrevVersion>
     <Major>0</Major>
@@ -15,10 +15,21 @@
   <CurrentVersion>
     <Major>0</Major>
     <Minor>9</Minor>
-    <Build>8</Build>
-    <Revision>1563</Revision>
+    <Build>9</Build>
+    <Revision>1579</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+0.9.9.1579&#xD;
+FEATURE: *CylinderAreas:* Added CylinderAreas into Event&amp;Triggers Editor&lt;br&gt;Use Cylinders as areas in ProximityTriggers. Be aware: Romulan starship Narada under the command of Captain Nero is watching you!&#xD;
+USER-REQ: *ATC:* When switching ATC in BaseData, the options for ATC voices, Show ATC messagelog and ATC Panel will be activated/deactivated.&#xD;
+UPDATE: *ProximityTrigger:* Added a workaround to bring back Pitch, Bank and Heading. Only in Event&amp;Triggers Editor, will follow for waypoints.&#xD;
+UPDATE: *Message handling:* Added better messages in case there is an issue accessing the BushTripInjector servers.&#xD;
+UPDATE: *QuickStartGuide:* Added the description how to use the flightsim.to-integration within BushTripInjector. Many thanks to the author *FronTech*&#xD;
+UPDATE: *Typos:* Fixed some typos. Thanks to multiple reporters.&#xD;
+BUGFIX: *Startup:* Fixed a bug that prevents BushTripInjetor to start in some strange conditions.&#xD;
+UPDATE: Some internal things to prepare upcoming features.&#xD;
+&#xD;
+---&#xD;
 0.9.8.1563&#xD;
 USER-REQ: *Airport Creation:* Added the possibility to add Helipads in AirportCreation.&lt;br&gt;Use Helipad's inside of your bush trip with full support for a leg end, unlike most helipads available.&#xD;
 USER-REQ: *Sim Watcher:* Added the function to copy the current values to clipboard&#xD;
