@@ -15,10 +15,20 @@
   <CurrentVersion>
     <Major>0</Major>
     <Minor>9</Minor>
-    <Build>9</Build>
-    <Revision>1579</Revision>
+    <Build>10</Build>
+    <Revision>1612</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+0.9.10.1612&#xD;
+FEATURE: *User-request: Load/Save Preferences:* Save and Load several settings and options to/from a single file of your choice. You find this function in Extras-Menu.&#xD;
+USER-REQ: *SimVars*: Added some sim vars for icing.&lt;br&gt; *PITOT ICE PCT:* Amount of pitot ice.&lt;br&gt; *STRUCTURAL ICE PCT:* Amount of ice on aircraft structure.&#xD;
+UPDATE: *Airport- and Runway Database:* Updated the Airport- and Runway Database to Sim Version 1.19.8.0&lt;br&gt;Airport Count 38137 -&gt; 38113 (-24)&lt;br&gt;Airport added: 82, changed 355, deleted 106 (-24)&lt;br&gt;Runway Count 89664 -&gt; 89522 (-143) &lt;br&gt;Runway added: 222, changed 201, deleted 365 (-143)&lt;br&gt;Detailed changelog included in this package&#xD;
+UPDATE: *Spb-Viewer:* Auto-detect FSX and MSFS SPB-Files.&lt;br&gt;Have a look into SPB-Files of Microsoft Flight Simulator and Flight Simulator X. Please respect the IP of the SPB creator and don't use those information in your own trips.&#xD;
+UPDATE: *Typos:* Fixed some more typos.&#xD;
+UPDATE: Some UUID Handling optimized for performance on generate.&#xD;
+BUGFIX: *Startup:* Fixed an issue on startup if manifest of an Add-On aircraft cannot be accessed by ACL. Thanks to mehmetkuc.&#xD;
+&#xD;
+---&#xD;
 0.9.9.1579&#xD;
 FEATURE: *CylinderAreas:* Added CylinderAreas into Event&amp;Triggers Editor&lt;br&gt;Use Cylinders as areas in ProximityTriggers. Be aware: Romulan starship Narada under the command of Captain Nero is watching you!&#xD;
 USER-REQ: *ATC:* When switching ATC in BaseData, the options for ATC voices, Show ATC messagelog and ATC Panel will be activated/deactivated.&#xD;
