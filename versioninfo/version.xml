@@ -15,10 +15,31 @@
   <CurrentVersion>
     <Major>0</Major>
     <Minor>9</Minor>
-    <Build>10</Build>
-    <Revision>1612</Revision>
+    <Build>11</Build>
+    <Revision>1657</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+0.9.11.1657&#xD;
+Pro-Version: *Author:* Fixed an issue preventing to change the author’s name.&#xD;
+FEATURE: *Let ATC decide for departure runway:*&lt;br&gt;To get the initial runway from ATC, just remove the content of runway in BaseData. Beware: You have to specify a parking position for this.&#xD;
+USER-REQ: *Cancel-Save-Request:* Cancel the Save-Request of BushTripInjector, i.e. on Close/Exit&#xD;
+USER-REQ: *Recent File List:* Added a recent file list into File-Menu.&#xD;
+USER-REQ: *14 new map views:* Added configuration files for 14 new map views.&lt;ul&gt;&#xD;
+&lt;li&gt; *Finland Topology:* maps provided by National Land Survey of Finland.&lt;/li&gt;&#xD;
+&lt;li&gt; *Google Maps:* Roadmap, terrain, satellite and hybrid maps provided by Google.&lt;br&gt;Working but deactivated by default, you need to activate them by yourself. Please add a proper UserAgent in respect with Google Maps Terms and Conditions.&lt;/li&gt;&#xD;
+&lt;li&gt; *Norway Topology:* Maps provided by Norwegian Mapping Authority Kartverket&lt;/li&gt;&#xD;
+&lt;li&gt; *OpenStreetMap:* Source: ©&lt;a href="https://www.openstreetmap.org/"&gt;OpenStreetMap&lt;/a&gt; contributors,  License: &lt;a href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;License: Creative Commons Attribution-ShareAlike 2.0(CC BY-SA)&lt;/a&gt; &lt;/li&gt;&#xD;
+&lt;li&gt; *OpenTopoMap:* Map data: © OpenStreetMap contributors, SRTM. Map style: ©&lt;a href="http://opentopomap.org/"&gt;OpenTopoMap&lt;/a&gt;, &lt;a href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;License: Creative Commons Attribution-ShareAlike 2.0(CC BY-SA)&lt;/a&gt;&lt;/li&gt;&#xD;
+&lt;li&gt; *Stamen:* _Terrain and Toner map style_, Map tiles by &lt;a href="http://stamen.com"&gt;Stamen Design&lt;/a&gt;, under &lt;a href="http://creativecommons.org/licenses/by/3.0"&gt;CC BY 3.0&lt;/a&gt;. Data by &lt;a href="http://openstreetmap.org"&gt;OpenStreetMap&lt;/a&gt;, under &lt;a href="http://www.openstreetmap.org/copyright"&gt;ODbL&lt;/a&gt; _Watercolor_ map style, Map tiles by &lt;a href="http://stamen.com"&gt;Stamen Design&lt;/a&gt;, under &lt;a href="http://creativecommons.org/licenses/by/3.0"&gt;CC BY 3.0&lt;/a&gt;. Data by &lt;a href="http://openstreetmap.org"&gt;OpenStreetMap&lt;/a&gt;, under &lt;a href="http://creativecommons.org/licenses/by-sa/3.0"&gt;CC BY SA&lt;/a&gt;&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+UPDATE: *Modes:* Restructuring complete GUI to support different modes and themes in the future.&#xD;
+UPDATE: *Backup lnmpln:* Copying your LittleNavMap-file to BushTripInjector Saves folder on load, when changed since last backup!&#xD;
+UPDATE: *Magnetic declination:* Read world's magnetic  declination from MSFS-Simfiles and calculate the declination for each waypoint or location.&#xD;
+UPDATE: Re-order of fields to fit with load/save preference.&#xD;
+UPDATE: Some more internal things to prepare upcoming features. Please report behavior or breaking changes in TTS created from flightplan!&#xD;
+BUGFIX: Fixed an issue with Z-Order of MapLayers when using add-on map views.&#xD;
+&#xD;
+---&#xD;
 0.9.10.1612&#xD;
 FEATURE: *User-request: Load/Save Preferences:* Save and Load several settings and options to/from a single file of your choice. You find this function in Extras-Menu.&#xD;
 USER-REQ: *SimVars*: Added some sim vars for icing.&lt;br&gt; *PITOT ICE PCT:* Amount of pitot ice.&lt;br&gt; *STRUCTURAL ICE PCT:* Amount of ice on aircraft structure.&#xD;
