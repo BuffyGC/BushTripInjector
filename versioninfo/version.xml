@@ -16,9 +16,14 @@
     <Major>0</Major>
     <Minor>9</Minor>
     <Build>11</Build>
-    <Revision>1657</Revision>
+    <Revision>1668</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+0.9.11.1668&#xD;
+BUGFIX: *Recent-Files:* Fixed an issue that prevented the flight plan from being rebuilt in the WorldMap when loading over the Recent files.&#xD;
+BUGFIX: *Intro-TTS:* Fixed an issue that generated trips did not have the identical behavior for "Intro-TTS" as before. You can now choose to play the intro only once or every time the BushTrip is started.&#xD;
+&#xD;
+---&#xD;
 0.9.11.1657&#xD;
 Pro-Version: *Author:* Fixed an issue preventing to change the author’s name.&#xD;
 FEATURE: *Let ATC decide for departure runway:*&lt;br&gt;To get the initial runway from ATC, just remove the content of runway in BaseData. Beware: You have to specify a parking position for this.&#xD;
