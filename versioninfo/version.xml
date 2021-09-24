@@ -3,8 +3,8 @@
   <MinVersion>
     <Major>0</Major>
     <Minor>9</Minor>
-    <Build>5</Build>
-    <Revision>1452</Revision>
+    <Build>7</Build>
+    <Revision>1546</Revision>
   </MinVersion>
   <PrevVersion>
     <Major>0</Major>
@@ -14,11 +14,21 @@
   </PrevVersion>
   <CurrentVersion>
     <Major>0</Major>
-    <Minor>9</Minor>
-    <Build>11</Build>
-    <Revision>1668</Revision>
+    <Minor>10</Minor>
+    <Build>1</Build>
+    <Revision>1690</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+0.10.1.1690&#xD;
+HIGHLIGHT: Introducing Themes: &#xD;
+ ' *Select your preferred Theme for BushTripInjector.*' &#xD;
+ *Classic*, *Light* and *Dark* are available as a first version. &lt;br&gt;Known issues in Dark-Mode: HTML Windows like Update-Window.&#xD;
+&#xD;
+UPDATE: *Translate-Window:* Extended column width&#xD;
+UPDATE: Some more internal things to prepare upcoming features. Please report behavior or breaking changes with Areas in Event &amp; Triggers!&#xD;
+UPDATE: Several small fixes, typos, ...&#xD;
+&#xD;
+---&#xD;
 0.9.11.1668&#xD;
 BUGFIX: *Recent-Files:* Fixed an issue that prevented the flight plan from being rebuilt in the WorldMap when loading over the Recent files.&#xD;
 BUGFIX: *Intro-TTS:* Fixed an issue that generated trips did not have the identical behavior for "Intro-TTS" as before. You can now choose to play the intro only once or every time the BushTrip is started.&#xD;
