@@ -15,14 +15,31 @@
   <CurrentVersion>
     <Major>0</Major>
     <Minor>10</Minor>
-    <Build>1</Build>
-    <Revision>1690</Revision>
+    <Build>2</Build>
+    <Revision>1718</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+0.10.2.1718&#xD;
+HIGHLIGHT: Introducing Context Sensitive Online-Help:&#xD;
+Press F1 and you will get help about your current topic/window. Online-Help is currently available for many Menus, BaseData, WorldMap and some more. Growing rapidly in the background.&#xD;
+ * _Many thanks go to the author of most help content: Frontech_*!&#xD;
+I know, some things are still missing, but they will come with time. If you want to contribute, have suggestions for improvement or just find typos, please contact me.&#xD;
+&#xD;
+FEATURE: *Autoland Leg End:* For better testing, a feature was added to jump directly to the end of the leg and land on a runway of destination. You find this in 3D Image Generator Button &amp;quot;LandHere&amp;quot;.&#xD;
+USER-REQ: *Pilot/Copilot:* Select the Pilot and/or Copilot to be shown in your Aircraft. &#xD;
+UPDATE: *Tante Ju:* Added the Junkers Ju52 to Aircraft selection.&#xD;
+UPDATE: Changed the Distance and Heading field in flight plan tab to be in sync with internal game behavior.&#xD;
+UPDATE: *3D Images:* Better calculation of ground level for Waypoints.&#xD;
+UPDATE: *Sound files:* Added a check for valid sound files as MSFS documentation. Some sound files outside this specification will work, others will result in CTD. &#xD;
+BUGFIX: *Sound files:* Duration of Sound files were not calculated. This could lead to abort the playback.&#xD;
+BUGFIX: *flightsim.to:* Fixed an issue with multiple flightsim.to-links leading to CTD when clicking.&#xD;
+BUGFIX: Fixed an issue with userpoints imported from LittleNavMap when initial load not finished.&#xD;
+&#xD;
+---&#xD;
 0.10.1.1690&#xD;
 HIGHLIGHT: Introducing Themes: &#xD;
  ' *Select your preferred Theme for BushTripInjector.*' &#xD;
- *Classic*, *Light* and *Dark* are available as a first version. &lt;br&gt;Known issues in Dark-Mode: HTML Windows like Update-Window.&#xD;
+ *Classic*, *Light* and *Dark* are available as a first version. &lt;br&gt;Known issues in Dark-Mode: HTML Windows like Update-Window&#xD;
 &#xD;
 UPDATE: *Translate-Window:* Extended column width&#xD;
 UPDATE: Some more internal things to prepare upcoming features. Please report behavior or breaking changes with Areas in Event &amp; Triggers!&#xD;
