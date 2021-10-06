@@ -15,10 +15,26 @@
   <CurrentVersion>
     <Major>0</Major>
     <Minor>10</Minor>
-    <Build>2</Build>
-    <Revision>1718</Revision>
+    <Build>3</Build>
+    <Revision>1742</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+0.10.3.1742&#xD;
+HIGHLIGHT: Introducing Spell-Checking&#xD;
+BushTripInjector will check your spelling for many input fields. You can enable this feature in Extra-Menu.&lt;br&gt;Basically, BTI uses the base language of the project. If a different language is detected in a field, this will be used.&lt;br&gt;The installed language packages of the operating system are required for this function, you may have to install them. &#xD;
+&#xD;
+USER-REQ: *Event &amp; Triggers:* Adding new triggers, actions and areas before current selected trigger, action or area.&#xD;
+USER-REQ: *Event &amp; Triggers:* Ordering triggers, actions and areas with drag and drop.&#xD;
+USER-REQ: *Shortcuts:* Added short-cuts for Open (Ctrl-O) and Save (Ctrl-S) into the GUI&#xD;
+USER-REQ: *Aircraft-Position:* To place your aircraft on initial departure somewhere on the airport, remove runway and parking position and set the coordinates you want.&#xD;
+FEATURE: *Event &amp; Triggers:* Help is now Data sensitive and forward you directly to selected trigger inside of Online-Help&#xD;
+UPDATE: *Windows 11:* Added Windows 11 SDK support.&#xD;
+UPDATE: *Flight book:* Integration of Online-Help into flight book functionality&#xD;
+UPDATE: *Project name:* Check the no. of characters for the project name and give a warning on generation. Some users report issues with long project names: wrong legs in Sim, total loss of flight plan, detection of BushTrip end.&#xD;
+UPDATE: *Mandatory WP / TTS:* Mandatory waypoints will use the rectangle areas from TTS and not vice versa!&#xD;
+BUGFIX: *3D Image Generation:* Fixed an issue that leads to crash to desktop when clicking on Take-It!&#xD;
+&#xD;
+---&#xD;
 0.10.2.1718&#xD;
 HIGHLIGHT: Introducing Context Sensitive Online-Help:&#xD;
 Press F1 and you will get help about your current topic/window. Online-Help is currently available for many Menus, BaseData, WorldMap and some more. Growing rapidly in the background.&#xD;
