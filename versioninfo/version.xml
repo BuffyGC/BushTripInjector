@@ -15,10 +15,28 @@
   <CurrentVersion>
     <Major>0</Major>
     <Minor>10</Minor>
-    <Build>3</Build>
-    <Revision>1742</Revision>
+    <Build>4</Build>
+    <Revision>1784</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+0.10.4.1784&#xD;
+ *This is a major update. Some core functionality was touched. &lt;br&gt;Despite intensive testing, bugs and problems may occur. If you have an issue, please contact me on &lt;a href="https://discord.gg/fa6mtW2zz4"&gt;Discord&lt;/a&gt;.&lt;br&gt;Thank you very much.*&#xD;
+ *Fileformat-Change:* This version changed the internal fileformat to save triggers, actions and areas. Older version may no open those files, a backup will be created automatically.&#xD;
+&#xD;
+FEATURE: *Events &amp; Triggers Editor:* Reuse of Actions and Areas. Define actions and areas once and use them in different triggers and actions.&lt;br&gt;Known issues: Validation not working in all cases (red text).&#xD;
+USER-REQ: *Loading tips:* Added an option to exclude the default loading tips from your trip (thanks to Koschi).&#xD;
+USER-REQ: *Recent file list:* Increased the number of files in recent-file-list from 9 to 19.&#xD;
+UPDATE: *Spb-Viewer:* Added properties for Reno Air Races, VR and some more.&#xD;
+UPDATE: *Autopilot/Flightplan* Added some optimization for autopilot and flightplan. &#xD;
+UPDATE: *Cruising Altitude:* Added a field to adjust the cruising altitude. Initial value from Little Navmap flightplan.&#xD;
+UPDATE: *Event&amp;Triggers:* Optimized performance when handling proximity triggers with non-valid actions.&#xD;
+BUGFIX: *MissionFailureAction:* Fixed an issue with the MissionFailureAction that prevents to be fired in some circumstances.&#xD;
+BUGFIX: *Airport-Creation:* Fixed an issue where you cannot finish the airport creation and stuck in creation wizard.&#xD;
+BUGFIX: *2D-Image Creation:* Fixed an issue with zoom level on user defined airports.&#xD;
+BUGFIX: *Magnetic calculation:* Fixed a GUI glitch when calculated magnetic course &lt; 0° or &gt;360°&#xD;
+BUGFIX: *Base data:* Fixed an glitch with Aircraft part on wide screens &#xD;
+&#xD;
+---&#xD;
 0.10.3.1742&#xD;
 HIGHLIGHT: Introducing Spell-Checking&#xD;
 BushTripInjector will check your spelling for many input fields. You can enable this feature in Extra-Menu.&lt;br&gt;Basically, BTI uses the base language of the project. If a different language is detected in a field, this will be used.&lt;br&gt;The installed language packages of the operating system are required for this function, you may have to install them. &#xD;
