@@ -3,12 +3,12 @@
   <MinVersion>
     <Major>0</Major>
     <Minor>9</Minor>
-    <Build>7</Build>
-    <Revision>1546</Revision>
+    <Build>10</Build>
+    <Revision>1612</Revision>
   </MinVersion>
   <PrevVersion>
     <Major>0</Major>
-    <Minor>9</Minor>
+    <Minor>10</Minor>
     <Build>0</Build>
     <Revision>-1</Revision>
   </PrevVersion>
@@ -16,9 +16,14 @@
     <Major>0</Major>
     <Minor>10</Minor>
     <Build>4</Build>
-    <Revision>1784</Revision>
+    <Revision>1793</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+0.10.4.1793&#xD;
+UPDATE: *Airport &amp; Runway Database:*&lt;br&gt;Updated the internal database incl. new magnetic declination for airports with MSFS 1.20.6.0.&lt;br&gt;48 airports added&lt;br&gt;all airports changed because of new magnetic declination in SU6&lt;br&gt;8 airports removed.&lt;br&gt;Find a detailed list in db-changelog included in this package.&lt;br&gt;For each other location in the world, BushTripInjector is calculating the magnetic declination with the information from your sim (if detected).&#xD;
+UPDATE: *Translate WP Names:*&lt;br&gt;Changed the default for new bush trips from "Translate" to "Non-translate" because of MSFS bug in SU6.&lt;br&gt;For existing bush trips you need to do this by yourself!&#xD;
+&#xD;
+---&#xD;
 0.10.4.1784&#xD;
  *This is a major update. Some core functionality was touched. &lt;br&gt;Despite intensive testing, bugs and problems may occur. If you have an issue, please contact me on &lt;a href="https://discord.gg/fa6mtW2zz4"&gt;Discord&lt;/a&gt;.&lt;br&gt;Thank you very much.*&#xD;
  *Fileformat-Change:* This version changed the internal fileformat to save triggers, actions and areas. Older version may no open those files, a backup will be created automatically.&#xD;
@@ -78,172 +83,6 @@ HIGHLIGHT: Introducing Themes: &#xD;
 UPDATE: *Translate-Window:* Extended column width&#xD;
 UPDATE: Some more internal things to prepare upcoming features. Please report behavior or breaking changes with Areas in Event &amp; Triggers!&#xD;
 UPDATE: Several small fixes, typos, ...&#xD;
-&#xD;
----&#xD;
-0.9.11.1668&#xD;
-BUGFIX: *Recent-Files:* Fixed an issue that prevented the flight plan from being rebuilt in the WorldMap when loading over the Recent files.&#xD;
-BUGFIX: *Intro-TTS:* Fixed an issue that generated trips did not have the identical behavior for "Intro-TTS" as before. You can now choose to play the intro only once or every time the BushTrip is started.&#xD;
-&#xD;
----&#xD;
-0.9.11.1657&#xD;
-Pro-Version: *Author:* Fixed an issue preventing to change the author’s name.&#xD;
-FEATURE: *Let ATC decide for departure runway:*&lt;br&gt;To get the initial runway from ATC, just remove the content of runway in BaseData. Beware: You have to specify a parking position for this.&#xD;
-USER-REQ: *Cancel-Save-Request:* Cancel the Save-Request of BushTripInjector, i.e. on Close/Exit&#xD;
-USER-REQ: *Recent File List:* Added a recent file list into File-Menu.&#xD;
-USER-REQ: *14 new map views:* Added configuration files for 14 new map views.&lt;ul&gt;&#xD;
-&lt;li&gt; *Finland Topology:* maps provided by National Land Survey of Finland.&lt;/li&gt;&#xD;
-&lt;li&gt; *Google Maps:* Roadmap, terrain, satellite and hybrid maps provided by Google.&lt;br&gt;Working but deactivated by default, you need to activate them by yourself. Please add a proper UserAgent in respect with Google Maps Terms and Conditions.&lt;/li&gt;&#xD;
-&lt;li&gt; *Norway Topology:* Maps provided by Norwegian Mapping Authority Kartverket&lt;/li&gt;&#xD;
-&lt;li&gt; *OpenStreetMap:* Source: ©&lt;a href="https://www.openstreetmap.org/"&gt;OpenStreetMap&lt;/a&gt; contributors,  License: &lt;a href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;License: Creative Commons Attribution-ShareAlike 2.0(CC BY-SA)&lt;/a&gt; &lt;/li&gt;&#xD;
-&lt;li&gt; *OpenTopoMap:* Map data: © OpenStreetMap contributors, SRTM. Map style: ©&lt;a href="http://opentopomap.org/"&gt;OpenTopoMap&lt;/a&gt;, &lt;a href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;License: Creative Commons Attribution-ShareAlike 2.0(CC BY-SA)&lt;/a&gt;&lt;/li&gt;&#xD;
-&lt;li&gt; *Stamen:* _Terrain and Toner map style_, Map tiles by &lt;a href="http://stamen.com"&gt;Stamen Design&lt;/a&gt;, under &lt;a href="http://creativecommons.org/licenses/by/3.0"&gt;CC BY 3.0&lt;/a&gt;. Data by &lt;a href="http://openstreetmap.org"&gt;OpenStreetMap&lt;/a&gt;, under &lt;a href="http://www.openstreetmap.org/copyright"&gt;ODbL&lt;/a&gt; _Watercolor_ map style, Map tiles by &lt;a href="http://stamen.com"&gt;Stamen Design&lt;/a&gt;, under &lt;a href="http://creativecommons.org/licenses/by/3.0"&gt;CC BY 3.0&lt;/a&gt;. Data by &lt;a href="http://openstreetmap.org"&gt;OpenStreetMap&lt;/a&gt;, under &lt;a href="http://creativecommons.org/licenses/by-sa/3.0"&gt;CC BY SA&lt;/a&gt;&lt;/li&gt;&#xD;
-&lt;/ul&gt;&#xD;
-UPDATE: *Modes:* Restructuring complete GUI to support different modes and themes in the future.&#xD;
-UPDATE: *Backup lnmpln:* Copying your LittleNavMap-file to BushTripInjector Saves folder on load, when changed since last backup!&#xD;
-UPDATE: *Magnetic declination:* Read world's magnetic  declination from MSFS-Simfiles and calculate the declination for each waypoint or location.&#xD;
-UPDATE: Re-order of fields to fit with load/save preference.&#xD;
-UPDATE: Some more internal things to prepare upcoming features. Please report behavior or breaking changes in TTS created from flightplan!&#xD;
-BUGFIX: Fixed an issue with Z-Order of MapLayers when using add-on map views.&#xD;
-&#xD;
----&#xD;
-0.9.10.1612&#xD;
-FEATURE: *User-request: Load/Save Preferences:* Save and Load several settings and options to/from a single file of your choice. You find this function in Extras-Menu.&#xD;
-USER-REQ: *SimVars*: Added some sim vars for icing.&lt;br&gt; *PITOT ICE PCT:* Amount of pitot ice.&lt;br&gt; *STRUCTURAL ICE PCT:* Amount of ice on aircraft structure.&#xD;
-UPDATE: *Airport- and Runway Database:* Updated the Airport- and Runway Database to Sim Version 1.19.8.0&lt;br&gt;Airport Count 38137 -&gt; 38113 (-24)&lt;br&gt;Airport added: 82, changed 355, deleted 106 (-24)&lt;br&gt;Runway Count 89664 -&gt; 89522 (-143) &lt;br&gt;Runway added: 222, changed 201, deleted 365 (-143)&lt;br&gt;Detailed changelog included in this package&#xD;
-UPDATE: *Spb-Viewer:* Auto-detect FSX and MSFS SPB-Files.&lt;br&gt;Have a look into SPB-Files of Microsoft Flight Simulator and Flight Simulator X. Please respect the IP of the SPB creator and don't use those information in your own trips.&#xD;
-UPDATE: *Typos:* Fixed some more typos.&#xD;
-UPDATE: Some UUID Handling optimized for performance on generate.&#xD;
-BUGFIX: *Startup:* Fixed an issue on startup if manifest of an Add-On aircraft cannot be accessed by ACL. Thanks to mehmetkuc.&#xD;
-&#xD;
----&#xD;
-0.9.9.1579&#xD;
-FEATURE: *CylinderAreas:* Added CylinderAreas into Event&amp;Triggers Editor&lt;br&gt;Use Cylinders as areas in ProximityTriggers. Be aware: Romulan starship Narada under the command of Captain Nero is watching you!&#xD;
-USER-REQ: *ATC:* When switching ATC in BaseData, the options for ATC voices, Show ATC messagelog and ATC Panel will be activated/deactivated.&#xD;
-UPDATE: *ProximityTrigger:* Added a workaround to bring back Pitch, Bank and Heading. Only in Event&amp;Triggers Editor, will follow for waypoints.&#xD;
-UPDATE: *Message handling:* Added better messages in case there is an issue accessing the BushTripInjector servers.&#xD;
-UPDATE: *QuickStartGuide:* Added the description how to use the flightsim.to-integration within BushTripInjector. Many thanks to the author *FronTech*&#xD;
-UPDATE: *Typos:* Fixed some typos. Thanks to multiple reporters.&#xD;
-BUGFIX: *Startup:* Fixed a bug that prevents BushTripInjetor to start in some strange conditions.&#xD;
-UPDATE: Some internal things to prepare upcoming features.&#xD;
-&#xD;
----&#xD;
-0.9.8.1563&#xD;
-USER-REQ: *Airport Creation:* Added the possibility to add Helipads in AirportCreation.&lt;br&gt;Use Helipad's inside of your bush trip with full support for a leg end, unlike most helipads available.&#xD;
-USER-REQ: *Sim Watcher:* Added the function to copy the current values to clipboard&#xD;
-UPDATE: Updated the OpenDocument components to most recent version.&#xD;
-UPDATE: Removed the since 1.16.2 deprecated runway surfaces clay, cement and unknown from file formats&#xD;
-BUGFIX: *Major-Bug* Fixed a bug loading airports when a waypoint or airport added in lnmpln-file before BTI-defined Airport.&#xD;
-&#xD;
----&#xD;
-0.9.7.1546&#xD;
-HIGHLIGHT: Introducing Mandatory Waypoints&lt;br&gt;&#xD;
- ' *Select the waypoints that the BushTrip pilot must fly to!*' &lt;br&gt;Select the waypoints that the BushTrip pilot must fly to in order to be rewarded at the end of the leg. A missed waypoint prevents the successful completion of the leg, and it must be searched which waypoint was not reached. Useful for AirRaces, Roundtrips and SAR operations.&#xD;
-The bug that occurred with Sim Update 5, that region-based triggers are no longer executed, affects not only the text to speech output but also the mandatory waypoints. It is necessary to switch to the main menu immediately after starting the next leg and continue from there.&lt;br&gt; *Use this function with caution. If your user does not return to the main menu, the end of a leg will NOT be registered, and the user will be frustrated.*&lt;br&gt;Hopefully this issue will be fixed with the next sim update&#xD;
-&#xD;
-UPDATE: *Preflight-Check:* Added a check for waypoints between the airports before generating a bush trip. No waypoints between departures and arrivals *can* lead to missing VFR Map and GPS information. Information only, trip will be generated as it is.&#xD;
-UPDATE: *Flight book:* Make Template field editable for the keyboard usage people&#xD;
-UPDATE: *Flight book:* Added fields to edit the Image sizes in inches, too.&#xD;
-UPDATE: *Message Handling Flight book:* Some better messages, so users can handle to fix the issue by themself.&#xD;
-UPDATE: *Translate:* Modifications for deepl.com-app version 2.7.22108+&#xD;
-UPDATE: some more typos in messages. Thanks to all reporters!&#xD;
-BUGFIX: Fixed a bug when the same sound file was used in different TTS and then removed from a TTS.&#xD;
-BUGFIX: *Flightsim.to-Integration:* Sometimes the update of the database went wrong.&#xD;
-&#xD;
----&#xD;
-0.9.6.1511&#xD;
-HIGHLIGHT: Create a Flight-Book for your bush trips&#xD;
-Create your individual *Flight-Book* for your bush trip in all supported languages (if you have done the translations)&lt;br&gt;You find the created documents in the folder *documents* of your BushTripInjector installation path.&#xD;
-Documents should be compatible with ISO/IEC 29500 but no warranty (I like 6000+ pages of documentations to create features)&#xD;
-&#xD;
-UPDATE: *Author name adjustments:* Remove characters from author name that prevent the sim from displaying the bush trip in the activities menu.&#xD;
-UPDATE: *GamerTag in registration form:* Same checks as author name because it is used as author name in Bush Trips. Must start with a letter, no special chars possible.&#xD;
-UPDATE: *Database-Update 1.18.15.0:* Updated the Database for Airports and Runways.&lt;br&gt;807 Airports added (mainly water airports), 229 changes, 5 airports deleted!&lt;br&gt;1694 runways added, 24 changes and 84 runways deleted&lt;br&gt;For details see db-changelog-1.17.3.0--1.18.15.0.txt included in this package.&#xD;
-UPDATE: *Updated Web-View2 component:* Updated the WebView2 component to the most recent version 1.0.902.49&#xD;
-UPDATE: *AssistanceOptions:* Added some more AssistanceOptions of SU5: AIPilotingCursorModus, AntiStall, ControllerSensitivity&lt;br&gt;removed deprecated options: NoCollisions, AutoTuneFreqAtStart, WaypointPylon, Breadcrumb, BackOnTrack&#xD;
-UPDATE: *Export Translations Files*: Changed the Tag to split the entries for google translator.&#xD;
-UPDATE: Typo in EULA&#xD;
-BUGFIX: *CTD in E&amp;T:* Fixed a crash to desktop in Event &amp; Triggers Editor in a combination of ObjectActivations and Proximity-, AirportLanding-, AreaLanding-, Timer- and CounterTriggers&#xD;
-BUGFIX: *Load project on startup:* Avoid message spamming when flightplan not found in startup. &#xD;
-&#xD;
----&#xD;
-0.9.5.1452&#xD;
-FEATURE: *Assistance-Options:* Added the Assistance Items introduced in Sim Update 5 into AssistancePresets and Event&amp;Triggers Editor&lt;br&gt;Unfortunately, Landmark-POI are no longer visible in BushTrips since Sim Update 5 by default. To activate them again, you need to activate Fly-Assistance and select the landmark.&#xD;
-FEATURE: *Fly Assistant:* Added the option to enable the Fly-Assistant in Menu-Bar. This allows to show Fauna and POI landmarks again in bush trips.&#xD;
-USER-REQ: *ModifyDate:* Stores the generation date of the bush trip in loc-files as modification date.&#xD;
-USER-REQ: *Revised Registration System:* Complete revision of the registration system for private users&lt;br&gt;For community users, most mandatory fields have been removed.&lt;br&gt;Encrypted storage of the free input fields for registration on user-pc.&lt;br&gt; Special thanks goes to *Frontech* to work this out together.&#xD;
-USER-REQ: *Encrypt private data in mail:*&lt;br&gt;All privacy  data are now encrypted in license request to avoid being read out on transport layer of the mail. Many thanks go to a lady who does not wish to be named.&#xD;
-USER-REQ: Use GamerTag from registration as author name for new bush trips&#xD;
-USER-REQ: Check for invalid author before generating a bush trip and revoke the generation.&#xD;
-UPDATE: *Steam-Detection:* Some improvement to find the folders for steam installations (thanks to Martin vd S).&#xD;
-UPDATE: *TTS on Waypoints:* Remove some more special chars.&#xD;
-UPDATE: *Landmarks:* Adjusted the Height Offset for SimUpdate 5 Hotfix 2, if not set by user. Unfortunately, landmarks work randomly with SU5. Need more investigation.&#xD;
-BUGFIX: Fixed an issue some users cannot save the trip because of missing BushTripInjector_SAVES Folder.&#xD;
-&#xD;
----&#xD;
-0.9.4.1423&#xD;
-Pro-Version: *MarketPlaceData:* Fixed an issue preventing the fields on Business &amp; Marketplace-Sheet to be enabled.&#xD;
-Pro-Version: *Watermarks in Images:* Do not add watermarks in images anymore. Of course, existing images keep them and you need to replace them manually.&#xD;
-Pro-Version: *Change Static Images:* Added the possibility  to change the static images for marketplace in a new sheet. Simple GUI, will be improved in a later version.&#xD;
-Pro-Version: *SPB-Viewer* New Property Definitions of Sim 1.18.13.0&#xD;
-FEATURE: *Change Static Images:* Added the possibility  to change activity_widget and loading_screen in a new sheet. Simple GUI, will be improved in a later version.&#xD;
-UPDATE: *Text-to-speech at End of Leg:* Better handling of TTS when finishing a leg.&#xD;
-UPDATE: Optimized detection of WAV duration to reduce time for generating bush trips with many soundfiles.&#xD;
-BUGFIX: Fixed an issue with sound blipping when using soundfiles when generating the bush trip.&#xD;
-BUGFIX: Fixed an issue with Key Request. Sometimes the send mail button did not become active.&#xD;
-&#xD;
----&#xD;
-0.9.3.1396&#xD;
-USER-REQ: *Export and Import* all language entries&lt;br&gt;Translate all language entries for a language in a single step. Export to file and Clipboard, import from file or ClipBoard.&#xD;
-UPDATE: *Database-Update Parking-Db*&lt;br&gt;Updated the Parking Database to Sim Version 1.17.3.0&lt;br&gt;275351 -&gt; 277294 1900+ parking positions, 826 airports affected&lt;br&gt;Parkings added: 3884&lt;br&gt;Parkings changed 1806&lt;br&gt;Parkings deleted 1947&lt;br&gt;The Parking-Db is available as seperate download package only!&#xD;
-UPDATE: *Database-Update Airport-Db*&lt;br&gt;Updated the internal database (Airports and Runways) to Sim Version 1.17.3.0&lt;br&gt;Airport Count 37348 -&gt; 37335 (-13) / Airport added: 24, changed 228, deleted 37 (-13)&lt;br&gt;Runway Count 88020 -&gt; 88054 (34) / Runway added: 96, changed 120, deleted 62 (34)&lt;br&gt;For details see db-changelog-1.16.2.0--1.17.3.0.txt included in this package&#xD;
-UPDATE: Added more countries to combobox of KeyRequestWindow&#xD;
-BUGFIX: Fixed an issue with RunwayFilter in AirportlandingTrigger preventing the MSFS Compiler to generate the SPB file.&#xD;
-BUGFIX: Do not show flightsim.to tab when no bush trip is loaded to avoid subsequent defects&#xD;
-&#xD;
----&#xD;
-0.9.2.1371&#xD;
-UPDATE: *Productkey &amp; Activation*&lt;br&gt;With this version you need a Productkey to run BushTripInjector. Fill out the in-app registration form and send it by mail as requested.&lt;br&gt;Please allow up to 24h for grant.&#xD;
-USER-REQ: *Swap Action in ProximityTrigger:*&lt;br&gt;In Events&amp;Triggers Editor, now you can swap the actions between Enter (Fly-In) and Exit (Fly-Out) actions.&#xD;
-USER-REQ: Show changelog on first start of an updated BushTripInjector.&#xD;
-UPDATE: Some changes and additions in the EULA/Terms and Conditions&#xD;
-UPDATE: Replaced the outdated maps key with a new one.&#xD;
-UPDATE: *Anti-Meridian-Handling* &lt;br&gt;Fixed an issue when the trip goes over antemeridian, and the second part is deeper over antemeridian than the first one.&lt;br&gt;Known issue: Scenery and Landmark pushpins are not shown.&#xD;
-UPDATE: *SPB-Viewer*&lt;br&gt;Updated the Property Definitions for SPB-Viewer to Sim-Version 1.17.3.0&#xD;
-UPDATE: Fixed an issue with adding Landmarks from Flightsim.to or LittleNavMap Userpoints when no further Landmarks are present.&#xD;
-UPDATE: Fixed an issue with removing HTML-Tags for TTS when "no translation" is selected.&#xD;
-UPDATE: some changes to EULA&#xD;
-UPDATE: Moved some local computing parts of BTI into the cloud.&#xD;
-UPDATE: Removed some typos (and add some more :) )&#xD;
-UPDATE: Updated dependencies/NuGet packages (Microsoft.Xaml.Behaviors)&#xD;
-&#xD;
----&#xD;
-0.9.1.1288&#xD;
-USER-REQ: *Show invalid triggers in another font color.*&lt;br&gt;Some uses do not see the *"INVALID"* statement in Events&amp;Triggers Editor, so the invalid triggers are now written in red.&#xD;
-USER-REQ: *Load Aircrafts and Liveries from Official Folder*&lt;br&gt;Load all *free* aircrafts and liveries from Official folder. Those can be selected as aircraft in base data-sheet.&#xD;
-USER-REQ: *Colored markers for Departure and Destination:*&lt;br&gt;The markers in WorldMap and the Overview Image for the sim are now colored in green (departure) and red (destination).&#xD;
-FEATURE: *Added 3 more languages for localization!*&lt;br&gt;Let's welcome * 'suomi'*, * 'norsk bokmål'* and * 'svenska'*!&#xD;
-FEATURE: *Use Flightsim.to Scenery-Objects as Landmarks*&lt;br&gt;Import the flightsim.to scenery data into the landmarks. You can select them for the landmark creation to show the POI markers on your bush trip.&#xD;
-FEATURE: *Use LittleNavMap UserPoints as Landmarks*&lt;br&gt;Copy your LittleNavMap Userpoints-file into the folder "UserPoints" of your BushTripInjector. With this version, you can add them as landmarks at Landmark-Sheet.&lt;br&gt;Compatible with LittleNavMap Userpoint files (csv) for Import and Export, ie. VRP files or BushTalkRadio POIs.&#xD;
-FEATURE: Select/Deselect Flightsim.to Add-Ons from Worldmap&lt;br&gt;With the context menu it is now possible to select and deselect Flightsim.to sceneries.&#xD;
-FEATURE:Implemented the possibility to delete multiple landmarks at once&#xD;
-UPDATE: Adjust Altitude of Landmarks in background&#xD;
-&#xD;
----&#xD;
-0.9.0.1272&#xD;
-HIGHLIGHT: BushTripInjector integrates Scenery-Map from Flightsim.to&#xD;
- *Show Add-Ons of Flightsim.to on map and grid.* Select your preferred add-ons and generate a template for your project page!&#xD;
-Find great add-ons for Airfields and Airports, Airstrips and Smaller Airfields, Bridges, Buildings, Castles, Cities/Towns/Villages, General Scenery, Helipads, Mountains and Nature, Regional Packages and Stadiums to integrate in your Bushtrips.&#xD;
-More than 5700 add-ons available, daily growing.&lt;br&gt;Direkt link for each add-on to the project page on Flightsim.to&#xD;
- *Select on WorldMap-Page:* &lt;br&gt; *All* - show all add-ons (slow)&lt;br&gt; *Trip* - Show add-ons of the trip bounding box&lt;br&gt; *Leg* - Build bounding boxes for each leg and show inside add-ons&lt;br&gt; *Waypoints* - same as legs, only for Waypoints&#xD;
- *Many thanks to Flightsim.to for cooperation.*&#xD;
-&#xD;
-FEATURE: *Activated the AirportLandingTrigger in Events&amp;Trigger Editor!* &lt;br&gt;Already used to enable fueling on airports, it is now unlocked for use in E&amp;T. Refueling will be merged when generating a trip.&#xD;
-FEATURE: *Added the OneShotSoundAction to Events&amp;Triggers Editor.* &lt;br&gt;Plays soundfiles one time for events. Because of the well known sim bug, they will not be played after you left a trip and re-join it.&#xD;
-UPDATE: Fixed an issue in Event&amp;Triggers Editor that activate the triggers after load, altough user deactivated them&#xD;
-UPDATE: Fixed an issue with ProximityTrigger didn't detect invalid actions in some cases.&#xD;
-UPDATE: Fixed a bug detecting changes on landmarks&#xD;
-UPDATE: Remove some HTML Tags in TTS, when no localisation is used.&#xD;
-UPDATE: Fixed an issue that prevent triggers to be included in the Xml/Spb file when they are using CountAction, ObjectActivationAction, ResetTimerAction and/or TimerAdjustAction (Koschi)&#xD;
 &#xD;
 </ChangeLog>
   <Downloadlink>https://flightsim.to/file/4131/bushtripinjector</Downloadlink>
