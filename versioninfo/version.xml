@@ -15,10 +15,19 @@
   <CurrentVersion>
     <Major>0</Major>
     <Minor>10</Minor>
-    <Build>4</Build>
-    <Revision>1793</Revision>
+    <Build>5</Build>
+    <Revision>1814</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+0.10.5.1814&#xD;
+FEATURE: *Event&amp;Triggers Editor:* Double click on an reference object will jump to this object in Event&amp;Triggers Editor.&#xD;
+UPDATE: *FailureAction:* Added some new failures introduced by MSFS.&#xD;
+UPDATE: *Trigger/Actions/Areas/WorldObject Id:* Updated the description id calculation, when the type of a Trigger/Action/Area/WorldObject is changed&#xD;
+BUGFIX: *ObjectActivation/Counter/TimerActions:* Fixed an issue with removing triggers from these actions.&#xD;
+BUGFIX: *Actions Editor:* An issue with GUI refresh after a change in an action has been fixed.&#xD;
+BUGFIX: *FailureAction:* Fixed the typo in "AttitudeIndicator".&#xD;
+&#xD;
+---&#xD;
 0.10.4.1793&#xD;
 UPDATE: *Airport &amp; Runway Database:*&lt;br&gt;Updated the internal database incl. new magnetic declination for airports with MSFS 1.20.6.0.&lt;br&gt;48 airports added&lt;br&gt;all airports changed because of new magnetic declination in SU6&lt;br&gt;8 airports removed.&lt;br&gt;Find a detailed list in db-changelog included in this package.&lt;br&gt;For each other location in the world, BushTripInjector is calculating the magnetic declination with the information from your sim (if detected).&#xD;
 UPDATE: *Translate WP Names:*&lt;br&gt;Changed the default for new bush trips from "Translate" to "Non-translate" because of MSFS bug in SU6.&lt;br&gt;For existing bush trips you need to do this by yourself!&#xD;
@@ -94,8 +103,8 @@ UPDATE: Several small fixes, typos, ...&#xD;
   </RequiredDbVersion>
   <CurrentMSFSDatabaseVersion>
     <Major>1</Major>
-    <Minor>19</Minor>
-    <Build>8</Build>
+    <Minor>20</Minor>
+    <Build>6</Build>
     <Revision>0</Revision>
   </CurrentMSFSDatabaseVersion>
 </BushTripInjector>
