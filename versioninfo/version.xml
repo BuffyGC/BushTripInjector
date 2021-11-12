@@ -2,9 +2,9 @@
 <BushTripInjector xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Id="BushTripInjector">
   <MinVersion>
     <Major>0</Major>
-    <Minor>9</Minor>
-    <Build>10</Build>
-    <Revision>1612</Revision>
+    <Minor>10</Minor>
+    <Build>3</Build>
+    <Revision>1742</Revision>
   </MinVersion>
   <PrevVersion>
     <Major>0</Major>
@@ -15,10 +15,27 @@
   <CurrentVersion>
     <Major>0</Major>
     <Minor>10</Minor>
-    <Build>6</Build>
-    <Revision>1850</Revision>
+    <Build>7</Build>
+    <Revision>1886</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+0.10.7.1886&#xD;
+USER-REQ: *CustomAction:* Added the CustomAction to Event&amp;Triggers Editor. This gives you the possibility to extend your BushTrips with SimConnect with many more actions, events and to set variables.&lt;br&gt;You can also implement a simple DRM for your BushTrips with your own Simconnect client.&lt;br&gt;Requested by a commercial customer, available for everyone.&#xD;
+USER-REQ: *Changlog:* Show this changelog on demand via Menu &amp;rarr; Help &amp;rarr; Changelog.&#xD;
+FEATURE: *PointOfIntereset:* Added to possibility to reference to other WorldObjects.&#xD;
+FEATURE: *MessageBoxes:* Added a "do not ask again" option in the most displayed message windows.&lt;br&gt; You can reset to default with Menu&amp;rarr;Extras&amp;rarr;Clear Message Cache.&lt;br&gt;If you need this function with other messages, let me know!&#xD;
+FEATURE: *Event&amp;Triggers:* Check the defined Actions, Areas and WorldObjects for usage while compile.&#xD;
+UPDATE: *Flightbook:* Added Office 2021 support.&#xD;
+UPDATE: *Drag and Drop:* Added Drag and Drop functionality to WorldObjects.&#xD;
+UPDATE: *WorldPositions:* Added the IsOnGound flag to WorldPositions. &#xD;
+UPDATE: *PointOfIntereset:* Added Orientation to PointOfInterest in WorldPosition structures.&#xD;
+UPDATE: *LicenceCheck:* Better separation of messages for different issues.&#xD;
+BUGFIX: *GenerateBushTrip:* Fixed a CTD while generating bushtrips in some rare conditions.&#xD;
+BUGFIX: *PointOfIntereset:* Fixed an issue removing  an existing PointOfInterest has no effect to the GUI for references.&#xD;
+UPDATE: *WebView2:* Updated component to most recent version. Fixes some bugs in rendering for multi monitors with different resolutions.&#xD;
+UPDATE: *XamlBehaviors:* Updated component to most recent version. Fixed a memory leak.&#xD;
+&#xD;
+---&#xD;
 0.10.6.1850&#xD;
 FEATURE: *EXPERIMENTAL: PointOfInterest:* Use the point of interest object to highlight a location or other object. The highlight can be, for example, a vertical beam of light pointing at the object.&#xD;
 FEATURE: *EXPERIMENTAL: PointOfInterestActivationAction:* Activate and deactivate your defined PointOfInterest in any trigger you want.&#xD;
