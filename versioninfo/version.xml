@@ -15,10 +15,21 @@
   <CurrentVersion>
     <Major>0</Major>
     <Minor>10</Minor>
-    <Build>7</Build>
-    <Revision>1886</Revision>
+    <Build>8</Build>
+    <Revision>1916</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+0.10.8.1916&#xD;
+ *EXPERIMENTAL: Import XML/SPB-Files:*&lt;br&gt;Import Triggers, Actions, Areas and WorldObjects from XML/SPB-Files of FSX/P3D.&lt;br&gt;This will not create full functional missions from FSX/P3D but allow you to have a look into the triggers and actions and learn from them.&lt;br&gt;Please backup your files before using this function!&lt;br&gt;For mapping FSX/P3D Vars to MSFS simvars, please see online help!&#xD;
+ * _Please respect the IP and Copyright of the origin authors_* and don't use imported XM/SPB for publishing bush trips.&lt;br&gt;This function is for *education* use only to understand complex missions.&#xD;
+UPDATE: *Compile BushTrip:* Bring back the Console-Window to check what's happen on compile when you are not using SDK or don't have SDK installed.&#xD;
+UPDATE: *WorldObject:* Expandable and collapsible WorldPositions and WorldObject References.&#xD;
+UPDATE: *SPB-Viewer:* Updated to Sim 1.21.13.0 definitions.&#xD;
+UPDATE: *Filemarkers:* Small adjustment in marking generated files by BTI.&#xD;
+BUGFIX: *WorldObject:* Fixed an issue removing WorldObjects from other WorldObjects.&#xD;
+BUGFIX: *Weather:* Fixed an issue checking the weather settings prevented to compile the bush trips.&#xD;
+&#xD;
+---&#xD;
 0.10.7.1886&#xD;
 USER-REQ: *CustomAction:* Added the CustomAction to Event&amp;Triggers Editor. This gives you the possibility to extend your BushTrips with SimConnect with many more actions, events and to set variables.&lt;br&gt;You can also implement a simple DRM for your BushTrips with your own Simconnect client.&lt;br&gt;Requested by a commercial customer, available for everyone.&#xD;
 USER-REQ: *Changlog:* Show this changelog on demand via Menu &amp;rarr; Help &amp;rarr; Changelog.&#xD;
