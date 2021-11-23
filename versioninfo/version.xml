@@ -144,8 +144,8 @@ UPDATE: Several small fixes, typos, ...&#xD;
   </RequiredDbVersion>
   <CurrentMSFSDatabaseVersion>
     <Major>1</Major>
-    <Minor>20</Minor>
-    <Build>6</Build>
+    <Minor>21</Minor>
+    <Build>13</Build>
     <Revision>0</Revision>
   </CurrentMSFSDatabaseVersion>
 </BushTripInjector>
