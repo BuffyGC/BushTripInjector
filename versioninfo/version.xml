@@ -13,12 +13,31 @@
     <Revision>-1</Revision>
   </PrevVersion>
   <CurrentVersion>
-    <Major>0</Major>
-    <Minor>10</Minor>
-    <Build>9</Build>
-    <Revision>1946</Revision>
+    <Major>1</Major>
+    <Minor>0</Minor>
+    <Build>0</Build>
+    <Revision>1994</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+1.0.0.1994&#xD;
+HIGHLIGHT: DiscoveryFlights&#xD;
+Unlocking the DiscoveryFlights for all users. This was made possible by the kind permission and waiver of exclusive rights of a customer on the US West Coast.&lt;br&gt;Create DiscoveryFlights and tell us more about a region. Define landmarks to make users aware of them. Use the Events&amp;Triggers editor to give the user more visual and audible impressions. Choose the music style and volume when approaching a POI. And much more.&#xD;
+&#xD;
+This Version has many changes in the core functionallity of BushTripInjector because of merging some branches into community version.&lt;br&gt;Despite intensive testing, bugs and problems may occur. If you have an issue, please contact me on &lt;a href="https://discord.gg/fa6mtW2zz4"&gt;Discord&lt;/a&gt;.&lt;br&gt;Thank you very much.&#xD;
+&#xD;
+USER-REQ: Hide the MainWindow while taking images with 3d Image Generator. (Koschi)&#xD;
+USER-REQ: Added a checkbox to worldmap sheet to show/hide only selected flightsim.to add-ons. (FronTech)&#xD;
+FEATURE: *ProjectFiles:* Save your Mission with all information in a single file (only available for DiscoversFlights yet).&#xD;
+FEATURE: *WorldMap:* Added an option to show pins for landmarks on WorldMap. The tooltip of the pin shows you the name of the landmark.&#xD;
+UPDATE: *Areas:* Added the AltitudeIsAGL flag to CylinderArea and RectangleArea. Available in Import XML/SPB Module, too.&#xD;
+UPDATE: *Waiting Screen:* A waiting screen has been added so as not to inconvenience the users when it takes longer than usual&#xD;
+UPDATE: *Typos* As usual, some typos corrected. (Thanks to ProfSC)&#xD;
+BUGFIX: *Leg2+:* Fixed an issue when the ProximityTriggers has different Activated/Deactivated Flags.&#xD;
+BUGFIX: *Leg2+:* Added the Leg2+ workaround for Property-, Airportlanding-, AreaLanding-, Counter- and TimerTrigger, too.&#xD;
+BUGFIX: *CruisingAlt:* Fixed an issue with CruisingAlt was not set correctly (BushTrip &amp; Discovery)&#xD;
+BUGFIX: *Changelog:* Fixed an issue when viewing the changelog from helpmenu and no parking database is installed.&#xD;
+&#xD;
+---&#xD;
 0.10.9.1946&#xD;
 HIGHLIGHT: Workarounds for Leg 2 or later issues, LibraryObject and EndAction&#xD;
 UPDATE: *TTS/ProximityTrigger on Leg 2 or later:* Added a workaround for the issue, ProximityTrigger are not fired on Leg2 or later. It works in all conditions: "Continue" after leg end and "Back to Main Menu" after leg end. &#xD;
