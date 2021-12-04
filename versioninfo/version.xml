@@ -7,18 +7,35 @@
     <Revision>1742</Revision>
   </MinVersion>
   <PrevVersion>
-    <Major>0</Major>
-    <Minor>10</Minor>
-    <Build>3</Build>
+    <Major>1</Major>
+    <Minor>0</Minor>
+    <Build>0</Build>
     <Revision>-1</Revision>
   </PrevVersion>
   <CurrentVersion>
     <Major>1</Major>
     <Minor>0</Minor>
-    <Build>0</Build>
-    <Revision>1994</Revision>
+    <Build>1</Build>
+    <Revision>2020</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+1.0.1.2020&#xD;
+HIGHLIGHT: RandomAction, Bugfixes for Discovery&#xD;
+FEATURE: *RandomAction:* Added the RandomAction to Events&amp;Triggers Editor for BushTrips and DiscoveryFlights.&lt;br&gt;Use the RandomActions to give the user more variation. Activate sceneries in the vicinity, simulate nature spectacles or simply let animals run in random directions. There are no limits to your creativity.&#xD;
+UPDATE: *OpenFileDialog:* Changed the default file filter to all supported file formats.&#xD;
+UPDATE: *Discovery:* Handle menu items for DiscoveryFlights. *Please check your current settings after loading DiscoveryFlights.*&#xD;
+UPDATE: *MarketPlace:* Added marketplace handling for DiscoveryFlights. &#xD;
+UPDATE: *Import XML/SPB:* Added several properties to Import-Parser: DefaultActivated (all triggers), OnScreenTimer (TimerTrigger).&#xD;
+UPDATE: *XamlBehaviors:* Updated component to most recent version.&#xD;
+UPDATE: *WebView2:* Updated component to most recent version. Several fixes. &#xD;
+UPDATE: *ProjectFile:* Save the Weather-file inside of the project-file.&#xD;
+UPDATE: *LibraryObject*:  More accurate positioning of objects (6.78cm resolution at equator). (thx goes to Synoxys)&#xD;
+UPDATE: *Areas*:  More accurate positioning of areas for Rectangle, Cylinder, Teleport and Landmarks (6.78cm resolution at equator). (thx goes to Synoxys)&#xD;
+BUGFIX: *Discovery:* Fixed an issue on generating DicoveryFlights when no translation is present.&#xD;
+BUGFIX: *Discovery:* Fixed some issues loading the saved vaules in some conditions (Weather, Colors, Menu, Translate...). &#xD;
+BUGFIX: *Discovery:* Several small fixes and optimizations for DiscoveryFlight.&#xD;
+&#xD;
+---&#xD;
 1.0.0.1994&#xD;
 HIGHLIGHT: DiscoveryFlights&#xD;
 Unlocking the DiscoveryFlights for all users. This was made possible by the kind permission and waiver of exclusive rights of a customer on the US West Coast.&lt;br&gt;Create DiscoveryFlights and tell us more about a region. Define landmarks to make users aware of them. Use the Events&amp;Triggers editor to give the user more visual and audible impressions. Choose the music style and volume when approaching a POI. And much more.&#xD;
@@ -36,96 +53,6 @@ BUGFIX: *Leg2+:* Fixed an issue when the ProximityTriggers has different Activat
 BUGFIX: *Leg2+:* Added the Leg2+ workaround for Property-, Airportlanding-, AreaLanding-, Counter- and TimerTrigger, too.&#xD;
 BUGFIX: *CruisingAlt:* Fixed an issue with CruisingAlt was not set correctly (BushTrip &amp; Discovery)&#xD;
 BUGFIX: *Changelog:* Fixed an issue when viewing the changelog from helpmenu and no parking database is installed.&#xD;
-&#xD;
----&#xD;
-0.10.9.1946&#xD;
-HIGHLIGHT: Workarounds for Leg 2 or later issues, LibraryObject and EndAction&#xD;
-UPDATE: *TTS/ProximityTrigger on Leg 2 or later:* Added a workaround for the issue, ProximityTrigger are not fired on Leg2 or later. It works in all conditions: "Continue" after leg end and "Back to Main Menu" after leg end. &#xD;
-UPDATE: *Sound files:* Added a workaround for playing sound files with TTS/DialogAction on Leg 2 or later.&#xD;
-UPDATE: *Mandatory Waypoints:* Added a workaround to get mandatory waypoints working again. &#xD;
-FEATURE: *EndAction:* EndAction has been added to TTS and InstructorDialog actions.&lt;br&gt;An EndAction is fired when the TTS is finished. Start timers, counters, activate other triggers or just add more TTS.&#xD;
-FEATURE: *LibraryObject:* Use a LibraryObject from your or a downloaded ModelLibrary to place objects in the world. Activate and/or deactivate it with ObjectActivationAction.&#xD;
-UPDATE: *Import XML/SPB:* Import LibraryObjects from selected XML/SPB.&#xD;
-UPDATE: *Airport- and Runway-DataBase:* Updated the internal dabatase for airports and runways to sim version 1.21.13.0:&lt;br&gt;Airport added: 523, changed 26090, deleted 385 (+138)&lt;br&gt;Runway added: 1158, changed 49, deleted 654 (+504)&lt;br&gt;For details, see db-changelog-1.20.6.0--1.21.13.0.txt attached to this package.&#xD;
-UPDATE: *Parking-DataBase:* Updated the database for the parking spots on the airports to sim version 1.21.13.0 (separate download)&lt;br&gt;Parkings added: 3733, changed 818, deleted 515&#xD;
-UPDATE: *TimerTrigger:* The property CanBeUpdatedDuringLoading was added to TimerTriggers&#xD;
-UPDATE: *AssistancePresets:* The new AssistancePresets have been added to the User Experience section: HUD Tracking, HUD Cockpit, Free Flight Auto Log, and G-Suit.&#xD;
-UPDATE: *Event&amp;Triggers Editor:* Added the new AssistancePresets to *ChangeAssistanceItemAction*: HUD-Chase, HUD-Cockpit, Freeflight-Auto-Logbook and G-Suit.&#xD;
-BUGFIX: *Event&amp;Triggers Editor:* Fixed an issue with references to actions when deleting a trigger.&#xD;
-BUGFIX: *Startup:* Fixed a CTD on launch without message when the last bush trip could not be loaded.&#xD;
-&#xD;
----&#xD;
-0.10.8.1916&#xD;
- *EXPERIMENTAL: Import XML/SPB-Files:*&lt;br&gt;Import Triggers, Actions, Areas and WorldObjects from XML/SPB-Files of FSX/P3D.&lt;br&gt;This will not create full functional missions from FSX/P3D but allow you to have a look into the triggers and actions and learn from them.&lt;br&gt;Please backup your files before using this function!&lt;br&gt;For mapping FSX/P3D Vars to MSFS simvars, please see online help!&#xD;
- * _Please respect the IP and Copyright of the origin authors_* and don't use imported XM/SPB for publishing bush trips.&lt;br&gt;This function is for *education* use only to understand complex missions.&#xD;
-UPDATE: *Compile BushTrip:* Bring back the Console-Window to check what's happen on compile when you are not using SDK or don't have SDK installed.&#xD;
-UPDATE: *WorldObject:* Expandable and collapsible WorldPositions and WorldObject References.&#xD;
-UPDATE: *SPB-Viewer:* Updated to Sim 1.21.13.0 definitions.&#xD;
-UPDATE: *Filemarkers:* Small adjustment in marking generated files by BTI.&#xD;
-BUGFIX: *WorldObject:* Fixed an issue removing WorldObjects from other WorldObjects.&#xD;
-BUGFIX: *Weather:* Fixed an issue checking the weather settings prevented to compile the bush trips.&#xD;
-&#xD;
----&#xD;
-0.10.7.1886&#xD;
-USER-REQ: *CustomAction:* Added the CustomAction to Event&amp;Triggers Editor. This gives you the possibility to extend your BushTrips with SimConnect with many more actions, events and to set variables.&lt;br&gt;You can also implement a simple DRM for your BushTrips with your own Simconnect client.&lt;br&gt;Requested by a commercial customer, available for everyone.&#xD;
-USER-REQ: *Changlog:* Show this changelog on demand via Menu &amp;rarr; Help &amp;rarr; Changelog.&#xD;
-FEATURE: *PointOfIntereset:* Added to possibility to reference to other WorldObjects.&#xD;
-FEATURE: *MessageBoxes:* Added a "do not ask again" option in the most displayed message windows.&lt;br&gt; You can reset to default with Menu&amp;rarr;Extras&amp;rarr;Clear Message Cache.&lt;br&gt;If you need this function with other messages, let me know!&#xD;
-FEATURE: *Event&amp;Triggers:* Check the defined Actions, Areas and WorldObjects for usage while compile.&#xD;
-UPDATE: *Flightbook:* Added Office 2021 support.&#xD;
-UPDATE: *Drag and Drop:* Added Drag and Drop functionality to WorldObjects.&#xD;
-UPDATE: *WorldPositions:* Added the IsOnGound flag to WorldPositions. &#xD;
-UPDATE: *PointOfIntereset:* Added Orientation to PointOfInterest in WorldPosition structures.&#xD;
-UPDATE: *LicenceCheck:* Better separation of messages for different issues.&#xD;
-BUGFIX: *GenerateBushTrip:* Fixed a CTD while generating bushtrips in some rare conditions.&#xD;
-BUGFIX: *PointOfIntereset:* Fixed an issue removing  an existing PointOfInterest has no effect to the GUI for references.&#xD;
-UPDATE: *WebView2:* Updated component to most recent version. Fixes some bugs in rendering for multi monitors with different resolutions.&#xD;
-UPDATE: *XamlBehaviors:* Updated component to most recent version. Fixed a memory leak.&#xD;
-&#xD;
----&#xD;
-0.10.6.1850&#xD;
-FEATURE: *EXPERIMENTAL: PointOfInterest:* Use the point of interest object to highlight a location or other object. The highlight can be, for example, a vertical beam of light pointing at the object.&#xD;
-FEATURE: *EXPERIMENTAL: PointOfInterestActivationAction:* Activate and deactivate your defined PointOfInterest in any trigger you want.&#xD;
-Both functions are really experimental. You have to use the SmartCam mode in BushTrip to see the POI. You can use the ModelGuids to activate and deactivate your own objects in the scenery when the corresponding object is selected. Note that invalid ModelGuids will result in CTD.&#xD;
-&#xD;
-UPDATE: *Online-Help:* Adjusted some direct links from actions and areas. Added new objects in WorldObjects&#xD;
-UPDATE: *MessageBoxes:* Implemented Themes for Messageboxes. They will now show in a calculated height and width and selected theme. Some messages are extended by Headers. &#xD;
-UPDATE: *Event&amp;Triggers Editor* Some performance improvements when having many triggers/actions/areas and world objects when many of them not valid.&#xD;
-UPDATE: *BaseData Lat/Lon:* Accepts all types of DMS and numeric coordinates.&#xD;
-UPDATE: *Typos:* Fixed some more typos, blanks, ...&#xD;
-BUGFIX: *Weather:* Fixed an issue when a custom weather file was selected and the file/path was invalid.&#xD;
-&#xD;
----&#xD;
-0.10.5.1814&#xD;
-FEATURE: *Event&amp;Triggers Editor:* Double click on an reference object will jump to this object in Event&amp;Triggers Editor.&#xD;
-UPDATE: *FailureAction:* Added some new failures introduced by MSFS.&#xD;
-UPDATE: *Trigger/Actions/Areas/WorldObject Id:* Updated the description id calculation, when the type of a Trigger/Action/Area/WorldObject is changed&#xD;
-BUGFIX: *ObjectActivation/Counter/TimerActions:* Fixed an issue with removing triggers from these actions.&#xD;
-BUGFIX: *Actions Editor:* An issue with GUI refresh after a change in an action has been fixed.&#xD;
-BUGFIX: *FailureAction:* Fixed the typo in "AttitudeIndicator".&#xD;
-&#xD;
----&#xD;
-0.10.4.1793&#xD;
-UPDATE: *Airport &amp; Runway Database:*&lt;br&gt;Updated the internal database incl. new magnetic declination for airports with MSFS 1.20.6.0.&lt;br&gt;48 airports added&lt;br&gt;all airports changed because of new magnetic declination in SU6&lt;br&gt;8 airports removed.&lt;br&gt;Find a detailed list in db-changelog included in this package.&lt;br&gt;For each other location in the world, BushTripInjector is calculating the magnetic declination with the information from your sim (if detected).&#xD;
-UPDATE: *Translate WP Names:*&lt;br&gt;Changed the default for new bush trips from "Translate" to "Non-translate" because of MSFS bug in SU6.&lt;br&gt;For existing bush trips you need to do this by yourself!&#xD;
-&#xD;
----&#xD;
-0.10.4.1784&#xD;
- *This is a major update. Some core functionality was touched. &lt;br&gt;Despite intensive testing, bugs and problems may occur. If you have an issue, please contact me on &lt;a href="https://discord.gg/fa6mtW2zz4"&gt;Discord&lt;/a&gt;.&lt;br&gt;Thank you very much.*&#xD;
- *Fileformat-Change:* This version changed the internal fileformat to save triggers, actions and areas. Older version may no open those files, a backup will be created automatically.&#xD;
-&#xD;
-FEATURE: *Events &amp; Triggers Editor:* Reuse of Actions and Areas. Define actions and areas once and use them in different triggers and actions.&lt;br&gt;Known issues: Validation not working in all cases (red text).&#xD;
-USER-REQ: *Loading tips:* Added an option to exclude the default loading tips from your trip (thanks to Koschi).&#xD;
-USER-REQ: *Recent file list:* Increased the number of files in recent-file-list from 9 to 19.&#xD;
-UPDATE: *Spb-Viewer:* Added properties for Reno Air Races, VR and some more.&#xD;
-UPDATE: *Autopilot/Flightplan* Added some optimization for autopilot and flightplan. &#xD;
-UPDATE: *Cruising Altitude:* Added a field to adjust the cruising altitude. Initial value from Little Navmap flightplan.&#xD;
-UPDATE: *Event&amp;Triggers:* Optimized performance when handling proximity triggers with non-valid actions.&#xD;
-BUGFIX: *MissionFailureAction:* Fixed an issue with the MissionFailureAction that prevents to be fired in some circumstances.&#xD;
-BUGFIX: *Airport-Creation:* Fixed an issue where you cannot finish the airport creation and stuck in creation wizard.&#xD;
-BUGFIX: *2D-Image Creation:* Fixed an issue with zoom level on user defined airports.&#xD;
-BUGFIX: *Magnetic calculation:* Fixed a GUI glitch when calculated magnetic course &lt; 0° or &gt;360°&#xD;
-BUGFIX: *Base data:* Fixed an glitch with Aircraft part on wide screens &#xD;
 &#xD;
 &#xD;
 </ChangeLog>
