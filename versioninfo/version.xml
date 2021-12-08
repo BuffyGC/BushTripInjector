@@ -15,10 +15,32 @@
   <CurrentVersion>
     <Major>1</Major>
     <Minor>0</Minor>
-    <Build>1</Build>
-    <Revision>2020</Revision>
+    <Build>2</Build>
+    <Revision>2064</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+1.0.2.2064&#xD;
+HIGHLIGHT: IngameMarker&#xD;
+Define your own ingame markers. Position them over areas, waypoints or landmarks. Choose whether you want to have a direction indicator or not. Or just create the IngameMarkers in a predefined way from the landmarks.&lt;br&gt;IngameMarkers are visible independent from Sim Settings or external landmarks and shown in BushTrips. &#xD;
+&#xD;
+USER-REQ: *DialogAction/TTS:* Choose between the different speakers: Narrator, Co-Pilot and Instructor.&#xD;
+FEATURE: *ProjectFiles:* Second step for Project Handling:&lt;br&gt;Single File Store for BushTrips created via File&gt;New to get rid of the INI-File and SAVES Folder.&#xD;
+FEATURE: *WeatherFile:* Restore missing weather file, if it is not present on origin from project file.&#xD;
+UPDATE: *Soundfiles:* Removed the warning when adding sound files because they are working with BTI since 0.10.9.1946.&#xD;
+UPDATE: *WAV-Files:* Check WAV Files for bits per sample. MSFS supports max. 16 bits per sample.&#xD;
+UPDATE: *Check for Save:* Added the missing message for saving current mission when closing the app via File &gt; Exit.&#xD;
+UPDATE: *CruisingAltitude:* Added Cruising Altitude to DiscoveryFlights.&#xD;
+UPDATE: *Landmarks:* Better handling of the CheckBox for Activate and IngameMarker&#xD;
+UPDATE: *Paste LLA:* Fixed an issue pasting LatLonAlt not working for WorldObjects.&#xD;
+BUGFIX: *LegCompletion-TTS:* Fixed an issue with Leg completion TTS not spoken when using Mandatory Waypoints.&#xD;
+BUGFIX: *MapLayer:* Fixed an issue that with BushTrips the MapLayer for DiscoveryFlights remained active.&#xD;
+BUGFIX: *Event&amp;Triggers:* Fixed an issue with world objects not compiling when no triggers were present.&#xD;
+BUGFIX: *Mandatory Waypoints:* Hopefully fixed an issue with Multithreading and synchronizing back when creating the triggers and actions for mandatory waypoints. Please report if the issue is still present.&#xD;
+BUGFIX: *IngameMarker/PointOfInterest:* Fixed an issue saving the text for IngameMarkers and PointOfInterest.&#xD;
+BUGFIX: *Event&amp;Triggers:* Fixed an CTD when removing a ProximityTrigger.&#xD;
+BUGFIX: *Misc.:* Fixed several minor issues (Theme not applied, wrong message box format, ...)&#xD;
+&#xD;
+---&#xD;
 1.0.1.2020&#xD;
 HIGHLIGHT: RandomAction, Bugfixes for Discovery&#xD;
 FEATURE: *RandomAction:* Added the RandomAction to Events&amp;Triggers Editor for BushTrips and DiscoveryFlights.&lt;br&gt;Use the RandomActions to give the user more variation. Activate sceneries in the vicinity, simulate nature spectacles or simply let animals run in random directions. There are no limits to your creativity.&#xD;
