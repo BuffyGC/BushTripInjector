@@ -15,10 +15,23 @@
   <CurrentVersion>
     <Major>1</Major>
     <Minor>0</Minor>
-    <Build>2</Build>
-    <Revision>2064</Revision>
+    <Build>3</Build>
+    <Revision>2095</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+1.0.3.2095&#xD;
+FEATURE: *WorldMap:* Copy the coordinates in different formats to Clipboard  for use in Google Maps, Bing Maps or just BushTripInjector.&#xD;
+USER-REQ: *Window-Menu:* Show/Jump to Sounds folder, BushTripInjector File and Little Navmap File.&#xD;
+UPDATE: *Helpmenu:* Added entries for Support channel, Manual, Homepage and Project page on flightsim.to&#xD;
+UPDATE: *IngameMarkers:* Choose the Color of the Maintext&#xD;
+UPDATE: *IngameMarkers:* Choose if you want to display your entered text, the distance to the POI or the altitude of the POI.&#xD;
+UPDATE: *IngameMarkers:* Added the AltitudeText with same features as SecondaryText.&#xD;
+UPDATE: *Paste coordinates:* Convert different formats (DEC, DMS, MSFS, ...) when pasting coordinates in Areas, WorldObjects, Triggers, ...&#xD;
+UPDATE: *BingMapsAPI:* The BingMaps API has currently issues in the northern part of France. Ignoring these errors from WorldMap now. *Attention:* Creating Landmarks or other objects can have a wrong elevation/altitude. Check the statusbar!&#xD;
+UPDATE: *Flightsim.to:* Better handling to hide in DiscoveryFlights.&#xD;
+BUGFIX: *LibraryObject:* Added the missing Activate-flag into GUI.&#xD;
+&#xD;
+---&#xD;
 1.0.2.2064&#xD;
 HIGHLIGHT: IngameMarker&#xD;
 Define your own ingame markers. Position them over areas, waypoints or landmarks. Choose whether you want to have a direction indicator or not. Or just create the IngameMarkers in a predefined way from the landmarks.&lt;br&gt;IngameMarkers are visible independent from Sim Settings or external landmarks and shown in BushTrips. &#xD;
