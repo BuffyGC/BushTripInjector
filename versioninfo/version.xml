@@ -15,10 +15,29 @@
   <CurrentVersion>
     <Major>1</Major>
     <Minor>0</Minor>
-    <Build>3</Build>
-    <Revision>2095</Revision>
+    <Build>4</Build>
+    <Revision>2134</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+1.0.4.2134&#xD;
+HIGHLIGHT: Wikipedia in BaseLanguage, WAV-File Creation from TTS&#xD;
+&#xD;
+USER-REQ: *Wikipedia Texts from Wikipedia of your base language.* The Wikipedia texts are now determined from the base language set in BushTripInjector. If this is not English (en-GB or en-US), check your Wiki texts. For compatibility reasons, en.wikipedia.org is still the Wikipedia to search, but the local entries linked there will be displayed. If an entry is not available there, the English article will still be used.&lt;br&gt;If there is an entry in the local Wikipedia that is not available in en.wikipedia.org, fell free to create an article on en.wikipedia.org and set a link to the language wiki. Wikipedia lives from and for everyone and can be maintained by everyone.&#xD;
+USER-REQ: *WAV-Files:* Create WAV Files from TTS and Event&amp;Triggers Editor. Select your preferred voice, or let BTI decide by Language, Gender and Age. If you are missing some voices, a step-by-step documentation to activate all windows voices is vailable on &lt;a href="https://www.reddit.com/r/Windows10/comments/96dx8z/how_unlock_all_windows_10_hidden_tts_voices_for/" title="Reddit"&gt;Reddit&lt;/a&gt;&#xD;
+UPDATE: *IngameMarker breaks bush trips:* Unfortunately, ingame markers prevent bush trips from being saved correctly in the simulator at the end of a leg and the trip cannot be continued. A restart from the beginning would be necessary. BTI now issues appropriate warnings and in some cases prevents the creation of ingame markers. &#xD;
+ * _Apologies to any users affected by this issue for not noticing this during development, alpha or preview testing._*&#xD;
+USER-REQ: *Wiki:* Show Wikipedia in your Browser for all available languages from Wiki-Window. Click right-button on your mouse to show the available wikis. (rug4ever)&#xD;
+USER-REQ: *IngameMarker:* When creating IngameMarker from Landmark page, no more direction pointer will be generated because you cannot deativate them. To use this functionallity, please use the Event&amp;Triggers Editor. (DiscoveryFlights)&#xD;
+FEATURE: *Landmarks:* Generate IngameMarkers and associated ObjectActivations for Event&amp;Triggers Editor from Landmark Tab.&lt;br&gt;The IngameMarker is deactivated by Default, use the ObjectActivation to activate it where ever you want.&lt;br&gt;Keep in mind, if you don't activate them by yourself, they are not visible ingame. (DiscoveryFlight)&#xD;
+UPDATE: *Landmarks:* Show a warning message if landmarks are used in a bush trip.&#xD;
+UPDATE: *Landmarks:* When using Landmarks as IngameMarker, set the description type to distance, if description has less than 3 chars. (DiscoveryFlight)&#xD;
+UPDATE: *Performance:* Massive increase of performance when using refueling options with many legs/waypoints.&#xD;
+UPDATE: *Leg2+:* Added the Leg2+ workaround for IngameMarker, too.&#xD;
+UPDATE: *New-Dialog:* Added missing tooltips and "F1-Key" help.&#xD;
+UPDATE: *Spb-Viewer*: Restore Window Positions.&#xD;
+BUGFIX: *Landmarks:* Bring back the possibility to sort for the flags.&#xD;
+&#xD;
+---&#xD;
 1.0.3.2095&#xD;
 FEATURE: *WorldMap:* Copy the coordinates in different formats to Clipboard  for use in Google Maps, Bing Maps or just BushTripInjector.&#xD;
 USER-REQ: *Window-Menu:* Show/Jump to Sounds folder, BushTripInjector File and Little Navmap File.&#xD;
