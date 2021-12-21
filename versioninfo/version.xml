@@ -15,11 +15,21 @@
   <CurrentVersion>
     <Major>1</Major>
     <Minor>0</Minor>
-    <Build>4</Build>
-    <Revision>2134</Revision>
+    <Build>5</Build>
+    <Revision>2154</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
-1.0.4.2134&#xD;
+1.0.5.2154&#xD;
+HIGHLIGHT: Wav-Recording, Database-Viewer&#xD;
+FEATURE: *WAV-Recording:* Record your own wav-files from all of your input and output devices.&#xD;
+FEATURE: *Database-Viewer:* Show, sort, filter the BushTripInjector's internal airport, runway and parking database. Show the airports with a single click on the map.&#xD;
+UPDATE: *Sound files:* Sound files stopped working again after leaving the bush trips. Therefore, the warning message is active again.&#xD;
+UPDATE: *Text-to-speech:* Added online manual content and enabled the *F1*-key function.&#xD;
+UPDATE: *Create WAV:* Added online manual content and enabled the *F1*-key function.&#xD;
+BUGFIX: *Landmarks:* Removed an unnecessary message when no landmarks are present when loading a mission.&#xD;
+&#xD;
+---&#xD;
+1.0.4.3134&#xD;
 HIGHLIGHT: Wikipedia in BaseLanguage, WAV-File Creation from TTS&#xD;
 &#xD;
 USER-REQ: *Wikipedia Texts from Wikipedia of your base language.* The Wikipedia texts are now determined from the base language set in BushTripInjector. If this is not English (en-GB or en-US), check your Wiki texts. For compatibility reasons, en.wikipedia.org is still the Wikipedia to search, but the local entries linked there will be displayed. If an entry is not available there, the English article will still be used.&lt;br&gt;If there is an entry in the local Wikipedia that is not available in en.wikipedia.org, fell free to create an article on en.wikipedia.org and set a link to the language wiki. Wikipedia lives from and for everyone and can be maintained by everyone.&#xD;
