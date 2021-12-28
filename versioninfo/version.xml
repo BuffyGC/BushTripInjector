@@ -15,10 +15,27 @@
   <CurrentVersion>
     <Major>1</Major>
     <Minor>0</Minor>
-    <Build>5</Build>
-    <Revision>2154</Revision>
+    <Build>6</Build>
+    <Revision>2198</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+1.0.6.2198&#xD;
+HIGHLIGHT: Resampling Audio-Files, Save-As, Database-Viewer, Backups&#xD;
+Pro-Version: After compiling a trip, an export.zip is generated in your project folder, if you enabled "Compile to Project-Folder".&#xD;
+USER-REQ: *Compile:* For better marketplace handling, compile your bush trip into your project folder instead of global package folder. You can enable or disable this on Sim-Settings-Tab&#xD;
+FEATURE: *Resampling Audio-Files:* Resampling and convert audio files to MSFS recommended format (wav, 22Khz, 16bit, mono). Supported Input formats: mp3, wav, wma, aiff and aac!&#xD;
+FEATURE: *SaveAs:* Save your current mission in another file. Keep in mind, the project name and output is not changed and you need to do this by yourself.&#xD;
+UPDATE: *Database-Viewer:* Show the version of the database and the parking database, if present.&#xD;
+UPDATE: *GUI:* A small redesign of data tables in classic theme. &#xD;
+UPDATE: *Messages*: Improved several messages to avoid user confusion.&#xD;
+UPDATE: *Backup:* Creates a daily backup of bushtripinjector.ini and other saved files in %BTIHOME%\BushTripInjector_SAVES\Backup&#xD;
+UPDATE: *Backup:* Change the location for backups of Little Nav Map or BushTripInjector Source files to %BTIHOME%\BushTripInjector_SAVES\Backup&#xD;
+BUGFIX: *Scaling/Textscaling:* Fixed an issue when you are using display scaling and in addition a text scaling in windows for some dialogs incl. die License-Key dialog. (Thanks to OzzyKym) &#xD;
+BUGFIX: Fixed an issue deleting and copying files from/to community folder or deleting from mission saves folder.&#xD;
+BUGFIX: Fixed an issue creating the installer packages.&#xD;
+BUGFIX: Fixed an issue with read-only files in packages-folder. &#xD;
+&#xD;
+---&#xD;
 1.0.5.2154&#xD;
 HIGHLIGHT: Wav-Recording, Database-Viewer&#xD;
 FEATURE: *WAV-Recording:* Record your own wav-files from all of your input and output devices.&#xD;
@@ -29,7 +46,7 @@ UPDATE: *Create WAV:* Added online manual content and enabled the *F1*-key funct
 BUGFIX: *Landmarks:* Removed an unnecessary message when no landmarks are present when loading a mission.&#xD;
 &#xD;
 ---&#xD;
-1.0.4.3134&#xD;
+1.0.4.2134&#xD;
 HIGHLIGHT: Wikipedia in BaseLanguage, WAV-File Creation from TTS&#xD;
 &#xD;
 USER-REQ: *Wikipedia Texts from Wikipedia of your base language.* The Wikipedia texts are now determined from the base language set in BushTripInjector. If this is not English (en-GB or en-US), check your Wiki texts. For compatibility reasons, en.wikipedia.org is still the Wikipedia to search, but the local entries linked there will be displayed. If an entry is not available there, the English article will still be used.&lt;br&gt;If there is an entry in the local Wikipedia that is not available in en.wikipedia.org, fell free to create an article on en.wikipedia.org and set a link to the language wiki. Wikipedia lives from and for everyone and can be maintained by everyone.&#xD;
