@@ -15,10 +15,21 @@
   <CurrentVersion>
     <Major>1</Major>
     <Minor>0</Minor>
-    <Build>6</Build>
-    <Revision>2198</Revision>
+    <Build>7</Build>
+    <Revision>2222</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+1.0.7.2222&#xD;
+HIGHLIGHT: Shorten the files names, Airports in WorldMap&#xD;
+FEATURE: *Shorten file name:* Added a *Project Short Name* to shorten the files names in Community and Saved-Missions folder to avoid conflicts with MSFS not respecting file paths longer than 260 chars.&lt;br&gt;Some beta tester reports issues with GPS/Autopilot on first leg. If you encounter such issues, please report to me.&#xD;
+FEATURE: *Airports in WorldMap:* Added a layer to the WorldMap showing the airports in a similar style like Little Nav Map.&#xD;
+UPDATE: *Help-Menu* Added a *Help-Context* Entry to Help Menu.&#xD;
+UPDATE: *Save/SaveBaseData:* Merged them into one Menu Entry.&#xD;
+UPDATE: *ProjectHandling:* Next step for the Project Handling: Splitting a single internal var into Project, Package and Asset.&#xD;
+BUGFIX: *Loading:* Fixed an issue, Landing options, Cold&amp;Dark, Refuel and Exclude Loading Tips were not loaded correctly in some circumstances.&#xD;
+BUGFIX: *Flight book:* Fixed an issue when the flight book was created before generating 2D images.&#xD;
+&#xD;
+---&#xD;
 1.0.6.2198&#xD;
 HIGHLIGHT: Resampling Audio-Files, Save-As, Database-Viewer, Backups&#xD;
 Pro-Version: After compiling a trip, an export.zip is generated in your project folder, if you enabled "Compile to Project-Folder".&#xD;
