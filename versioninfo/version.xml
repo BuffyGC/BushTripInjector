@@ -16,9 +16,20 @@
     <Major>1</Major>
     <Minor>0</Minor>
     <Build>7</Build>
-    <Revision>2222</Revision>
+    <Revision>2236</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+1.0.7.2236&#xD;
+HIGHLIGHT: BugFixes, Scaled Airport-Pins&#xD;
+UPDATE: *WorldMap:* Airport-Pins are now scaled based on zoomlevel.&#xD;
+UPDATE: *WorldMap:* On Airport-Pin show if fuel is available on this airport.&#xD;
+UPDATE: *Airport-Database:* Many more information available now. Also provided in Database Viewer.&#xD;
+BUGFIX: *WorldMap:* Fixed an issue with moving Pins when zooming&#xD;
+BUGFIX: *Load Mission*: Fixed an thread synchronization issue that prevents showing same objects in E&amp;T&#xD;
+BUGFIX: *Load Mission*: Fixed an issue prevents loading the intro from Little Nav Map.&#xD;
+BUGFIX: *Load Mission*: Fixed an issue when a new mission already exists with the same name.&#xD;
+&#xD;
+---&#xD;
 1.0.7.2222&#xD;
 HIGHLIGHT: Shorten the files names, Airports in WorldMap&#xD;
 FEATURE: *Shorten file name:* Added a *Project Short Name* to shorten the files names in Community and Saved-Missions folder to avoid conflicts with MSFS not respecting file paths longer than 260 chars.&lt;br&gt;Some beta tester reports issues with GPS/Autopilot on first leg. If you encounter such issues, please report to me.&#xD;
