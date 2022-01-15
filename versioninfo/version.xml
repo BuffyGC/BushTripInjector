@@ -15,10 +15,23 @@
   <CurrentVersion>
     <Major>1</Major>
     <Minor>0</Minor>
-    <Build>7</Build>
-    <Revision>2236</Revision>
+    <Build>8</Build>
+    <Revision>2290</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+1.0.8.2290&#xD;
+HIGHLIGHT: Full Automated Translations&#xD;
+FEATURE: *Translations:* Use the free-of-charge DeepL-Pro API to create translations. Register for free at &lt;a href="https://www.deepl.com/pro#developer/" title="DeepL.com"&gt;DeepL.com&lt;/a&gt; and get 500000 chars free each month!&lt;br&gt;Drop the API Key into Translation Window and translate single entries, the missing or all entries for a single language  or for all languages.&lt;br&gt;Select if you want to translate the names of waypoints. Waypoints starting with WP will not be translated in bulk translation.&lt;br&gt; Keep in mind, nb-NO is not available on deepl.com.&#xD;
+UPDATE: *Flightbook:* Updates the OpenXML Library to the most recent version.&#xD;
+UPDATE: *Typos:* Corrected some more... thanks to fsx-rwt&#xD;
+UPDATE: *Event&amp;Triggers:* Paste coordinates on LibraryObjects.&#xD;
+UPDATE: *Flightsim.to:* Better handling when flightsim.to database is outdated for more than 7 days.&#xD;
+UPDATE: *Statusbar:* Don't show multi-line translation issues in statusbar. Thanks to Frontech&#xD;
+UPDATE: *Translate-Window:* Prevent closing the window without any entry. &#xD;
+BUGFIX: *Translate-Window:* Fixed a issue with a CTD when a LegEndTTS is empty. Thanks to Frontech&#xD;
+BUGFIX: *Generation/Translate:* Fixed a CTD when an airport with LegEndTTS is removed from Little Nav Map. Thanks to Frontech&#xD;
+&#xD;
+---&#xD;
 1.0.7.2236&#xD;
 HIGHLIGHT: BugFixes, Scaled Airport-Pins&#xD;
 UPDATE: *WorldMap:* Airport-Pins are now scaled based on zoomlevel.&#xD;
