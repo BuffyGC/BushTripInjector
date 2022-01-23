@@ -15,10 +15,23 @@
   <CurrentVersion>
     <Major>1</Major>
     <Minor>0</Minor>
-    <Build>8</Build>
-    <Revision>2290</Revision>
+    <Build>9</Build>
+    <Revision>2324</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+1.0.9.2324&#xD;
+HIGHLIGHT: Read BGL from Sim for ModelGuid&#xD;
+FEATURE: *BGL-Reader:* Added a SelectModelGuid-Button for LibraryObjects in Event&amp;Triggers. Just click the "..." Button and load all Models from Official and Community Folder. Double-Click to select one.&#xD;
+FEATURE: *Refueling*: Adjust the available airports for refueling to reduce the number.&#xD;
+FEATURE: *Refueling*: Added a button to show the airports available for refuel with your settings.&#xD;
+FEATURE: *Spb-Decompiler:* Enhanced to decompile VisualEffects Spb files. All stock Spb from Official and Packages folder can be decompiled now!&#xD;
+UPDATE: *License-Request:* Added a note, it is not useful to sent multiple requests in a short period.&#xD;
+UPDATE: *EULA:* Some adjustments in the EULA for DeepL-API access.&#xD;
+UPDATE: *AV-Software:* Optimized whitelisting for several AV-Suites.&#xD;
+UPDATE: *Tooltips:* Bring back the lost tooltips on base data. Thanks to 8bitgamerdad.&#xD;
+UPDATE: *Internal:* Added a better memory handling in some high memory use areas in the core modules.&#xD;
+&#xD;
+---&#xD;
 1.0.8.2290&#xD;
 HIGHLIGHT: Full Automated Translations&#xD;
 FEATURE: *Translations:* Use the free-of-charge DeepL-Pro API to create translations. Register for free at &lt;a href="https://www.deepl.com/pro#developer/" title="DeepL.com"&gt;DeepL.com&lt;/a&gt; and get 500000 chars free each month!&lt;br&gt;Drop the API Key into Translation Window and translate single entries, the missing or all entries for a single language  or for all languages.&lt;br&gt;Select if you want to translate the names of waypoints. Waypoints starting with WP will not be translated in bulk translation.&lt;br&gt; Keep in mind, nb-NO is not available on deepl.com.&#xD;
