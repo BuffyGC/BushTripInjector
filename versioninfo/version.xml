@@ -15,10 +15,20 @@
   <CurrentVersion>
     <Major>1</Major>
     <Minor>0</Minor>
-    <Build>9</Build>
-    <Revision>2324</Revision>
+    <Build>10</Build>
+    <Revision>2348</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+1.0.10.2348&#xD;
+HIGHLIGHT: Export the Models in common 3D format&#xD;
+FEATURE: *Model-Export:* Added a Export to glTF and GLB Context Menu in ModelGuidViewer including all textures. Use ModelConverterX to show the models.&#xD;
+UPDATE: *Memory:* Reduced the used memory for internal databases.&#xD;
+UPDATE: *Model-Browser:* Added a filter field to filter the result set.&#xD;
+UPDATE: *Online-Help:* Updated and added several pages and objects: Translation, Refueling, LibraryObject, ModelGuidBrowser, and many more small changes.&#xD;
+UPDATE: *Hill Shading:* Deactivated the hill shading tile layers because tiles server is shutdown finally. Please use OpenTopoMap or Stamen.&#xD;
+BUGFIX: *ShortName:* Fixed an issue generating files if the ShortName contains illegal filename characters. (Thanks Scotts87)&#xD;
+&#xD;
+---&#xD;
 1.0.9.2324&#xD;
 HIGHLIGHT: Read BGL from Sim for ModelGuid&#xD;
 FEATURE: *BGL-Reader:* Added a SelectModelGuid-Button for LibraryObjects in Event&amp;Triggers. Just click the "..." Button and load all Models from Official and Community Folder. Double-Click to select one.&#xD;
