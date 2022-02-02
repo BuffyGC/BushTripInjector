@@ -14,11 +14,20 @@
   </PrevVersion>
   <CurrentVersion>
     <Major>1</Major>
-    <Minor>0</Minor>
-    <Build>10</Build>
-    <Revision>2348</Revision>
+    <Minor>1</Minor>
+    <Build>0</Build>
+    <Revision>2376</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+1.1.0.2376&#xD;
+UPDATE: *Database:* Updated internal airport and runway database to sim version 1.22.2.0. 622 added airports, 56 deleted airports. 1414 new runways, 196 runways removed. Details see db_changelog.txt included in this package.&#xD;
+UPDATE: *Database:* Also the park database has been updated to sim version 1.22.2.0. Please note that this is a separate file for download. &#xD;
+UPDATE: *AirportCreation:* Calculation of magnetic declination when creating airports. For already created airports, magnetic declination is only calculated if it is not currently set.&#xD;
+BUGFIX: *Parking-Db:* Fixed an issue when checking for parking database updates.&#xD;
+BUGFIX: *AirportCreation:* Fixed an issue with the creation of airports: Runways did not reach the internal database correctly. This resulted in invalid airports in your mission. We apologize for this. Thanks to Brad Allen for pointing this out.&#xD;
+BUGFIX: *CTD:* Fixed an issue where BTI can crash to desktop if no runway surface can be detected.&#xD;
+&#xD;
+---&#xD;
 1.0.10.2348&#xD;
 HIGHLIGHT: Export the Models in common 3D format&#xD;
 FEATURE: *Model-Export:* Added a Export to glTF and GLB Context Menu in ModelGuidViewer including all textures. Use ModelConverterX to show the models.&#xD;
@@ -204,8 +213,8 @@ BUGFIX: *Changelog:* Fixed an issue when viewing the changelog from helpmenu and
   </RequiredDbVersion>
   <CurrentMSFSDatabaseVersion>
     <Major>1</Major>
-    <Minor>21</Minor>
-    <Build>13</Build>
+    <Minor>22</Minor>
+    <Build>2</Build>
     <Revision>0</Revision>
   </CurrentMSFSDatabaseVersion>
 </BushTripInjector>
