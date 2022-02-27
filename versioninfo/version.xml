@@ -16,9 +16,16 @@
     <Major>1</Major>
     <Minor>1</Minor>
     <Build>1</Build>
-    <Revision>2442</Revision>
+    <Revision>2460</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+1.1.1.2460&#xD;
+BUGFIX: *Dark mode:* An issue in dark mode with CTD at startup has been fixed.&#xD;
+BUGFIX: *Translate:* Fixed an issue with the translation window when trip fails to compile&#xD;
+BUGFIX: *Change language:* Fixed an issue when changing the project language if trip cannot be compiled&#xD;
+BUGFIX: *Flight Log:* An issue with creating the flight log has been fixed when trip cannot be compiled&#xD;
+&#xD;
+---&#xD;
 1.1.1.2442&#xD;
 PRO-VERSION: *MediaSlider/MediaScroller:*&lt;br&gt;Added the option to add images for marketplace MediaSlider and Media Scroller. This feature is only available when using BTI Fileformat.&#xD;
 USER-REQ: *Flight book:* Added the option to include the DialogAction and InstructorDialogAction texts for ProximityTriggers bound to areas on waypoints. Thanks to FronTech.&#xD;
@@ -34,7 +41,7 @@ BUGFIX: *Basedata:* The slipped "Change - Project - Language" button has been mo
 BUGFIX: *LicenseRequest:* Fixed an issue where the text file could not be created.&#xD;
 BUGFIX: *Anti-Meridian-Crossings:* Fixed an issue with refueling airports when your trip crosses the anti-meridian.&#xD;
 &#xD;
-    -- -&#xD;
+---&#xD;
 1.1.0.2376&#xD;
 UPDATE: *Database:* Updated internal airport and runway database to sim version 1.22.2.0. 622 added airports, 56 deleted airports. 1414 new runways, 196 runways removed. Details see db_changelog.txt included in this package.&#xD;
 UPDATE: *Database:* Also the park database has been updated to sim version 1.22.2.0. Please note that this is a separate file for download. &#xD;
