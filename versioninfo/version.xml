@@ -15,10 +15,18 @@
   <CurrentVersion>
     <Major>1</Major>
     <Minor>1</Minor>
-    <Build>1</Build>
-    <Revision>2460</Revision>
+    <Build>2</Build>
+    <Revision>2476</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+1.1.2.2476&#xD;
+USER-REQ: *Dependencies:* Define Dependencies to other packages. This feature is only available when using BTI Fileformat. You will find the Name and Version in the manifest of the used package. Versions are detected automatically. Dependencies of those dependencies will be added automatically in most cases.&#xD;
+UPDATE: *Database:* Updated internal database for airports and runway to Sim Version 1.23.12.0 Sim Update 8. Several changes in elevation and magnetic declination. Some runways have therefore been renamed.&#xD;
+UPDATE: *Database:* Updated the parking database package again.&#xD;
+UPDATE: *Steam:* Better message when BTI couldn't compile the mission with link to manual.&#xD;
+BUGFIX: *TTS:* Fixed a CTD in TTS Window.&#xD;
+&#xD;
+---&#xD;
 1.1.1.2460&#xD;
 BUGFIX: *Dark mode:* An issue in dark mode with CTD at startup has been fixed.&#xD;
 BUGFIX: *Translate:* Fixed an issue with the translation window when trip fails to compile&#xD;
