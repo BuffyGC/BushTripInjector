@@ -15,10 +15,21 @@
   <CurrentVersion>
     <Major>1</Major>
     <Minor>1</Minor>
-    <Build>2</Build>
-    <Revision>2476</Revision>
+    <Build>3</Build>
+    <Revision>2500</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+1.1.3.2500&#xD;
+USER-REQ: *KML-Export:* Export your Flightplan as KML to open it in Google Earth or any other tool of your choice.&#xD;
+UPDATE: *Extra-Menu:* The "Clear Message Cache" item has been renamed to "Reset All Messages" for clarity.&#xD;
+UPDATE: *Spb-Viewer:* Updated the Property-Definitions to Sim 1.23.12.0&#xD;
+BUGFIX: *ModelLibBrowser:* Fixed an issue that prevented the ModelLibBrowser from opening (thanks FronTech).&#xD;
+BUGFIX: *ModelLibBrowser:* Fixed an issue that prevented ModelLibBrowser from displaying the already loaded models.&#xD;
+BUGFIX: *Startup Handling:* Added sync of threads at startup to avoid clicks on the GUI before the GUI is ready to process clicks.&#xD;
+BUGFIX: *Images:* Fixed an issue when creating content info thumbnails with incorrect image sizes.&#xD;
+BUGFIX: *Airport-File:* The custom airport is no longer saved in a separate file when using the BTI file format.&#xD;
+&#xD;
+---&#xD;
 1.1.2.2476&#xD;
 USER-REQ: *Dependencies:* Define Dependencies to other packages. This feature is only available when using BTI Fileformat. You will find the Name and Version in the manifest of the used package. Versions are detected automatically. Dependencies of those dependencies will be added automatically in most cases.&#xD;
 UPDATE: *Database:* Updated internal database for airports and runway to Sim Version 1.23.12.0 Sim Update 8. Several changes in elevation and magnetic declination. Some runways have therefore been renamed.&#xD;
