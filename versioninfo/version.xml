@@ -15,10 +15,19 @@
   <CurrentVersion>
     <Major>1</Major>
     <Minor>1</Minor>
-    <Build>3</Build>
-    <Revision>2500</Revision>
+    <Build>4</Build>
+    <Revision>2519</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+1.1.4.2519&#xD;
+HIGHLIGHT: World Update 8 - Iberia&#xD;
+UPDATE: *Language:* Added pt-PT as supported language in BTI. Bem-vindo a Portugal.&#xD;
+UPDATE: *Database:* New databases are delay for 2-3 days. My BGL-Reader is broken after WU8, I need to fix it first. &#xD;
+UPDATE: *Modify Airport:* Added the option to cancel and revert the changes.&#xD;
+UPDATE: *Create Airport:* Added the option to override existing airports.&#xD;
+UPDATE: *Flightsim.to:* Adjustments to new flightsim.to add-on download format.&#xD;
+&#xD;
+---&#xD;
 1.1.3.2500&#xD;
 USER-REQ: *KML-Export:* Export your Flightplan as KML to open it in Google Earth or any other tool of your choice.&#xD;
 UPDATE: *Extra-Menu:* The "Clear Message Cache" item has been renamed to "Reset All Messages" for clarity.&#xD;
