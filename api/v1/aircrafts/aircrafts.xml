@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BushTripInjector xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <AircraftModel Name="Asobo Baron G58" SourcePath="..\Asobo_Baron_G58" SourceType="Deluxe" />
+  <AircraftModel Name="Boeing 787-10 Asobo" SourcePath="..\Asobo_B787_10" SourceType="PremiumDeluxe" />
+  <AircraftModel Name="Cessna 152 Aero Asobo" SourcePath="..\Asobo_C152_Aerobat" SourceType="Deluxe" />
+  <AircraftModel Name="Cessna Longitude Asobo" SourcePath="..\Asobo_Longitude" SourceType="PremiumDeluxe" />
+  <AircraftModel Name="Cessna Skyhawk Asobo" SourcePath="..\Asobo_C172sp_classic" SourceType="Deluxe" />
+  <AircraftModel Name="Cessna Skyhawk Floaters Asobo" SourcePath="..\Asobo_C172SP_Classic_Floats" SourceType="Deluxe" />
+  <AircraftModel Name="Cessna Skyhawk Skis Asobo" SourcePath="..\Asobo_C172SP_Classic_Skis" SourceType="Deluxe" />
+  <AircraftModel Name="DA40 TDI Asobo" SourcePath="..\Asobo_DA40_TDI" SourceType="Deluxe" />
+  <AircraftModel Name="DV20 Asobo" SourcePath="..\Asobo_DV20" SourceType="Deluxe" />
+  <AircraftModel Name="FlyingIron P-38L Lightning Down Beat" SourcePath="..\flyingiron_p38l" AltSourcePath="..\flyingiron-p38l" SourceType="Payware" />
+  <AircraftModel Name="FlyingIron P-38L Lightning California Cutie" BaseName="FlyingIron P-38L Lightning Down Beat" SourceType="Payware" />
+  <AircraftModel Name="FlyingIron P-38L Lightning Charlcie Jeanne" BaseName="FlyingIron P-38L Lightning Down Beat" SourceType="Payware" />
+  <AircraftModel Name="FlyingIron P-38L Lightning Down Beat" BaseName="FlyingIron P-38L Lightning Down Beat" SourceType="Payware" />
+  <AircraftModel Name="FlyingIron P-38L Lightning 'FlyingIron Sims'" BaseName="FlyingIron P-38L Lightning Down Beat" SourceType="Payware" />
+  <AircraftModel Name="FlyingIron P-38L Lightning Itsy Bitsy II" BaseName="FlyingIron P-38L Lightning Down Beat" SourceType="Payware" />
+  <AircraftModel Name="FlyingIron P-38L Lightning Marge" BaseName="FlyingIron P-38L Lightning Down Beat" SourceType="Payware" />
+  <AircraftModel Name="FlyingIron P-38L Lightning The Flying Dutchman" BaseName="FlyingIron P-38L Lightning Down Beat" SourceType="Payware" />
+  <AircraftModel Name="FlyingIron P-38L Lightning Wishful Thinking" BaseName="FlyingIron P-38L Lightning Down Beat" SourceType="Payware" />
+  <AircraftModel Name="FlyingIron P-38L Lightning YIPPEE" BaseName="FlyingIron P-38L Lightning Down Beat" SourceType="Payware" />
+  <AircraftModel Name="Pipistrel Alpha Electro Asobo" SourcePath="..\Asobo_Pipistrel" SourceType="PremiumDeluxe" />
+  <AircraftModel Name="Savage Shock Ultra Asobo" SourcePath="..\Asobo_Savage_ShockUltra" SourceType="PremiumDeluxe" />
+  <AircraftModel Name="Savage Shock Ultra Asobo Skis" SourcePath="..\Asobo_Savage_ShockUltra_Skis" SourceType="PremiumDeluxe" />
+  <AircraftModel Name="Savage Shock Ultra Floats Asobo" SourcePath="..\Asobo_Savage_ShockUltra_Floats" SourceType="PremiumDeluxe" />
+  <AircraftModel Name="SR22 Asobo" SourcePath="..\Asobo_SR22" SourceType="PremiumDeluxe" />
+  <AircraftModel Name="Volocity Microsoft" SourcePath="..\Microsoft_Volocity" SourceType="Official" />
+</BushTripInjector>
