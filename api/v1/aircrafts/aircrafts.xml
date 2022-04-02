@@ -9,6 +9,20 @@
   <AircraftModel Name="Cessna Skyhawk Skis Asobo" SourcePath="..\Asobo_C172SP_Classic_Skis" SourceType="Deluxe" />
   <AircraftModel Name="DA40 TDI Asobo" SourcePath="..\Asobo_DA40_TDI" SourceType="Deluxe" />
   <AircraftModel Name="DV20 Asobo" SourcePath="..\Asobo_DV20" SourceType="Deluxe" />
+  <AircraftModel Name="Junkers Ju52/3m 1939" SourcePath="..\Microsoft_Junkers_Ju52_1939" SourceType="Payware" />
+  <AircraftModel Name="Junkers Ju 52 Wheels Livery 01" BaseName="Junkers Ju52/3m 1939" SourceType="Payware" />
+  <AircraftModel Name="Junkers Ju 52 Wheels Livery 02" BaseName="Junkers Ju52/3m 1939" SourceType="Payware" />
+  <AircraftModel Name="Junkers Ju 52 Wheels Livery 03" BaseName="Junkers Ju52/3m 1939" SourceType="Payware" />
+  <AircraftModel Name="Junkers Ju 52 Wheels Livery 04" BaseName="Junkers Ju52/3m 1939" SourceType="Payware" />
+  <AircraftModel Name="Junkers Ju52/3m Floats" SourcePath="..\Microsoft_Junkers_Ju52_Floats" SourceType="Payware" />
+  <AircraftModel Name="Junkers Ju 52 Floats Livery 01" BaseName="Junkers Ju52/3m Floats" SourceType="Payware" />
+  <AircraftModel Name="Junkers Ju 52 Floats Livery 02" BaseName="Junkers Ju52/3m Floats" SourceType="Payware" />
+  <AircraftModel Name="Junkers Ju52/3m Modern" SourcePath="..\Microsoft_Junkers_Ju52_Modern" SourceType="Payware" />
+  <AircraftModel Name="Junkers Ju 52 Livery Aviators Club" BaseName="Junkers Ju52/3m Modern" SourceType="Payware" />
+  <AircraftModel Name="Junkers Ju 52 Livery Xbox Aviators Club" BaseName="Junkers Ju52/3m Modern" SourceType="Payware" />
+  <AircraftModel Name="Junkers Ju52/3m Skis" SourcePath="..\Microsoft_Junkers_Ju52_Skis" SourceType="Payware" />
+  <AircraftModel Name="Junkers Ju 52 Skis Livery 01" BaseName="Junkers Ju52/3m Skis" SourceType="Payware" />
+  <AircraftModel Name="Junkers Ju 52 Skis Livery 02" BaseName="Junkers Ju52/3m Skis" SourceType="Payware" />
   <AircraftModel Name="FlyingIron P-38L Lightning Down Beat" SourcePath="..\flyingiron_p38l" AltSourcePath="..\flyingiron-p38l" SourceType="Payware" />
   <AircraftModel Name="FlyingIron P-38L Lightning California Cutie" BaseName="FlyingIron P-38L Lightning Down Beat" SourceType="Payware" />
   <AircraftModel Name="FlyingIron P-38L Lightning Charlcie Jeanne" BaseName="FlyingIron P-38L Lightning Down Beat" SourceType="Payware" />
