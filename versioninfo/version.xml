@@ -16,9 +16,13 @@
     <Major>1</Major>
     <Minor>1</Minor>
     <Build>5</Build>
-    <Revision>2552</Revision>
+    <Revision>2563</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+1.1.5.2563&#xD;
+BUGFIX: *CTD:* Fixed an issue on startup, when your flightplan contains converted waypoints to airports&#xD;
+&#xD;
+---&#xD;
 1.1.5.2552&#xD;
 UPDATE: *Aircraft &amp; Livery Handling:* Better selection of aircraft in BaseData. Display of Official, Premium/Deluxe, Payware and Community Aircrafts and Liveries in a tree view.&lt;br&gt;Information about MSFS Marketplace encrypted planes are now read from the cloud at launch. *If you would like me to include your payware, please contact me on Discord.* I can then add these without you needing a new version of the BTI&#xD;
 UPDATE: *DeepL-API:* Several improvements including a pre-translation word count and an information about quota exceeds or when the available chars go less than 10% after translation.&#xD;
