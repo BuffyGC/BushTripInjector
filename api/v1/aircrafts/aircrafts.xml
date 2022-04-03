@@ -8,6 +8,15 @@
   <AircraftModel Name="Cessna Skyhawk Floaters Asobo" SourcePath="..\Asobo_C172SP_Classic_Floats" SourceType="Deluxe" />
   <AircraftModel Name="Cessna Skyhawk Skis Asobo" SourcePath="..\Asobo_C172SP_Classic_Skis" SourceType="Deluxe" />
   <AircraftModel Name="DA40 TDI Asobo" SourcePath="..\Asobo_DA40_TDI" SourceType="Deluxe" />
+  <AircraftModel Name="Dornier DoJ Cabina" SourcePath="..\Microsoft_Dornier_DoJ_Cabina" SourceType="Payware" />
+  <AircraftModel Name="Dornier DoJ Cabina Aviators Club Livery" BaseName="Dornier DoJ Cabina" SourceType="Payware" />
+  <AircraftModel Name="Dornier DoJ Cabina Xbox Aviators Club Livery" BaseName="Dornier DoJ Cabina" SourceType="Payware" />
+  <AircraftModel Name="Dornier DoJ N25 (Amundsen Wal)" SourcePath="..\Microsoft_Dornier_DoJ_N25" SourceType="Payware" />
+  <AircraftModel Name="Dornier DoJ N25 Aviators Club Livery" BaseName="Dornier DoJ N25 (Amundsen Wal)" SourceType="Payware" />
+  <AircraftModel Name="Dornier DoJ N25 Xbox Aviators Club Livery" BaseName="Dornier DoJ N25 (Amundsen Wal)" SourceType="Payware" />
+  <AircraftModel Name="Dornier DoJ Plus Ultra" SourcePath="..\Microsoft_Dornier_DoJ_PlusUltra" SourceType="Payware" />
+  <AircraftModel Name="Dornier DoJ Plus Ultra Aviators Club Livery" BaseName="Dornier DoJ Plus Ultra" SourceType="Payware" />
+  <AircraftModel Name="Dornier DoJ Plus Ultra Xbox Aviators Club Livery" BaseName="Dornier DoJ Plus Ultra" SourceType="Payware" />
   <AircraftModel Name="DV20 Asobo" SourcePath="..\Asobo_DV20" SourceType="Deluxe" />
   <AircraftModel Name="Junkers Ju52/3m 1939" SourcePath="..\Microsoft_Junkers_Ju52_1939" SourceType="Payware" />
   <AircraftModel Name="Junkers Ju 52 Wheels Livery 01" BaseName="Junkers Ju52/3m 1939" SourceType="Payware" />
