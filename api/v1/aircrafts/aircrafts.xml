@@ -18,6 +18,18 @@
   <AircraftModel Name="Dornier DoJ Plus Ultra Aviators Club Livery" BaseName="Dornier DoJ Plus Ultra" SourceType="Payware" />
   <AircraftModel Name="Dornier DoJ Plus Ultra Xbox Aviators Club Livery" BaseName="Dornier DoJ Plus Ultra" SourceType="Payware" />
   <AircraftModel Name="DV20 Asobo" SourcePath="..\Asobo_DV20" SourceType="Deluxe" />
+  <AircraftModel Name="Fokker FVIIa KLM" SourcePath="..\Microsoft_Fokker_FVIIa" SourceType="Payware" />
+  <AircraftModel Name="Fokker FVIIb Modern SC" SourcePath="..\Microsoft_Fokker_FVIIb_Modern" SourceType="Payware" />
+  <AircraftModel Name="Fokker FVIIb Modern AVC" BaseName="Fokker FVIIb Modern SC" SourceType="Payware" />
+  <AircraftModel Name="Fokker FVIIb Modern Generic" BaseName="Fokker FVIIb Modern SC" SourceType="Payware" />
+  <AircraftModel Name="Fokker FVIIb Modern KLM" BaseName="Fokker FVIIb Modern SC" SourceType="Payware" />
+  <AircraftModel Name="Fokker FVIIb Modern LAPE" BaseName="Fokker FVIIb Modern SC" SourceType="Payware" />
+  <AircraftModel Name="Fokker FVIIb Modern Littoria" BaseName="Fokker FVIIb Modern SC" SourceType="Payware" />
+  <AircraftModel Name="Fokker FVIIb Modern Sabena" BaseName="Fokker FVIIb Modern SC" SourceType="Payware" />
+  <AircraftModel Name="Fokker FVIIb Modern XAC" BaseName="Fokker FVIIb Modern SC" SourceType="Payware" />
+  <AircraftModel Name="Fokker FVIIb Old Floats FR" SourcePath="..\Microsoft_Fokker_FVIIb_Floats" SourceType="Payware" />
+  <AircraftModel Name="Fokker FVIIb Old SC" SourcePath="..\Microsoft_Fokker_FVIIb_Old" SourceType="Payware" />
+  <AircraftModel Name="Fokker FVIIb Old Skis JF" SourcePath="..\Microsoft_Fokker_FVIIb_Skis" SourceType="Payware" />
   <AircraftModel Name="Junkers Ju52/3m 1939" SourcePath="..\Microsoft_Junkers_Ju52_1939" SourceType="Payware" />
   <AircraftModel Name="Junkers Ju 52 Wheels Livery 01" BaseName="Junkers Ju52/3m 1939" SourceType="Payware" />
   <AircraftModel Name="Junkers Ju 52 Wheels Livery 02" BaseName="Junkers Ju52/3m 1939" SourceType="Payware" />
