@@ -15,10 +15,18 @@
   <CurrentVersion>
     <Major>1</Major>
     <Minor>1</Minor>
-    <Build>4</Build>
-    <Revision>2526</Revision>
+    <Build>5</Build>
+    <Revision>2552</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+1.1.5.2552&#xD;
+UPDATE: *Aircraft &amp; Livery Handling:* Better selection of aircraft in BaseData. Display of Official, Premium/Deluxe, Payware and Community Aircrafts and Liveries in a tree view.&lt;br&gt;Information about MSFS Marketplace encrypted planes are now read from the cloud at launch. *If you would like me to include your payware, please contact me on Discord.* I can then add these without you needing a new version of the BTI&#xD;
+UPDATE: *DeepL-API:* Several improvements including a pre-translation word count and an information about quota exceeds or when the available chars go less than 10% after translation.&#xD;
+UPDATE: *WorldMap:* Closed airports are crossed out now.&#xD;
+UPDATE: *WorldMap:* The TTS creation from the WorldMap can now be canceled and uses the click point.&#xD;
+BUGFIX: *Translations:* A CTD was fixed when an issue occurred during automatic translation.&#xD;
+&#xD;
+---&#xD;
 1.1.4.2526&#xD;
 HIGHLIGHT: World Update 8 - Iberia&#xD;
 UPDATE: *Main-Database:* Updated the internal database to sim version 1.24.5.0. Airports increased by 982, runways by 2000. For details, see db-changelog.txt included in this package.&#xD;
