@@ -1,25 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BushTripInjector xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <AircraftModel Name="Asobo Baron G58" SourcePath="..\Asobo_Baron_G58" SourceType="Deluxe" />
-  <AircraftModel Name="Boeing 787-10 Asobo" SourcePath="..\Asobo_B787_10" SourceType="PremiumDeluxe" />
-  <AircraftModel Name="Cessna 152 Aero Asobo" SourcePath="..\Asobo_C152_Aerobat" SourceType="Deluxe" />
-  <AircraftModel Name="Cessna Longitude Asobo" SourcePath="..\Asobo_Longitude" SourceType="PremiumDeluxe" />
-  <AircraftModel Name="Cessna Skyhawk Asobo" SourcePath="..\Asobo_C172sp_classic" SourceType="Deluxe" />
-  <AircraftModel Name="Cessna Skyhawk Floaters Asobo" SourcePath="..\Asobo_C172SP_Classic_Floats" SourceType="Deluxe" />
-  <AircraftModel Name="Cessna Skyhawk Skis Asobo" SourcePath="..\Asobo_C172SP_Classic_Skis" SourceType="Deluxe" />
-  <AircraftModel Name="DA40 TDI Asobo" SourcePath="..\Asobo_DA40_TDI" SourceType="Deluxe" />
-  <AircraftModel Name="Dornier DoJ Cabina" SourcePath="..\Microsoft_Dornier_DoJ_Cabina" SourceType="Payware" />
+  <AircraftModel Name="Asobo Baron G58" SourcePath="..\Asobo_Baron_G58" AltSourcePath="asobo-aircraft-baron-g58" SourceType="Deluxe" />
+  <AircraftModel Name="Boeing 787-10 Asobo" SourcePath="..\Asobo_B787_10" AltSourcePath="asobo-aircraft-b787-10" SourceType="PremiumDeluxe" />
+  <AircraftModel Name="Cessna 152 Aero Asobo" SourcePath="..\Asobo_C152_Aerobat" AltSourcePath="asobo-aircraft-c152-aerobat" SourceType="Deluxe" />
+  <AircraftModel Name="Cessna Longitude Asobo" SourcePath="..\Asobo_Longitude" AltSourcePath="asobo-aircraft-longitude" SourceType="PremiumDeluxe" />
+  <AircraftModel Name="Cessna Skyhawk Asobo" SourcePath="..\Asobo_C172sp_classic" AltSourcePath="asobo-aircraft-c172sp-classic" SourceType="Deluxe" />
+  <AircraftModel Name="Cessna Skyhawk Floaters Asobo" SourcePath="..\Asobo_C172SP_Classic_Floats" AltSourcePath="asobo-aircraft-c172sp-classic" SourceType="Deluxe" />
+  <AircraftModel Name="Cessna Skyhawk Skis Asobo" SourcePath="..\Asobo_C172SP_Classic_Skis" AltSourcePath="asobo-aircraft-c172sp-classic" SourceType="Deluxe" />
+  <AircraftModel Name="DA40 TDI Asobo" SourcePath="..\Asobo_DA40_TDI" AltSourcePath="asobo-aircraft-da40-tdi" SourceType="Deluxe" />
+  <AircraftModel Name="Dornier DoJ Cabina" SourcePath="..\Microsoft_Dornier_DoJ_Cabina" AltSourcePath="microsoft-aircraft-dornier-doj" SourceType="Payware" />
   <AircraftModel Name="Dornier DoJ Cabina Aviators Club Livery" BaseName="Dornier DoJ Cabina" SourceType="Payware" />
   <AircraftModel Name="Dornier DoJ Cabina Xbox Aviators Club Livery" BaseName="Dornier DoJ Cabina" SourceType="Payware" />
-  <AircraftModel Name="Dornier DoJ N25 (Amundsen Wal)" SourcePath="..\Microsoft_Dornier_DoJ_N25" SourceType="Payware" />
+  <AircraftModel Name="Dornier DoJ N25 (Amundsen Wal)" SourcePath="..\Microsoft_Dornier_DoJ_N25" AltSourcePath="microsoft-aircraft-dornier-doj" SourceType="Payware" />
   <AircraftModel Name="Dornier DoJ N25 Aviators Club Livery" BaseName="Dornier DoJ N25 (Amundsen Wal)" SourceType="Payware" />
   <AircraftModel Name="Dornier DoJ N25 Xbox Aviators Club Livery" BaseName="Dornier DoJ N25 (Amundsen Wal)" SourceType="Payware" />
-  <AircraftModel Name="Dornier DoJ Plus Ultra" SourcePath="..\Microsoft_Dornier_DoJ_PlusUltra" SourceType="Payware" />
+  <AircraftModel Name="Dornier DoJ Plus Ultra" SourcePath="..\Microsoft_Dornier_DoJ_PlusUltra" AltSourcePath="microsoft-aircraft-dornier-doj" SourceType="Payware" />
   <AircraftModel Name="Dornier DoJ Plus Ultra Aviators Club Livery" BaseName="Dornier DoJ Plus Ultra" SourceType="Payware" />
   <AircraftModel Name="Dornier DoJ Plus Ultra Xbox Aviators Club Livery" BaseName="Dornier DoJ Plus Ultra" SourceType="Payware" />
-  <AircraftModel Name="DV20 Asobo" SourcePath="..\Asobo_DV20" SourceType="Deluxe" />
-  <AircraftModel Name="Fokker FVIIa KLM" SourcePath="..\Microsoft_Fokker_FVIIa" SourceType="Payware" />
-  <AircraftModel Name="Fokker FVIIb Modern SC" SourcePath="..\Microsoft_Fokker_FVIIb_Modern" SourceType="Payware" />
+  <AircraftModel Name="DV20 Asobo" SourcePath="..\Asobo_DV20" AltSourcePath="asobo-aircraft-dv20" SourceType="Deluxe" />
+  <AircraftModel Name="Fokker FVIIa KLM" SourcePath="..\Microsoft_Fokker_FVIIa" AltSourcePath="microsoft-aircraft-fokker-vii" SourceType="Payware" />
+  <AircraftModel Name="Fokker FVIIb Modern SC" SourcePath="..\Microsoft_Fokker_FVIIb_Modern" AltSourcePath="microsoft-aircraft-fokker-vii" SourceType="Payware" />
   <AircraftModel Name="Fokker FVIIb Modern AVC" BaseName="Fokker FVIIb Modern SC" SourceType="Payware" />
   <AircraftModel Name="Fokker FVIIb Modern Generic" BaseName="Fokker FVIIb Modern SC" SourceType="Payware" />
   <AircraftModel Name="Fokker FVIIb Modern KLM" BaseName="Fokker FVIIb Modern SC" SourceType="Payware" />
@@ -27,24 +27,24 @@
   <AircraftModel Name="Fokker FVIIb Modern Littoria" BaseName="Fokker FVIIb Modern SC" SourceType="Payware" />
   <AircraftModel Name="Fokker FVIIb Modern Sabena" BaseName="Fokker FVIIb Modern SC" SourceType="Payware" />
   <AircraftModel Name="Fokker FVIIb Modern XAC" BaseName="Fokker FVIIb Modern SC" SourceType="Payware" />
-  <AircraftModel Name="Fokker FVIIb Old Floats FR" SourcePath="..\Microsoft_Fokker_FVIIb_Floats" SourceType="Payware" />
-  <AircraftModel Name="Fokker FVIIb Old SC" SourcePath="..\Microsoft_Fokker_FVIIb_Old" SourceType="Payware" />
-  <AircraftModel Name="Fokker FVIIb Old Skis JF" SourcePath="..\Microsoft_Fokker_FVIIb_Skis" SourceType="Payware" />
-  <AircraftModel Name="Junkers Ju52/3m 1939" SourcePath="..\Microsoft_Junkers_Ju52_1939" SourceType="Payware" />
+  <AircraftModel Name="Fokker FVIIb Old Floats FR" SourcePath="..\Microsoft_Fokker_FVIIb_Floats" AltSourcePath="microsoft-aircraft-fokker-vii" SourceType="Payware" />
+  <AircraftModel Name="Fokker FVIIb Old SC" SourcePath="..\Microsoft_Fokker_FVIIb_Old" AltSourcePath="microsoft-aircraft-fokker-vii" SourceType="Payware" />
+  <AircraftModel Name="Fokker FVIIb Old Skis JF" SourcePath="..\Microsoft_Fokker_FVIIb_Skis" AltSourcePath="microsoft-aircraft-fokker-vii" SourceType="Payware" />
+  <AircraftModel Name="Junkers Ju52/3m 1939" SourcePath="..\Microsoft_Junkers_Ju52_1939" AltSourcePath="microsoft-aircraft-junkers-ju52" SourceType="Payware" />
   <AircraftModel Name="Junkers Ju 52 Wheels Livery 01" BaseName="Junkers Ju52/3m 1939" SourceType="Payware" />
   <AircraftModel Name="Junkers Ju 52 Wheels Livery 02" BaseName="Junkers Ju52/3m 1939" SourceType="Payware" />
   <AircraftModel Name="Junkers Ju 52 Wheels Livery 03" BaseName="Junkers Ju52/3m 1939" SourceType="Payware" />
   <AircraftModel Name="Junkers Ju 52 Wheels Livery 04" BaseName="Junkers Ju52/3m 1939" SourceType="Payware" />
-  <AircraftModel Name="Junkers Ju52/3m Floats" SourcePath="..\Microsoft_Junkers_Ju52_Floats" SourceType="Payware" />
+  <AircraftModel Name="Junkers Ju52/3m Floats" SourcePath="..\Microsoft_Junkers_Ju52_Floats" AltSourcePath="microsoft-aircraft-junkers-ju52" SourceType="Payware" />
   <AircraftModel Name="Junkers Ju 52 Floats Livery 01" BaseName="Junkers Ju52/3m Floats" SourceType="Payware" />
   <AircraftModel Name="Junkers Ju 52 Floats Livery 02" BaseName="Junkers Ju52/3m Floats" SourceType="Payware" />
-  <AircraftModel Name="Junkers Ju52/3m Modern" SourcePath="..\Microsoft_Junkers_Ju52_Modern" SourceType="Payware" />
+  <AircraftModel Name="Junkers Ju52/3m Modern" SourcePath="..\Microsoft_Junkers_Ju52_Modern" AltSourcePath="microsoft-aircraft-junkers-ju52" SourceType="Payware" />
   <AircraftModel Name="Junkers Ju 52 Livery Aviators Club" BaseName="Junkers Ju52/3m Modern" SourceType="Payware" />
   <AircraftModel Name="Junkers Ju 52 Livery Xbox Aviators Club" BaseName="Junkers Ju52/3m Modern" SourceType="Payware" />
-  <AircraftModel Name="Junkers Ju52/3m Skis" SourcePath="..\Microsoft_Junkers_Ju52_Skis" SourceType="Payware" />
+  <AircraftModel Name="Junkers Ju52/3m Skis" SourcePath="..\Microsoft_Junkers_Ju52_Skis" AltSourcePath="microsoft-aircraft-junkers-ju52" SourceType="Payware" />
   <AircraftModel Name="Junkers Ju 52 Skis Livery 01" BaseName="Junkers Ju52/3m Skis" SourceType="Payware" />
   <AircraftModel Name="Junkers Ju 52 Skis Livery 02" BaseName="Junkers Ju52/3m Skis" SourceType="Payware" />
-  <AircraftModel Name="FlyingIron P-38L Lightning Down Beat" SourcePath="..\flyingiron_p38l" AltSourcePath="..\flyingiron-p38l" SourceType="Payware" />
+  <AircraftModel Name="FlyingIron P-38L Lightning Down Beat" SourcePath="..\flyingiron_p38l" AltSourcePath="flyingiron-p38l" SourceType="Payware" />
   <AircraftModel Name="FlyingIron P-38L Lightning California Cutie" BaseName="FlyingIron P-38L Lightning Down Beat" SourceType="Payware" />
   <AircraftModel Name="FlyingIron P-38L Lightning Charlcie Jeanne" BaseName="FlyingIron P-38L Lightning Down Beat" SourceType="Payware" />
   <AircraftModel Name="FlyingIron P-38L Lightning Down Beat" BaseName="FlyingIron P-38L Lightning Down Beat" SourceType="Payware" />
@@ -54,10 +54,10 @@
   <AircraftModel Name="FlyingIron P-38L Lightning The Flying Dutchman" BaseName="FlyingIron P-38L Lightning Down Beat" SourceType="Payware" />
   <AircraftModel Name="FlyingIron P-38L Lightning Wishful Thinking" BaseName="FlyingIron P-38L Lightning Down Beat" SourceType="Payware" />
   <AircraftModel Name="FlyingIron P-38L Lightning YIPPEE" BaseName="FlyingIron P-38L Lightning Down Beat" SourceType="Payware" />
-  <AircraftModel Name="Pipistrel Alpha Electro Asobo" SourcePath="..\Asobo_Pipistrel" SourceType="PremiumDeluxe" />
-  <AircraftModel Name="Savage Shock Ultra Asobo" SourcePath="..\Asobo_Savage_ShockUltra" SourceType="PremiumDeluxe" />
-  <AircraftModel Name="Savage Shock Ultra Asobo Skis" SourcePath="..\Asobo_Savage_ShockUltra_Skis" SourceType="PremiumDeluxe" />
-  <AircraftModel Name="Savage Shock Ultra Floats Asobo" SourcePath="..\Asobo_Savage_ShockUltra_Floats" SourceType="PremiumDeluxe" />
-  <AircraftModel Name="SR22 Asobo" SourcePath="..\Asobo_SR22" SourceType="PremiumDeluxe" />
-  <AircraftModel Name="Volocity Microsoft" SourcePath="..\Microsoft_Volocity" SourceType="Official" />
+  <AircraftModel Name="Pipistrel Alpha Electro Asobo" SourcePath="..\Asobo_Pipistrel" AltSourcePath="asobo-aircraft-pipistrel" SourceType="PremiumDeluxe" />
+  <AircraftModel Name="Savage Shock Ultra Asobo" SourcePath="..\Asobo_Savage_ShockUltra" AltSourcePath="asobo-aircraft-savage-shockultra" SourceType="PremiumDeluxe" />
+  <AircraftModel Name="Savage Shock Ultra Asobo Skis" SourcePath="..\Asobo_Savage_ShockUltra_Skis" AltSourcePath="asobo-aircraft-savage-shockultra" SourceType="PremiumDeluxe" />
+  <AircraftModel Name="Savage Shock Ultra Floats Asobo" SourcePath="..\Asobo_Savage_ShockUltra_Floats" AltSourcePath="asobo-aircraft-savage-shockultra" SourceType="PremiumDeluxe" />
+  <AircraftModel Name="SR22 Asobo" SourcePath="..\Asobo_SR22" AltSourcePath="asobo-aircraft-sr22" SourceType="PremiumDeluxe" />
+  <AircraftModel Name="Volocity Microsoft" SourcePath="..\Microsoft_Volocity" AltSourcePath="microsoft-aircraft-volocity" SourceType="Official" />
 </BushTripInjector>
