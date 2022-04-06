@@ -2,6 +2,10 @@
 <BushTripInjector xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <AircraftModel Name="Asobo Baron G58" SourcePath="..\Asobo_Baron_G58" AltSourcePath="asobo-aircraft-baron-g58" SourceType="Deluxe" />
   <AircraftModel Name="Boeing 787-10 Asobo" SourcePath="..\Asobo_B787_10" AltSourcePath="asobo-aircraft-b787-10" SourceType="PremiumDeluxe" />
+  <AircraftModel Name="Carenado M20R Ovation D-ERWO" SourcePath="..\Carenado_M20R_Ovation" AltSourcePath="carenado-aircraft-m20r-ovation" SourceType="Payware" />
+  <AircraftModel Name="Carenado M20R Ovation N541JS" BaseName="Carenado M20R Ovation D-ERWO" SourceType="Payware" />
+  <AircraftModel Name="Carenado M20R Ovation N48MQ" BaseName="Carenado M20R Ovation D-ERWO" SourceType="Payware" />
+  <AircraftModel Name="Carenado M20R Ovation N247VD" BaseName="Carenado M20R Ovation D-ERWO" SourceType="Payware" />
   <AircraftModel Name="Cessna 152 Aero Asobo" SourcePath="..\Asobo_C152_Aerobat" AltSourcePath="asobo-aircraft-c152-aerobat" SourceType="Deluxe" />
   <AircraftModel Name="Cessna Longitude Asobo" SourcePath="..\Asobo_Longitude" AltSourcePath="asobo-aircraft-longitude" SourceType="PremiumDeluxe" />
   <AircraftModel Name="Cessna Skyhawk Asobo" SourcePath="..\Asobo_C172sp_classic" AltSourcePath="asobo-aircraft-c172sp-classic" SourceType="Deluxe" />
