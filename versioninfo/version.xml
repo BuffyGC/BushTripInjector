@@ -15,10 +15,22 @@
   <CurrentVersion>
     <Major>1</Major>
     <Minor>1</Minor>
-    <Build>5</Build>
-    <Revision>2563</Revision>
+    <Build>6</Build>
+    <Revision>2590</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+1.1.6.2590&#xD;
+FEATURE: *Open closed Airports:* Open closed airports: Added the ability to reopen airports closed in the simulation. Check the flight plan page! BushTripInjector will notify you when your flight plan contains a closed airport.&#xD;
+USER-REQ: *HTML Tagging:* Changed the tagging of &amp;amp; &amp;apos; &amp;quot; in the description field has been changed when this text is defined only once. Due to a simulation error, they are not displayed correctly for custom content when HTLM tags are used. You can check the usage in the translation window.&#xD;
+UPDATE: *Database:* several improvements to find closed airports as the sim does. New database with 288 airports now closed and 177 airfields now marked as open. Details as always in the additional db-changelog.&#xD;
+UPDATE: *Pre-flight check:* Check if an airport used in the mission is closed and issue a corresponding message.&#xD;
+UPDATE: *Refueling Airports:* closed airports are now not used as refueling airports.&#xD;
+UPDATE: *AircraftSelection:* Shows the installation status of aircraft. BTI shows you all aircraft with the status, MissionChanger only the installed ones.&#xD;
+UPDATE: *Aircrafts:* Added the Dornier DoJ series&#xD;
+UPDATE: *Aircrafts:* Added the Fokker FVII series&#xD;
+UPDATE: *Aircrafts:* Added the Carenado M20R series&#xD;
+&#xD;
+---&#xD;
 1.1.5.2563&#xD;
 BUGFIX: *CTD:* Fixed an issue on startup, when your flightplan contains converted waypoints to airports&#xD;
 &#xD;
