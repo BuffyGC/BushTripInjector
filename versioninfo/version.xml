@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BushTripInjector xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Id="BushTripInjector">
   <MinVersion>
-    <Major>0</Major>
-    <Minor>10</Minor>
-    <Build>3</Build>
-    <Revision>1742</Revision>
+    <Major>1</Major>
+    <Minor>1</Minor>
+    <Build>0</Build>
+    <Revision>2375</Revision>
   </MinVersion>
   <PrevVersion>
     <Major>1</Major>
@@ -15,10 +15,22 @@
   <CurrentVersion>
     <Major>1</Major>
     <Minor>1</Minor>
-    <Build>6</Build>
-    <Revision>2590</Revision>
+    <Build>7</Build>
+    <Revision>2635</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+1.1.7.2635&#xD;
+USER-REQ: *Flight book:* Add the TTS you have defined from Worldmap to the flight book. Auto-detect the leg and export the associated TTS in flight plan order. (FronTech)&#xD;
+UPDATE: *WorldMap:* The world map options have been moved to an expander in the upper right corner to be prepared for future developments.&#xD;
+UPDATE: *Read-LNM:* Remove line feeds from names and ids to avoid empty navigation logs.&#xD;
+UPDATE: *Wiki:* Show wikilinks of other languages sorted alphabetically.&#xD;
+UPDATE: *Wiki:* Remember the Window position and size.&#xD;
+UPDATE: *WebView2:* Updated to latest version of WebView2&#xD;
+UPDATE: *OpenXml:* Updated to latest version of OpenXml DocumentFormat&#xD;
+BUGFIX: *Wiki:* English wiki link was mapped to base-lng and opened the wrong wiki when using a base-lng other than en-US.&#xD;
+BUGFIX: *CreateImages:* An issue with creating images from non-Microsoft map providers has been fixed. (Thx to FronTech)&#xD;
+&#xD;
+---&#xD;
 1.1.6.2590&#xD;
 FEATURE: *Open closed Airports:* Open closed airports: Added the ability to reopen airports closed in the simulation. Check the flight plan page! BushTripInjector will notify you when your flight plan contains a closed airport.&#xD;
 USER-REQ: *HTML Tagging:* Changed the tagging of &amp;amp; &amp;apos; &amp;quot; in the description field has been changed when this text is defined only once. Due to a simulation error, they are not displayed correctly for custom content when HTLM tags are used. You can check the usage in the translation window.&#xD;
