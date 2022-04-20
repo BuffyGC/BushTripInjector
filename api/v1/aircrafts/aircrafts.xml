@@ -1,6 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BushTripInjector xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <AircraftModel Name="Asobo Baron G58" SourcePath="..\Asobo_Baron_G58" AltSourcePath="asobo-aircraft-baron-g58" SourceType="Deluxe" />
+  <AircraftModel Name="Beechcraft D17S Staggerwing N65268" SourcePath="..\MSCarenado_D17_Staggerwing" AltSourcePath="microsoft-aircraft-d17-staggerwing" SourceType="Payware" />
+  <AircraftModel Name="Beechcraft D17S Staggerwing N115H" BaseName="Beechcraft D17S Staggerwing N65268" SourceType="Payware" />
+  <AircraftModel Name="Beechcraft D17S Staggerwing N25BS" BaseName="Beechcraft D17S Staggerwing N65268" SourceType="Payware" />
+  <AircraftModel Name="Beechcraft D17S Staggerwing N52EEZ" BaseName="Beechcraft D17S Staggerwing N65268" SourceType="Payware" />
+  <AircraftModel Name="Beechcraft D17S Staggerwing NC1413" BaseName="Beechcraft D17S Staggerwing N65268" SourceType="Payware" />
+  <AircraftModel Name="Beechcraft D17S Staggerwing NC18579" BaseName="Beechcraft D17S Staggerwing N65268" SourceType="Payware" />
+  <AircraftModel Name="Beechcraft D17S Staggerwing NC2377" BaseName="Beechcraft D17S Staggerwing N65268" SourceType="Payware" />
+  <AircraftModel Name="Beechcraft D17S Staggerwing NC353E" BaseName="Beechcraft D17S Staggerwing N65268" SourceType="Payware" />
+  <AircraftModel Name="Beechcraft D17S Staggerwing NC4135" BaseName="Beechcraft D17S Staggerwing N65268" SourceType="Payware" />
   <AircraftModel Name="Boeing 787-10 Asobo" SourcePath="..\Asobo_B787_10" AltSourcePath="asobo-aircraft-b787-10" SourceType="PremiumDeluxe" />
   <AircraftModel Name="Carenado M20R Ovation D-ERWO" SourcePath="..\Carenado_M20R_Ovation" AltSourcePath="carenado-aircraft-m20r-ovation" SourceType="Payware" />
   <AircraftModel Name="Carenado M20R Ovation N541JS" BaseName="Carenado M20R Ovation D-ERWO" SourceType="Payware" />
