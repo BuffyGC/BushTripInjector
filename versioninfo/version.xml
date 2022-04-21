@@ -14,11 +14,25 @@
   </PrevVersion>
   <CurrentVersion>
     <Major>1</Major>
-    <Minor>1</Minor>
-    <Build>7</Build>
-    <Revision>2635</Revision>
+    <Minor>2</Minor>
+    <Build>0</Build>
+    <Revision>2667</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+1.2.0.2667&#xD;
+HIGHLIGHT: World Map Improvements&#xD;
+FEATURE: *WorldMap:* Create text-to-speech with information from Wikipedia directly from WorldMap.&#xD;
+FEATURE: *WorldMap:* Display the areas you created in Event&amp;Triggers on the WorldMap with pins.&#xD;
+FEATURE: *WorldMap:* Display the TTS created by WorldMap on WorldMap with pins.&#xD;
+FEATURE: *WorldMap:* Display the waypoints and stopover airports of your trip in WorldMap with pins.&#xD;
+UPDATE: *WP-Names:* Remove leading and trailing spaces from waypoint names to avoid confusing the simulator.&#xD;
+UPDATE: *TTS:* With a simupdate there was a change in the behavior of DelaySeconds for TTS. Previously the delay applied from the start of the action, now from the end of the action. This makes the automatic calculation of BushTripInjector unnecessary and it was therefore removed. Please check your TTS and the EnterDelay/ExitDelay there and reset it to a smaller value. &#xD;
+BUGFIX: *BTI-File:* Fixed an issue where updating the copy of the LittleNavMap file contained in BTI did not work. This only affected if you deleted your LittleNavMap file and BTI used the internal copy. &#xD;
+BUGFIX: *BTI-File:* Departure coordinates were not changed if the departure airport was changed and the new and old airport had an identically named parking position available.&#xD;
+BUGFIX: *ProximityTrigger:* The reference to the ProximityTrigger has been removed from all areas when the ProximityTrigger is removed.&#xD;
+BUGFIX: *Aircrafts:* The installation status of a community aircraft was not detected correctly.&#xD;
+&#xD;
+---&#xD;
 1.1.7.2635&#xD;
 USER-REQ: *Flight book:* Add the TTS you have defined from Worldmap to the flight book. Auto-detect the leg and export the associated TTS in flight plan order. (FronTech)&#xD;
 UPDATE: *WorldMap:* The world map options have been moved to an expander in the upper right corner to be prepared for future developments.&#xD;
