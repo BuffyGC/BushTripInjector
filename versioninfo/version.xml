@@ -15,10 +15,25 @@
   <CurrentVersion>
     <Major>1</Major>
     <Minor>2</Minor>
-    <Build>0</Build>
-    <Revision>2667</Revision>
+    <Build>1</Build>
+    <Revision>2700</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+1.2.1.2700&#xD;
+HIGHLIGHT: Partial Missions&#xD;
+PRO-VERSION: *Marketplace:* Removing whitespaces from image filenames for marketplace for SU9. If you are currently using images with blanks in the filenames, you need to remove and add them again!&#xD;
+PRO-VERSION: *Marketplace:* Support for new Marketplace.json instead of business.json will follow. &#xD;
+FEATURE: *Partial Missions:* Generate your legs as single bush trips for testing purposes. Keep in mind, such a cropped bush trip may behave differently if on previous legs payload/fuel or similar were changed.&#xD;
+UPDATE: *Aircraft-Selection:* Added Beechcraft D17S Staggerwing (pgilbr)&#xD;
+UPDATE: *Spb-Viewer:* Updated the property definitions to sim version 1.25.7.0&#xD;
+UPDATE: *Aircraft-Selection:* Added a warning before generating a mission if the aircraft is not available in the simulator. (hoffa68)&#xD;
+UPDATE: *Marketplace:* Updated ProjectTemplate and PackageTemplate for SU9.&#xD;
+UPDATE: *Marketplace:* Mask more special characters in the description for the MarketPlace. (Synoxys)&#xD;
+BUGFIX: *Event&amp;Triggers:* Fixed an issue that prevented the display of delay and speaker label for the InstructorDialog action.&#xD;
+BUGFIX: *Wait message:* Fixed an issue that you could edit the wait message. (Synoxys)&#xD;
+BUGFIX: *Import Xml/Spb:* Fixed an issue on converting FSX-Simvars to MSFS-Simvars. (Synoxys)&#xD;
+&#xD;
+---&#xD;
 1.2.0.2667&#xD;
 HIGHLIGHT: World Map Improvements&#xD;
 FEATURE: *WorldMap:* Create text-to-speech with information from Wikipedia directly from WorldMap.&#xD;
