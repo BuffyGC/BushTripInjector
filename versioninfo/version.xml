@@ -159,8 +159,8 @@ BUGFIX: *CTD:* Fixed an issue where BTI can crash to desktop if no runway surfac
   </RequiredDbVersion>
   <CurrentMSFSDatabaseVersion>
     <Major>1</Major>
-    <Minor>24</Minor>
-    <Build>5</Build>
+    <Minor>25</Minor>
+    <Build>7</Build>
     <Revision>0</Revision>
   </CurrentMSFSDatabaseVersion>
 </BushTripInjector>
