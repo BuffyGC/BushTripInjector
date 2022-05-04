@@ -15,10 +15,19 @@
   <CurrentVersion>
     <Major>1</Major>
     <Minor>2</Minor>
-    <Build>1</Build>
-    <Revision>2700</Revision>
+    <Build>2</Build>
+    <Revision>2716</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+1.2.2.2716&#xD;
+UPDATE: *Database:* Update of the internal airport and runway database to MSFS 1.25.7.0. Mainly minor changes in MagVar/Lat/Lon/Alt/Heading. For mission related changes like runway renaming see db_changelog in this package.&#xD;
+UPDATE: *Database:* The parking database has been updated to sim version 1.25.7.0. Please note that the parking database is a separate download.&#xD;
+UPDATE: *Bgl-Reader:* Various adjustments to read the new BGL format that MSFS uses for generic airport BGLs.&#xD;
+UPDATE: *Aircrafts:* Added *Carenado PA34T SENECA V* as Payware aircraft. Available for BushTripInjector and MissionChanger.&#xD;
+BUGFIX: *Translate-Window:* Fixed an issue with ColumnSize and Scrollbar in translate-window.&#xD;
+BUGFIX: *Translations* Fixed a problem when assigning translations to a waypoint if the waypoint identifier contains leading or trailing spaces.&#xD;
+&#xD;
+---&#xD;
 1.2.1.2700&#xD;
 HIGHLIGHT: Partial Missions&#xD;
 PRO-VERSION: *Marketplace:* Removing whitespaces from image filenames for marketplace for SU9. If you are currently using images with blanks in the filenames, you need to remove and add them again!&#xD;
