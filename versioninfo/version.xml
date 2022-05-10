@@ -15,10 +15,27 @@
   <CurrentVersion>
     <Major>1</Major>
     <Minor>2</Minor>
-    <Build>2</Build>
-    <Revision>2716</Revision>
+    <Build>3</Build>
+    <Revision>2743</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+1.2.3.2743&#xD;
+HIGHLIGHT: Sound files &#xD;
+FEATURE: The sound files work again for all legs after leaving the mission or trip.&lt;br&gt; _IMPORTANT:_ Your current files will be moved to &lt;i&gt;%MissionHome%\AdditionalFiles\Sound\&amp;ltBaseLanguageCode&amp;gt&lt;/i&gt;. Please backup your sound folder before opening your mission.&lt;br&gt;Migrated missions will not work with older versions of BushTripInjector with sound files until you remap those files in the older version.&#xD;
+FEATURE: *Localized Sound files:* Use different sound files for each language for text-to-speech or InstructorDialogAction. Copy the wav-file into &lt;i&gt;%MissionHome%\AdditionalFiles\Sound\&amp;ltLanguageCode&amp;gt&lt;/i&gt; with the same filename. You will find more information at &lt;a href="https://www.bushtripinjector.de/manual/localized-soundfiles/"&gt;BushTripInjector Manual - Localized Sound Files&lt;/a&gt; &#xD;
+&#xD;
+ *This Version has many changes in the core functionallity of BushTripInjector. Despite intensive testing, bugs and problems may occur. If you have an issue, please contact me on Discord: &lt;a href="http://discord.bushtripinjector.de/"&gt;discord.bushtripinjector.de&lt;/a&gt; &lt;br&gt;Thank you very much.*&#xD;
+&#xD;
+UPDATE: *Select Sound* and *Create WAV* functions will create the files in &lt;i&gt;%MissionHome%\AdditionalFiles\Sound\&amp;ltBaseLanguageCode&amp;gt&lt;/i&gt;.&#xD;
+UPDATE: *Soundfiles:* Only the sound files used are copied to the PackageFolder to reduce the size of the missions when uploading.&#xD;
+UPDATE: *BushTrips:* Added a warning if the user does not use a BTI file for bush trips.&#xD;
+UPDATE: *Online-Manual:* The manual has been extended by the localized sound files.: &lt;a href="https://www.bushtripinjector.de/manual/localized-soundfiles/"&gt;BushTripInjector Manual - Localized Sound Files&lt;/a&gt;&#xD;
+UPDATE: *Online-Manual:* Information about the file system and folder structure used and created by BushTripInjector has been added: &lt;a href="https://www.bushtripinjector.de/manual/filesystem/"&gt;BushTripInjector Manual Filesystem&lt;/a&gt;&#xD;
+UPDATE: *Cleanup:* Cleanup some parts of code.&#xD;
+BUGFIX: *MessageBoxes:* Hopefully an issue with message boxes going distractingly into the background has been fixed.&#xD;
+&#xD;
+&#xD;
+---&#xD;
 1.2.2.2716&#xD;
 UPDATE: *Database:* Update of the internal airport and runway database to MSFS 1.25.7.0. Mainly minor changes in MagVar/Lat/Lon/Alt/Heading. For mission related changes like runway renaming see db_changelog in this package.&#xD;
 UPDATE: *Database:* The parking database has been updated to sim version 1.25.7.0. Please note that the parking database is a separate download.&#xD;
