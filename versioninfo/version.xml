@@ -3,22 +3,31 @@
   <MinVersion>
     <Major>1</Major>
     <Minor>1</Minor>
-    <Build>0</Build>
-    <Revision>2375</Revision>
+    <Build>5</Build>
+    <Revision>2552</Revision>
   </MinVersion>
   <PrevVersion>
     <Major>1</Major>
-    <Minor>1</Minor>
+    <Minor>2</Minor>
     <Build>0</Build>
     <Revision>-1</Revision>
   </PrevVersion>
   <CurrentVersion>
     <Major>1</Major>
     <Minor>2</Minor>
-    <Build>3</Build>
-    <Revision>2743</Revision>
+    <Build>4</Build>
+    <Revision>2755</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+1.2.4.2755&#xD;
+USER-REQ: *Flight book:* The folder for saving the flight book has been changed to %MissionFolder%\AdditionalFiles\Documents (before: %BTIHOME%\Documents). No migration of already created flight books.&#xD;
+UPDATE: *WebView2:* The WebView2 components have been updated to the latest version.&#xD;
+UPDATE: *Internal:* Several optimizations and preparations for upcoming features.&#xD;
+BUGFIX: *Sound files:* Fixed an issue with the migration of sound files to the new folder when the user deleted this folder before migration &#xD;
+BUGFIX: *Sound files:* Fixed an issue with the migration of sound files to the new folder when sound files with more than 260 chars were used.&#xD;
+BUGFIX: *Compiler:* Fixed an issue with a message box when the compiler couldn't create the mission.&#xD;
+&#xD;
+---&#xD;
 1.2.3.2743&#xD;
 HIGHLIGHT: Sound files &#xD;
 FEATURE: The sound files work again for all legs after leaving the mission or trip.&lt;br&gt; _IMPORTANT:_ Your current files will be moved to &lt;i&gt;%MissionHome%\AdditionalFiles\Sound\&amp;ltBaseLanguageCode&amp;gt&lt;/i&gt;. Please backup your sound folder before opening your mission.&lt;br&gt;Migrated missions will not work with older versions of BushTripInjector with sound files until you remap those files in the older version.&#xD;
@@ -72,109 +81,6 @@ BUGFIX: *BTI-File:* Fixed an issue where updating the copy of the LittleNavMap f
 BUGFIX: *BTI-File:* Departure coordinates were not changed if the departure airport was changed and the new and old airport had an identically named parking position available.&#xD;
 BUGFIX: *ProximityTrigger:* The reference to the ProximityTrigger has been removed from all areas when the ProximityTrigger is removed.&#xD;
 BUGFIX: *Aircrafts:* The installation status of a community aircraft was not detected correctly.&#xD;
-&#xD;
----&#xD;
-1.1.7.2635&#xD;
-USER-REQ: *Flight book:* Add the TTS you have defined from Worldmap to the flight book. Auto-detect the leg and export the associated TTS in flight plan order. (FronTech)&#xD;
-UPDATE: *WorldMap:* The world map options have been moved to an expander in the upper right corner to be prepared for future developments.&#xD;
-UPDATE: *Read-LNM:* Remove line feeds from names and ids to avoid empty navigation logs.&#xD;
-UPDATE: *Wiki:* Show wikilinks of other languages sorted alphabetically.&#xD;
-UPDATE: *Wiki:* Remember the Window position and size.&#xD;
-UPDATE: *WebView2:* Updated to latest version of WebView2&#xD;
-UPDATE: *OpenXml:* Updated to latest version of OpenXml DocumentFormat&#xD;
-BUGFIX: *Wiki:* English wiki link was mapped to base-lng and opened the wrong wiki when using a base-lng other than en-US.&#xD;
-BUGFIX: *CreateImages:* An issue with creating images from non-Microsoft map providers has been fixed. (Thx to FronTech)&#xD;
-&#xD;
----&#xD;
-1.1.6.2590&#xD;
-FEATURE: *Open closed Airports:* Open closed airports: Added the ability to reopen airports closed in the simulation. Check the flight plan page! BushTripInjector will notify you when your flight plan contains a closed airport.&#xD;
-USER-REQ: *HTML Tagging:* Changed the tagging of &amp;amp; &amp;apos; &amp;quot; in the description field has been changed when this text is defined only once. Due to a simulation error, they are not displayed correctly for custom content when HTLM tags are used. You can check the usage in the translation window.&#xD;
-UPDATE: *Database:* several improvements to find closed airports as the sim does. New database with 288 airports now closed and 177 airfields now marked as open. Details as always in the additional db-changelog.&#xD;
-UPDATE: *Pre-flight check:* Check if an airport used in the mission is closed and issue a corresponding message.&#xD;
-UPDATE: *Refueling Airports:* closed airports are now not used as refueling airports.&#xD;
-UPDATE: *AircraftSelection:* Shows the installation status of aircraft. BTI shows you all aircraft with the status, MissionChanger only the installed ones.&#xD;
-UPDATE: *Aircrafts:* Added the Dornier DoJ series&#xD;
-UPDATE: *Aircrafts:* Added the Fokker FVII series&#xD;
-UPDATE: *Aircrafts:* Added the Carenado M20R series&#xD;
-&#xD;
----&#xD;
-1.1.5.2563&#xD;
-BUGFIX: *CTD:* Fixed an issue on startup, when your flightplan contains converted waypoints to airports&#xD;
-&#xD;
----&#xD;
-1.1.5.2552&#xD;
-UPDATE: *Aircraft &amp; Livery Handling:* Better selection of aircraft in BaseData. Display of Official, Premium/Deluxe, Payware and Community Aircrafts and Liveries in a tree view.&lt;br&gt;Information about MSFS Marketplace encrypted planes are now read from the cloud at launch. *If you would like me to include your payware, please contact me on Discord.* I can then add these without you needing a new version of the BTI&#xD;
-UPDATE: *DeepL-API:* Several improvements including a pre-translation word count and an information about quota exceeds or when the available chars go less than 10% after translation.&#xD;
-UPDATE: *WorldMap:* Closed airports are crossed out now.&#xD;
-UPDATE: *WorldMap:* The TTS creation from the WorldMap can now be canceled and uses the click point.&#xD;
-BUGFIX: *Translations:* A CTD was fixed when an issue occurred during automatic translation.&#xD;
-&#xD;
----&#xD;
-1.1.4.2526&#xD;
-HIGHLIGHT: World Update 8 - Iberia&#xD;
-UPDATE: *Main-Database:* Updated the internal database to sim version 1.24.5.0. Airports increased by 982, runways by 2000. For details, see db-changelog.txt included in this package.&#xD;
-UPDATE: *Parking-Database:* Updated the parking database to sim version 1.24.5.0. Increased by 6342 parking spots. Please keep in mind, the parking database is a separate download.&#xD;
-UPDATE: *Spb-Viewer:* Updated the Property-Definitions to Sim 1.24.5.0&#xD;
-&#xD;
----&#xD;
-1.1.4.2519&#xD;
-HIGHLIGHT: World Update 8 - Iberia&#xD;
-UPDATE: *Language:* Added pt-PT as supported language in BTI. Bem-vindo a Portugal.&#xD;
-UPDATE: *Database:* New databases are delayed for 2-3 days. My BGL-Reader is broken after WU8, I need to fix it first. &#xD;
-UPDATE: *Modify Airport:* Added the option to cancel and revert the changes.&#xD;
-UPDATE: *Create Airport:* Added the option to override existing airports.&#xD;
-UPDATE: *Flightsim.to:* Adjustments to new flightsim.to add-on download format.&#xD;
-&#xD;
----&#xD;
-1.1.3.2500&#xD;
-USER-REQ: *KML-Export:* Export your Flightplan as KML to open it in Google Earth or any other tool of your choice.&#xD;
-UPDATE: *Extra-Menu:* The "Clear Message Cache" item has been renamed to "Reset All Messages" for clarity.&#xD;
-UPDATE: *Spb-Viewer:* Updated the Property-Definitions to Sim 1.23.12.0&#xD;
-BUGFIX: *ModelLibBrowser:* Fixed an issue that prevented the ModelLibBrowser from opening (thanks FronTech).&#xD;
-BUGFIX: *ModelLibBrowser:* Fixed an issue that prevented ModelLibBrowser from displaying the already loaded models.&#xD;
-BUGFIX: *Startup Handling:* Added sync of threads at startup to avoid clicks on the GUI before the GUI is ready to process clicks.&#xD;
-BUGFIX: *Images:* Fixed an issue when creating content info thumbnails with incorrect image sizes.&#xD;
-BUGFIX: *Airport-File:* The custom airport is no longer saved in a separate file when using the BTI file format.&#xD;
-&#xD;
----&#xD;
-1.1.2.2476&#xD;
-USER-REQ: *Dependencies:* Define Dependencies to other packages. This feature is only available when using BTI Fileformat. You will find the Name and Version in the manifest of the used package. Versions are detected automatically. Dependencies of those dependencies will be added automatically in most cases.&#xD;
-UPDATE: *Database:* Updated internal database for airports and runway to Sim Version 1.23.12.0 Sim Update 8. Several changes in elevation and magnetic declination. Some runways have therefore been renamed.&#xD;
-UPDATE: *Database:* Updated the parking database package again.&#xD;
-UPDATE: *Steam:* Better message when BTI couldn't compile the mission with link to manual.&#xD;
-BUGFIX: *TTS:* Fixed a CTD in TTS Window.&#xD;
-&#xD;
----&#xD;
-1.1.1.2460&#xD;
-BUGFIX: *Dark mode:* An issue in dark mode with CTD at startup has been fixed.&#xD;
-BUGFIX: *Translate:* Fixed an issue with the translation window when trip fails to compile&#xD;
-BUGFIX: *Change language:* Fixed an issue when changing the project language if trip cannot be compiled&#xD;
-BUGFIX: *Flight Log:* An issue with creating the flight log has been fixed when trip cannot be compiled&#xD;
-&#xD;
----&#xD;
-1.1.1.2442&#xD;
-PRO-VERSION: *MediaSlider/MediaScroller:*&lt;br&gt;Added the option to add images for marketplace MediaSlider and Media Scroller. This feature is only available when using BTI Fileformat.&#xD;
-USER-REQ: *Flight book:* Added the option to include the DialogAction and InstructorDialogAction texts for ProximityTriggers bound to areas on waypoints. Thanks to FronTech.&#xD;
-UPDATE: *WebView2:* Updated the WebView2 components to most recent version.&lt;br&gt; *Please delete the "runtimes" folder in your BushTripInjector-Installation.*&#xD;
-UPDATE: *Refuel:* Check for Gas-Stations in Parking-Database and not only for the fuel-flags in airport definition. MSFS doesn't have correct fuel-flags for many small airports.&#xD;
-UPDATE: *Translation-Window:* Added a notification about not applied data when closing the window via cancel or the X in the title bar.&#xD;
-UPDATE: *Translation:* Better handling of non-supported languages of DeepL-API.&#xD;
-UPDATE: *Translation:* Performance optimizations. &#xD;
-BUGFIX: *SaveAs:* However, the *Save As* menu was not visible for everyone (Thanks Koschi).&#xD;
-BUGFIX: *3D Image Generator:* Fixed an issue prevents starting 3D Image Generator when using a flightplan without airports. (Thanks bhpowell)&#xD;
-BUGFIX: *Load Mission:* Fixed an issue loading the mission when a BTI converted airport with a starting runway with a true heading between 0 and 10 was selected. (Thanks bhpowell)&#xD;
-BUGFIX: *Basedata:* The slipped "Change - Project - Language" button has been moved to the right place again&#xD;
-BUGFIX: *LicenseRequest:* Fixed an issue where the text file could not be created.&#xD;
-BUGFIX: *Anti-Meridian-Crossings:* Fixed an issue with refueling airports when your trip crosses the anti-meridian.&#xD;
-&#xD;
----&#xD;
-1.1.0.2376&#xD;
-UPDATE: *Database:* Updated internal airport and runway database to sim version 1.22.2.0. 622 added airports, 56 deleted airports. 1414 new runways, 196 runways removed. Details see db_changelog.txt included in this package.&#xD;
-UPDATE: *Database:* Also the park database has been updated to sim version 1.22.2.0. Please note that this is a separate file for download. &#xD;
-UPDATE: *AirportCreation:* Calculation of magnetic declination when creating airports. For already created airports, magnetic declination is only calculated if it is not currently set.&#xD;
-BUGFIX: *Parking-Db:* Fixed an issue when checking for parking database updates.&#xD;
-BUGFIX: *AirportCreation:* Fixed an issue with the creation of airports: Runways did not reach the internal database correctly. This resulted in invalid airports in your mission. We apologize for this. Thanks to Brad Allen for pointing this out.&#xD;
-BUGFIX: *CTD:* Fixed an issue where BTI can crash to desktop if no runway surface can be detected.&#xD;
 </ChangeLog>
   <Downloadlink>https://flightsim.to/file/4131/bushtripinjector</Downloadlink>
   <RequiredDbVersion>
