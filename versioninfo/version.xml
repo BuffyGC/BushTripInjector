@@ -15,10 +15,29 @@
   <CurrentVersion>
     <Major>1</Major>
     <Minor>2</Minor>
-    <Build>4</Build>
-    <Revision>2755</Revision>
+    <Build>5</Build>
+    <Revision>2804</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+1.2.5.2804 - File system restructure (Part I)&#xD;
+&lt;ul&gt;&lt;li&gt; *Project Root Folder:*&lt;br&gt;&#xD;
+&lt;ul&gt;&lt;li&gt;Added the feature to select the root folder where BushTripInjector stores your projects (%PROJECT_ROOT%). By default, it remains to &lt;i&gt;%BTI_HOME%\PackageSource&lt;/i&gt;.&lt;/li&gt;&#xD;
+&lt;li&gt;When selecting a new folder, you will be asked if you want to copy, move or do nothing with your previous folder.&lt;/li&gt;&#xD;
+&lt;li&gt;Learn more about the file system structure of BTI: &lt;a href="https://www.bushtripinjector.de/manual/filesystem/"&gt;BushTripInjector Manual Filesystem&lt;/a&gt;&lt;/li&gt;&#xD;
+&lt;/ul&gt;&lt;li&gt; *Log Files:* &#xD;
+&lt;ul&gt;&lt;li&gt;Added the possibility to select the log file folder, LogLevel, retention time and rolling mode on options screen.&lt;/li&gt;&#xD;
+&lt;li&gt;Moved the default log file folder from &lt;i&gt;%BTI_HOME%&lt;/i&gt; to a sub folder &lt;i&gt;%BTI_HOME%\Logs&lt;/i&gt;. Existing log files will be moved automatically.&lt;/li&gt;&#xD;
+&lt;li&gt;Log files will be removed automatically after a retention time. Default is 31 days&lt;/li&gt;&#xD;
+&lt;/ul&gt;&lt;li&gt; *Libraries:*&lt;br&gt;Moved the referenced and included DLLs of the package to a subfolder &lt;i&gt;Lib&lt;/i&gt;. BTI try to delete the old DLLs automatically.&lt;br&gt;Maybe your security software blocks BushTripInjector from deleting those libraries and you get some warnings or issues starting BTI. Please delete all DLL from &lt;i&gt;%BTI_HOME%&lt;/i&gt; by yourself.  &lt;/li&gt;&#xD;
+&lt;li&gt; *INI file:*&lt;br&gt;Migrated several project related entries of the INI file to BTI Fileformat.&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+ *This Version has many changes in the core functionallity of BushTripInjector. Despite intensive testing, bugs and problems may occur. If you have an issue, please contact me on Discord: &lt;a href="http://discord.bushtripinjector.de/"&gt;discord.bushtripinjector.de&lt;/a&gt; &lt;br&gt;Thank you very much.*&#xD;
+UPDATE: *Options:* Renamed the &lt;i&gt;Sim Settings&lt;/i&gt; Tab to &lt;i&gt;Options&lt;/i&gt; and moved it to the end.&#xD;
+UPDATE: *DiscoveryFlights:* Fixed an issue preventing BTI to generate a DiscoveryFlight&#xD;
+BUGFIX: *Sound files:* Fixed an issue with the migration of sound files to the new folder: Some files were detected as unused and moved/copied to orphaned.&#xD;
+BUGFIX: *Startup:* Fixed an issue with writing exception file on startup&#xD;
+&#xD;
+---&#xD;
 1.2.4.2755&#xD;
 USER-REQ: *Flight book:* The folder for saving the flight book has been changed to %MissionFolder%\AdditionalFiles\Documents (before: %BTIHOME%\Documents). No migration of already created flight books.&#xD;
 UPDATE: *WebView2:* The WebView2 components have been updated to the latest version.&#xD;
