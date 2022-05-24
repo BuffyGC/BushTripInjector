@@ -16,9 +16,15 @@
     <Major>1</Major>
     <Minor>2</Minor>
     <Build>5</Build>
-    <Revision>2804</Revision>
+    <Revision>2812</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+1.2.5.2812 - World Update IX Italy/Malta&#xD;
+UPDATE: *Database:* Updated the Airport and Runway Database included in BushTripInjector to WU9 Italy/Malta&lt;br&gt;Airport added: 322, changed 2862, deleted 5, Total 40153&lt;br&gt;Runway added: 746, changed 197, deleted 96, Total: 93982.&lt;br&gt;Details see db_changelog included in this package.&#xD;
+UPDATE: *Database:* Updated the Parking Database to to WU9 Italy/Malta&lt;br&gt;Parkings added: 3791, changed 1795, deleted 1568, Total 294470&lt;br&gt;This file is available as separate download on &lt;a href="https://flightsim.to/file/4131/bushtripinjector"&gt;BushTripInjector&lt;/a&gt;&#xD;
+UPDATE: *Online-Manual:* Added the manual for the Options-Sheet: &lt;a href="https://www.bushtripinjector.de/manual/sim-settings/"&gt;BushTripInjector Manual Options&lt;/a&gt;&#xD;
+&#xD;
+---&#xD;
 1.2.5.2804 - File system restructure (Part I)&#xD;
 &lt;ul&gt;&lt;li&gt; *Project Root Folder:*&lt;br&gt;&#xD;
 &lt;ul&gt;&lt;li&gt;Added the feature to select the root folder where BushTripInjector stores your projects (%PROJECT_ROOT%). By default, it remains to &lt;i&gt;%BTI_HOME%\PackageSource&lt;/i&gt;.&lt;/li&gt;&#xD;
@@ -111,7 +117,7 @@ BUGFIX: *Aircrafts:* The installation status of a community aircraft was not det
   <CurrentMSFSDatabaseVersion>
     <Major>1</Major>
     <Minor>25</Minor>
-    <Build>7</Build>
-    <Revision>0</Revision>
+    <Build>9</Build>
+    <Revision>1</Revision>
   </CurrentMSFSDatabaseVersion>
 </BushTripInjector>
