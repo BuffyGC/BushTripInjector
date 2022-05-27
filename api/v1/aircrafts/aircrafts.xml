@@ -63,6 +63,18 @@
   <AircraftModel Name="Junkers Ju52/3m Skis" SourcePath="..\Microsoft_Junkers_Ju52_Skis" AltSourcePath="microsoft-aircraft-junkers-ju52" SourceType="Payware" />
   <AircraftModel Name="Junkers Ju 52 Skis Livery 01" BaseName="Junkers Ju52/3m Skis" SourceType="Payware" />
   <AircraftModel Name="Junkers Ju 52 Skis Livery 02" BaseName="Junkers Ju52/3m Skis" SourceType="Payware" />
+  <AircraftModel Name="Just Flight PA28 Arrow III G-BGKU" SourcePath="..\JF_PA28_Arrow" AltSourcePath="justflight-aircraft-pa28-arrow-bundle" SourceType="Payware" />
+  <AircraftModel Name="Just Flight PA28 Arrow III C-GQYI" BaseName="Just Flight PA28 Arrow III G-BGKU" SourceType="Payware" />
+  <AircraftModel Name="Just Flight PA28 Arrow III Custom" BaseName="Just Flight PA28 Arrow III G-BGKU" SourceType="Payware" />
+  <AircraftModel Name="Just Flight PA28 Arrow III D-ERIN" BaseName="Just Flight PA28 Arrow III G-BGKU" SourceType="Payware" />
+  <AircraftModel Name="Just Flight PA28 Arrow III F-GJCB" BaseName="Just Flight PA28 Arrow III G-BGKU" SourceType="Payware" />
+  <AircraftModel Name="Just Flight PA28 Arrow III G-BNSG" BaseName="Just Flight PA28 Arrow III G-BGKU" SourceType="Payware" />
+  <AircraftModel Name="Just Flight PA28 Arrow III G-TEBZ" BaseName="Just Flight PA28 Arrow III G-BGKU" SourceType="Payware" />
+  <AircraftModel Name="Just Flight PA28 Arrow III G-TSGA" BaseName="Just Flight PA28 Arrow III G-BGKU" SourceType="Payware" />
+  <AircraftModel Name="Just Flight PA28 Arrow III HB-PJA" BaseName="Just Flight PA28 Arrow III G-BGKU" SourceType="Payware" />
+  <AircraftModel Name="Just Flight PA28 Arrow III N4131C" BaseName="Just Flight PA28 Arrow III G-BGKU" SourceType="Payware" />
+  <AircraftModel Name="Just Flight PA28 Arrow III N751LU" BaseName="Just Flight PA28 Arrow III G-BGKU" SourceType="Payware" />
+  <AircraftModel Name="Just Flight PA28 Arrow III VH-SGE" BaseName="Just Flight PA28 Arrow III G-BGKU" SourceType="Payware" />
   <AircraftModel Name="FlyingIron P-38L Lightning Down Beat" SourcePath="..\flyingiron_p38l" AltSourcePath="flyingiron-p38l" SourceType="Payware" />
   <AircraftModel Name="FlyingIron P-38L Lightning California Cutie" BaseName="FlyingIron P-38L Lightning Down Beat" SourceType="Payware" />
   <AircraftModel Name="FlyingIron P-38L Lightning Charlcie Jeanne" BaseName="FlyingIron P-38L Lightning Down Beat" SourceType="Payware" />
