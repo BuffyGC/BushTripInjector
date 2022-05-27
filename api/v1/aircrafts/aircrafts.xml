@@ -75,6 +75,18 @@
   <AircraftModel Name="Just Flight PA28 Arrow III N4131C" BaseName="Just Flight PA28 Arrow III G-BGKU" SourceType="Payware" />
   <AircraftModel Name="Just Flight PA28 Arrow III N751LU" BaseName="Just Flight PA28 Arrow III G-BGKU" SourceType="Payware" />
   <AircraftModel Name="Just Flight PA28 Arrow III VH-SGE" BaseName="Just Flight PA28 Arrow III G-BGKU" SourceType="Payware" />
+  <AircraftModel Name="Just Flight PA28 Turbo Arrow III N48427" SourcePath="..\JF_PA28_TurboArrow_III" AltSourcePath="justflight-aircraft-pa28-arrow-bundle" SourceType="Payware" />
+  <AircraftModel Name="Just Flight PA28 Turbo Arrow III Custom" BaseName="Just Flight PA28 Turbo Arrow III N48427" SourceType="Payware" />
+  <AircraftModel Name="Just Flight PA28 Turbo Arrow III D-ERMT" BaseName="Just Flight PA28 Turbo Arrow III N48427" SourceType="Payware" />
+  <AircraftModel Name="Just Flight PA28 Turbo Arrow III G-OBAK" BaseName="Just Flight PA28 Turbo Arrow III N48427" SourceType="Payware" />
+  <AircraftModel Name="Just Flight PA28 Turbo Arrow III HB-PMB" BaseName="Just Flight PA28 Turbo Arrow III N48427" SourceType="Payware" />
+  <AircraftModel Name="Just Flight PA28 Turbo Arrow III VH-LLA" BaseName="Just Flight PA28 Turbo Arrow III N48427" SourceType="Payware" />
+  <AircraftModel Name="Just Flight PA28 Turbo Arrow IV G-BOGM" SourcePath="..\JF_PA28_TurboArrow_IV" AltSourcePath="justflight-aircraft-pa28-arrow-bundle" SourceType="Payware" />
+  <AircraftModel Name="Just Flight PA28 Turbo Arrow IV Custom" BaseName="Just Flight PA28 Turbo Arrow IV G-BOGM" SourceType="Payware" />
+  <AircraftModel Name="Just Flight PA28 Turbo Arrow IV D-EAIV" BaseName="Just Flight PA28 Turbo Arrow IV G-BOGM" SourceType="Payware" />
+  <AircraftModel Name="Just Flight PA28 Turbo Arrow IV N3023K" BaseName="Just Flight PA28 Turbo Arrow IV G-BOGM" SourceType="Payware" />
+  <AircraftModel Name="Just Flight PA28 Turbo Arrow IV OE-KFT" BaseName="Just Flight PA28 Turbo Arrow IV G-BOGM" SourceType="Payware" />
+  <AircraftModel Name="Just Flight PA28 Turbo Arrow IV OK-MAN" BaseName="Just Flight PA28 Turbo Arrow IV G-BOGM" SourceType="Payware" />
   <AircraftModel Name="FlyingIron P-38L Lightning Down Beat" SourcePath="..\flyingiron_p38l" AltSourcePath="flyingiron-p38l" SourceType="Payware" />
   <AircraftModel Name="FlyingIron P-38L Lightning California Cutie" BaseName="FlyingIron P-38L Lightning Down Beat" SourceType="Payware" />
   <AircraftModel Name="FlyingIron P-38L Lightning Charlcie Jeanne" BaseName="FlyingIron P-38L Lightning Down Beat" SourceType="Payware" />
