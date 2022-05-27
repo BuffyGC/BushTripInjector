@@ -37,6 +37,16 @@
   <AircraftModel Name="Dornier DoJ Plus Ultra Aviators Club Livery" BaseName="Dornier DoJ Plus Ultra" SourceType="Payware" />
   <AircraftModel Name="Dornier DoJ Plus Ultra Xbox Aviators Club Livery" BaseName="Dornier DoJ Plus Ultra" SourceType="Payware" />
   <AircraftModel Name="DV20 Asobo" SourcePath="..\Asobo_DV20" AltSourcePath="asobo-aircraft-dv20" SourceType="Deluxe" />
+  <AircraftModel Name="FlyingIron P-38L Lightning Down Beat" SourcePath="..\flyingiron_p38l" AltSourcePath="flyingiron-p38l" SourceType="Payware" />
+  <AircraftModel Name="FlyingIron P-38L Lightning California Cutie" BaseName="FlyingIron P-38L Lightning Down Beat" SourceType="Payware" />
+  <AircraftModel Name="FlyingIron P-38L Lightning Charlcie Jeanne" BaseName="FlyingIron P-38L Lightning Down Beat" SourceType="Payware" />
+  <AircraftModel Name="FlyingIron P-38L Lightning Down Beat" BaseName="FlyingIron P-38L Lightning Down Beat" SourceType="Payware" />
+  <AircraftModel Name="FlyingIron P-38L Lightning 'FlyingIron Sims'" BaseName="FlyingIron P-38L Lightning Down Beat" SourceType="Payware" />
+  <AircraftModel Name="FlyingIron P-38L Lightning Itsy Bitsy II" BaseName="FlyingIron P-38L Lightning Down Beat" SourceType="Payware" />
+  <AircraftModel Name="FlyingIron P-38L Lightning Marge" BaseName="FlyingIron P-38L Lightning Down Beat" SourceType="Payware" />
+  <AircraftModel Name="FlyingIron P-38L Lightning The Flying Dutchman" BaseName="FlyingIron P-38L Lightning Down Beat" SourceType="Payware" />
+  <AircraftModel Name="FlyingIron P-38L Lightning Wishful Thinking" BaseName="FlyingIron P-38L Lightning Down Beat" SourceType="Payware" />
+  <AircraftModel Name="FlyingIron P-38L Lightning YIPPEE" BaseName="FlyingIron P-38L Lightning Down Beat" SourceType="Payware" />
   <AircraftModel Name="Fokker FVIIa KLM" SourcePath="..\Microsoft_Fokker_FVIIa" AltSourcePath="microsoft-aircraft-fokker-vii" SourceType="Payware" />
   <AircraftModel Name="Fokker FVIIb Modern SC" SourcePath="..\Microsoft_Fokker_FVIIb_Modern" AltSourcePath="microsoft-aircraft-fokker-vii" SourceType="Payware" />
   <AircraftModel Name="Fokker FVIIb Modern AVC" BaseName="Fokker FVIIb Modern SC" SourceType="Payware" />
@@ -87,16 +97,12 @@
   <AircraftModel Name="Just Flight PA28 Turbo Arrow IV N3023K" BaseName="Just Flight PA28 Turbo Arrow IV G-BOGM" SourceType="Payware" />
   <AircraftModel Name="Just Flight PA28 Turbo Arrow IV OE-KFT" BaseName="Just Flight PA28 Turbo Arrow IV G-BOGM" SourceType="Payware" />
   <AircraftModel Name="Just Flight PA28 Turbo Arrow IV OK-MAN" BaseName="Just Flight PA28 Turbo Arrow IV G-BOGM" SourceType="Payware" />
-  <AircraftModel Name="FlyingIron P-38L Lightning Down Beat" SourcePath="..\flyingiron_p38l" AltSourcePath="flyingiron-p38l" SourceType="Payware" />
-  <AircraftModel Name="FlyingIron P-38L Lightning California Cutie" BaseName="FlyingIron P-38L Lightning Down Beat" SourceType="Payware" />
-  <AircraftModel Name="FlyingIron P-38L Lightning Charlcie Jeanne" BaseName="FlyingIron P-38L Lightning Down Beat" SourceType="Payware" />
-  <AircraftModel Name="FlyingIron P-38L Lightning Down Beat" BaseName="FlyingIron P-38L Lightning Down Beat" SourceType="Payware" />
-  <AircraftModel Name="FlyingIron P-38L Lightning 'FlyingIron Sims'" BaseName="FlyingIron P-38L Lightning Down Beat" SourceType="Payware" />
-  <AircraftModel Name="FlyingIron P-38L Lightning Itsy Bitsy II" BaseName="FlyingIron P-38L Lightning Down Beat" SourceType="Payware" />
-  <AircraftModel Name="FlyingIron P-38L Lightning Marge" BaseName="FlyingIron P-38L Lightning Down Beat" SourceType="Payware" />
-  <AircraftModel Name="FlyingIron P-38L Lightning The Flying Dutchman" BaseName="FlyingIron P-38L Lightning Down Beat" SourceType="Payware" />
-  <AircraftModel Name="FlyingIron P-38L Lightning Wishful Thinking" BaseName="FlyingIron P-38L Lightning Down Beat" SourceType="Payware" />
-  <AircraftModel Name="FlyingIron P-38L Lightning YIPPEE" BaseName="FlyingIron P-38L Lightning Down Beat" SourceType="Payware" />
+  <AircraftModel Name="Milviz 310R CGTER" SourcePath="..\Milviz_310R" AltSourcePath="milviz-aircraft-310" SourceType="Payware" />
+  <AircraftModel Name="Milviz 310R COLIN" BaseName="Milviz 310R CGTER" SourceType="Payware" />
+  <AircraftModel Name="Milviz 310R DIRFT" BaseName="Milviz 310R CGTER" SourceType="Payware" />
+  <AircraftModel Name="Milviz 310R N5077J" BaseName="Milviz 310R CGTER" SourceType="Payware" />
+  <AircraftModel Name="Milviz 310R N5225J" BaseName="Milviz 310R CGTER" SourceType="Payware" />
+  <AircraftModel Name="Milviz 310R NoTail" BaseName="Milviz 310R CGTER" SourceType="Payware" />
   <AircraftModel Name="Pipistrel Alpha Electro Asobo" SourcePath="..\Asobo_Pipistrel" AltSourcePath="asobo-aircraft-pipistrel" SourceType="PremiumDeluxe" />
   <AircraftModel Name="Savage Shock Ultra Asobo" SourcePath="..\Asobo_Savage_ShockUltra" AltSourcePath="asobo-aircraft-savage-shockultra" SourceType="PremiumDeluxe" />
   <AircraftModel Name="Savage Shock Ultra Asobo Skis" SourcePath="..\Asobo_Savage_ShockUltra_Skis" AltSourcePath="asobo-aircraft-savage-shockultra" SourceType="PremiumDeluxe" />
