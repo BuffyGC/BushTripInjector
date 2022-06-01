@@ -14,11 +14,36 @@
   </PrevVersion>
   <CurrentVersion>
     <Major>1</Major>
-    <Minor>2</Minor>
-    <Build>5</Build>
-    <Revision>2812</Revision>
+    <Minor>3</Minor>
+    <Build>0</Build>
+    <Revision>2902</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+1.3.0.2902 - File system restructure (Part II)&#xD;
+&lt;ul&gt;&#xD;
+&lt;li&gt; *ConfigFile:* Introduction of the new central config file&#xD;
+&lt;ul&gt;&lt;li&gt;General Configuration File of BushTripInjector is created at &lt;i&gt;%LOCALAPPDATA%\BushTripInjector\BushTripInjector.config&lt;/i&gt;&lt;/li&gt;&#xD;
+&lt;li&gt;Override with command line parameter --configfile "&amp;lt;path and name of your file&amp;gt;"&lt;/li&gt;  &#xD;
+&lt;li&gt;General override with environment variable BushTripInjectorConfig=&amp;lt;path and name of your file&amp;gt;&lt;br&gt;Command line is prioritized, so you can use them in combination. Environment variables are prioritized in order "Process", "User", "Machine"&lt;/li&gt;  &#xD;
+&lt;li&gt;Command line parameter and environment var can use predefined vars: Learn more: &lt;a href="https://www.bushtripinjector.de/manual/commandline-environment/"&gt;BushTripInjector Manual Commandline &amp; Environment&lt;/a&gt;&lt;/li&gt;&#xD;
+&lt;li&gt;Most parameters of BushTripInjector are converted automatically&lt;/li&gt;  &#xD;
+&lt;/ul&gt;&lt;/li&gt;&#xD;
+&lt;li&gt; *Folders:* New default location for several BushTripInjector files and folders for *new installations*. Existing installations will use after the update the same folders as before. You can change then in *Options*.&lt;br&gt;Learn more: &lt;a href="https://www.bushtripinjector.de/manual/sim-settings/"&gt;BushTripInjector Manual Options&lt;/a&gt; and &lt;a href="https://www.bushtripinjector.de/manual/filesystem/"&gt;BushTripInjector Manual Filesystem&lt;/a&gt;&#xD;
+&lt;/ul&gt;&#xD;
+UPDATE: *File format:* When a LittleNavMap file is opened that has not yet been opened in BushTripInjector, this is automatically saved as a BTI file and no longer in the different SAVES files.&#xD;
+UPDATE: *Options:* Added the feature to select the path or set to default for your project files (&lt;i&gt;%PROJECT_ROOT%&lt;/i&gt;). You can choose what's happen with existing files: Move, Copy or just do nothing.&#xD;
+UPDATE: *Options:* Added the feature to select the path or set to default for Backup files. All Backup files will be moved and migrated in sub-folders, too.&#xD;
+UPDATE: *Options:* Added the feature to select the path or set to default for BushTripInjector Database files. Your database files will be moved to the new location automatically. If you want to update the parking database, feel free to use your selected folder (Window &amp;rarr; Database) or copy it just into &lt;i&gt;%BTIHOME%&lt;/i&gt; and BushTripInjector will move it to correct location on startup.&#xD;
+UPDATE: *Options:* Added the feature to select the path or set to default for other files. Those files and folders will be moved to new location.&#xD;
+UPDATE: *Options:* Added the feature to select the path or set to default for MSFS compiler package output. Those files and folders will not be moved.&#xD;
+UPDATE: *Options:* Added the feature to set to default log path. All existing log files will be moved to the new location.&#xD;
+UPDATE: *Window Menu:* Added the menu items to open the folders for Project root, Backup, Database, Misc and config file.&#xD;
+UPDATE: *Map Tile Cache:* Moved the map tile cache from &lt;i&gt;%BTIHOME%&lt;/i&gt; to &lt;i&gt;%LOCALAPPDATA%&lt;/i&gt;&#xD;
+UPDATE: *Aircraft:* Added some payware aircraft to BushTripInjector and MissionChanger: Just Flight PA28 Arrow III, PA28 Turbo Arrow III, PA28 Turbo Arrow IV and the MilViz 310R.&#xD;
+BUGFIX: *Sound files:* Fixed an issue with sound files, when a user has different sound files on TTS entries, but same text for the TTS. (thanks to Joanhoc)&#xD;
+BUGFIX: *Map Tile Cache:* Fixed an issue with deleting outdated map tiles.&#xD;
+&#xD;
+---&#xD;
 1.2.5.2812 - World Update IX Italy/Malta&#xD;
 UPDATE: *Database:* Updated the Airport and Runway Database included in BushTripInjector to WU9 Italy/Malta&lt;br&gt;Airport added: 322, changed 2862, deleted 5, Total 40153&lt;br&gt;Runway added: 746, changed 197, deleted 96, Total: 93982.&lt;br&gt;Details see db_changelog included in this package.&#xD;
 UPDATE: *Database:* Updated the Parking Database to to WU9 Italy/Malta&lt;br&gt;Parkings added: 3791, changed 1795, deleted 1568, Total 294470&lt;br&gt;This file is available as separate download on &lt;a href="https://flightsim.to/file/4131/bushtripinjector"&gt;BushTripInjector&lt;/a&gt;&#xD;
