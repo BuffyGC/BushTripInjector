@@ -1,0 +1,531 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BushTripInjector xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SimVarNamesObject>
+    <Name>AIRSPEED INDICATED</Name>
+    <Units>Knots</Units>
+    <Indexed>false</Indexed>
+    <Description>Indicated airspeed</Description>
+    <Group>Aircraft Flight Instrumentation Data</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>AIRSPEED MACH</Name>
+    <Units>Mach</Units>
+    <Indexed>false</Indexed>
+    <Description>Current mach</Description>
+    <Group>Aircraft Flight Instrumentation Data</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>AIRSPEED TRUE</Name>
+    <Units>Knots</Units>
+    <Indexed>false</Indexed>
+    <Description>True airspeed</Description>
+    <Group>Aircraft Flight Instrumentation Data</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>ANGLE OF ATTACK INDICATOR</Name>
+    <Units>Radians</Units>
+    <Indexed>false</Indexed>
+    <Description>AoA indication</Description>
+    <Group>Aircraft Flight Instrumentation Data</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>ANGLE OF ATTACK INDICATOR</Name>
+    <Units>Degrees</Units>
+    <Indexed>false</Indexed>
+    <Description>AoA indication</Description>
+    <Group>Aircraft Flight Instrumentation Data</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>INDICATED ALTITUDE</Name>
+    <Units>Feet</Units>
+    <Indexed>false</Indexed>
+    <Description>Altimeter indication</Description>
+    <Group>Aircraft Flight Instrumentation Data</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>OVERSPEED WARNING</Name>
+    <Units>Bool</Units>
+    <Indexed>false</Indexed>
+    <Description>Overspeed warning state</Description>
+    <Group>Aircraft Flight Instrumentation Data</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>RADIO HEIGHT</Name>
+    <Units>Feet</Units>
+    <Indexed>false</Indexed>
+    <Description>Radar altitude</Description>
+    <Group>Aircraft Flight Instrumentation Data</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>STALL WARNING</Name>
+    <Units>Bool</Units>
+    <Indexed>false</Indexed>
+    <Description>Stall warning state</Description>
+    <Group>Aircraft Flight Instrumentation Data</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>VERTICAL SPEED</Name>
+    <Units>Feet per second</Units>
+    <Indexed>false</Indexed>
+    <Description>Vertical speed indication</Description>
+    <Group>Aircraft Flight Instrumentation Data</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>VERTICAL SPEED</Name>
+    <Units>Feet per minute</Units>
+    <Indexed>false</Indexed>
+    <Description>Vertical speed indication</Description>
+    <Group>Aircraft Flight Instrumentation Data</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>FUEL TOTAL CAPACITY</Name>
+    <Units>Gallons</Units>
+    <Indexed>false</Indexed>
+    <Description>Total capacity of the aircraft</Description>
+    <Group>Aircraft Fuel Data</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>FUEL TOTAL CAPACITY</Name>
+    <Units>Pounds</Units>
+    <Indexed>false</Indexed>
+    <Description>Total capacity of the aircraft</Description>
+    <Group>Aircraft Fuel Data</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>FUEL TOTAL QUANTITY</Name>
+    <Units>Percent</Units>
+    <Indexed>false</Indexed>
+    <Description>Current quantity in volume</Description>
+    <Group>Aircraft Fuel Data</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>FUEL TOTAL QUANTITY</Name>
+    <Units>Gallons</Units>
+    <Indexed>false</Indexed>
+    <Description>Current quantity in volume</Description>
+    <Group>Aircraft Fuel Data</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>FUEL TOTAL QUANTITY WEIGHT</Name>
+    <Units>Pounds</Units>
+    <Indexed>false</Indexed>
+    <Description>Current total fuel weight of the aircraft</Description>
+    <Group>Aircraft Fuel Data</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>UNLIMITED FUEL</Name>
+    <Units>Bool</Units>
+    <Indexed>false</Indexed>
+    <Description>Unlimited fuel flag</Description>
+    <Group>Aircraft Fuel Data</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>AUTOBRAKES ACTIVE</Name>
+    <Units>Bool</Units>
+    <Indexed>false</Indexed>
+    <Description>Whether or not the AutoBrakes are currently active.</Description>
+    <Group>Aircraft Landing Gear Data</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>AUTO BRAKE SWITCH CB</Name>
+    <Units>Number</Units>
+    <Indexed>false</Indexed>
+    <Description>Auto brake switch position</Description>
+    <Group>Aircraft Landing Gear Data</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>GEAR HANDLE POSITION</Name>
+    <Units>Bool</Units>
+    <Indexed>false</Indexed>
+    <Description>True if gear handle is applied</Description>
+    <Group>Aircraft Landing Gear Data</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>LIGHT BEACON ON</Name>
+    <Units>Bool</Units>
+    <Indexed>false</Indexed>
+    <Description>Return true if the light is on.</Description>
+    <Group>Aircraft Lights Data</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>LIGHT LANDING ON</Name>
+    <Units>Bool</Units>
+    <Indexed>false</Indexed>
+    <Description>Return true if the light is on.</Description>
+    <Group>Aircraft Lights Data</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>LIGHT NAV ON</Name>
+    <Units>Bool</Units>
+    <Indexed>false</Indexed>
+    <Description>Return true if the light is on.</Description>
+    <Group>Aircraft Lights Data</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>LIGHT STROBE ON</Name>
+    <Units>Bool</Units>
+    <Indexed>false</Indexed>
+    <Description>Return true if the light is on.</Description>
+    <Group>Aircraft Lights Data</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>LIGHT TAXI ON</Name>
+    <Units>Bool</Units>
+    <Indexed>false</Indexed>
+    <Description>Return true if the light is on.</Description>
+    <Group>Aircraft Lights Data</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>IS SLEW ACTIVE</Name>
+    <Units>Bool</Units>
+    <Indexed>false</Indexed>
+    <Description>True if slew is active</Description>
+    <Group>Aircraft Miscellaneous Data</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>PAYLOAD STATION COUNT</Name>
+    <Units>Number</Units>
+    <Indexed>false</Indexed>
+    <Description>Number of payload stations</Description>
+    <Group>Aircraft Miscellaneous Data</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>PAYLOAD STATION WEIGHT</Name>
+    <Units>Pounds</Units>
+    <Indexed>true</Indexed>
+    <Description>Individual payload station weight</Description>
+    <Group>Aircraft Miscellaneous Data</Group>
+    <NumIndex>10</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>REALISM</Name>
+    <Units>Number</Units>
+    <Indexed>false</Indexed>
+    <Description>General realism percent</Description>
+    <Group>Aircraft Miscellaneous Data</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>REALISM</Name>
+    <Units>Percent</Units>
+    <Indexed>false</Indexed>
+    <Description>General realism percent</Description>
+    <Group>Aircraft Miscellaneous Data</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>STATIC CG TO GROUND</Name>
+    <Units>Feet</Units>
+    <Indexed>false</Indexed>
+    <Description>Static CG to ground</Description>
+    <Group>Aircraft Miscellaneous Data</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>PITOT ICE PCT</Name>
+    <Units>Percent over 100</Units>
+    <Indexed>false</Indexed>
+    <Description>Amount of pitot ice. 100 is fully iced.</Description>
+    <Group>Aircraft Miscellaneous Data</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>STRUCTURAL ICE PCT</Name>
+    <Units>Percent over 100</Units>
+    <Indexed>false</Indexed>
+    <Description>Amount of ice on aircraft structure. 100 is fully iced.</Description>
+    <Group>Aircraft Miscellaneous Data</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>GROUND ALTITUDE</Name>
+    <Units>Feet</Units>
+    <Indexed>false</Indexed>
+    <Description>Altitude of surface</Description>
+    <Group>Aircraft Position and Speed Data</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>GROUND VELOCITY</Name>
+    <Units>Knots</Units>
+    <Indexed>false</Indexed>
+    <Description>Speed relative to the earths surface</Description>
+    <Group>Aircraft Position and Speed Data</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>ON ANY RUNWAY</Name>
+    <Units>Bool</Units>
+    <Indexed>false</Indexed>
+    <Description>Whether or not the plane is currently on a runway.</Description>
+    <Group>Aircraft Position and Speed Data</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>PLANE ALTITUDE</Name>
+    <Units>Feet</Units>
+    <Indexed>false</Indexed>
+    <Description>Altitude of aircraft</Description>
+    <Group>Aircraft Position and Speed Data</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>PLANE ALT ABOVE GROUND</Name>
+    <Units>Feet</Units>
+    <Indexed>false</Indexed>
+    <Description>Altitude above the surface</Description>
+    <Group>Aircraft Position and Speed Data</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>PLANE BANK DEGREES</Name>
+    <Units>Radians</Units>
+    <Indexed>false</Indexed>
+    <Description>Bank angle, although the name mentions degrees the units used are radians</Description>
+    <Group>Aircraft Position and Speed Data</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>PLANE BANK DEGREES</Name>
+    <Units>Degrees</Units>
+    <Indexed>false</Indexed>
+    <Description>Bank angle, although the name mentions degrees the units used are radians</Description>
+    <Group>Aircraft Position and Speed Data</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>PLANE HEADING DEGREES MAGNETIC</Name>
+    <Units>Radians</Units>
+    <Indexed>false</Indexed>
+    <Description>Heading relative to magnetic north, although the name mentions degrees the units used are radians</Description>
+    <Group>Aircraft Position and Speed Data</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>PLANE HEADING DEGREES MAGNETIC</Name>
+    <Units>Degrees</Units>
+    <Indexed>false</Indexed>
+    <Description>Heading relative to magnetic north, although the name mentions degrees the units used are radians</Description>
+    <Group>Aircraft Position and Speed Data</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>PLANE HEADING DEGREES TRUE</Name>
+    <Units>Radians</Units>
+    <Indexed>false</Indexed>
+    <Description>Heading relative to true north, although the name mentions degrees the units used are radians</Description>
+    <Group>Aircraft Position and Speed Data</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>PLANE HEADING DEGREES TRUE</Name>
+    <Units>Degrees</Units>
+    <Indexed>false</Indexed>
+    <Description>Heading relative to true north, although the name mentions degrees the units used are radians</Description>
+    <Group>Aircraft Position and Speed Data</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>PLANE LATITUDE</Name>
+    <Units>Radians</Units>
+    <Indexed>false</Indexed>
+    <Description>Latitude of aircraft, North is positive, South negative</Description>
+    <Group>Aircraft Position and Speed Data</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>PLANE LATITUDE</Name>
+    <Units>Degrees</Units>
+    <Indexed>false</Indexed>
+    <Description>Latitude of aircraft, North is positive, South negative</Description>
+    <Group>Aircraft Position and Speed Data</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>PLANE LONGITUDE</Name>
+    <Units>Radians</Units>
+    <Indexed>false</Indexed>
+    <Description>Longitude of aircraft, East is positive, West negative</Description>
+    <Group>Aircraft Position and Speed Data</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>PLANE LONGITUDE</Name>
+    <Units>Degrees</Units>
+    <Indexed>false</Indexed>
+    <Description>Longitude of aircraft, East is positive, West negative</Description>
+    <Group>Aircraft Position and Speed Data</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>PLANE PITCH DEGREES</Name>
+    <Units>Radians</Units>
+    <Indexed>false</Indexed>
+    <Description>Pitch angle, although the name mentions degrees the units used are radians</Description>
+    <Group>Aircraft Position and Speed Data</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>PLANE PITCH DEGREES</Name>
+    <Units>Degrees</Units>
+    <Indexed>false</Indexed>
+    <Description>Pitch angle, although the name mentions degrees the units used are radians</Description>
+    <Group>Aircraft Position and Speed Data</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>PLANE TOUCHDOWN NORMAL VELOCITY</Name>
+    <Units>Feet per minute</Units>
+    <Indexed>false</Indexed>
+    <Description>This float represents the player’s plane speed according to ground normal from the last touchdown. (Not previsouly in FSX)</Description>
+    <Group>Aircraft Position and Speed Data</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>SIM ON GROUND</Name>
+    <Units>Bool</Units>
+    <Indexed>false</Indexed>
+    <Description>On ground flag</Description>
+    <Group>Aircraft Position and Speed Data</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>GENERAL ENG RPM</Name>
+    <Units>Rpm</Units>
+    <Indexed>true</Indexed>
+    <Description>Engine rpm</Description>
+    <Group>Aircraft engine data</Group>
+    <NumIndex>4</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>PROP RPM</Name>
+    <Units>Rpm</Units>
+    <Indexed>true</Indexed>
+    <Description>Propeller rpm</Description>
+    <Group>Aircraft engine data</Group>
+    <NumIndex>4</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>BRAKE PARKING INDICATOR</Name>
+    <Units>Bool</Units>
+    <Indexed>false</Indexed>
+    <Description>Parking brake indicator</Description>
+    <Group>Aircraft Controls Data</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>AUTOPILOT DISENGAGED</Name>
+    <Units>Bool</Units>
+    <Indexed>false</Indexed>
+    <Description>Whether or not the autopilot has been disengaged.</Description>
+    <Group>Aircraft Autopilot Data</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>AUTOPILOT FLIGHT DIRECTOR ACTIVE</Name>
+    <Units>Bool</Units>
+    <Indexed>false</Indexed>
+    <Description>Flight director active</Description>
+    <Group>Aircraft Autopilot Data</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>AUTOPILOT MASTER</Name>
+    <Units>Bool</Units>
+    <Indexed>false</Indexed>
+    <Description>On/off flag</Description>
+    <Group>Aircraft Autopilot Data</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>GPS TARGET DISTANCE</Name>
+    <Units>Meters</Units>
+    <Indexed>false</Indexed>
+    <Description>Distance to target</Description>
+    <Group>Aircraft Avionics Data</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>GPS TARGET DISTANCE</Name>
+    <Units>Nautical miles</Units>
+    <Indexed>false</Indexed>
+    <Description>Distance to target</Description>
+    <Group>Aircraft Avionics Data</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>GPS WP BEARING</Name>
+    <Units>Radians</Units>
+    <Indexed>false</Indexed>
+    <Description>Magnetic bearing to waypoint</Description>
+    <Group>Aircraft Avionics Data</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>GPS WP BEARING</Name>
+    <Units>Degrees</Units>
+    <Indexed>false</Indexed>
+    <Description>Magnetic bearing to waypoint</Description>
+    <Group>Aircraft Avionics Data</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>GPS WP DISTANCE</Name>
+    <Units>Meters</Units>
+    <Indexed>false</Indexed>
+    <Description>Distance to waypoint</Description>
+    <Group>Aircraft Avionics Data</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>GPS WP DISTANCE</Name>
+    <Units>Nautical miles</Units>
+    <Indexed>false</Indexed>
+    <Description>Distance to waypoint</Description>
+    <Group>Aircraft Avionics Data</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>COM ACTIVE FREQUENCY</Name>
+    <Units>MHz</Units>
+    <Indexed>true</Indexed>
+    <Description>Com active frequency. Index is 1, 2 or 3.</Description>
+    <Group>Aircraft Avionics Data</Group>
+    <NumIndex>4</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>NAV ACTIVE FREQUENCY</Name>
+    <Units>MHz</Units>
+    <Indexed>true</Indexed>
+    <Description>Nav active frequency. Index is 1 or 2.</Description>
+    <Group>Aircraft Avionics Data</Group>
+    <NumIndex>4</NumIndex>
+  </SimVarNamesObject>
+</BushTripInjector>
