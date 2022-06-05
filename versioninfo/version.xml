@@ -15,10 +15,20 @@
   <CurrentVersion>
     <Major>1</Major>
     <Minor>3</Minor>
-    <Build>0</Build>
-    <Revision>2902</Revision>
+    <Build>1</Build>
+    <Revision>2926</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+1.3.1.2926 - Drag and Drop&#xD;
+USER-REQ: *SimVars:* Added COM ACTIVE FREQUENCY to the Simulation vars which can be used in Event&amp;Triggers Editor and SinVarWatcher Window.&#xD;
+FEATURE: *Drag'n'Drop:* Added the feature to drag and drop BTI mission files. Just drop a BTI file to load the mission into BushTripInjector. &#xD;
+FEATURE: *Drag'n'Drop:* Added the feature to drag and drop database files. Just drop the main or parking database file of BTI to install it for use in BTI. It will be copied to your database folder selected on Options Sheet. you can use the ZIP-file or the extracted database.&#xD;
+FEATURE: *Append FLT:* Added the feature to manipulate all FLT settings. Enter the settings you want an FLT-Sheet. This feature is only available when you are using BTI file format.&#xD;
+FEATURE: *SimVars:* Moved the definitions for Simulation Variables into the Cloud. If you are missing a variable, let me know and I will add it to your BushTripInjector installation.&#xD;
+UPDATE: *Event&amp;Triggers/TTS:* Added a warning message when the trip contains 10 or more areas with AltitudeIsAGL which leads to a massive FPS drop in your mission.&#xD;
+UPDATE: *Compiler:* Added information message to check spaces in files and directories due to an error in MSFS/FSPackager when compilation fails.&#xD;
+&#xD;
+---&#xD;
 1.3.0.2902 - File system restructure (Part II)&#xD;
 &lt;ul&gt;&#xD;
 &lt;li&gt; *ConfigFile:* Introduction of the new central config file&#xD;
