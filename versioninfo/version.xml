@@ -182,8 +182,8 @@ BUGFIX: *Aircrafts:* The installation status of a community aircraft was not det
   </RequiredDbVersion>
   <CurrentMSFSDatabaseVersion>
     <Major>1</Major>
-    <Minor>25</Minor>
-    <Build>9</Build>
-    <Revision>1</Revision>
+    <Minor>26</Minor>
+    <Build>5</Build>
+    <Revision>0</Revision>
   </CurrentMSFSDatabaseVersion>
 </BushTripInjector>
