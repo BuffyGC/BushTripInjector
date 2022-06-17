@@ -3,8 +3,8 @@
   <MinVersion>
     <Major>1</Major>
     <Minor>2</Minor>
-    <Build>0</Build>
-    <Revision>2667</Revision>
+    <Build>2</Build>
+    <Revision>2716</Revision>
   </MinVersion>
   <PrevVersion>
     <Major>1</Major>
@@ -15,10 +15,31 @@
   <CurrentVersion>
     <Major>1</Major>
     <Minor>3</Minor>
-    <Build>3</Build>
-    <Revision>2999</Revision>
+    <Build>4</Build>
+    <Revision>3056</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+1.3.4.3056&#xD;
+FEATURE: *FPS-Boost:* Added TTS from WorldMap to the experimental FPS-Boost function. See changelog of 1.3.3.2998&#xD;
+FEATURE: *World Update X:* Added the support for es-MX (Latam Spanish / Latam Español). If you already have a es-ES translation, just generate your mission again and the Latin-Americans can benefit. zh-CN (Simplified Chinese / 中文) was already supported.&#xD;
+FEATURE: *Themes:* Added the feature to auto detect the theme as set in Windows for applications.&#xD;
+FEATURE: *DeepL:* Optimizations to save chars: When translating to all languages, es-MX will not be translated, if a translation for es-ES exists. Deepl does not distinguish between these languages. When you select es-MX explicit, it will be translated of course. There is no need inside of BTI to translate into es-MX automatically. BTI will use es-ES for es-MX, too.&#xD;
+UPDATE: *Special Char Handling:* Removed handling of apostrophes in all files. *Please report errors if you are using apostrophes.*&#xD;
+UPDATE: *Database:* Updated the Airport, Runway and Parking databases to sim version 1.26.5.0.&#xD;
+UPDATE: *Localizations:* When generating a mission and for pt-PT is no translation available, the translation of pt-BR is used.&#xD;
+UPDATE: *Localizations:* When generating a mission and for es-MX is no translation available, the translation of es-ES is used.&#xD;
+UPDATE: *Text-to-speech:* Added the option to override the detected leg in Text-to-speech Window for TTS from WorldMap.&#xD;
+UPDATE: *Create Wav:* Several improvements in WAV creation from Text:&lt;br&gt;- Load translated text from translations inside of Wav-Creation-Window&lt;br&gt;- Select multilingual wav files after creation and BTI will copy them to you mission automatically.&lt;br&gt;- Mapping of region-specific languages, i.e. en-GB to en-US for MSFS compatibility.&#xD;
+UPDATE: *Create Wav:* Select the recording language when you are recording sound files from your microphone or any other source.&#xD;
+UPDATE: *Select Soundfile:* Select multiple sound files once. Copy to the language-dependent destination folder if a language code could be determined from the file name. If not, base-language is used.&#xD;
+UPDATE: *SPB-Viewer:* Added Mode and Theme Handling to SPB-Viewer.&#xD;
+UPDATE: *Update-Window:* Added Mode and Theme Handling to Update Window.&#xD;
+UPDATE: *Sound-Files:* Removed the warning about sound files.&#xD;
+UPDATE: *Update-Check:* Check for main-database updates.&#xD;
+BUGFIX: *DarkMode:* Fixed an issue with the world map context menu in DarkMode.&#xD;
+BUGFIX: *Images:* The images on Image-Sheet will be refreshed now after generation of 2D images or generation of a mission.&#xD;
+&#xD;
+---&#xD;
 1.3.3.2999 - FPS BOOST&#xD;
 BushTripInjector analyzes and optimizes your triggers. This will increase the performance within the simulator by 100% or more for large missions with more than 100 triggers. For now only available for TTS selected and created in the flight plan. The implementation for TTS from the WorldMap and the E&amp;T trigger is already planned.&lt;br&gt;To enable this feature, experimental features must be enabled in the options. BTI automatically analyzes and optimizes the mission during generation. Since these are experimental features, bugs and errors may occur. *Please report working and not working missions.* &#xD;
 &#xD;
@@ -186,4 +207,16 @@ BUGFIX: *Aircrafts:* The installation status of a community aircraft was not det
     <Build>5</Build>
     <Revision>0</Revision>
   </CurrentMSFSDatabaseVersion>
+  <CurrentMainDbVersion>
+    <Major>1</Major>
+    <Minor>26</Minor>
+    <Build>5</Build>
+    <Revision>0</Revision>
+  </CurrentMainDbVersion>
+  <CurrentParkingDbVersion>
+    <Major>1</Major>
+    <Minor>26</Minor>
+    <Build>5</Build>
+    <Revision>0</Revision>
+  </CurrentParkingDbVersion>
 </BushTripInjector>
