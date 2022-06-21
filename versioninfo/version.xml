@@ -15,10 +15,23 @@
   <CurrentVersion>
     <Major>1</Major>
     <Minor>3</Minor>
-    <Build>4</Build>
-    <Revision>3056</Revision>
+    <Build>5</Build>
+    <Revision>3094</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+1.3.5.3094&#xD;
+FEATURE: *FPS-Boost:* FPS boost functionality has been extended to E&amp;T triggers. It is only available when Experimental features are enabled in Options. Automatic leg detection for ProximityTrigger, AreaLandingTrigger and AirportLandingTrigger has been implemented. You can override the automatic detection by entering your Leg numbers comma separated.&#xD;
+FEATURE: *Translate:* Export and import translation entries to and from Excel files.&#xD;
+UPDATE: *Aircrafts:* The local legend *Beechcraft D18S* has been added to the list of aircraft for BushTripInjector and &lt;a href="https://flightsim.to/file/28469/missionchanger"&gt;MissionChanger&lt;/a&gt;.&#xD;
+UPDATE: *SimVars:* The kHz unit variant has been added to the COM and NAV frequencies to avoid erroneous MSFS comparison with IEEE 754-1985.&#xD;
+BUGFIX: *Alternate Languages:* Fixed an issue when creating new missions where the alternative translation languages for TTS and WPNames were not set correctly.&#xD;
+BUGFIX: *Event&amp;Triggers:* Fixed an issue where internal reference lists were not cleaned up when a used area, action, world object, or trigger was removed.&#xD;
+BUGFIX: *Event&amp;Triggers:* Fixed an issue where changes were not detected when an action, trigger, area, or world object was removed.&#xD;
+BUGFIX: *Event&amp;Triggers:* Fixed an issue when a world object was removed, and it was still being used by another object.&#xD;
+BUGFIX: *Translate:* Fixed an issue when translating all languages using the DeepL API, where the translation threads did not sync correctly with the main thread. This could result in not all/some languages being translated. (Thx to bhpowell)&#xD;
+BUGFIX: *FLT:* An issue with UTF-8 / Win-1252 encoding on the FLT sheet has been fixed.&#xD;
+&#xD;
+---&#xD;
 1.3.4.3056&#xD;
 FEATURE: *FPS-Boost:* Added TTS from WorldMap to the experimental FPS-Boost function. See changelog of 1.3.3.2998&#xD;
 FEATURE: *World Update X:* Added the support for es-MX (Latam Spanish / Latam Español). If you already have a es-ES translation, just generate your mission again and the Latin-Americans can benefit. zh-CN (Simplified Chinese / 中文) was already supported.&#xD;
