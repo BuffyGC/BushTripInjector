@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BushTripInjector xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <LastSync>133009930197167845</LastSync>
+  <LastSync>133010745684356558</LastSync>
   <Glossaríes>
-    <Glossary Name="AviationFrench" Active="true">
+    <Glossary Name="Community" Active="true">
       <SourceLanguageCode>en</SourceLanguageCode>
       <TargetLanguageCode>fr</TargetLanguageCode>
       <Entries>
