@@ -15,10 +15,20 @@
   <CurrentVersion>
     <Major>1</Major>
     <Minor>3</Minor>
-    <Build>5</Build>
-    <Revision>3094</Revision>
+    <Build>6</Build>
+    <Revision>3131</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+1.3.6.3131 Automated Translation - Glossaries&#xD;
+ *Introducing Glossaries:*&lt;br&gt;Create your own aviation glossaries and use them for translations with DeepL-API.&lt;br&gt;Contribute on a community project by *FSX-RWT* to create community driven glossaries for aviation.&lt;br&gt;Join &lt;a href="http://discord.bushtripinjector.de"&gt;BushTripInjector Discord&lt;/a&gt; and post your recommendations in the public *#community glossary* channel.&#xD;
+&#xD;
+UPDATE: *FLT:* Added a line break in front of new chapters that you have inserted in FLT file.&#xD;
+UPDATE: *INTERNAL:* The internal API of DeepL has been rebuilt from scratch to be ready for future features and to be able to use all features of the API.&#xD;
+BUGFIX: *Translate:* Fixed an issue that prevented translation when the tag handling was set to none.&#xD;
+BUGFIX: *Optimized Code:* Fixed an issue with a code optimization flag in the compiler settings that sometimes prevented json files from being decoded.&#xD;
+BUGFIX: *Export Xlsx:* Fixed an issue where sheet names are too long and some spreadsheet applications cannot open the workbook.&#xD;
+&#xD;
+---&#xD;
 1.3.5.3094&#xD;
 FEATURE: *FPS-Boost:* FPS boost functionality has been extended to E&amp;T triggers. It is only available when Experimental features are enabled in Options. Automatic leg detection for ProximityTrigger, AreaLandingTrigger and AirportLandingTrigger has been implemented. You can override the automatic detection by entering your Leg numbers comma separated.&#xD;
 FEATURE: *Translate:* Export and import translation entries to and from Excel files.&#xD;
