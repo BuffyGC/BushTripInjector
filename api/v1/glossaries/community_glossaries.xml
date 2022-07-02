@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BushTripInjector xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <LastSync>133011747669623618</LastSync>
+  <LastSync>133012473427206915</LastSync>
   <Glossaríes>
     <Glossary Name="Community" Active="true">
       <SourceLanguageCode>en</SourceLanguageCode>
@@ -87,6 +87,93 @@
         <Entry Key="waypoint" Value="point de cheminement" />
         <Entry Key="windsock" Value="manche à air" />
         <Entry Key="yoke" Value="manche" />
+      </Entries>
+    </Glossary>
+    <Glossary Name="Community" Active="true">
+      <SourceLanguageCode>fr</SourceLanguageCode>
+      <TargetLanguageCode>en</TargetLanguageCode>
+      <Entries>
+        <Entry Key="abaissez" Value="drop" />
+        <Entry Key="aérofreins" Value="speed brake" />
+        <Entry Key="alignement arrière" Value="back course" />
+        <Entry Key="alignement de descente" Value="glide-slope" />
+        <Entry Key="alternateur" Value="alternator" />
+        <Entry Key="altimètre" Value="altimeter" />
+        <Entry Key="amorce" Value="primer" />
+        <Entry Key="angle d'inclinaison" Value="bank" />
+        <Entry Key="arrondi" Value="flare" />
+        <Entry Key="assiette" Value="atitude" />
+        <Entry Key="atterrissage" Value="landing " />
+        <Entry Key="balises" Value="beacon light" />
+        <Entry Key="basculez" Value="swap" />
+        <Entry Key="batterie" Value="battery" />
+        <Entry Key="branche de circuit" Value="traffic leg" />
+        <Entry Key="cap" Value="heading" />
+        <Entry Key="chargez" Value="load" />
+        <Entry Key="circuit" Value="circuit pattern" />
+        <Entry Key="circuit d'attente" Value="holding pattern" />
+        <Entry Key="circuit de trafic" Value="traffic pattern" />
+        <Entry Key="compensateur de direction" Value="rudder trim" />
+        <Entry Key="compensateur de tanguage" Value="pitch trim" />
+        <Entry Key="compensation" Value="trimming" />
+        <Entry Key="compensez" Value="trim" />
+        <Entry Key="configuration tout rentré" Value="clean" />
+        <Entry Key="coordinateur de virage" Value="turn coordinator" />
+        <Entry Key="croisière" Value="cruise" />
+        <Entry Key="curseur de cap" Value="heading bug" />
+        <Entry Key="décollage" Value="takeoff" />
+        <Entry Key="décrochage" Value="stall" />
+        <Entry Key="dégivrage" Value="de-ice" />
+        <Entry Key="démarreur" Value="ignition" />
+        <Entry Key="direction" Value="bearing" />
+        <Entry Key="en vol" Value="airborne" />
+        <Entry Key="feux anti-collision" Value="strobe light" />
+        <Entry Key="feux de navigation" Value="nav light" />
+        <Entry Key="frein de parc" Value="parking brake" />
+        <Entry Key="glissement avant" Value="forward slip" />
+        <Entry Key="glissement latéral" Value="side slip" />
+        <Entry Key="gouverne de direction" Value="rudder" />
+        <Entry Key="gouverne de profondeur" Value="elevator" />
+        <Entry Key="hélice" Value="propeller" />
+        <Entry Key="interrupteur de l’avionique" Value="avionics master" />
+        <Entry Key="ligne de foi" Value="lubber line" />
+        <Entry Key="magnéto" Value="magneto" />
+        <Entry Key="manche" Value="yoke" />
+        <Entry Key="manche à air" Value="windsock" />
+        <Entry Key="manette des gaz" Value="throttle" />
+        <Entry Key="manœuvre d'évitement des nuages" Value="scud running" />
+        <Entry Key="mélange" Value="mixture" />
+        <Entry Key="pédales de direction" Value="rudder pedals" />
+        <Entry Key="phares d'atterrissage" Value="landing light" />
+        <Entry Key="phares de roulage" Value="taxi light" />
+        <Entry Key="pilote automatique" Value="autopilot" />
+        <Entry Key="placez en palier" Value="level off" />
+        <Entry Key="point de cheminement" Value="waypoint" />
+        <Entry Key="Pompe à carburant" Value="fuel pump" />
+        <Entry Key="pompe de suralimentation" Value="boost pump" />
+        <Entry Key="portée" Value="range" />
+        <Entry Key="posé-décolé" Value="touch and go" />
+        <Entry Key="ralenti" Value="idle" />
+        <Entry Key="rampe de stationnement" Value="parking ramp" />
+        <Entry Key="recadrage" Value="pan" />
+        <Entry Key="réchauffage de la sonde pitot" Value="pitot heat" />
+        <Entry Key="roulage" Value="taxi" />
+        <Entry Key="roulement à l’atterrissage" Value="landing roll" />
+        <Entry Key="roulis" Value="roll" />
+        <Entry Key="segment de vol" Value="leg" />
+        <Entry Key="sélecteur de carburant" Value="fuel selector" />
+        <Entry Key="syntonisez" Value="tune" />
+        <Entry Key="touche" Value="soft key" />
+        <Entry Key="toucher des roues" Value="touchdown" />
+        <Entry Key="train" Value="gear" />
+        <Entry Key="train d'atterrissage" Value="landing gear" />
+        <Entry Key="veille" Value="standby" />
+        <Entry Key="vitesse de cabrage" Value="rotation speed" />
+        <Entry Key="vitesse réelle" Value="airspeed" />
+        <Entry Key="voie de circulation" Value="taxiway" />
+        <Entry Key="volets" Value="flaps" />
+        <Entry Key="volets de capot" Value="cowl flaps" />
+        <Entry Key="vrille" Value="spin" />
       </Entries>
     </Glossary>
   </Glossaríes>
