@@ -14,12 +14,28 @@
   </PrevVersion>
   <CurrentVersion>
     <Major>1</Major>
-    <Minor>3</Minor>
-    <Build>6</Build>
-    <Revision>3131</Revision>
+    <Minor>4</Minor>
+    <Build>0</Build>
+    <Revision>3181</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
-1.3.6.3131 Automated Translation - Glossaries&#xD;
+1.4.0.3181 - BUNDLES&#xD;
+ *Introducing Bundles:*&lt;br&gt;Create mission packs and bundles from a set of your missions to publish them to the marketplace (for commercial customers).&lt;br&gt;Also available for community users to release freeware. Thanks to the commercial customer who ordered this and allows us to offer the bundles to everyone!&lt;br&gt;Create the mission pack from file&amp;rarr;new, choose the bundle and add all your missions to your new bundle. Just generate, compile and enjoy!&#xD;
+&#xD;
+UPDATE: *Excel-Export:* Optimized Excel export for better performance. (thanks to FronTech)&#xD;
+UPDATE: *Glossaries:* Glossaries with empty entries are marked as invalid and cannot be used for translation.&#xD;
+UPDATE: *Aircraft-Change:* When an aircraft is selected for the mission, the corresponding dependency entries are created.&#xD;
+UPDATE: *MarketPlaceData:* Implemented a workaround to avoid missing marketplace data in compiler output introduced with SU8 for commercial customers. (thanks to koschi)&#xD;
+BUGFIX: *Discovery-Flights:* Fixed an issue that prevented Discovery flights from loading correctly in some cases.&#xD;
+BUGFIX: *Glossaries* Fixed an issue where invalid glossaries were not detected before a change was made to the glossaries.&#xD;
+BUGFIX: *Image:* Fixed an issue with selecting images from the flight plan when the image format was changed from png to jpg. (thanks to erasam)&#xD;
+BUGFIX: *Dependencies:* Fixed an issue where the mission was not marked as changed when dependencies were changed.&#xD;
+BUGFIX: *Images:* Fixed an issue when selecting a new jpg for images with mandatory sizes. (thanks to koschi)&#xD;
+BUGFIX: *Images:* Fixed an issue with changing an image for the in-game marketplace.&#xD;
+BUGFIX: *Leg Detection:* Fixed some issues with the automatic leg determination in the Event&amp;Trigger editor that led to incorrect assignment. (thanks to FronTech)&#xD;
+&#xD;
+---&#xD;
+1.3.6.3131 - Automated Translation - Glossaries&#xD;
  *Introducing Glossaries:*&lt;br&gt;Create your own aviation glossaries and use them for translations with DeepL-API.&lt;br&gt;Contribute on a community project by *FSX-RWT* to create community driven glossaries for aviation.&lt;br&gt;Join &lt;a href="http://discord.bushtripinjector.de"&gt;BushTripInjector Discord&lt;/a&gt; and post your recommendations in the public *#community glossary* channel.&#xD;
 &#xD;
 UPDATE: *FLT:* Added a line break in front of new chapters that you have inserted in FLT file.&#xD;
