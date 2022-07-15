@@ -15,10 +15,23 @@
   <CurrentVersion>
     <Major>1</Major>
     <Minor>4</Minor>
-    <Build>0</Build>
-    <Revision>3181</Revision>
+    <Build>1</Build>
+    <Revision>3212</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+1.4.1.3212&#xD;
+PRO-VERSION: *Media-Sliders:* Added the limit of 15 Media Sliders on Marketplace introduced with SU 10.&#xD;
+PRO-VERSION: *Media-Scroller:* Added the limit of 15 Media Scrollers on Marketplace introduced with SU 10.&#xD;
+PRO-VERSION: *Media-Images:* Rename files for slider and scroller when adding to avoid conflicts with other marketplace images.&#xD;
+PRO-VERSION: *MarketPlace:* Better handling of Discovery-Flights und Mission-Bundles with MarketPlace Data and Blocks.&#xD;
+UPDATE: *Sim Update 10:* Some small adjustments for Sim Update 10, completely compatible with SU9 too!&#xD;
+UPDATE: *Preflight-Check:* Give a warning on generation, if a non default airport is used in the mission.&#xD;
+UPDATE: *SPB-Import:* Added the StartTime on TimerTriggers into the import function.&#xD;
+BUGFIX: *MarketPlace/Images:* Fixed an issue with replaceing images for marketplace.&#xD;
+BUGFIX: *MarketPlace/Images:* Fixed an issue adding images for marketplace before the first generation.&#xD;
+BUGFIX: *Memory-Leak:* Fixed an issue with a memory leak.&#xD;
+&#xD;
+---&#xD;
 1.4.0.3181 - BUNDLES&#xD;
  *Introducing Bundles:*&lt;br&gt;Create mission packs and bundles from a set of your missions to publish them to the marketplace (for commercial customers).&lt;br&gt;Also available for community users to release freeware. Thanks to the commercial customer who ordered this and allows us to offer the bundles to everyone!&lt;br&gt;Create the mission pack from file&amp;rarr;new, choose the bundle and add all your missions to your new bundle. Just generate, compile and enjoy!&#xD;
 &#xD;
