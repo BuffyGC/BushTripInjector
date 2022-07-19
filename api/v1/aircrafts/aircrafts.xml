@@ -118,5 +118,27 @@
   <AircraftModel Name="Savage Shock Ultra Asobo Skis" SourcePath="..\Asobo_Savage_ShockUltra_Skis" AltSourcePath="asobo-aircraft-savage-shockultra" SourceType="PremiumDeluxe" />
   <AircraftModel Name="Savage Shock Ultra Floats Asobo" SourcePath="..\Asobo_Savage_ShockUltra_Floats" AltSourcePath="asobo-aircraft-savage-shockultra" SourceType="PremiumDeluxe" />
   <AircraftModel Name="SR22 Asobo" SourcePath="..\Asobo_SR22" AltSourcePath="asobo-aircraft-sr22" SourceType="PremiumDeluxe" />
+  <AircraftModel Name="Trinidad 0" SourcePath="..\LHC_Trinidad_TB21GT" AltSourcePath="lhc-aircraft-trinidad-tb21gt" SourceType="Payware" />
+  <AircraftModel Name="Trinidad 1" BaseName="Trinidad 0" SourceType="Payware" />
+  <AircraftModel Name="Trinidad 2" BaseName="Trinidad 0" SourceType="Payware" />
+  <AircraftModel Name="Trinidad 3" BaseName="Trinidad 0" SourceType="Payware" />
+  <AircraftModel Name="Trinidad 4" BaseName="Trinidad 0" SourceType="Payware" />
+  <AircraftModel Name="Trinidad 5" BaseName="Trinidad 0" SourceType="Payware" />
+  <AircraftModel Name="Trinidad 6" BaseName="Trinidad 0" SourceType="Payware" />
+  <AircraftModel Name="Trinidad 7" BaseName="Trinidad 0" SourceType="Payware" />
+  <AircraftModel Name="Trinidad 8" BaseName="Trinidad 0" SourceType="Payware" />
+  <AircraftModel Name="Trinidad 9" BaseName="Trinidad 0" SourceType="Payware" />
+  <AircraftModel Name="Trinidad 10" BaseName="Trinidad 0" SourceType="Payware" />
+  <AircraftModel Name="Trinidad 11" BaseName="Trinidad 0" SourceType="Payware" />
+  <AircraftModel Name="Trinidad 12" BaseName="Trinidad 0" SourceType="Payware" />
+  <AircraftModel Name="Trinidad 13" BaseName="Trinidad 0" SourceType="Payware" />
+  <AircraftModel Name="Trinidad 14" BaseName="Trinidad 0" SourceType="Payware" />
+  <AircraftModel Name="Trinidad 15" BaseName="Trinidad 0" SourceType="Payware" />
+  <AircraftModel Name="Trinidad 16" BaseName="Trinidad 0" SourceType="Payware" />
+  <AircraftModel Name="Trinidad 17" BaseName="Trinidad 0" SourceType="Payware" />
+  <AircraftModel Name="Trinidad 18" BaseName="Trinidad 0" SourceType="Payware" />
+  <AircraftModel Name="Trinidad 19" BaseName="Trinidad 0" SourceType="Payware" />
+  <AircraftModel Name="Trinidad 20" BaseName="Trinidad 0" SourceType="Payware" />
+  <AircraftModel Name="Trinidad 21" BaseName="Trinidad 0" SourceType="Payware" />
   <AircraftModel Name="Volocity Microsoft" SourcePath="..\Microsoft_Volocity" AltSourcePath="microsoft-aircraft-volocity" SourceType="Official" />
 </BushTripInjector>
