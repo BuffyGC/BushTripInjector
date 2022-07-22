@@ -2,23 +2,38 @@
 <BushTripInjector xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Id="BushTripInjector">
   <MinVersion>
     <Major>1</Major>
-    <Minor>2</Minor>
-    <Build>2</Build>
-    <Revision>2716</Revision>
+    <Minor>3</Minor>
+    <Build>0</Build>
+    <Revision>2902</Revision>
   </MinVersion>
   <PrevVersion>
     <Major>1</Major>
-    <Minor>2</Minor>
+    <Minor>3</Minor>
     <Build>0</Build>
     <Revision>-1</Revision>
   </PrevVersion>
   <CurrentVersion>
     <Major>1</Major>
     <Minor>4</Minor>
-    <Build>1</Build>
-    <Revision>3212</Revision>
+    <Build>2</Build>
+    <Revision>3252</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+1.4.2.3252 - Bundles with external packages&#xD;
+PRO-VERSION: *MarketplaceData:* Conversion of the older MSFS Marketplace data format to the new format for SU10 compatibility.&#xD;
+PRO-VERSION: *Business&amp;Marketplace:* Added the Marketplace 2.0 version of category and section.&#xD;
+PRO-VERSION: *Publish to Marketplace:* The "Publish Project..." feature has been added. A package is created that can be uploaded directly to the MSFS MarketPlace. A simple version management is included.&#xD;
+FEATURE: *Bundle-Manager:* Add your external packages to your bundles and mission packages.&lt;br&gt;If you have created scenery, aircraft, liveries or anything else, you can now combine this with your missions in a single package.&#xD;
+FEATURE: *Publish Project:* Added the feature to publish the project to the community. Choose to create an installer app for your mission. A simple version management is also included. &#xD;
+UPDATE: *Sim Update 10:* Some more small adjustments for Sim Update 10, also fully compatible with SU9!&#xD;
+UPDATE: *WebView2:* Updated the WebView2 component to the most recent version.&#xD;
+UPDATE: *OpenXml:* Updated the OpenXml component to the most recent version.&#xD;
+UPDATE: *General:* Cleanup some images und unused functions from code.&#xD;
+UPDATE: *Aircraft-Selection:* Added support for MSFS-Marketplace single packages and bundles as Just Flight is doing (thx to Lestat11)&#xD;
+UPDATE: *Aircraft:* Added LHC Trinidad TB21GT as Marketplace Payware aircraft (thx to Getu)&#xD;
+BUGFIX: *Window:* Fixed an issue opening the sound file folder when no mission was loaded.&#xD;
+&#xD;
+---&#xD;
 1.4.1.3212&#xD;
 PRO-VERSION: *Media-Sliders:* Added the limit of 15 Media Sliders on Marketplace introduced with SU 10.&#xD;
 PRO-VERSION: *Media-Scroller:* Added the limit of 15 Media Scrollers on Marketplace introduced with SU 10.&#xD;
@@ -27,7 +42,7 @@ PRO-VERSION: *MarketPlace:* Better handling of Discovery-Flights und Mission-Bun
 UPDATE: *Sim Update 10:* Some small adjustments for Sim Update 10, completely compatible with SU9 too!&#xD;
 UPDATE: *Preflight-Check:* Give a warning on generation, if a non default airport is used in the mission.&#xD;
 UPDATE: *SPB-Import:* Added the StartTime on TimerTriggers into the import function.&#xD;
-BUGFIX: *MarketPlace/Images:* Fixed an issue with replaceing images for marketplace.&#xD;
+BUGFIX: *MarketPlace/Images:* Fixed an issue with replacing images for marketplace.&#xD;
 BUGFIX: *MarketPlace/Images:* Fixed an issue adding images for marketplace before the first generation.&#xD;
 BUGFIX: *Memory-Leak:* Fixed an issue with a memory leak.&#xD;
 &#xD;
@@ -156,95 +171,6 @@ UPDATE: *Map Tile Cache:* Moved the map tile cache from &lt;i&gt;%BTIHOME%&lt;/i
 UPDATE: *Aircraft:* Added some payware aircraft to BushTripInjector and MissionChanger: Just Flight PA28 Arrow III, PA28 Turbo Arrow III, PA28 Turbo Arrow IV and the MilViz 310R.&#xD;
 BUGFIX: *Sound files:* Fixed an issue with sound files, when a user has different sound files on TTS entries, but same text for the TTS. (thanks to Joanhoc)&#xD;
 BUGFIX: *Map Tile Cache:* Fixed an issue with deleting outdated map tiles.&#xD;
-&#xD;
----&#xD;
-1.2.5.2812 - World Update IX Italy/Malta&#xD;
-UPDATE: *Database:* Updated the Airport and Runway Database included in BushTripInjector to WU9 Italy/Malta&lt;br&gt;Airport added: 322, changed 2862, deleted 5, Total 40153&lt;br&gt;Runway added: 746, changed 197, deleted 96, Total: 93982.&lt;br&gt;Details see db_changelog included in this package.&#xD;
-UPDATE: *Database:* Updated the Parking Database to to WU9 Italy/Malta&lt;br&gt;Parkings added: 3791, changed 1795, deleted 1568, Total 294470&lt;br&gt;This file is available as separate download on &lt;a href="https://flightsim.to/file/4131/bushtripinjector"&gt;BushTripInjector&lt;/a&gt;&#xD;
-UPDATE: *Online-Manual:* Added the manual for the Options-Sheet: &lt;a href="https://www.bushtripinjector.de/manual/sim-settings/"&gt;BushTripInjector Manual Options&lt;/a&gt;&#xD;
-&#xD;
----&#xD;
-1.2.5.2804 - File system restructure (Part I)&#xD;
-&lt;ul&gt;&lt;li&gt; *Project Root Folder:*&lt;br&gt;&#xD;
-&lt;ul&gt;&lt;li&gt;Added the feature to select the root folder where BushTripInjector stores your projects (%PROJECT_ROOT%). By default, it remains to &lt;i&gt;%BTI_HOME%\PackageSource&lt;/i&gt;.&lt;/li&gt;&#xD;
-&lt;li&gt;When selecting a new folder, you will be asked if you want to copy, move or do nothing with your previous folder.&lt;/li&gt;&#xD;
-&lt;li&gt;Learn more about the file system structure of BTI: &lt;a href="https://www.bushtripinjector.de/manual/filesystem/"&gt;BushTripInjector Manual Filesystem&lt;/a&gt;&lt;/li&gt;&#xD;
-&lt;/ul&gt;&lt;li&gt; *Log Files:* &#xD;
-&lt;ul&gt;&lt;li&gt;Added the possibility to select the log file folder, LogLevel, retention time and rolling mode on options screen.&lt;/li&gt;&#xD;
-&lt;li&gt;Moved the default log file folder from &lt;i&gt;%BTI_HOME%&lt;/i&gt; to a sub folder &lt;i&gt;%BTI_HOME%\Logs&lt;/i&gt;. Existing log files will be moved automatically.&lt;/li&gt;&#xD;
-&lt;li&gt;Log files will be removed automatically after a retention time. Default is 31 days&lt;/li&gt;&#xD;
-&lt;/ul&gt;&lt;li&gt; *Libraries:*&lt;br&gt;Moved the referenced and included DLLs of the package to a subfolder &lt;i&gt;Lib&lt;/i&gt;. BTI try to delete the old DLLs automatically.&lt;br&gt;Maybe your security software blocks BushTripInjector from deleting those libraries and you get some warnings or issues starting BTI. Please delete all DLL from &lt;i&gt;%BTI_HOME%&lt;/i&gt; by yourself.  &lt;/li&gt;&#xD;
-&lt;li&gt; *INI file:*&lt;br&gt;Migrated several project related entries of the INI file to BTI Fileformat.&lt;/li&gt;&#xD;
-&lt;/ul&gt;&#xD;
- *This Version has many changes in the core functionallity of BushTripInjector. Despite intensive testing, bugs and problems may occur. If you have an issue, please contact me on Discord: &lt;a href="http://discord.bushtripinjector.de/"&gt;discord.bushtripinjector.de&lt;/a&gt; &lt;br&gt;Thank you very much.*&#xD;
-UPDATE: *Options:* Renamed the &lt;i&gt;Sim Settings&lt;/i&gt; Tab to &lt;i&gt;Options&lt;/i&gt; and moved it to the end.&#xD;
-UPDATE: *DiscoveryFlights:* Fixed an issue preventing BTI to generate a DiscoveryFlight&#xD;
-BUGFIX: *Sound files:* Fixed an issue with the migration of sound files to the new folder: Some files were detected as unused and moved/copied to orphaned.&#xD;
-BUGFIX: *Startup:* Fixed an issue with writing exception file on startup&#xD;
-&#xD;
----&#xD;
-1.2.4.2755&#xD;
-USER-REQ: *Flight book:* The folder for saving the flight book has been changed to %MissionFolder%\AdditionalFiles\Documents (before: %BTIHOME%\Documents). No migration of already created flight books.&#xD;
-UPDATE: *WebView2:* The WebView2 components have been updated to the latest version.&#xD;
-UPDATE: *Internal:* Several optimizations and preparations for upcoming features.&#xD;
-BUGFIX: *Sound files:* Fixed an issue with the migration of sound files to the new folder when the user deleted this folder before migration &#xD;
-BUGFIX: *Sound files:* Fixed an issue with the migration of sound files to the new folder when sound files with more than 260 chars were used.&#xD;
-BUGFIX: *Compiler:* Fixed an issue with a message box when the compiler couldn't create the mission.&#xD;
-&#xD;
----&#xD;
-1.2.3.2743&#xD;
-HIGHLIGHT: Sound files &#xD;
-FEATURE: The sound files work again for all legs after leaving the mission or trip.&lt;br&gt; _IMPORTANT:_ Your current files will be moved to &lt;i&gt;%MissionHome%\AdditionalFiles\Sound\&amp;ltBaseLanguageCode&amp;gt&lt;/i&gt;. Please backup your sound folder before opening your mission.&lt;br&gt;Migrated missions will not work with older versions of BushTripInjector with sound files until you remap those files in the older version.&#xD;
-FEATURE: *Localized Sound files:* Use different sound files for each language for text-to-speech or InstructorDialogAction. Copy the wav-file into &lt;i&gt;%MissionHome%\AdditionalFiles\Sound\&amp;ltLanguageCode&amp;gt&lt;/i&gt; with the same filename. You will find more information at &lt;a href="https://www.bushtripinjector.de/manual/localized-soundfiles/"&gt;BushTripInjector Manual - Localized Sound Files&lt;/a&gt; &#xD;
-&#xD;
- *This Version has many changes in the core functionallity of BushTripInjector. Despite intensive testing, bugs and problems may occur. If you have an issue, please contact me on Discord: &lt;a href="http://discord.bushtripinjector.de/"&gt;discord.bushtripinjector.de&lt;/a&gt; &lt;br&gt;Thank you very much.*&#xD;
-&#xD;
-UPDATE: *Select Sound* and *Create WAV* functions will create the files in &lt;i&gt;%MissionHome%\AdditionalFiles\Sound\&amp;ltBaseLanguageCode&amp;gt&lt;/i&gt;.&#xD;
-UPDATE: *Soundfiles:* Only the sound files used are copied to the PackageFolder to reduce the size of the missions when uploading.&#xD;
-UPDATE: *BushTrips:* Added a warning if the user does not use a BTI file for bush trips.&#xD;
-UPDATE: *Online-Manual:* The manual has been extended by the localized sound files.: &lt;a href="https://www.bushtripinjector.de/manual/localized-soundfiles/"&gt;BushTripInjector Manual - Localized Sound Files&lt;/a&gt;&#xD;
-UPDATE: *Online-Manual:* Information about the file system and folder structure used and created by BushTripInjector has been added: &lt;a href="https://www.bushtripinjector.de/manual/filesystem/"&gt;BushTripInjector Manual Filesystem&lt;/a&gt;&#xD;
-UPDATE: *Cleanup:* Cleanup some parts of code.&#xD;
-BUGFIX: *MessageBoxes:* Hopefully an issue with message boxes going distractingly into the background has been fixed.&#xD;
-&#xD;
-&#xD;
----&#xD;
-1.2.2.2716&#xD;
-UPDATE: *Database:* Update of the internal airport and runway database to MSFS 1.25.7.0. Mainly minor changes in MagVar/Lat/Lon/Alt/Heading. For mission related changes like runway renaming see db_changelog in this package.&#xD;
-UPDATE: *Database:* The parking database has been updated to sim version 1.25.7.0. Please note that the parking database is a separate download.&#xD;
-UPDATE: *Bgl-Reader:* Various adjustments to read the new BGL format that MSFS uses for generic airport BGLs.&#xD;
-UPDATE: *Aircrafts:* Added *Carenado PA34T SENECA V* as Payware aircraft. Available for BushTripInjector and MissionChanger.&#xD;
-BUGFIX: *Translate-Window:* Fixed an issue with ColumnSize and Scrollbar in translate-window.&#xD;
-BUGFIX: *Translations* Fixed a problem when assigning translations to a waypoint if the waypoint identifier contains leading or trailing spaces.&#xD;
-&#xD;
----&#xD;
-1.2.1.2700&#xD;
-HIGHLIGHT: Partial Missions&#xD;
-PRO-VERSION: *Marketplace:* Removing whitespaces from image filenames for marketplace for SU9. If you are currently using images with blanks in the filenames, you need to remove and add them again!&#xD;
-PRO-VERSION: *Marketplace:* Support for new Marketplace.json instead of business.json will follow. &#xD;
-FEATURE: *Partial Missions:* Generate your legs as single bush trips for testing purposes. Keep in mind, such a cropped bush trip may behave differently if on previous legs payload/fuel or similar were changed.&#xD;
-UPDATE: *Aircraft-Selection:* Added Beechcraft D17S Staggerwing (pgilbr)&#xD;
-UPDATE: *Spb-Viewer:* Updated the property definitions to sim version 1.25.7.0&#xD;
-UPDATE: *Aircraft-Selection:* Added a warning before generating a mission if the aircraft is not available in the simulator. (hoffa68)&#xD;
-UPDATE: *Marketplace:* Updated ProjectTemplate and PackageTemplate for SU9.&#xD;
-UPDATE: *Marketplace:* Mask more special characters in the description for the MarketPlace. (Synoxys)&#xD;
-BUGFIX: *Event&amp;Triggers:* Fixed an issue that prevented the display of delay and speaker label for the InstructorDialog action.&#xD;
-BUGFIX: *Wait message:* Fixed an issue that you could edit the wait message. (Synoxys)&#xD;
-BUGFIX: *Import Xml/Spb:* Fixed an issue on converting FSX-Simvars to MSFS-Simvars. (Synoxys)&#xD;
-&#xD;
----&#xD;
-1.2.0.2667&#xD;
-HIGHLIGHT: World Map Improvements&#xD;
-FEATURE: *WorldMap:* Create text-to-speech with information from Wikipedia directly from WorldMap.&#xD;
-FEATURE: *WorldMap:* Display the areas you created in Event&amp;Triggers on the WorldMap with pins.&#xD;
-FEATURE: *WorldMap:* Display the TTS created by WorldMap on WorldMap with pins.&#xD;
-FEATURE: *WorldMap:* Display the waypoints and stopover airports of your trip in WorldMap with pins.&#xD;
-UPDATE: *WP-Names:* Remove leading and trailing spaces from waypoint names to avoid confusing the simulator.&#xD;
-UPDATE: *TTS:* With a simupdate there was a change in the behavior of DelaySeconds for TTS. Previously the delay applied from the start of the action, now from the end of the action. This makes the automatic calculation of BushTripInjector unnecessary and it was therefore removed. Please check your TTS and the EnterDelay/ExitDelay there and reset it to a smaller value. &#xD;
-BUGFIX: *BTI-File:* Fixed an issue where updating the copy of the LittleNavMap file contained in BTI did not work. This only affected if you deleted your LittleNavMap file and BTI used the internal copy. &#xD;
-BUGFIX: *BTI-File:* Departure coordinates were not changed if the departure airport was changed and the new and old airport had an identically named parking position available.&#xD;
-BUGFIX: *ProximityTrigger:* The reference to the ProximityTrigger has been removed from all areas when the ProximityTrigger is removed.&#xD;
-BUGFIX: *Aircrafts:* The installation status of a community aircraft was not detected correctly.&#xD;
 </ChangeLog>
   <Downloadlink>https://flightsim.to/file/4131/bushtripinjector</Downloadlink>
   <RequiredDbVersion>
