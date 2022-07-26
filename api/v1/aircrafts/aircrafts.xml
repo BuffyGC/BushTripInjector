@@ -50,13 +50,18 @@
   <AircraftModel Name="FlyingIron P-38L Lightning Down Beat" SourcePath="..\flyingiron_p38l" AltSourcePath="flyingiron-p38l" SourceType="Payware" />
   <AircraftModel Name="FlyingIron P-38L Lightning California Cutie" BaseName="FlyingIron P-38L Lightning Down Beat" SourceType="Payware" />
   <AircraftModel Name="FlyingIron P-38L Lightning Charlcie Jeanne" BaseName="FlyingIron P-38L Lightning Down Beat" SourceType="Payware" />
-  <AircraftModel Name="FlyingIron P-38L Lightning Down Beat" BaseName="FlyingIron P-38L Lightning Down Beat" SourceType="Payware" />
   <AircraftModel Name="FlyingIron P-38L Lightning 'FlyingIron Sims'" BaseName="FlyingIron P-38L Lightning Down Beat" SourceType="Payware" />
   <AircraftModel Name="FlyingIron P-38L Lightning Itsy Bitsy II" BaseName="FlyingIron P-38L Lightning Down Beat" SourceType="Payware" />
   <AircraftModel Name="FlyingIron P-38L Lightning Marge" BaseName="FlyingIron P-38L Lightning Down Beat" SourceType="Payware" />
   <AircraftModel Name="FlyingIron P-38L Lightning The Flying Dutchman" BaseName="FlyingIron P-38L Lightning Down Beat" SourceType="Payware" />
   <AircraftModel Name="FlyingIron P-38L Lightning Wishful Thinking" BaseName="FlyingIron P-38L Lightning Down Beat" SourceType="Payware" />
   <AircraftModel Name="FlyingIron P-38L Lightning YIPPEE" BaseName="FlyingIron P-38L Lightning Down Beat" SourceType="Payware" />
+  <AircraftModel Name="FlyingIron Spitfire Mk IX FlyingIron G-IRTY" SourcePath="..\flyingiron_spitfire" AltSourcePath="flyingiron-spitfire" SourceType="Payware" />
+  <AircraftModel Name="FlyingIron Spitfire Mk IX IAF 57 'Black Spit'" BaseName="FlyingIron Spitfire Mk IX FlyingIron G-IRTY" SourceType="Payware" />
+  <AircraftModel Name="FlyingIron Spitfire Mk IX Royal Air Force BF273" BaseName="FlyingIron Spitfire Mk IX FlyingIron G-IRTY" SourceType="Payware" />
+  <AircraftModel Name="FlyingIron Spitfire Mk IX RAF - 93 Sqn EN479" BaseName="FlyingIron Spitfire Mk IX FlyingIron G-IRTY" SourceType="Payware" />
+  <AircraftModel Name="FlyingIron Spitfire Mk IX RAF - 126 Sqn ML214 'Muscat'" BaseName="FlyingIron Spitfire Mk IX FlyingIron G-IRTY" SourceType="Payware" />
+  <AircraftModel Name="FlyingIron Spitfire Mk IX RAAF - 457 Sqn A58-602 'Grey Nurse' (Mk VIII)" BaseName="FlyingIron Spitfire Mk IX FlyingIron G-IRTY" SourceType="Payware" />
   <AircraftModel Name="Fokker FVIIa KLM" SourcePath="..\Microsoft_Fokker_FVIIa" AltSourcePath="microsoft-aircraft-fokker-vii" SourceType="Payware" />
   <AircraftModel Name="Fokker FVIIb Modern SC" SourcePath="..\Microsoft_Fokker_FVIIb_Modern" AltSourcePath="microsoft-aircraft-fokker-vii" SourceType="Payware" />
   <AircraftModel Name="Fokker FVIIb Modern AVC" BaseName="Fokker FVIIb Modern SC" SourceType="Payware" />
