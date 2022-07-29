@@ -15,10 +15,22 @@
   <CurrentVersion>
     <Major>1</Major>
     <Minor>4</Minor>
-    <Build>2</Build>
-    <Revision>3252</Revision>
+    <Build>3</Build>
+    <Revision>3273</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+1.4.3.3273&#xD;
+FEATURE: *FPS-Boost:* Moved the FPS-Boost functions from experimental to standard. Activate them on BaseData-Tab for TTS-Optimization. Default is "None".&#xD;
+FEATURE: *IngameMarker:* IngameMarker are back in business. Add IGM as additional POI instead of the non-working landmarks. Active/Deactivate them with Event&amp;amp;Triggers Editor whenever you want.&lt;br&gt; *Please keep in mind that this feature is only available if you are using sim version 1.27.11 (SU10 Beta) or higher!*&#xD;
+UPDATE: *Manual:* Some help and manual pages of the online help have been updated: Bundle, Busimnss&amp;MarketPlace, Publish Project, MissionChanger, Glossaries. &#xD;
+UPDATE: *Internal:* Some changes to the help system so that it can be used with MissionChanger.&#xD;
+UPDATE: *Aircrafts:* Added "FlyingIron Spitfire Mk IX" as MSFS Marketplace Payware aircraft.&#xD;
+UPDATE: *Aircrafts:* Added a workaround for incorrect base_container entries in the aircraft.cfg of some modders.&#xD;
+UPDATE: *Compile:* Added a check and warning before compiling when running an instance of Flight Simulator.&#xD;
+BUGFIX: *SimWatcher:* Fixed a CTD in SimWatcherWindow when the clipboard is locked by another program.&#xD;
+BUGFIX: *Legdetection:* Fixed an issue where WorldMap waypoints were assigned to the wrong leg of the journey.&#xD;
+&#xD;
+---&#xD;
 1.4.2.3252 - Bundles with external packages&#xD;
 PRO-VERSION: *MarketplaceData:* Conversion of the older MSFS Marketplace data format to the new format for SU10 compatibility.&#xD;
 PRO-VERSION: *Business&amp;Marketplace:* Added the Marketplace 2.0 version of category and section.&#xD;
