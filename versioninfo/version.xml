@@ -15,10 +15,24 @@
   <CurrentVersion>
     <Major>1</Major>
     <Minor>4</Minor>
-    <Build>3</Build>
-    <Revision>3273</Revision>
+    <Build>4</Build>
+    <Revision>3308</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+1.4.4.3308&#xD;
+UPDATE: *Commandline:* Added the --file parameter to command line parameters. This will load the specified BTI file. Learn more: &lt;a href="https://www.bushtripinjector.de/manual/commandline-environment/"&gt;BushTripInjector Manual Commandline&amp;amp;Environment&lt;/a&gt;&#xD;
+UPDATE: *SimConnect:* Sim Connect Update for better support of both, SU9+SU10. Replaced "Microsoft.FlightSimulator.SimConnect.dll" and "SimConnect.dll" in *lib*-folder.&#xD;
+UPDATE: *Translation:* A workaround has been implemented to avoid an issue with automatic translation when tags and line breaks are used. A nice side effect: the number of characters is reduced when line breaks are present. (Thanks to fsx-rwt)&#xD;
+UPDATE: *LoadingTips:* When a mission is loaded without loading tips, default loading tips are no longer added. (thx to Marco)&#xD;
+UPDATE: *TTS-Sheet:* Added columns for enter and exit sound file names.&#xD;
+UPDATE: *Options:* Added simulator startup parameter settings for the FPS panel in the options. SU10 required to work. For details see: &lt;a href="https://www.bushtripinjector.de/manual/sim-settings/#sim-settings"&gt;BushTripInjector Manual Options&lt;/a&gt;.&#xD;
+UPDATE: *Database browser:* The AVGas and Jetfuel columns have been replaced with *HasFuel* to avoid confusion for SU10 users. (MS does not maintain the fuel flags anymore).&#xD;
+UPDATE: *Typos:* Fixed some typos in AssistancePresets and other windows. (thx to Scotty)&#xD;
+UPDATE: *Databases:* The main and park database for SU10 beta have been uploaded. They are available as a separate download and not included in this package!&#xD;
+BUGFIX: *Image:* Fixed an issue that occurred when the user selected a jpg image with the 4-digit file extension "jpeg".&#xD;
+BUGFIX: *Soundfiles:* Fixed an issue with non-unique sound file names when using a TTS and LegCompletion TTS for the same airport with sounds for Enter-Sound. You need to re-assign at least one sound file. Please check our translations for LegCompletion TTS, too! (Thx Oby1)&#xD;
+&#xD;
+---&#xD;
 1.4.3.3273&#xD;
 FEATURE: *FPS-Boost:* Moved the FPS-Boost functions from experimental to standard. Activate them on BaseData-Tab for TTS-Optimization. Default is "None".&#xD;
 FEATURE: *IngameMarker:* IngameMarker are back in business. Add IGM as additional POI instead of the non-working landmarks. Active/Deactivate them with Event&amp;amp;Triggers Editor whenever you want.&lt;br&gt; *Please keep in mind that this feature is only available if you are using sim version 1.27.11 (SU10 Beta) or higher!*&#xD;
