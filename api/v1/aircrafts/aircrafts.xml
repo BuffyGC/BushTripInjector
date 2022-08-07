@@ -62,6 +62,18 @@
   <AircraftModel Name="FlyingIron Spitfire Mk IX RAF - 93 Sqn EN479" BaseName="FlyingIron Spitfire Mk IX FlyingIron G-IRTY" SourceType="Payware" />
   <AircraftModel Name="FlyingIron Spitfire Mk IX RAF - 126 Sqn ML214 'Muscat'" BaseName="FlyingIron Spitfire Mk IX FlyingIron G-IRTY" SourceType="Payware" />
   <AircraftModel Name="FlyingIron Spitfire Mk IX RAAF - 457 Sqn A58-602 'Grey Nurse' (Mk VIII)" BaseName="FlyingIron Spitfire Mk IX FlyingIron G-IRTY" SourceType="Payware" />
+  <AircraftModel Name="Fox2 (915 iS - Stage 1)" SourcePath="..\p42_fox2" AltSourcePath="p42-freedomfox-xbox" SourceType="Payware" />
+  <AircraftModel Name="Fox2 Adventure Fox (915 iS - Stage 1)" BaseName="Fox2 (915 iS - Stage 1)" SourceType="Payware" />
+  <AircraftModel Name="Fox2 Arctic (915 iS - Stage 1)" BaseName="Fox2 (915 iS - Stage 1)" SourceType="Payware" />
+  <AircraftModel Name="Fox2 C-GFOX (915 iS - Stage 1)" BaseName="Fox2 (915 iS - Stage 1)" SourceType="Payware" />
+  <AircraftModel Name="Fox2 D-MFOX (915 iS - Stage 1)" BaseName="Fox2 (915 iS - Stage 1)" SourceType="Payware" />
+  <AircraftModel Name="Fox2 D-OLIV (915 iS - Stage 1)" BaseName="Fox2 (915 iS - Stage 1)" SourceType="Payware" />
+  <AircraftModel Name="Fox2 Expedition Fox (915 iS - Stage 1)" BaseName="Fox2 (915 iS - Stage 1)" SourceType="Payware" />
+  <AircraftModel Name="Fox2 G-JVET (915 iS - Stage 1)" BaseName="Fox2 (915 iS - Stage 1)" SourceType="Payware" />
+  <AircraftModel Name="Fox2 Mountain Fox (915 iS - Stage 1)" BaseName="Fox2 (915 iS - Stage 1)" SourceType="Payware" />
+  <AircraftModel Name="Fox2 N-FOXE (915 iS - Stage 1)" BaseName="Fox2 (915 iS - Stage 1)" SourceType="Payware" />
+  <AircraftModel Name="Fox2 P42 (915 iS - Stage 1)" BaseName="Fox2 (915 iS - Stage 1)" SourceType="Payware" />
+  <AircraftModel Name="Fox2 X (915 iS - Stage 1)" BaseName="Fox2 (915 iS - Stage 1)" SourceType="Payware" />
   <AircraftModel Name="Fokker FVIIa KLM" SourcePath="..\Microsoft_Fokker_FVIIa" AltSourcePath="microsoft-aircraft-fokker-vii" SourceType="Payware" />
   <AircraftModel Name="Fokker FVIIb Modern SC" SourcePath="..\Microsoft_Fokker_FVIIb_Modern" AltSourcePath="microsoft-aircraft-fokker-vii" SourceType="Payware" />
   <AircraftModel Name="Fokker FVIIb Modern AVC" BaseName="Fokker FVIIb Modern SC" SourceType="Payware" />
