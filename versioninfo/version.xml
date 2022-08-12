@@ -15,10 +15,31 @@
   <CurrentVersion>
     <Major>1</Major>
     <Minor>4</Minor>
-    <Build>4</Build>
-    <Revision>3308</Revision>
+    <Build>5</Build>
+    <Revision>3360</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+1.4.5.3360 - [SU10] Run Bushtrips From Scratch &#xD;
+ * 'Important Note:'*&lt;br&gt;With this version, saving in the old file format has been disabled. Your data will be automatically converted to the new format at the next save operation. You have to choose a location and a filename! If you have any missions in the old format, you can still load and convert them.  &#xD;
+&#xD;
+Pro-Version: *Business data:* Fixed an issue where the AccountSellerId was not loaded correctly in some cases.&#xD;
+Pro-Version: *export.zip:* The creation of the export.zip has been removed. Since the new Marketplace, this is unnecessary for submitting Marketplace addons. An existing export.zip will be removed the next time the mission is generated, and the associated folder removed if empty. If you have used this file for other purposes, please use the *publish-function* to create a zip for the community folder.&#xD;
+FEATURE: *[SU10]:* With the new cloud storage of bush trips in the simulator, it is no longer possible to start a bush trip from scratch.&lt;br&gt;Activate *Append Build* in Base Data and the bush trip will start from scratch. If you want to test how changes to your previous version behave, deactivate the flag again.&#xD;
+FEATURE: *RewardScreen:* Added the Reward-Screen to the images. A default is generated automatically on your next generation. You can turn of this feature on base data (Use Rewardscreen). This only applies to bush trips, landing challenges and tutorials/training. &#xD;
+USER-REQ: *Translate:* Added the option to deactivate the DeepL-API translations with a single click in translate window. BTI will use the default translation handling by the DeepL app. Thanks to fsx-rwt for the request.&#xD;
+USER-REQ: *Worldmap:* The WorldMap settings are now saved and permanently retained. Thanks to erasam for the request.&#xD;
+USER-REQ: *Pilots:* Added the possibility to select "Default" for the pilot and co-pilot. (Thanks Marko)&#xD;
+USER-REQ: *Discovery:* Added the possibility to create TTS from the WorldMap based on Wikipedia entries in Discovery Flights. (Thanks to NH-Missions)&#xD;
+USER-REQ: *WorldMap:* Added the possibility to create landmarks/POI from the WorldMap based on Wikipedia entries for BushTrips and Discovery Flights. (Thanks to NH-Missions) &#xD;
+UPDATE: *Aircrafts:* Added the FreedomFox &amp;amp; Fox2 into the payware aircraft list. Thanks to ParaMan.&#xD;
+UPDATE: *WP-Names:* A workaround has been implemented to prevent legs from being displayed incorrectly in the sim if a waypoint name contains a comma. Thanks to ProfSC.&#xD;
+UPDATE: *Landmarks:* Integrated Landmark-Edit-Window into default view to reduce duplicate code and manual entries.&#xD;
+UPDATE: *Flightbook:* Improved handling of images containing indexed color tables. (Thanks to koschi)&#xD;
+BUGFIX: *Glossaries:* Fixed an issue with empty but active glossaries on translation via DeepL-API.&#xD;
+BUGFIX: *Discovery:* Fixed an issue that prevented correct creation of 2D images for discovery flights.&#xD;
+BUGFIX: *Userpoints:* Fixed an issue where user points in discovery missions were not loaded correctly. (Thanks to NH-Missions)&#xD;
+&#xD;
+---&#xD;
 1.4.4.3308&#xD;
 UPDATE: *Commandline:* Added the --file parameter to command line parameters. This will load the specified BTI file. Learn more: &lt;a href="https://www.bushtripinjector.de/manual/commandline-environment/"&gt;BushTripInjector Manual Commandline&amp;amp;Environment&lt;/a&gt;&#xD;
 UPDATE: *SimConnect:* Sim Connect Update for better support of both, SU9+SU10. Replaced "Microsoft.FlightSimulator.SimConnect.dll" and "SimConnect.dll" in *lib*-folder.&#xD;
