@@ -130,6 +130,19 @@
   <AircraftModel Name="Milviz 310R N5077J" BaseName="Milviz 310R CGTER" SourceType="Payware" />
   <AircraftModel Name="Milviz 310R N5225J" BaseName="Milviz 310R CGTER" SourceType="Payware" />
   <AircraftModel Name="Milviz 310R NoTail" BaseName="Milviz 310R CGTER" SourceType="Payware" />
+  <AircraftModel Name="PC21-A" SourcePath="..\pc21" AltSourcePath="deimosinc-pc21" SourceType="Payware" />
+  <AircraftModel Name="PC21-B" BaseName="PC21-A" SourceType="Payware" />
+  <AircraftModel Name="PC21-C" BaseName="PC21-A" SourceType="Payware" />
+  <AircraftModel Name="PC21-D" BaseName="PC21-A" SourceType="Payware" />
+  <AircraftModel Name="PC21-E" BaseName="PC21-A" SourceType="Payware" />
+  <AircraftModel Name="PC21-F" BaseName="PC21-A" SourceType="Payware" />
+  <AircraftModel Name="PC21-G" BaseName="PC21-A" SourceType="Payware" />
+  <AircraftModel Name="PC21-H" BaseName="PC21-A" SourceType="Payware" />
+  <AircraftModel Name="PC21-I" BaseName="PC21-A" SourceType="Payware" />
+  <AircraftModel Name="PC21-P" BaseName="PC21-A" SourceType="Payware" />
+  <AircraftModel Name="PC21-S" BaseName="PC21-A" SourceType="Payware" />
+  <AircraftModel Name="PC21-T" BaseName="PC21-A" SourceType="Payware" />
+  <AircraftModel Name="PC21-U" BaseName="PC21-A" SourceType="Payware" />
   <AircraftModel Name="Pipistrel Alpha Electro Asobo" SourcePath="..\Asobo_Pipistrel" AltSourcePath="asobo-aircraft-pipistrel" SourceType="PremiumDeluxe" />
   <AircraftModel Name="Savage Shock Ultra Asobo" SourcePath="..\Asobo_Savage_ShockUltra" AltSourcePath="asobo-aircraft-savage-shockultra" SourceType="PremiumDeluxe" />
   <AircraftModel Name="Savage Shock Ultra Asobo Skis" SourcePath="..\Asobo_Savage_ShockUltra_Skis" AltSourcePath="asobo-aircraft-savage-shockultra" SourceType="PremiumDeluxe" />
