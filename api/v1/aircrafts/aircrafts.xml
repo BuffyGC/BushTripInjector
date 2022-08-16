@@ -31,6 +31,12 @@
   <AircraftModel Name="Carenado PA34T SENECA V N58630" BaseName="Carenado PA34T SENECA V N48765" SourceType="Payware" />
   <AircraftModel Name="Carenado PA34T SENECA V N58688" BaseName="Carenado PA34T SENECA V N48765" SourceType="Payware" />
   <AircraftModel Name="Carenado PA34T SENECA V WHITE" BaseName="Carenado PA34T SENECA V N48765" SourceType="Payware" />
+  <AircraftModel Name="Carenado C337H Skymaster II N842TU" SourcePath="..\Carenado_C337_Skymaster" AltSourcePath="carenado-aircraft-c337-skymaster" SourceType="Payware" />
+  <AircraftModel Name="Carenado C337H Skymaster II N79252" BaseName="Carenado C337H Skymaster II N842TU" SourceType="Payware" />
+  <AircraftModel Name="Carenado C337H Skymaster II N5JD" BaseName="Carenado C337H Skymaster II N842TU" SourceType="Payware" />
+  <AircraftModel Name="Carenado C337H Skymaster II N6276K" BaseName="Carenado C337H Skymaster II N842TU" SourceType="Payware" />
+  <AircraftModel Name="Carenado C337H Skymaster II VH-SBZ" BaseName="Carenado C337H Skymaster II N842TU" SourceType="Payware" />
+  <AircraftModel Name="Carenado C337H Skymaster II N3271S" BaseName="Carenado C337H Skymaster II N842TU" SourceType="Payware" />
   <AircraftModel Name="Cessna 152 Aero Asobo" SourcePath="..\Asobo_C152_Aerobat" AltSourcePath="asobo-aircraft-c152-aerobat" SourceType="Deluxe" />
   <AircraftModel Name="Cessna Longitude Asobo" SourcePath="..\Asobo_Longitude" AltSourcePath="asobo-aircraft-longitude" SourceType="PremiumDeluxe" />
   <AircraftModel Name="Cessna Skyhawk Asobo" SourcePath="..\Asobo_C172sp_classic" AltSourcePath="asobo-aircraft-c172sp-classic" SourceType="Deluxe" />
