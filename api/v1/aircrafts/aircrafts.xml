@@ -130,6 +130,14 @@
   <AircraftModel Name="Just Flight PA28 Turbo Arrow IV N3023K" BaseName="Just Flight PA28 Turbo Arrow IV G-BOGM" SourceType="Payware" />
   <AircraftModel Name="Just Flight PA28 Turbo Arrow IV OE-KFT" BaseName="Just Flight PA28 Turbo Arrow IV G-BOGM" SourceType="Payware" />
   <AircraftModel Name="Just Flight PA28 Turbo Arrow IV OK-MAN" BaseName="Just Flight PA28 Turbo Arrow IV G-BOGM" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 Safari Wings" SourcePath="..\SWS_Kodiak_gear" AltSourcePath="sws-aircraft-kodiak-wheels" AltSourcePath2="justflight-aircraft-pa28-turboarrow" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 Aviation Sans Frontieres" BaseName="Kodiak 100 Safari Wings" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 Safari Wings Xecutive" BaseName="Kodiak 100 Safari Wings" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 Rheinland Air Service" BaseName="Kodiak 100 Safari Wings" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, Safari Wings" SourcePath="..\SWS_Kodiak_tundra" AltSourcePath="sws-aircraft-kodiak-wheels" AltSourcePath2="justflight-aircraft-pa28-turboarrow" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, Aviation Sans Frontieres" BaseName="Kodiak 100 tundra tyres, Safari Wings" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, Safari Wings Xecutive" BaseName="Kodiak 100 tundra tyres, Safari Wings" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, Rheinland Air Service" BaseName="Kodiak 100 tundra tyres, Safari Wings" SourceType="Payware" />
   <AircraftModel Name="Milviz 310R CGTER" SourcePath="..\Milviz_310R" AltSourcePath="milviz-aircraft-310" SourceType="Payware" />
   <AircraftModel Name="Milviz 310R COLIN" BaseName="Milviz 310R CGTER" SourceType="Payware" />
   <AircraftModel Name="Milviz 310R DIRFT" BaseName="Milviz 310R CGTER" SourceType="Payware" />
