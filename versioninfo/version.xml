@@ -15,10 +15,27 @@
   <CurrentVersion>
     <Major>1</Major>
     <Minor>4</Minor>
-    <Build>5</Build>
-    <Revision>3360</Revision>
+    <Build>6</Build>
+    <Revision>3404</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+1.4.6.3404&#xD;
+FEATURE: *Landmarks:* Added the possibility to create TTS objects, areas and proximity triggers from landmark POI in the E&amp;T editor. It is possible to choose whether the output should be separated by sentences or paragraphs.&#xD;
+FEATURE: *Recent Files:* Added the possibility to open a file from the recent file list in a new instance using the right mouse button.&#xD;
+FEATURE: *Translate:* Added the possibility to lock entries for translation. A locked entry will not be considered during automatic translations via the DeepL API or during the text or Excel imports.&#xD;
+UPDATE: *Event&amp;amp;Triggers:* The beta, internal and non-functioning triggers and actions have been removed from the GUI in release version. (Thanks CitadelSkies)&#xD;
+UPDATE: *Wiki (all functions):* From Wikipedia entries some fancy characters are removed or replaced, which crash the simulation. (Thanks to a brewery in the Netherlands)&#xD;
+UPDATE: *New Dialog:* A message field has been added so that users know which formats for the project name are supported by the simulator, and which are not.&#xD;
+UPDATE: *Initial-Fuel:* Added support for complex fuel system of MSFS for add-ons that do not provide compatibility with the simple variant.&#xD;
+UPDATE: *Event&amp;amp;Triggers:* *Pilot* has been added to the speaker list for text-to-speech actions.&#xD;
+UPDATE: *Aircraft-List:* The Marketplace payware aircraft "Carenado C337H Skymaster" and "Pilatus PC-21" have been added. (Thanks Chauffi)&#xD;
+UPDATE: *Image-Sheet:* Some minor improvements and optimized notes for some images.&#xD;
+BUGFIX: *Discovery:* Fixed an issue that prevented ProximiyTriggers from firing in Discovery Flights.&#xD;
+BUGFIX: *Generate:* Fixed an issue when generating if the simulator's official folder is encrypted with EFS.&#xD;
+BUGFIX: *Event&amp;amp;Triggers:* Fixed an issue that prevented items from being rearranged via drag and drop. (Thanks Nordheim Missions)&#xD;
+BUGFIX: *Leg Detection:* Fixed an issue where ProximityTriggers were assigned to the wrong leg of the journey.&#xD;
+&#xD;
+---&#xD;
 1.4.5.3360 - [SU10] Run Bushtrips From Scratch &#xD;
  * 'Important Note:'*&lt;br&gt;With this version, saving in the old file format has been disabled. Your data will be automatically converted to the new format at the next save operation. You have to choose a location and a filename! If you have any missions in the old format, you can still load and convert them.  &#xD;
 &#xD;
