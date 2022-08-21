@@ -134,18 +134,162 @@
   <AircraftModel Name="Kodiak 100 Safari Wings" BaseName="Kodiak 100 Aviation Sans Frontieres" SourceType="Payware" />
   <AircraftModel Name="Kodiak 100 Safari Wings Xecutive" BaseName="Kodiak 100 Aviation Sans Frontieres" SourceType="Payware" />
   <AircraftModel Name="Kodiak 100 Rheinland Air Service" BaseName="Kodiak 100 Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 Factory paint A1" BaseName="Kodiak 100 Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 Factory paint A2" BaseName="Kodiak 100 Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 Factory paint A3" BaseName="Kodiak 100 Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 Factory paint A4" BaseName="Kodiak 100 Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 Factory paint A5" BaseName="Kodiak 100 Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 Factory paint A6" BaseName="Kodiak 100 Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 Factory paint A7" BaseName="Kodiak 100 Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 Factory paint A8" BaseName="Kodiak 100 Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 Factory paint A9" BaseName="Kodiak 100 Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 Factory paint B1" BaseName="Kodiak 100 Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 Factory paint B2" BaseName="Kodiak 100 Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 Factory paint B3" BaseName="Kodiak 100 Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 Factory paint B4" BaseName="Kodiak 100 Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 Factory paint B5" BaseName="Kodiak 100 Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 Factory paint B6" BaseName="Kodiak 100 Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 Factory paint B7" BaseName="Kodiak 100 Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 Factory paint B8" BaseName="Kodiak 100 Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 Factory paint B9" BaseName="Kodiak 100 Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 Legacy Livery 1" BaseName="Kodiak 100 Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 Legacy Livery 2" BaseName="Kodiak 100 Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 Legacy Livery 3" BaseName="Kodiak 100 Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 Legacy Livery 4" BaseName="Kodiak 100 Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 Legacy Livery 5" BaseName="Kodiak 100 Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 Legacy Livery 6" BaseName="Kodiak 100 Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 Factory paint A1 2021" BaseName="Kodiak 100 Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 Factory paint A2 2021" BaseName="Kodiak 100 Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 Factory paint A3 2021" BaseName="Kodiak 100 Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 Factory paint A4 2021" BaseName="Kodiak 100 Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 Factory paint A5 2021" BaseName="Kodiak 100 Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 Factory paint A6 2021" BaseName="Kodiak 100 Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 Factory paint B1 2021" BaseName="Kodiak 100 Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 Factory paint B2 2021" BaseName="Kodiak 100 Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 Factory paint B3 2021" BaseName="Kodiak 100 Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 Factory paint B4 2021" BaseName="Kodiak 100 Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 Factory paint B5 2021" BaseName="Kodiak 100 Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 Factory paint B6 2021" BaseName="Kodiak 100 Aviation Sans Frontieres" SourceType="Payware" />
   <AircraftModel Name="Kodiak 100 cargo pod, Aviation Sans Frontieres" SourcePath="..\SWS_Kodiak_gear_CP" AltSourcePath="sws-aircraft-kodiak-wheels" AltSourcePath2="justflight-aircraft-pa28-turboarrow" SourceType="Payware" />
   <AircraftModel Name="Kodiak 100 cargo pod, Safari Wings" BaseName="Kodiak 100 cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
   <AircraftModel Name="Kodiak 100 cargo pod, Safari Wings Xecutive" BaseName="Kodiak 100 cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
   <AircraftModel Name="Kodiak 100 cargo pod, Rheinland Air Service" BaseName="Kodiak 100 cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 cargo pod, Factory paint A1" BaseName="Kodiak 100 cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 cargo pod, Factory paint A2" BaseName="Kodiak 100 cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 cargo pod, Factory paint A3" BaseName="Kodiak 100 cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 cargo pod, Factory paint A4" BaseName="Kodiak 100 cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 cargo pod, Factory paint A5" BaseName="Kodiak 100 cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 cargo pod, Factory paint A6" BaseName="Kodiak 100 cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 cargo pod, Factory paint A7" BaseName="Kodiak 100 cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 cargo pod, Factory paint A8" BaseName="Kodiak 100 cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 cargo pod, Factory paint A9" BaseName="Kodiak 100 cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 cargo pod, Factory paint B1" BaseName="Kodiak 100 cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 cargo pod, Factory paint B2" BaseName="Kodiak 100 cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 cargo pod, Factory paint B3" BaseName="Kodiak 100 cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 cargo pod, Factory paint B4" BaseName="Kodiak 100 cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 cargo pod, Factory paint B5" BaseName="Kodiak 100 cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 cargo pod, Factory paint B6" BaseName="Kodiak 100 cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 cargo pod, Factory paint B7" BaseName="Kodiak 100 cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 cargo pod, Factory paint B8" BaseName="Kodiak 100 cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 cargo pod, Factory paint B9" BaseName="Kodiak 100 cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 cargo pod, Legacy Livery 1" BaseName="Kodiak 100 cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 cargo pod, Legacy Livery 2" BaseName="Kodiak 100 cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 cargo pod, Legacy Livery 3" BaseName="Kodiak 100 cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 cargo pod, Legacy Livery 4" BaseName="Kodiak 100 cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 cargo pod, Legacy Livery 5" BaseName="Kodiak 100 cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 cargo pod, Legacy Livery 6" BaseName="Kodiak 100 cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 cargo pod, Factory paint A1 2021" BaseName="Kodiak 100 cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 cargo pod, Factory paint A2 2021" BaseName="Kodiak 100 cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 cargo pod, Factory paint A3 2021" BaseName="Kodiak 100 cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 cargo pod, Factory paint A4 2021" BaseName="Kodiak 100 cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 cargo pod, Factory paint A5 2021" BaseName="Kodiak 100 cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 cargo pod, Factory paint A6 2021" BaseName="Kodiak 100 cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 cargo pod, Factory paint B1 2021" BaseName="Kodiak 100 cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 cargo pod, Factory paint B2 2021" BaseName="Kodiak 100 cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 cargo pod, Factory paint B3 2021" BaseName="Kodiak 100 cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 cargo pod, Factory paint B4 2021" BaseName="Kodiak 100 cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 cargo pod, Factory paint B5 2021" BaseName="Kodiak 100 cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 cargo pod, Factory paint B6 2021" BaseName="Kodiak 100 cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
   <AircraftModel Name="Kodiak 100 tundra tyres, Aviation Sans Frontieres" SourcePath="..\SWS_Kodiak_tundra" AltSourcePath="sws-aircraft-kodiak-wheels" AltSourcePath2="justflight-aircraft-pa28-turboarrow" SourceType="Payware" />
   <AircraftModel Name="Kodiak 100 tundra tyres, Safari Wings" BaseName="Kodiak 100 tundra tyres, Aviation Sans Frontieres" SourceType="Payware" />
   <AircraftModel Name="Kodiak 100 tundra tyres, Safari Wings Xecutive" BaseName="Kodiak 100 tundra tyres, Aviation Sans Frontieres" SourceType="Payware" />
   <AircraftModel Name="Kodiak 100 tundra tyres, Rheinland Air Service" BaseName="Kodiak 100 tundra tyres, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, Factory paint A1" BaseName="Kodiak 100 tundra tyres, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, Factory paint A2" BaseName="Kodiak 100 tundra tyres, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, Factory paint A3" BaseName="Kodiak 100 tundra tyres, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, Factory paint A4" BaseName="Kodiak 100 tundra tyres, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, Factory paint A5" BaseName="Kodiak 100 tundra tyres, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, Factory paint A6" BaseName="Kodiak 100 tundra tyres, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, Factory paint A7" BaseName="Kodiak 100 tundra tyres, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, Factory paint A8" BaseName="Kodiak 100 tundra tyres, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, Factory paint A9" BaseName="Kodiak 100 tundra tyres, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, Factory paint B1" BaseName="Kodiak 100 tundra tyres, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, Factory paint B2" BaseName="Kodiak 100 tundra tyres, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, Factory paint B3" BaseName="Kodiak 100 tundra tyres, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, Factory paint B4" BaseName="Kodiak 100 tundra tyres, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, Factory paint B5" BaseName="Kodiak 100 tundra tyres, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, Factory paint B6" BaseName="Kodiak 100 tundra tyres, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, Factory paint B7" BaseName="Kodiak 100 tundra tyres, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, Factory paint B8" BaseName="Kodiak 100 tundra tyres, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, Factory paint B9" BaseName="Kodiak 100 tundra tyres, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, Legacy Livery 1" BaseName="Kodiak 100 tundra tyres, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, Legacy Livery 2" BaseName="Kodiak 100 tundra tyres, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, Legacy Livery 3" BaseName="Kodiak 100 tundra tyres, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, Legacy Livery 4" BaseName="Kodiak 100 tundra tyres, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, Legacy Livery 5" BaseName="Kodiak 100 tundra tyres, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, Legacy Livery 6" BaseName="Kodiak 100 tundra tyres, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, Factory paint A1 2021" BaseName="Kodiak 100 tundra tyres, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, Factory paint A2 2021" BaseName="Kodiak 100 tundra tyres, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, Factory paint A3 2021" BaseName="Kodiak 100 tundra tyres, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, Factory paint A4 2021" BaseName="Kodiak 100 tundra tyres, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, Factory paint A5 2021" BaseName="Kodiak 100 tundra tyres, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, Factory paint A6 2021" BaseName="Kodiak 100 tundra tyres, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, Factory paint B1 2021" BaseName="Kodiak 100 tundra tyres, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, Factory paint B2 2021" BaseName="Kodiak 100 tundra tyres, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, Factory paint B3 2021" BaseName="Kodiak 100 tundra tyres, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, Factory paint B4 2021" BaseName="Kodiak 100 tundra tyres, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, Factory paint B5 2021" BaseName="Kodiak 100 tundra tyres, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, Factory paint B6 2021" BaseName="Kodiak 100 tundra tyres, Aviation Sans Frontieres" SourceType="Payware" />
   <AircraftModel Name="Kodiak 100 tundra tyres, cargo pod, Aviation Sans Frontieres" SourcePath="..\SWS_Kodiak_tundra_CP" AltSourcePath="sws-aircraft-kodiak-wheels" AltSourcePath2="justflight-aircraft-pa28-turboarrow" SourceType="Payware" />
   <AircraftModel Name="Kodiak 100 tundra tyres, cargo pod, Safari Wings" BaseName="Kodiak 100 tundra tyres, cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
   <AircraftModel Name="Kodiak 100 tundra tyres, cargo pod, Safari Wings Xecutive" BaseName="Kodiak 100 tundra tyres, cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
   <AircraftModel Name="Kodiak 100 tundra tyres, cargo pod, Rheinland Air Service" BaseName="Kodiak 100 tundra tyres, cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, cargo pod, Factory paint A1" BaseName="Kodiak 100 tundra tyres, cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, cargo pod, Factory paint A2" BaseName="Kodiak 100 tundra tyres, cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, cargo pod, Factory paint A3" BaseName="Kodiak 100 tundra tyres, cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, cargo pod, Factory paint A4" BaseName="Kodiak 100 tundra tyres, cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, cargo pod, Factory paint A5" BaseName="Kodiak 100 tundra tyres, cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, cargo pod, Factory paint A6" BaseName="Kodiak 100 tundra tyres, cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, cargo pod, Factory paint A7" BaseName="Kodiak 100 tundra tyres, cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, cargo pod, Factory paint A8" BaseName="Kodiak 100 tundra tyres, cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, cargo pod, Factory paint A9" BaseName="Kodiak 100 tundra tyres, cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, cargo pod, Factory paint B1" BaseName="Kodiak 100 tundra tyres, cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, cargo pod, Factory paint B2" BaseName="Kodiak 100 tundra tyres, cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, cargo pod, Factory paint B3" BaseName="Kodiak 100 tundra tyres, cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, cargo pod, Factory paint B4" BaseName="Kodiak 100 tundra tyres, cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, cargo pod, Factory paint B5" BaseName="Kodiak 100 tundra tyres, cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, cargo pod, Factory paint B6" BaseName="Kodiak 100 tundra tyres, cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, cargo pod, Factory paint B7" BaseName="Kodiak 100 tundra tyres, cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, cargo pod, Factory paint B8" BaseName="Kodiak 100 tundra tyres, cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, cargo pod, Factory paint B9" BaseName="Kodiak 100 tundra tyres, cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, cargo pod, Legacy Livery 1" BaseName="Kodiak 100 tundra tyres, cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, cargo pod, Legacy Livery 2" BaseName="Kodiak 100 tundra tyres, cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, cargo pod, Legacy Livery 3" BaseName="Kodiak 100 tundra tyres, cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, cargo pod, Legacy Livery 4" BaseName="Kodiak 100 tundra tyres, cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, cargo pod, Legacy Livery 5" BaseName="Kodiak 100 tundra tyres, cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, cargo pod, Legacy Livery 6" BaseName="Kodiak 100 tundra tyres, cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, cargo pod, Factory paint A1 2021" BaseName="Kodiak 100 tundra tyres, cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, cargo pod, Factory paint A2 2021" BaseName="Kodiak 100 tundra tyres, cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, cargo pod, Factory paint A3 2021" BaseName="Kodiak 100 tundra tyres, cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, cargo pod, Factory paint A4 2021" BaseName="Kodiak 100 tundra tyres, cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, cargo pod, Factory paint A5 2021" BaseName="Kodiak 100 tundra tyres, cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, cargo pod, Factory paint A6 2021" BaseName="Kodiak 100 tundra tyres, cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, cargo pod, Factory paint B1 2021" BaseName="Kodiak 100 tundra tyres, cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, cargo pod, Factory paint B2 2021" BaseName="Kodiak 100 tundra tyres, cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, cargo pod, Factory paint B3 2021" BaseName="Kodiak 100 tundra tyres, cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, cargo pod, Factory paint B4 2021" BaseName="Kodiak 100 tundra tyres, cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, cargo pod, Factory paint B5 2021" BaseName="Kodiak 100 tundra tyres, cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Kodiak 100 tundra tyres, cargo pod, Factory paint B6 2021" BaseName="Kodiak 100 tundra tyres, cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
   <AircraftModel Name="Milviz 310R CGTER" SourcePath="..\Milviz_310R" AltSourcePath="milviz-aircraft-310" SourceType="Payware" />
   <AircraftModel Name="Milviz 310R COLIN" BaseName="Milviz 310R CGTER" SourceType="Payware" />
   <AircraftModel Name="Milviz 310R DIRFT" BaseName="Milviz 310R CGTER" SourceType="Payware" />
