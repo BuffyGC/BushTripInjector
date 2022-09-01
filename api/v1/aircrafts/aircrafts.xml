@@ -53,6 +53,13 @@
   <AircraftModel Name="Dornier DoJ Plus Ultra Aviators Club Livery" BaseName="Dornier DoJ Plus Ultra" SourceType="Payware" />
   <AircraftModel Name="Dornier DoJ Plus Ultra Xbox Aviators Club Livery" BaseName="Dornier DoJ Plus Ultra" SourceType="Payware" />
   <AircraftModel Name="DV20 Asobo" SourcePath="..\Asobo_DV20" AltSourcePath="asobo-aircraft-dv20" SourceType="Deluxe" />
+  <AircraftModel Name="Edgley Optica: Default" SourcePath="..\gotfriends-optica" AltSourcePath="gotfriends-optica" SourceType="Payware" />
+  <AircraftModel Name="Edgley Optica: CG-270" BaseName="Edgley Optica: Default" SourceType="Payware" />
+  <AircraftModel Name="Edgley Optica: D-JONX" BaseName="Edgley Optica: Default" SourceType="Payware" />
+  <AircraftModel Name="Edgley Optica: G-BGMW" BaseName="Edgley Optica: Default" SourceType="Payware" />
+  <AircraftModel Name="Edgley Optica: G-BLFC" BaseName="Edgley Optica: Default" SourceType="Payware" />
+  <AircraftModel Name="Edgley Optica: MJ-420" BaseName="Edgley Optica: Default" SourceType="Payware" />
+  <AircraftModel Name="Edgley Optica: VH-OPI" BaseName="Edgley Optica: Default" SourceType="Payware" />
   <AircraftModel Name="FlyingIron P-38L Lightning Down Beat" SourcePath="..\flyingiron_p38l" AltSourcePath="flyingiron-p38l" SourceType="Payware" />
   <AircraftModel Name="FlyingIron P-38L Lightning California Cutie" BaseName="FlyingIron P-38L Lightning Down Beat" SourceType="Payware" />
   <AircraftModel Name="FlyingIron P-38L Lightning Charlcie Jeanne" BaseName="FlyingIron P-38L Lightning Down Beat" SourceType="Payware" />
