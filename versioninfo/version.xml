@@ -2,9 +2,9 @@
 <BushTripInjector xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Id="BushTripInjector">
   <MinVersion>
     <Major>1</Major>
-    <Minor>3</Minor>
-    <Build>0</Build>
-    <Revision>2902</Revision>
+    <Minor>4</Minor>
+    <Build>4</Build>
+    <Revision>3308</Revision>
   </MinVersion>
   <PrevVersion>
     <Major>1</Major>
@@ -304,20 +304,20 @@ BUGFIX: *Map Tile Cache:* Fixed an issue with deleting outdated map tiles.&#xD;
   </RequiredDbVersion>
   <CurrentMSFSDatabaseVersion>
     <Major>1</Major>
-    <Minor>26</Minor>
-    <Build>5</Build>
+    <Minor>27</Minor>
+    <Build>21</Build>
     <Revision>0</Revision>
   </CurrentMSFSDatabaseVersion>
   <CurrentMainDbVersion>
     <Major>1</Major>
-    <Minor>26</Minor>
-    <Build>5</Build>
+    <Minor>27</Minor>
+    <Build>21</Build>
     <Revision>0</Revision>
   </CurrentMainDbVersion>
   <CurrentParkingDbVersion>
     <Major>1</Major>
-    <Minor>26</Minor>
-    <Build>5</Build>
+    <Minor>27</Minor>
+    <Build>21</Build>
     <Revision>0</Revision>
   </CurrentParkingDbVersion>
 </BushTripInjector>
