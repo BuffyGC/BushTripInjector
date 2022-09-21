@@ -1,7 +1,49 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BushTripInjector xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <LastSync>133012473427206915</LastSync>
+  <LastSync>133082333876107913</LastSync>
   <Glossaríes>
+    <Glossary Name="Community" Active="true">
+      <SourceLanguageCode>en</SourceLanguageCode>
+      <TargetLanguageCode>de</TargetLanguageCode>
+      <Entries>
+        <Entry Key="bush trip" Value="Wildnisflug" />
+        <Entry Key="Bushtrip" Value="Wildnisflug" />
+        <Entry Key="climb" Value="an Höhe gewinnen" />
+        <Entry Key="continue along" Value="folge weiter" />
+        <Entry Key="Head" Value="Fliege" />
+        <Entry Key="heading bug" Value="heading bug" />
+        <Entry Key="left pattern" Value="linke Platzrunde" />
+        <Entry Key="right pattern" Value="rechte Platzrunde" />
+        <Entry Key="Trip" Value="Reise" />
+        <Entry Key="turn into the circuit" Value="drehe in die Platzrunde ein" />
+        <Entry Key="turn left" Value="drehe nach links" />
+        <Entry Key="turn right" Value="drehe nach rechts" />
+      </Entries>
+    </Glossary>
+    <Glossary Name="Community" Active="true">
+      <SourceLanguageCode>en</SourceLanguageCode>
+      <TargetLanguageCode>es</TargetLanguageCode>
+      <Entries>
+        <Entry Key="bush trip" Value="Recorridos sin ayudas" />
+        <Entry Key="bushtrip" Value="Recorridos sin ayudas" />
+      </Entries>
+    </Glossary>
+    <Glossary Name="Community" Active="true">
+      <SourceLanguageCode>en</SourceLanguageCode>
+      <TargetLanguageCode>it</TargetLanguageCode>
+      <Entries>
+        <Entry Key="Bush trip" Value="Escursioni naturalistiche" />
+        <Entry Key="bushtrip" Value="Escursioni naturalistiche" />
+      </Entries>
+    </Glossary>
+    <Glossary Name="Community" Active="true">
+      <SourceLanguageCode>en</SourceLanguageCode>
+      <TargetLanguageCode>pl</TargetLanguageCode>
+      <Entries>
+        <Entry Key="bush trip" Value="Voos Rasantes" />
+        <Entry Key="bushtrip" Value="Voos Rasantes" />
+      </Entries>
+    </Glossary>
     <Glossary Name="Community" Active="true">
       <SourceLanguageCode>en</SourceLanguageCode>
       <TargetLanguageCode>fr</TargetLanguageCode>
@@ -108,6 +150,8 @@
         <Entry Key="basculez" Value="swap" />
         <Entry Key="batterie" Value="battery" />
         <Entry Key="branche de circuit" Value="traffic leg" />
+        <Entry Key="bush trip" Value="Voyages en avion de brousse" />
+        <Entry Key="bushtrip" Value="Voyages en avion de brousse" />
         <Entry Key="cap" Value="heading" />
         <Entry Key="chargez" Value="load" />
         <Entry Key="circuit" Value="circuit pattern" />
