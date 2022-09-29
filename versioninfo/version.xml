@@ -109,18 +109,18 @@ HIGHLIGHT: Fixes&#xD;
     <Major>1</Major>
     <Minor>27</Minor>
     <Build>21</Build>
-    <Revision>0</Revision>
+    <Revision>1</Revision>
   </CurrentMSFSDatabaseVersion>
   <CurrentMainDbVersion>
     <Major>1</Major>
     <Minor>27</Minor>
     <Build>21</Build>
-    <Revision>0</Revision>
+    <Revision>1</Revision>
   </CurrentMainDbVersion>
   <CurrentParkingDbVersion>
     <Major>1</Major>
     <Minor>27</Minor>
     <Build>21</Build>
-    <Revision>0</Revision>
+    <Revision>1</Revision>
   </CurrentParkingDbVersion>
 </BushTripInjector>
