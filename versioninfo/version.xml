@@ -15,11 +15,27 @@
   <CurrentVersion>
     <Major>2</Major>
     <Minor>0</Minor>
-    <Build>1</Build>
-    <Revision>3608</Revision>
+    <Build>2</Build>
+    <Revision>3648</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
-&lt;h4&gt;2.0.1.3608&lt;/h4&gt;&#xD;
+&lt;h4&gt;2.0.2.3648&lt;/h4&gt;&#xD;
+FEATURE: *Backup:* Added a menu entry in actions to create a zip file with a full backup of all relevant files and folders.&#xD;
+USER-REQ: *Discovery:* Added a question when changing the spawning position if you also want to change the heading, too. (Thanks to Adventum)&#xD;
+USER-REQ: *Landmarks:* Added a question when adding TTS to E&amp;amp;T from landmarks and the TTS is already present. (Thanks to fsx-rwt)&#xD;
+USER-REQ: *Images:* Added the possibility to convert the images modified on the image sheet to the correct size (if mandatory) and type.&#xD;
+UPDATE: *MarketplaceData:* The tags must be in capital letters according to Microsoft's specifications.&#xD;
+UPDATE: *MarketplaceData:* The user is given a few more hints about what is allowed in the Marketplace and what is not.&#xD;
+UPDATE: *LandingChallenge:* Calculate the arrival runway based on last waypoint when creating a new landing challenge.&#xD;
+UPDATE: *Database:* The main and parking databases have been upgraded to the World Update 11 Canada version and are available as additional downloads.&#xD;
+UPDATE: *Worldmap:* Added a "Reset Map" button on Worldmap options.&#xD;
+BUGFIX: *Compile:* Due to a not considered combination in the flight plan, if several waypoints have the same ident and name, the project could not be compiled anymore. (Thanks to bhpowell for reporting)&#xD;
+BUGFIX: *GUI:* Fixed an issue with DatePickers which not shown the month correctly in some condition.&#xD;
+BUGFIX: *Generate:* An unnecessary marking of the BTI file as modified was fixed.&#xD;
+BUGFIX: *AssetGroups:* Correct formatting of the xml (added a line break between assetgroups in bundles). &#xD;
+&#xD;
+---&#xD;
+2.0.1.3608&#xD;
 Pro-Version: *Marketplace:* Added the "zoom" and "HtmlPreview" to the description field.&#xD;
 Pro-Version: *Marketplace:* Fixed an issue with the Marketplace-template. IMPORTANT: Please generate your marketplace package of 2.0.0.3564 again!&#xD;
 USER-REQ: *GeneratorInfo:* Adding a "GeneratorInfo" file to the MissionRoot folder for those ladies and gentlemen who forgot where the BTI and LNM file was stored. (Thanks for the request)&#xD;
