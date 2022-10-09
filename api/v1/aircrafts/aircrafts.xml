@@ -20,6 +20,16 @@
   <AircraftModel Name="Beechcraft D18S N85ET" BaseName="Beechcraft D18S N45LM2" SourceType="Payware" />
   <AircraftModel Name="Beechcraft D18S N99ST" BaseName="Beechcraft D18S N45LM2" SourceType="Payware" />
   <AircraftModel Name="Beechcraft D18S Xbox Aviators Club Livery" BaseName="Beechcraft D18S N45LM2" SourceType="Payware" />
+  <AircraftModel Name="Beechcraft V35B Bonanza G-BSVH" SourcePath="..\MSCarenado_V35_Bonanza" AltSourcePath="microsoft-aircraft-v35-bonanza" SourceType="Payware" />
+  <AircraftModel Name="Beechcraft V35B Bonanza G-BGGH" BaseName="Beechcraft V35B Bonanza G-BSVH" SourceType="Payware" />
+  <AircraftModel Name="Beechcraft V35B Bonanza N298P" BaseName="Beechcraft V35B Bonanza G-BSVH" SourceType="Payware" />
+  <AircraftModel Name="Beechcraft V35B Bonanza N828L" BaseName="Beechcraft V35B Bonanza G-BSVH" SourceType="Payware" />
+  <AircraftModel Name="Beechcraft V35B Bonanza N829K" BaseName="Beechcraft V35B Bonanza G-BSVH" SourceType="Payware" />
+  <AircraftModel Name="Beechcraft V35B Bonanza N925K" BaseName="Beechcraft V35B Bonanza G-BSVH" SourceType="Payware" />
+  <AircraftModel Name="Beechcraft V35B Bonanza N9609T" BaseName="Beechcraft V35B Bonanza G-BSVH" SourceType="Payware" />
+  <AircraftModel Name="Beechcraft V35B Bonanza N96652" BaseName="Beechcraft V35B Bonanza G-BSVH" SourceType="Payware" />
+  <AircraftModel Name="Beechcraft V35B Bonanza White" BaseName="Beechcraft V35B Bonanza G-BSVH" SourceType="Payware" />
+  <AircraftModel Name="Beechcraft V35B Bonanza Xbox Aviators Club Livery" BaseName="Beechcraft V35B Bonanza G-BSVH" SourceType="Payware" />
   <AircraftModel Name="Boeing 787-10 Asobo" SourcePath="..\Asobo_B787_10" AltSourcePath="asobo-aircraft-b787-10" SourceType="PremiumDeluxe" />
   <AircraftModel Name="Carenado M20R Ovation D-ERWO" SourcePath="..\Carenado_M20R_Ovation" AltSourcePath="carenado-aircraft-m20r-ovation" SourceType="Payware" />
   <AircraftModel Name="Carenado M20R Ovation N541JS" BaseName="Carenado M20R Ovation D-ERWO" SourceType="Payware" />
