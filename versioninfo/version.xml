@@ -15,11 +15,38 @@
   <CurrentVersion>
     <Major>2</Major>
     <Minor>0</Minor>
-    <Build>2</Build>
-    <Revision>3648</Revision>
+    <Build>3</Build>
+    <Revision>3696</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
-&lt;h4&gt;2.0.2.3648&lt;/h4&gt;&#xD;
+&lt;h4&gt;2.0.3.3696 - Project Groups&lt;/h4&gt;&#xD;
+ *Project groups help you organize your missions in separate base folders.*&lt;br&gt;Each project group has a project group directory where BushTripInjector creates and compiles the source and code files. If a project group is specified, the general %ProjectRootFolder% is ignored and the directory from the project group is used. Of course, you can add the same project group for multiple projects.&lt;br&gt;Do not open the mission in an older version of BTI, when you have selected a project group!&#xD;
+&#xD;
+FEATURE: *LandingChallenge:* Added a field to select the current flight state (Default, Apron, Taxi, Runway, Climb, Cruise, Approach, Final) of the LandingChallenge. Default selects a state depending on AircraftType and flightpath length. (Thanks to Adventum)&#xD;
+&#xD;
+UPDATE: *Logging:* Added some more logging into sound file migration.&#xD;
+UPDATE: *Typos:* Fixed some typos. (thanks to oldmattila and Sandy).&#xD;
+UPDATE: *Presets/Preferences:* Added RefuelType to AircraftPresets. (thanks to oldmattila)&#xD;
+UPDATE: *Presets/Preferences:* Renamed ImageColorOptions to OtherOptions.&#xD;
+UPDATE: *Presets/Preferences:* Reward, Optimize and TranslateOptions to other Options.&#xD;
+UPDATE: *Translate-Window:* Solved a long-term request with column sizes in translate window.&#xD;
+UPDATE: *Flightplan:* Show distances of Flightpath and legs in leg selection control.&#xD;
+UPDATE: *Aircrafts:* Added the Beechcraft V35B Bonanza aircraft and liveries to the aircrafts list. (thanks to KillerBluesman)&#xD;
+UPDATE: *Preflight-Check:* Added a simple check for the complexity of project short into the preflight check.&#xD;
+UPDATE: *Flightplan:* Changed the order of Briefing and Landing image.&#xD;
+&#xD;
+BUGFIX: *Internal:* Fixed some smaller internal issues.&#xD;
+BUGFIX: *Glossaries:* Fixed an issue with the menu item not being visible when entering a DeepL API key and not restarting BTI. (thanks to FronTech)&#xD;
+BUGFIX: *Help-View Changelog:* Fixed an issue with the "Help &amp;rarr; View Changelog" Command. (thanks to FronTech)&#xD;
+BUGFIX: *FLT:* Fixed an unnecessary marking the mission as changed on FLT-Sheet.&#xD;
+BUGFIX: *Aircrafts:* Fixed an issue with aircraft loading when some aircraft files are not accessible (thanks to Solarwind)&#xD;
+BUGFIX: *WorldMap:* Fixed an issue with the Fuel-Flags on WorldMap.&#xD;
+BUGFIX: *Restore LNM-File:* Fixed an issue with a missing message in some conditions, when the LNM-File was not present and had to be restored.&#xD;
+BUGFIX: *Intro:* Fixed an issue with the introduction text, when the LNM-file has a flight plan remark the very first time. (thanks to ProfSC)&#xD;
+BUGFIX: *SU10:* Fixed an issue on the GUI with the AVGas and JetFuel flags, which are not longer provided by the Sim.&#xD;
+&#xD;
+---&#xD;
+2.0.2.3648&#xD;
 FEATURE: *Backup:* Added a menu entry in actions to create a zip file with a full backup of all relevant files and folders.&#xD;
 USER-REQ: *Discovery:* Added a question when changing the spawning position if you also want to change the heading, too. (Thanks to Adventum)&#xD;
 USER-REQ: *Landmarks:* Added a question when adding TTS to E&amp;amp;T from landmarks and the TTS is already present. (Thanks to fsx-rwt)&#xD;
