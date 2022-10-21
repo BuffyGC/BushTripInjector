@@ -15,11 +15,26 @@
   <CurrentVersion>
     <Major>2</Major>
     <Minor>0</Minor>
-    <Build>3</Build>
-    <Revision>3696</Revision>
+    <Build>4</Build>
+    <Revision>3722</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
-&lt;h4&gt;2.0.3.3696 - Project Groups&lt;/h4&gt;&#xD;
+2.0.4.3722 - Sim Update 11&#xD;
+ *The changes for the new localization system, which is mandatory from SU11, have been implemented.*&lt;br&gt;The localization files are stored in a new folder "Localization" in the mission folder. If you had your own individual additional loc files, BTI will move them automatically.&lt;br&gt;This is a breaking change by MS/Asobo, for more information please visit:&lt;br&gt;- &lt;a href="https://forums.flightsimulator.com/t/blog-october-20-2022-development-update/551243#sdk-update-4"&gt;Official Forum: [BLOG] October 20, 2022 Development Update - SDK Update&lt;/a&gt;&lt;br&gt;- &lt;a href="https://devsupport.flightsimulator.com/articles/11061/new-localisation-process.html"&gt;DevSupport: New Localization process&lt;/a&gt; &#xD;
+&#xD;
+UPDATE: *Bundle:* Added the possibility to define whether project dependencies should be included in the bundle or not.&#xD;
+UPDATE: *Bundle:* Some preparations for the new bundle types that will be introduced with the upcoming SU11.&#xD;
+UPDATE: *ProjectGroups:* Better handling and detection of invalid project group paths when assigning a path. Existing project groups are not affected.&#xD;
+BUGFIX: *Images:* Fixed an issue that occurred when selecting an image on the image sheet with the same path and file name.&#xD;
+BUGFIX: *Landmarks:* Fixed an issue with the mission's Changed flag when landmarks were added via the WorldMap.&#xD;
+BUGFIX: *LandingChallenge:* Fixed an issue with incorrect runway designations on arrival.&#xD;
+BUGFIX: *WorldMap:* Fixed an issue where after some time the layers (pins, mode) could not be changed.&#xD;
+ *INTERNAL:* *BTI-File:* Added the possibility to read and rewrite attributes and elements of future BTI version.&#xD;
+ *INTERNAL:* *BTI-File:* A version header has been added to the BTI file to handle different file formats.&#xD;
+&#xD;
+---&#xD;
+&#xD;
+2.0.3.3696 - Project Groups&#xD;
  *Project groups help you organize your missions in separate base folders.*&lt;br&gt;Each project group has a project group directory where BushTripInjector creates and compiles the source and code files. If a project group is specified, the general %ProjectRootFolder% is ignored and the directory from the project group is used. Of course, you can add the same project group for multiple projects.&lt;br&gt;Do not open the mission in an older version of BTI, when you have selected a project group!&#xD;
 &#xD;
 FEATURE: *LandingChallenge:* Added a field to select the current flight state (Default, Apron, Taxi, Runway, Climb, Cruise, Approach, Final) of the LandingChallenge. Default selects a state depending on AircraftType and flightpath length. (Thanks to Adventum)&#xD;
