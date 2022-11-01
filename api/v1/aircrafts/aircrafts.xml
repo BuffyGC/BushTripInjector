@@ -307,6 +307,24 @@
   <AircraftModel Name="Kodiak 100 tundra tyres, cargo pod, Factory paint B4 2021" BaseName="Kodiak 100 tundra tyres, cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
   <AircraftModel Name="Kodiak 100 tundra tyres, cargo pod, Factory paint B5 2021" BaseName="Kodiak 100 tundra tyres, cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
   <AircraftModel Name="Kodiak 100 tundra tyres, cargo pod, Factory paint B6 2021" BaseName="Kodiak 100 tundra tyres, cargo pod, Aviation Sans Frontieres" SourceType="Payware" />
+  <AircraftModel Name="Long-EZ Vintage Livery" SourcePath="..\Indiafoxtecho_LongEZ" AltSourcePath="indiafoxtecho-long-ez" SourceType="Payware" />
+  <AircraftModel Name="Long-EZ Black Green Checkers" BaseName="Long-EZ Vintage Livery" SourceType="Payware" />
+  <AircraftModel Name="Long-EZ G3X Black Green Checkers" BaseName="Long-EZ Vintage Livery" SourceType="Payware" />
+  <AircraftModel Name="Long-EZ G3X Metal Blue Silver" BaseName="Long-EZ Vintage Livery" SourceType="Payware" />
+  <AircraftModel Name="Long-EZ G3X Metal Red Silver" BaseName="Long-EZ Vintage Livery" SourceType="Payware" />
+  <AircraftModel Name="Long-EZ G3X Military Camo" BaseName="Long-EZ Vintage Livery" SourceType="Payware" />
+  <AircraftModel Name="Long-EZ G3X Sundancer" BaseName="Long-EZ Vintage Livery" SourceType="Payware" />
+  <AircraftModel Name="Long-EZ G3X Thunderbirds" BaseName="Long-EZ Vintage Livery" SourceType="Payware" />
+  <AircraftModel Name="Long-EZ G3X Vintage Livery" BaseName="Long-EZ Vintage Livery" SourceType="Payware" />
+  <AircraftModel Name="Long-EZ G3X White (clean)" BaseName="Long-EZ Vintage Livery" SourceType="Payware" />
+  <AircraftModel Name="Long-EZ G3X White With Blue Stripes" BaseName="Long-EZ Vintage Livery" SourceType="Payware" />
+  <AircraftModel Name="Long-EZ Metal Blue Silver" BaseName="Long-EZ Vintage Livery" SourceType="Payware" />
+  <AircraftModel Name="Long-EZ Military Camo" BaseName="Long-EZ Vintage Livery" SourceType="Payware" />
+  <AircraftModel Name="Long-EZ Red Silver" BaseName="Long-EZ Vintage Livery" SourceType="Payware" />
+  <AircraftModel Name="Long-EZ Sundancer" BaseName="Long-EZ Vintage Livery" SourceType="Payware" />
+  <AircraftModel Name="Long-EZ Thunderbirds" BaseName="Long-EZ Vintage Livery" SourceType="Payware" />
+  <AircraftModel Name="Long-EZ White (clean)" BaseName="Long-EZ Vintage Livery" SourceType="Payware" />
+  <AircraftModel Name="Long-EZ White With Blue Stripes" BaseName="Long-EZ Vintage Livery" SourceType="Payware" />
   <AircraftModel Name="Milviz 310R CGTER" SourcePath="..\Milviz_310R" AltSourcePath="milviz-aircraft-310" SourceType="Payware" />
   <AircraftModel Name="Milviz 310R COLIN" BaseName="Milviz 310R CGTER" SourceType="Payware" />
   <AircraftModel Name="Milviz 310R DIRFT" BaseName="Milviz 310R CGTER" SourceType="Payware" />
@@ -331,6 +349,13 @@
   <AircraftModel Name="Savage Shock Ultra Asobo Skis" SourcePath="..\Asobo_Savage_ShockUltra_Skis" AltSourcePath="asobo-aircraft-savage-shockultra" SourceType="PremiumDeluxe" />
   <AircraftModel Name="Savage Shock Ultra Floats Asobo" SourcePath="..\Asobo_Savage_ShockUltra_Floats" AltSourcePath="asobo-aircraft-savage-shockultra" SourceType="PremiumDeluxe" />
   <AircraftModel Name="SR22 Asobo" SourcePath="..\Asobo_SR22" AltSourcePath="asobo-aircraft-sr22" SourceType="PremiumDeluxe" />
+  <AircraftModel Name="The BRG" SourcePath="..\bigradials-aircraft-goose" AltSourcePath="bigradials-goose" SourceType="Payware" />
+  <AircraftModel Name="The BRG AIB" BaseName="The BRG" SourceType="Payware" />
+  <AircraftModel Name="The BRG BR" BaseName="The BRG" SourceType="Payware" />
+  <AircraftModel Name="The BRG CUTTERS" BaseName="The BRG" SourceType="Payware" />
+  <AircraftModel Name="The BRG NAVY" BaseName="The BRG" SourceType="Payware" />
+  <AircraftModel Name="The BRG Tasman" BaseName="The BRG" SourceType="Payware" />
+  <AircraftModel Name="The Winter Goose" SourcePath="..\bigradials-aircraft-goose-ski" AltSourcePath="bigradials-goose" SourceType="Payware" />
   <AircraftModel Name="Trinidad 0" SourcePath="..\LHC_Trinidad_TB21GT" AltSourcePath="lhc-aircraft-trinidad-tb21gt" SourceType="Payware" />
   <AircraftModel Name="Trinidad 1" BaseName="Trinidad 0" SourceType="Payware" />
   <AircraftModel Name="Trinidad 2" BaseName="Trinidad 0" SourceType="Payware" />
