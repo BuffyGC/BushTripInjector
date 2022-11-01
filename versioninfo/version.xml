@@ -15,10 +15,29 @@
   <CurrentVersion>
     <Major>2</Major>
     <Minor>0</Minor>
-    <Build>4</Build>
-    <Revision>3722</Revision>
+    <Build>5</Build>
+    <Revision>3760</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+2.0.5.3760&#xD;
+FEATURE: *Bundles:* Generate the internal packages from the Bundle-Project!&#xD;
+UPDATE: *SU10/SU11:* Implemented a workaround to adjust incorrectly compiled localization files due to the new sim localization process preventing audio from playing. Toggleable via the options.&#xD;
+UPDATE: *LandingChallenge:* * _Behavior-Change:_* Added the option to check the spawn position to be over ground. You can edit the parameters, but the default is set to Enabled and 300ft AGL also for existing LC!&#xD;
+UPDATE: *GUI:* Added the possibility to reset the saved window and dialog position and sizes.&#xD;
+UPDATE: *GUI:* The possibility to open the SavedMission directory has been removed from the Window Menu, because the directory is no longer used since SU10.&#xD;
+UPDATE: *File &amp;rarr; New:* The suggested filename of the BTI file at BushTrips and LandingChallenges now corresponds to the LittleNavmap filename.&#xD;
+UPDATE: *Bundles:* If the BTI file of a package is not found, it is now also searched at the location of the bundle BTI file.&#xD;
+UPDATE: *Bundles:* Fixed several issues with wrong positive generation needed flags. Known issues: When changing sound files or images in packages, generation-needed will not shown as changed.&#xD;
+UPDATE: *Generate:* The BTI-File must be saved for the generation to start.&#xD;
+UPDATE: *GeneratorInfo.txt:* The information file is now also created on the first save.&#xD;
+UPDATE: *BaseDate:* Added a DatePicker Control to select the date of the mission.&#xD;
+UPDATE: *Internal:* Several optimizations and preparations for upcoming features.&#xD;
+BUGFIX: *Flightplan:* Fixed several issues on flightplan comment, when using unlocked comments. (Thanks to fsx-rwt)&#xD;
+BUGFIX: *Backup:* When backing up bundles, the BTI file and the Publish directory are no longer backed up twice.&#xD;
+BUGFIX: *Bundles:* Fixed an issue where the BTI file of a package may not be determined correctly.&#xD;
+BUGFIX: *Recording:* Fixed a CTD when using WASAPI-Loopback Recording for some speakers.&#xD;
+&#xD;
+---&#xD;
 2.0.4.3722 - Sim Update 11&#xD;
  *The changes for the new localization system, which is mandatory from SU11, have been implemented.*&lt;br&gt;The localization files are stored in a new folder "Localization" in the mission folder. If you had your own individual additional loc files, BTI will move them automatically.&lt;br&gt;This is a breaking change by MS/Asobo, for more information please visit:&lt;br&gt;- &lt;a href="https://forums.flightsimulator.com/t/blog-october-20-2022-development-update/551243#sdk-update-4"&gt;Official Forum: [BLOG] October 20, 2022 Development Update - SDK Update&lt;/a&gt;&lt;br&gt;- &lt;a href="https://devsupport.flightsimulator.com/articles/11061/new-localisation-process.html"&gt;DevSupport: New Localization process&lt;/a&gt; &#xD;
 &#xD;
@@ -33,7 +52,6 @@ BUGFIX: *WorldMap:* Fixed an issue where after some time the layers (pins, mode)
  *INTERNAL:* *BTI-File:* A version header has been added to the BTI file to handle different file formats.&#xD;
 &#xD;
 ---&#xD;
-&#xD;
 2.0.3.3696 - Project Groups&#xD;
  *Project groups help you organize your missions in separate base folders.*&lt;br&gt;Each project group has a project group directory where BushTripInjector creates and compiles the source and code files. If a project group is specified, the general %ProjectRootFolder% is ignored and the directory from the project group is used. Of course, you can add the same project group for multiple projects.&lt;br&gt;Do not open the mission in an older version of BTI, when you have selected a project group!&#xD;
 &#xD;
