@@ -48,6 +48,17 @@
   <AircraftModel Name="Carenado C337H Skymaster II VH-SBZ" BaseName="Carenado C337H Skymaster II N842TU" SourceType="Payware" />
   <AircraftModel Name="Carenado C337H Skymaster II N3271S" BaseName="Carenado C337H Skymaster II N842TU" SourceType="Payware" />
   <AircraftModel Name="Cessna 152 Aero Asobo" SourcePath="..\Asobo_C152_Aerobat" AltSourcePath="asobo-aircraft-c152-aerobat" SourceType="Deluxe" />
+  <AircraftModel Name="Cessna C195 Businessliner N654ER" SourcePath="..\MSCarenado_C195_Businessliner" AltSourcePath="microsoft-aircraft-c195-businessliner" SourceType="Payware" />
+  <AircraftModel Name="Cessna C195 Businessliner Aviators Club Livery" BaseName="Cessna C195 Businessliner N654ER" SourceType="Payware" />
+  <AircraftModel Name="Cessna C195 Businessliner N195WE" BaseName="Cessna C195 Businessliner N654ER" SourceType="Payware" />
+  <AircraftModel Name="Cessna C195 Businessliner N2158C" BaseName="Cessna C195 Businessliner N654ER" SourceType="Payware" />
+  <AircraftModel Name="Cessna C195 Businessliner N3056C" BaseName="Cessna C195 Businessliner N654ER" SourceType="Payware" />
+  <AircraftModel Name="Cessna C195 Businessliner N354MP" BaseName="Cessna C195 Businessliner N654ER" SourceType="Payware" />
+  <AircraftModel Name="Cessna C195 Businessliner N45LM2" BaseName="Cessna C195 Businessliner N654ER" SourceType="Payware" />
+  <AircraftModel Name="Cessna C195 Businessliner N683CB" BaseName="Cessna C195 Businessliner N654ER" SourceType="Payware" />
+  <AircraftModel Name="Cessna C195 Businessliner N784RA" BaseName="Cessna C195 Businessliner N654ER" SourceType="Payware" />
+  <AircraftModel Name="Cessna C195 Businessliner N9654H" BaseName="Cessna C195 Businessliner N654ER" SourceType="Payware" />
+  <AircraftModel Name="Cessna C195 Businessliner Xbox Aviators Club Livery" BaseName="Cessna C195 Businessliner N654ER" SourceType="Payware" />
   <AircraftModel Name="Cessna Longitude Asobo" SourcePath="..\Asobo_Longitude" AltSourcePath="asobo-aircraft-longitude" SourceType="PremiumDeluxe" />
   <AircraftModel Name="Cessna Skyhawk Asobo" SourcePath="..\Asobo_C172sp_classic" AltSourcePath="asobo-aircraft-c172sp-classic" SourceType="Deluxe" />
   <AircraftModel Name="Cessna Skyhawk Floaters Asobo" SourcePath="..\Asobo_C172SP_Classic_Floats" AltSourcePath="asobo-aircraft-c172sp-classic" SourceType="Deluxe" />
