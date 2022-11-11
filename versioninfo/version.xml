@@ -14,11 +14,44 @@
   </PrevVersion>
   <CurrentVersion>
     <Major>2</Major>
-    <Minor>0</Minor>
-    <Build>5</Build>
-    <Revision>3760</Revision>
+    <Minor>1</Minor>
+    <Build>0</Build>
+    <Revision>3840</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+2.1.0.3840 - SU11 / 40th Anniversary Update Changes &#xD;
+ *This Version has many changes in the core functionality of BushTripInjector. Despite intensive testing, bugs and problems may occur.&lt;br&gt;If you have an issue, please contact me on Discord: &lt;a href="http://discord.bushtripinjector.de"&gt;BushTripInjector Discord&lt;/a&gt;. Thank you very much.*&#xD;
+ *Attention:* Due to the changes for SU11, compatibility with SU10 cannot be guaranteed!&#xD;
+&#xD;
+Pro-Version: *Marketplace-Data:* Added the option to disable the creation of Business &amp; Marketplace-Data.&#xD;
+Pro-Version: *Marketplace-Data:* Added the possibility to define un tp 3 categories and sections for bundles of type "Pack".&#xD;
+FEATURE: *[SU11] Bundle-Packs:* Added the option to create your bundles as MSFS-Pack. You can choose, if the bundle is created as a BTI-Bundle as before or as a MSFS-Pack-Bundle. For differences, see: &lt;a href="https://www.bushtripinjector.de/manual/bundle/#bundletypes"&gt;BushTripInjector manual: Bundle Types&lt;/a&gt;. &#xD;
+FEATURE: *[SU11] RefuelOnLegStart:* Added the possibility to disable the MSFS function that automatically refuels the aircraft every time a leg is started. Default is OFF!&#xD;
+FEATURE: *[SU11] Assistance Presets:* Added the new SU11 presets for gliders and helicopters.&#xD;
+UPDATE: *[SU11] PackageDefinition-File:* Moved the Marketplace-Data from AssetGroup to its own group as requested by SU11.&#xD;
+UPDATE: *[SU11] PackageDefinition-File:* The ContentInfo AssetGroup has been moved to the beginning of the file for better comparability with DevMode.&#xD;
+UPDATE: *[SU11] Landmarks:* For the new bundle system of MSFS, the landmark files must be moved to a separate folder. BTI does this automatically on generation for you. If you want to use projects with landmarks in a bundle of type Pack, the sub-mission must be regenerated.&#xD;
+UPDATE: *[SU11] Airports:* For the new bundle system of MSFS, the airport files must be moved to a separate folder. BTI does this automatically on generation for you. If you want to use projects with airports in a bundle of type Pack, the sub-mission must be regenerated.&#xD;
+UPDATE: *[SU11] Project-File:* Added the new Attributes and Elements introduced with SU11 into the Project-File.&#xD;
+UPDATE: *[SU11] SU10-Audio Workaround:* Removed the workaround for broken audio files introduced with 2.0.5.3760. Bug is fixed with SU11&#xD;
+UPDATE: *[SU11] Community-Installer:* Updated the Community Installer to handle Bundle-Packs.&#xD;
+UPDATE: *[SU11] SPB-Decompiler:* Added the new property definitions of SU11.&#xD;
+UPDATE: *[SU11] SimConnect:* Upgraded to SimConnect Client provided by SU11.&#xD;
+UPDATE: *LandingChallenge:* For liveries, the corresponding FLT-file is searched in the base airplane folder if not present in livery folder.&#xD;
+UPDATE: *LandingChallenge:* When "CTRL" is pressed while opening the corresponding FLT-File, open windows explorer and select the FLT-File instead of opening the FLT directly.&#xD;
+UPDATE: *DeepL-API:* Adjustments for new formality handling with the DeepL API when the target language does not support formality.&#xD;
+UPDATE: *Aircrafts:* Added the Cessna C195 Businessliner aircraft and liveries to the aircrafts list. (thanks to sidekick65)&#xD;
+UPDATE: *Import Images:* Accept ICAO-Code inside "()" for adding briefing and landing images.&#xD;
+UPDATE: *Marketplace:* Added the possibility to define a title for the Marketplace that is different from the mission title.&#xD;
+UPDATE: *Marketplace:* The creation of MarketplaceData for the community version of BTI has been removed. They are no longer necessary to compile successfully with SU11.&#xD;
+BUGFIX: *Marketplace:* Fixed an issue with the title for the marketplace when the base language is not en-US.&#xD;
+BUGFIX: *TTS from Worldmap:* Fixed an issue with a not unique generated description that prevented the mission from compiling. (Thanks to FronTech)&#xD;
+BUGFIX: *About-Window:* Fixed an issue that prevented the display of items in the Info/About window.&#xD;
+BUGFIX: *Flightbook:* Fixed an issue that prevents the briefing and landing images from being inserted into the flight log in reverse.&#xD;
+BUGFIX: *Preferences:* Set the mission to changed when loading preferences.&#xD;
+&#xD;
+&#xD;
+---&#xD;
 2.0.5.3760&#xD;
 FEATURE: *Bundles:* Generate the internal packages from the Bundle-Project!&#xD;
 UPDATE: *SU10/SU11:* Implemented a workaround to adjust incorrectly compiled localization files due to the new sim localization process preventing audio from playing. Toggleable via the options.&#xD;
