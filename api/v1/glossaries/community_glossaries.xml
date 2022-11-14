@@ -1,23 +1,39 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BushTripInjector xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <LastSync>133082333876107913</LastSync>
+  <LastSync>133129229167354165</LastSync>
   <Glossaríes>
     <Glossary Name="Community" Active="true">
       <SourceLanguageCode>en</SourceLanguageCode>
       <TargetLanguageCode>de</TargetLanguageCode>
       <Entries>
+        <Entry Key="base leg" Value="Queranflug" />
         <Entry Key="bush trip" Value="Wildnisflug" />
         <Entry Key="Bushtrip" Value="Wildnisflug" />
         <Entry Key="climb" Value="an Höhe gewinnen" />
         <Entry Key="continue along" Value="folge weiter" />
+        <Entry Key="crosswind" Value="Querabflug" />
+        <Entry Key="departure" Value="Abflug" />
+        <Entry Key="descending" Value="sinken" />
+        <Entry Key="Dirt" Value="Erde" />
+        <Entry Key="downwind" Value="Gegenanflug" />
+        <Entry Key="final" Value="Endanflug" />
+        <Entry Key="further on" Value="etwas weiter" />
         <Entry Key="Head" Value="Fliege" />
         <Entry Key="heading bug" Value="heading bug" />
         <Entry Key="left pattern" Value="linke Platzrunde" />
+        <Entry Key="Localizer Heading" Value="Localizer Ausrichtung" />
+        <Entry Key="nautical miles" Value="Nautische Meilen" />
+        <Entry Key="Pattern Altitude" Value="Platzrundenhöhe" />
         <Entry Key="right pattern" Value="rechte Platzrunde" />
+        <Entry Key="seaport" Value="Wasserflughafen" />
+        <Entry Key="take off" Value="starte" />
+        <Entry Key="to head" Value="steuern" />
+        <Entry Key="tower" Value="Tower" />
         <Entry Key="Trip" Value="Reise" />
         <Entry Key="turn into the circuit" Value="drehe in die Platzrunde ein" />
         <Entry Key="turn left" Value="drehe nach links" />
         <Entry Key="turn right" Value="drehe nach rechts" />
+        <Entry Key="turn to" Value="drehe nach" />
       </Entries>
     </Glossary>
     <Glossary Name="Community" Active="true">
@@ -26,22 +42,6 @@
       <Entries>
         <Entry Key="bush trip" Value="Recorridos sin ayudas" />
         <Entry Key="bushtrip" Value="Recorridos sin ayudas" />
-      </Entries>
-    </Glossary>
-    <Glossary Name="Community" Active="true">
-      <SourceLanguageCode>en</SourceLanguageCode>
-      <TargetLanguageCode>it</TargetLanguageCode>
-      <Entries>
-        <Entry Key="Bush trip" Value="Escursioni naturalistiche" />
-        <Entry Key="bushtrip" Value="Escursioni naturalistiche" />
-      </Entries>
-    </Glossary>
-    <Glossary Name="Community" Active="true">
-      <SourceLanguageCode>en</SourceLanguageCode>
-      <TargetLanguageCode>pl</TargetLanguageCode>
-      <Entries>
-        <Entry Key="bush trip" Value="Voos Rasantes" />
-        <Entry Key="bushtrip" Value="Voos Rasantes" />
       </Entries>
     </Glossary>
     <Glossary Name="Community" Active="true">
@@ -129,6 +129,22 @@
         <Entry Key="waypoint" Value="point de cheminement" />
         <Entry Key="windsock" Value="manche à air" />
         <Entry Key="yoke" Value="manche" />
+      </Entries>
+    </Glossary>
+    <Glossary Name="Community" Active="true">
+      <SourceLanguageCode>en</SourceLanguageCode>
+      <TargetLanguageCode>it</TargetLanguageCode>
+      <Entries>
+        <Entry Key="Bush trip" Value="Escursioni naturalistiche" />
+        <Entry Key="bushtrip" Value="Escursioni naturalistiche" />
+      </Entries>
+    </Glossary>
+    <Glossary Name="Community" Active="true">
+      <SourceLanguageCode>en</SourceLanguageCode>
+      <TargetLanguageCode>pl</TargetLanguageCode>
+      <Entries>
+        <Entry Key="bush trip" Value="Voos Rasantes" />
+        <Entry Key="bushtrip" Value="Voos Rasantes" />
       </Entries>
     </Glossary>
     <Glossary Name="Community" Active="true">
