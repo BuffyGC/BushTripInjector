@@ -265,6 +265,14 @@
     <NumIndex>0</NumIndex>
   </SimVarNamesObject>
   <SimVarNamesObject>
+    <Name>TOW CONNECTION</Name>
+    <Units>Bool</Units>
+    <Indexed>false</Indexed>
+    <Description>True if a towline is connected to both tow plane and glider.</Description>
+    <Group>Aircraft States</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
     <Name>GROUND ALTITUDE</Name>
     <Units>Feet</Units>
     <Indexed>false</Indexed>
