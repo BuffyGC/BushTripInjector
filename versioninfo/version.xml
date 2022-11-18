@@ -15,10 +15,21 @@
   <CurrentVersion>
     <Major>2</Major>
     <Minor>1</Minor>
-    <Build>0</Build>
-    <Revision>3840</Revision>
+    <Build>1</Build>
+    <Revision>3856</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+2.1.1.3856 - Experimental Feature: Multi-Aircraft Bush Trips, Discovery Flights and Landing Challenges&#xD;
+ *Add multiple aircraft to your missions! One mission in the community folder, flyable with multiple planes.&lt;br&gt;Images and audio files are installed only once to keep the package small.&lt;br&gt;&lt;del&gt;This allows your users to fly each leg with a different aircraft of their choice or to perform other challenges and sightseeing.&lt;/del&gt; &amp;rarr; Broken by SU11*&#xD;
+ *Known issues:* No different Activity-Widget. GUI needs improvement (I don't like it and will change it in a further version),&#xD;
+&#xD;
+BUGFIX: *Translate: Fixed the broken Translate-Window of 2.1.0.3840*&#xD;
+&#xD;
+UPDATE: *Flightbook:* When you export the flight log to PDF format using your favorite word processing program, the table of contents is clickable now and linked within the PDF. &#xD;
+UPDATE: *Databases:* Updated the internal databases to 1.29.28.0 SU11 - 40th Anniversary Update Changes &#xD;
+BUGFIX: *Bundle:* The menu item "Start MSFS" was not active. &#xD;
+&#xD;
+---&#xD;
 2.1.0.3840 - SU11 / 40th Anniversary Update Changes &#xD;
  *This Version has many changes in the core functionality of BushTripInjector. Despite intensive testing, bugs and problems may occur.&lt;br&gt;If you have an issue, please contact me on Discord: &lt;a href="http://discord.bushtripinjector.de"&gt;BushTripInjector Discord&lt;/a&gt;. Thank you very much.*&#xD;
  *Attention:* Due to the changes for SU11, compatibility with SU10 cannot be guaranteed!&#xD;
