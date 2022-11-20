@@ -497,6 +497,14 @@
     <NumIndex>3</NumIndex>
   </SimVarNamesObject>
   <SimVarNamesObject>
+    <Name>COM VOLUME</Name>
+    <Units>Percent</Units>
+    <Indexed>true</Indexed>
+    <Description>The volume of the COM Radio. Index is 1, 2 or 3.</Description>
+    <Group>Aircraft Avionics Data</Group>
+    <NumIndex>3</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
     <Name>GPS TARGET DISTANCE</Name>
     <Units>Meters</Units>
     <Indexed>false</Indexed>
