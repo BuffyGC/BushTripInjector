@@ -356,6 +356,16 @@
   <AircraftModel Name="Milviz 310R N5077J" BaseName="Milviz 310R CGTER" SourceType="Payware" />
   <AircraftModel Name="Milviz 310R N5225J" BaseName="Milviz 310R CGTER" SourceType="Payware" />
   <AircraftModel Name="Milviz 310R NoTail" BaseName="Milviz 310R CGTER" SourceType="Payware" />
+  <AircraftModel Name="PC-12 D-FESV" SourcePath="..\Carenado_PC12" AltSourcePath="carenado-aircraft-pc12" SourceType="Payware" />
+  <AircraftModel Name="PC-12 D-FCAH" BaseName="PC-12 D-FESV" SourceType="Payware" />
+  <AircraftModel Name="PC-12 HB-FPY" BaseName="PC-12 D-FESV" SourceType="Payware" />
+  <AircraftModel Name="PC-12 HB-FQI" BaseName="PC-12 D-FESV" SourceType="Payware" />
+  <AircraftModel Name="PC-12 HB-FWG" BaseName="PC-12 D-FESV" SourceType="Payware" />
+  <AircraftModel Name="PC-12 HB-RCL" BaseName="PC-12 D-FESV" SourceType="Payware" />
+  <AircraftModel Name="PC-12 N3486" BaseName="PC-12 D-FESV" SourceType="Payware" />
+  <AircraftModel Name="PC-12 N4657" BaseName="PC-12 D-FESV" SourceType="Payware" />
+  <AircraftModel Name="PC-12 N800BJ" BaseName="PC-12 D-FESV" SourceType="Payware" />
+  <AircraftModel Name="PC-12 N9875" BaseName="PC-12 D-FESV" SourceType="Payware" />
   <AircraftModel Name="PC21-A" SourcePath="..\pc21" AltSourcePath="deimosinc-pc21" SourceType="Payware" />
   <AircraftModel Name="PC21-B" BaseName="PC21-A" SourceType="Payware" />
   <AircraftModel Name="PC21-C" BaseName="PC21-A" SourceType="Payware" />
