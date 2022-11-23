@@ -31,11 +31,17 @@
   <AircraftModel Name="Beechcraft V35B Bonanza White" BaseName="Beechcraft V35B Bonanza G-BSVH" SourceType="Payware" />
   <AircraftModel Name="Beechcraft V35B Bonanza Xbox Aviators Club Livery" BaseName="Beechcraft V35B Bonanza G-BSVH" SourceType="Payware" />
   <AircraftModel Name="Boeing 787-10 Asobo" SourcePath="..\Asobo_B787_10" AltSourcePath="asobo-aircraft-b787-10" SourceType="PremiumDeluxe" />
+  <AircraftModel Name="Carenado C337H Skymaster II N842TU" SourcePath="..\Carenado_C337_Skymaster" AltSourcePath="carenado-aircraft-c337-skymaster" SourceType="Payware" />
+  <AircraftModel Name="Carenado C337H Skymaster II N79252" BaseName="Carenado C337H Skymaster II N842TU" SourceType="Payware" />
+  <AircraftModel Name="Carenado C337H Skymaster II N5JD" BaseName="Carenado C337H Skymaster II N842TU" SourceType="Payware" />
+  <AircraftModel Name="Carenado C337H Skymaster II N6276K" BaseName="Carenado C337H Skymaster II N842TU" SourceType="Payware" />
+  <AircraftModel Name="Carenado C337H Skymaster II VH-SBZ" BaseName="Carenado C337H Skymaster II N842TU" SourceType="Payware" />
+  <AircraftModel Name="Carenado C337H Skymaster II N3271S" BaseName="Carenado C337H Skymaster II N842TU" SourceType="Payware" />
   <AircraftModel Name="Carenado M20R Ovation D-ERWO" SourcePath="..\Carenado_M20R_Ovation" AltSourcePath="carenado-aircraft-m20r-ovation" SourceType="Payware" />
   <AircraftModel Name="Carenado M20R Ovation N541JS" BaseName="Carenado M20R Ovation D-ERWO" SourceType="Payware" />
   <AircraftModel Name="Carenado M20R Ovation N48MQ" BaseName="Carenado M20R Ovation D-ERWO" SourceType="Payware" />
   <AircraftModel Name="Carenado M20R Ovation N247VD" BaseName="Carenado M20R Ovation D-ERWO" SourceType="Payware" />
-  <AircraftModel Name="Carenado PA28R Arrow III D-ESBT" SourcePath="..\Carenado_PA28_Arrow_III" AltSourcePath="carenado-aircraft-pa28-arror-iii" SourceType="Payware" />
+  <AircraftModel Name="Carenado PA28R Arrow III D-ESBT" SourcePath="..\Carenado_PA28_Arrow_III" AltSourcePath="carenado-aircraft-pa28-arrow-iii" SourceType="Payware" />
   <AircraftModel Name="Carenado PA28R Arrow III G-GMCL" BaseName="Carenado PA28R Arrow III D-ESBT" SourceType="Payware" />
   <AircraftModel Name="Carenado PA28R Arrow III N1903O" BaseName="Carenado PA28R Arrow III D-ESBT" SourceType="Payware" />
   <AircraftModel Name="Carenado PA28R Arrow III N3029K" BaseName="Carenado PA28R Arrow III D-ESBT" SourceType="Payware" />
@@ -46,12 +52,6 @@
   <AircraftModel Name="Carenado PA34T SENECA V N58630" BaseName="Carenado PA34T SENECA V N48765" SourceType="Payware" />
   <AircraftModel Name="Carenado PA34T SENECA V N58688" BaseName="Carenado PA34T SENECA V N48765" SourceType="Payware" />
   <AircraftModel Name="Carenado PA34T SENECA V WHITE" BaseName="Carenado PA34T SENECA V N48765" SourceType="Payware" />
-  <AircraftModel Name="Carenado C337H Skymaster II N842TU" SourcePath="..\Carenado_C337_Skymaster" AltSourcePath="carenado-aircraft-c337-skymaster" SourceType="Payware" />
-  <AircraftModel Name="Carenado C337H Skymaster II N79252" BaseName="Carenado C337H Skymaster II N842TU" SourceType="Payware" />
-  <AircraftModel Name="Carenado C337H Skymaster II N5JD" BaseName="Carenado C337H Skymaster II N842TU" SourceType="Payware" />
-  <AircraftModel Name="Carenado C337H Skymaster II N6276K" BaseName="Carenado C337H Skymaster II N842TU" SourceType="Payware" />
-  <AircraftModel Name="Carenado C337H Skymaster II VH-SBZ" BaseName="Carenado C337H Skymaster II N842TU" SourceType="Payware" />
-  <AircraftModel Name="Carenado C337H Skymaster II N3271S" BaseName="Carenado C337H Skymaster II N842TU" SourceType="Payware" />
   <AircraftModel Name="Cessna 152 Aero Asobo" SourcePath="..\Asobo_C152_Aerobat" AltSourcePath="asobo-aircraft-c152-aerobat" SourceType="Deluxe" />
   <AircraftModel Name="Cessna C195 Businessliner N654ER" SourcePath="..\MSCarenado_C195_Businessliner" AltSourcePath="microsoft-aircraft-c195-businessliner" SourceType="Payware" />
   <AircraftModel Name="Cessna C195 Businessliner Aviators Club Livery" BaseName="Cessna C195 Businessliner N654ER" SourceType="Payware" />
@@ -163,7 +163,7 @@
   <AircraftModel Name="Just Flight PA28 Turbo Arrow IV N3023K" BaseName="Just Flight PA28 Turbo Arrow IV G-BOGM" SourceType="Payware" />
   <AircraftModel Name="Just Flight PA28 Turbo Arrow IV OE-KFT" BaseName="Just Flight PA28 Turbo Arrow IV G-BOGM" SourceType="Payware" />
   <AircraftModel Name="Just Flight PA28 Turbo Arrow IV OK-MAN" BaseName="Just Flight PA28 Turbo Arrow IV G-BOGM" SourceType="Payware" />
-  <AircraftModel Name="Just Flight PA28 Warrior II G-BOZI" SourcePath="..\JF_PA28_Warrior_II" AltSourcePath="justflight-aircraft-pa28-warrioi-ii" SourceType="Payware" />
+  <AircraftModel Name="Just Flight PA28 Warrior II G-BOZI" SourcePath="..\JF_PA28_Warrior_II" AltSourcePath="justflight-aircraft-pa28-warrior-ii" SourceType="Payware" />
   <AircraftModel Name="Just Flight PA28 Warrior II C-FOEC" BaseName="Just Flight PA28 Warrior II G-BOZI" SourceType="Payware" />
   <AircraftModel Name="Just Flight PA28 Warrior II Custom" BaseName="Just Flight PA28 Warrior II G-BOZI" SourceType="Payware" />
   <AircraftModel Name="Just Flight PA28 Warrior II D-EIIT" BaseName="Just Flight PA28 Warrior II G-BOZI" SourceType="Payware" />
