@@ -374,6 +374,24 @@
   <AircraftModel Name="Milviz 310R N5077J" BaseName="Milviz 310R CGTER" SourceType="Payware" />
   <AircraftModel Name="Milviz 310R N5225J" BaseName="Milviz 310R CGTER" SourceType="Payware" />
   <AircraftModel Name="Milviz 310R NoTail" BaseName="Milviz 310R CGTER" SourceType="Payware" />
+  <AircraftModel Name="North American T-6 Texan Asobo Reno" SourcePath="..\Asobo_T6_Reno" SourceType="Payware" />
+  <AircraftModel Name="North American T-6 Texan Asobo Reno Livery 01" BaseName="North American T-6 Texan Asobo Reno" SourceType="Payware" />
+  <AircraftModel Name="North American T-6 Texan Asobo Reno Livery 02" BaseName="North American T-6 Texan Asobo Reno" SourceType="Payware" />
+  <AircraftModel Name="North American T-6 Texan Asobo Reno Livery 03" BaseName="North American T-6 Texan Asobo Reno" SourceType="Payware" />
+  <AircraftModel Name="North American T-6 Texan Asobo Reno Livery 04" BaseName="North American T-6 Texan Asobo Reno" SourceType="Payware" />
+  <AircraftModel Name="North American T-6 Texan Asobo Reno Livery 05" BaseName="North American T-6 Texan Asobo Reno" SourceType="Payware" />
+  <AircraftModel Name="North American T-6 Texan Asobo Reno Livery 06" BaseName="North American T-6 Texan Asobo Reno" SourceType="Payware" />
+  <AircraftModel Name="North American T-6 Texan Asobo Reno Livery 07" BaseName="North American T-6 Texan Asobo Reno" SourceType="Payware" />
+  <AircraftModel Name="North American T-6 Texan Asobo Reno Almost Perfect" SourcePath="..\Asobo_T6_Reno_AlmostPerfect" AltSourcePath="asobo-aircraft-t6-reno-almostperfect" SourceType="Payware" />
+  <AircraftModel Name="North American T-6 Texan Asobo Reno Baby Boomer" SourcePath="..\Asobo_T6_Reno_BabyBoomer" AltSourcePath="asobo-aircraft-t6-reno-babyboomer" SourceType="Payware" />
+  <AircraftModel Name="North American T-6 Texan Asobo Reno Barons Revenge" SourcePath="..\Asobo_T6_Reno_BaronsRevenge" AltSourcePath="asobo-aircraft-t6-reno-baronsrevenge" SourceType="Payware" />
+  <AircraftModel Name="North American T-6 Texan Asobo Reno Big Red" SourcePath="..\Asobo_T6_Reno_BigRed" AltSourcePath="asobo-aircraft-t6-reno-bigred" SourceType="Payware" />
+  <AircraftModel Name="North American T-6 Texan Asobo Reno Eros" SourcePath="..\Asobo_T6_Reno_Eros" AltSourcePath="asobo-aircraft-t6-reno-eros" SourceType="Payware" />
+  <AircraftModel Name="North American T-6 Texan Asobo Reno Gotcha" SourcePath="..\Asobo_T6_Reno_Gotcha" AltSourcePath="asobo-aircraft-t6-reno-gotcha" SourceType="Payware" />
+  <AircraftModel Name="North American T-6 Texan Asobo Reno Gunslinger" SourcePath="..\Asobo_T6_Reno_Gunslinger" AltSourcePath="asobo-aircraft-t6-reno-gunslinger" SourceType="Payware" />
+  <AircraftModel Name="North American T-6 Texan Asobo Reno Radial Velocity" SourcePath="..\Asobo_T6_Reno_RadialVelocity" AltSourcePath="asobo-aircraft-t6-reno-radialvelocity" SourceType="Payware" />
+  <AircraftModel Name="North American T-6 Texan Asobo Reno Six Cat" SourcePath="..\Asobo_T6_Reno_SixCat" AltSourcePath="asobo-aircraft-t6-reno-sixcat" SourceType="Payware" />
+  <AircraftModel Name="North American T-6 Texan Asobo Reno Undecided" SourcePath="..\Asobo_T6_Reno_Undecided" AltSourcePath="asobo-aircraft-t6-reno-undecided" SourceType="Payware" />
   <AircraftModel Name="PC-12 D-FESV" SourcePath="..\Carenado_PC12" AltSourcePath="carenado-aircraft-pc12" SourceType="Payware" />
   <AircraftModel Name="PC-12 D-FCAH" BaseName="PC-12 D-FESV" SourceType="Payware" />
   <AircraftModel Name="PC-12 HB-FPY" BaseName="PC-12 D-FESV" SourceType="Payware" />
