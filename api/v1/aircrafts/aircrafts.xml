@@ -374,7 +374,7 @@
   <AircraftModel Name="Milviz 310R N5077J" BaseName="Milviz 310R CGTER" SourceType="Payware" />
   <AircraftModel Name="Milviz 310R N5225J" BaseName="Milviz 310R CGTER" SourceType="Payware" />
   <AircraftModel Name="Milviz 310R NoTail" BaseName="Milviz 310R CGTER" SourceType="Payware" />
-  <AircraftModel Name="North American T-6 Texan Asobo Reno" SourcePath="..\Asobo_T6_Reno" SourceType="Payware" />
+  <AircraftModel Name="North American T-6 Texan Asobo Reno" SourcePath="..\Asobo_T6_Reno" AltSourcePath="asobo-aircraft-t6-reno" SourceType="Payware" />
   <AircraftModel Name="North American T-6 Texan Asobo Reno Livery 01" BaseName="North American T-6 Texan Asobo Reno" SourceType="Payware" />
   <AircraftModel Name="North American T-6 Texan Asobo Reno Livery 02" BaseName="North American T-6 Texan Asobo Reno" SourceType="Payware" />
   <AircraftModel Name="North American T-6 Texan Asobo Reno Livery 03" BaseName="North American T-6 Texan Asobo Reno" SourceType="Payware" />
