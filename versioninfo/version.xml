@@ -15,11 +15,30 @@
   <CurrentVersion>
     <Major>2</Major>
     <Minor>1</Minor>
-    <Build>1</Build>
-    <Revision>3856</Revision>
+    <Build>2</Build>
+    <Revision>3912</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
-2.1.1.3856 - Experimental Feature: Multi-Aircraft Bush Trips, Discovery Flights and Landing Challenges&#xD;
+2.1.2.3912 &#xD;
+FEATURE: *Translation:* Calculate the translation status for each element of a language. Languages without an entry are ignored for this function.&#xD;
+FEATURE: *Event&amp;Triggers:* The WaitAction has been added as an available action. Wait a certain amount of time between queued actions.&#xD;
+FEATURE: *Event&amp;Triggers:* An *Immediate* flag has been added to each action. If true, the action will not be queued and will be executed immediately. Undefined means that the MSFS default behavior is used (currently true).&#xD;
+FEATURE: *ReleaseNotes:* Add release notes to your bush trip, discovery flight, landing challenge, or BTI bundle. The release notes are displayed in the content manager. (For packages in the community folder, this is currently incorrect in the sim).&#xD;
+UPDATE: *Bundle:* Added more logging.&#xD;
+UPDATE: *SimVars:* Added the *TOW CONNECTION* Simulation Variable for glider support.&#xD;
+UPDATE: *SimVars:* Added the *COM RECEIVE* and *COM VOLUME* Simulation Variables.&#xD;
+UPDATE: *Aircrafts:* Added the *Asobo Aero L-39 Albatros*-Series and *North American T-6 Texan Asobo Reno*-series of the Reno Pack, *Carenado PA28R Arrow III* and *Just Flight PA28 Warrior II* to payware aircraft list.&#xD;
+UPDATE: *Aircrafts:* Added a filter function for aircraft selection. Full text, Installed/Not Installed and Official.&#xD;
+UPDATE: *Weather:* A workaround for the inactive weather panel in the simulation since SU10 has been implemented if a preset or custom weather file has been used and changing the weather is allowed.&#xD;
+UPDATE: *SPB-Decompiler:* Added the new property definitions of SU11 1.29.30.0.&#xD;
+BUGFIX: *Event&amp;Triggers:* Fixed an issue that prevented some objects from being available for adding in Areas and ObjectActivationAction.&#xD;
+BUGFIX: *Flight book:* Fixed an issue that language entries from TTS were not taken over in the flight book language when the TTS has the "SplitByParagraph" setting.&#xD;
+BUGFIX: *Compile:* Fixed an issue that prevented compiling when the starting airport has no name (LNM issue 2.6.19 with SU11).&#xD;
+BUGFIX: *Presets:* Fixed an issue with AssistanceItem preset loading that had no effect on missions if the BTI file was not reloaded.&#xD;
+ *INTERNAL: Conditions:* Allow more than 2 simple conditions in complex conditions for TTS activation.&#xD;
+&#xD;
+---&#xD;
+2.1.1.3856- Experimental Feature: Multi-Aircraft Bush Trips, Discovery Flights and Landing Challenges&#xD;
  *Add multiple aircraft to your missions! One mission in the community folder, flyable with multiple planes.&lt;br&gt;Images and audio files are installed only once to keep the package small.&lt;br&gt;&lt;del&gt;This allows your users to fly each leg with a different aircraft of their choice or to perform other challenges and sightseeing.&lt;/del&gt; &amp;rarr; Broken by SU11*&#xD;
  *Known issues:* No different Activity-Widget. GUI needs improvement (I don't like it and will change it in a further version),&#xD;
 &#xD;
