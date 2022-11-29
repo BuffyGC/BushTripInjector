@@ -119,6 +119,22 @@
   <AircraftModel Name="FlyingIron Spitfire Mk IX RAF - 93 Sqn EN479" BaseName="FlyingIron Spitfire Mk IX FlyingIron G-IRTY" SourceType="Payware" />
   <AircraftModel Name="FlyingIron Spitfire Mk IX RAF - 126 Sqn ML214 'Muscat'" BaseName="FlyingIron Spitfire Mk IX FlyingIron G-IRTY" SourceType="Payware" />
   <AircraftModel Name="FlyingIron Spitfire Mk IX RAAF - 457 Sqn A58-602 'Grey Nurse' (Mk VIII)" BaseName="FlyingIron Spitfire Mk IX FlyingIron G-IRTY" SourceType="Payware" />
+  <AircraftModel Name="Flysimware C414AW N5AM GNS530" SourcePath="..\flysimware_cessna_414AW" AltSourcePath="flysimware-cessna-414aw" SourceType="Payware" />
+  <AircraftModel Name="Flysimware C414AW N100JD GNS530" BaseName="Flysimware C414AW N5AM GNS530" SourceType="Payware" />
+  <AircraftModel Name="Flysimware C414AW N414XX GNS530" BaseName="Flysimware C414AW N5AM GNS530" SourceType="Payware" />
+  <AircraftModel Name="Flysimware C414AW N427RC GNS530" BaseName="Flysimware C414AW N5AM GNS530" SourceType="Payware" />
+  <AircraftModel Name="Flysimware C414AW N5AM PMS50 GTN750" SourcePath="..\flysimware_cessna_414AW" AltSourcePath="flysimware-cessna-414aw" SourceType="Payware" />
+  <AircraftModel Name="Flysimware C414AW N100JD PMS50 GTN750" BaseName="Flysimware C414AW N5AM PMS50 GTN750" SourceType="Payware" />
+  <AircraftModel Name="Flysimware C414AW N414XX PMS50 GTN750" BaseName="Flysimware C414AW N5AM PMS50 GTN750" SourceType="Payware" />
+  <AircraftModel Name="Flysimware C414AW N427RC PMS50 GTN750" BaseName="Flysimware C414AW N5AM PMS50 GTN750" SourceType="Payware" />
+  <AircraftModel Name="Flysimware C414AW N5AM PMS50 GTN750+WT" SourcePath="..\flysimware_cessna_414AW" AltSourcePath="flysimware-cessna-414aw" SourceType="Payware" />
+  <AircraftModel Name="Flysimware C414AW N100JD PMS50 GTN750+WT" BaseName="Flysimware C414AW N5AM PMS50 GTN750+WT" SourceType="Payware" />
+  <AircraftModel Name="Flysimware C414AW N414XX PMS50 GTN750+WT" BaseName="Flysimware C414AW N5AM PMS50 GTN750+WT" SourceType="Payware" />
+  <AircraftModel Name="Flysimware C414AW N427RC PMS50 GTN750+WT" BaseName="Flysimware C414AW N5AM PMS50 GTN750+WT" SourceType="Payware" />
+  <AircraftModel Name="Flysimware C414AW N5AM TDS GTN750XI" SourcePath="..\flysimware_cessna_414AW" AltSourcePath="flysimware-cessna-414aw" SourceType="Payware" />
+  <AircraftModel Name="Flysimware C414AW N100JD TDS GTN750XI" BaseName="Flysimware C414AW N5AM TDS GTN750XI" SourceType="Payware" />
+  <AircraftModel Name="Flysimware C414AW N414XX TDS GTN750XI" BaseName="Flysimware C414AW N5AM TDS GTN750XI" SourceType="Payware" />
+  <AircraftModel Name="Flysimware C414AW N427RC TDS GTN750XI" BaseName="Flysimware C414AW N5AM TDS GTN750XI" SourceType="Payware" />
   <AircraftModel Name="Fox2 (915 iS - Stage 1)" SourcePath="..\p42_fox2" AltSourcePath="p42-freedomfox-xbox" SourceType="Payware" />
   <AircraftModel Name="Fox2 Adventure Fox (915 iS - Stage 1)" BaseName="Fox2 (915 iS - Stage 1)" SourceType="Payware" />
   <AircraftModel Name="Fox2 Arctic (915 iS - Stage 1)" BaseName="Fox2 (915 iS - Stage 1)" SourceType="Payware" />
