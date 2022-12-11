@@ -568,4 +568,84 @@
     <Group>Aircraft Avionics Data</Group>
     <NumIndex>2</NumIndex>
   </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>ATC CLEARED LANDING</Name>
+    <Units>Bool</Units>
+    <Indexed>false</Indexed>
+    <Description>Whether the ATC has cleared the plane for landing.</Description>
+    <Group>ATC</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>ATC CLEARED TAKEOFF</Name>
+    <Units>Bool</Units>
+    <Indexed>false</Indexed>
+    <Description>Whether the ATC has cleared the plane for takeoff.</Description>
+    <Group>ATC</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>ATC CLEARED TAXI</Name>
+    <Units>Bool</Units>
+    <Indexed>false</Indexed>
+    <Description>Whether the ATC has cleared the plane for taxi.</Description>
+    <Group>ATC</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>ATC FLIGHTPLAN DIFF ALT</Name>
+    <Units>Meters</Units>
+    <Indexed>false</Indexed>
+    <Description>Altitude between the position of the aircraft and his closest waypoints in the flightplan.</Description>
+    <Group>ATC</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>ATC FLIGHTPLAN DIFF DISTANCE</Name>
+    <Units>Meters</Units>
+    <Indexed>false</Indexed>
+    <Description>Returns the lateral distance the user's plane is from the ATC flight plan track.</Description>
+    <Group>ATC</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>ATC FLIGHTPLAN DIFF HEADING</Name>
+    <Units>Degrees</Units>
+    <Indexed>false</Indexed>
+    <Description>Heading between the position of the aircraft and his closest waypoints in the flightplan.</Description>
+    <Group>ATC</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>ATC ON PARKING SPOT</Name>
+    <Units>Bool</Units>
+    <Indexed>false</Indexed>
+    <Description>Is ATC aircraft on parking spot.</Description>
+    <Group>ATC</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>ATC RUNWAY DISTANCE</Name>
+    <Units>Meters</Units>
+    <Indexed>false</Indexed>
+    <Description>This float represents the distance between the player's plane and the center of the runway selected by the ATC.</Description>
+    <Group>ATC</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>ATC RUNWAY END DISTANCE</Name>
+    <Units>Meters</Units>
+    <Indexed>false</Indexed>
+    <Description>This is a float corresponding to the horizontal distance between the player's plane and the end of the runway selected by the ATC.</Description>
+    <Group>ATC</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>ATC RUNWAY SELECTED</Name>
+    <Units>Bool</Units>
+    <Indexed>false</Indexed>
+    <Description>This is a boolean corresponding to whether or not the ATC has pre-selected a runway for the player's plane. If this is false, every other ATC RUNWAY * Var will return default values</Description>
+    <Group>ATC</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
 </BushTripInjector>
