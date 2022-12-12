@@ -15,11 +15,36 @@
   <CurrentVersion>
     <Major>2</Major>
     <Minor>1</Minor>
-    <Build>2</Build>
-    <Revision>3912</Revision>
+    <Build>3</Build>
+    <Revision>3962</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
-2.1.2.3912 &#xD;
+2.1.3.3962 &#xD;
+FEATURE: *Plan:* Added support for VOR and NDB as flightplan entries as workaround for the WT G1000Nxi POI bug.&#xD;
+FEATURE: *Worldmap:* Create TTS-Rect from Worldmap by moving the mouse. Click middle button to start drawing rectangles. Scroll the wheel to resize the X-Axis (length).&#xD;
+USER-REQ: *ImageSheet:* The possibility to delete or reset images on the image sheet has been implemented.&#xD;
+UPDATE: *Event&amp;Triggers:* Added a "Show in Map"-Button for areas.&#xD;
+UPDATE: *Event&amp;Triggers:* Added a red warning info when a OneShotSoundAction is used.&#xD;
+UPDATE: *Flightplan:* Add an identifier to a waypoint if the LNM file does not contain an identifier. MSFS is confused if waypoints without ident are in the flight plan and does not display a navlog or positions the aircraft at the wrong airport. &#xD;
+UPDATE: *Database:* Updated the main and parking database to 1.29.30.0.&#xD;
+UPDATE: *Aircrafts:* Added the *Flysimware C414AW* and *FFX Vision Jet* to payware aircraft list.&#xD;
+UPDATE: *Show on Map:* Show the rectangles and circles in rhumb instead of haversine. Not sure, if it is correct now, but it is better with big rectangles :)&#xD;
+UPDATE: *Image-Handling:* Improved handling of image files when waypoints have been changed in LNM, or waypoints have been added or deleted. This only works if the BTI file was saved with a version 2.1 or newer.&#xD;
+UPDATE: *AirportCreation:* Added a tolerance for lat/lon check of 50ft when loading custom airports, since LNM silently changes some coordinates for a few feet.&#xD;
+UPDATE: *AirportCreation:* Added a warning message when BTI cannot assign a custom airport to a waypoint due to too intensive changes in the LNM plan.&#xD;
+UPDATE: *TranslationWindow:* Set "NeededOnly" as default and activated "translate WP-Names" for non DeepL-API Users.&#xD;
+UPDATE: *SimVars:* Added several ATC SimVars to Event&amp;amp;Triggers and SimWatcher.&#xD;
+BUGFIX: *Backup-Zip:* Fixed an issue with long paths.&#xD;
+BUGFIX: *TTS &amp; Trigger Optimization:* Fixed an issue that if a leg had no triggers and actions, the following leg would be activated incorrectly.&#xD;
+BUGFIX: *GUI:* Fixed an issue on the TTS page in right details panel that the vertical scrollbar was not activated correctly.&#xD;
+BUGFIX: *DiscoveryFlights:* Fixed an issue that prevents loading of discovery flights created/saved with BTI 1.0.2 or lower.&#xD;
+BUGFIX: *Event&amp;amp;Triggers:* Fixed an issue when a MissionFailedAction is bound to multiple triggers.&#xD;
+BUGFIX: *Event&amp;amp;Triggers:* Fixed an issue where failure texts in MissionFailedAction did not use the translation.&#xD;
+BUGFIX: *ProjectShort:* Fixed an issue that prevented ProjectShort from changing if the project was created with BTI &lt;= 1.1.&#xD;
+&#xD;
+&#xD;
+---&#xD;
+2.1.2.3912&#xD;
 FEATURE: *Translation:* Calculate the translation status for each element of a language. Languages without an entry are ignored for this function.&#xD;
 FEATURE: *Event&amp;Triggers:* The WaitAction has been added as an available action. Wait a certain amount of time between queued actions.&#xD;
 FEATURE: *Event&amp;Triggers:* An *Immediate* flag has been added to each action. If true, the action will not be queued and will be executed immediately. Undefined means that the MSFS default behavior is used (currently true).&#xD;
