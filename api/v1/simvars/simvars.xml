@@ -201,6 +201,22 @@
     <NumIndex>0</NumIndex>
   </SimVarNamesObject>
   <SimVarNamesObject>
+    <Name>ELECTRICAL MASTER BATTERY</Name>
+    <Units>Bool</Units>
+    <Indexed>false</Indexed>
+    <Description>The battery switch position, true if the switch is ON. Use a battery index when referencing</Description>
+    <Group>Aircraft Switches</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>AVIONICS MASTER SWITCH</Name>
+    <Units>Bool</Units>
+    <Indexed>true</Indexed>
+    <Description>The avionics master switch position, true if the switch is ON. Use an avionics circuit index when referencing.</Description>
+    <Group>Aircraft Switches</Group>
+    <NumIndex>4</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
     <Name>IS SLEW ACTIVE</Name>
     <Units>Bool</Units>
     <Indexed>false</Indexed>
