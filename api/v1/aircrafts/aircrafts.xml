@@ -87,6 +87,10 @@
   <AircraftModel Name="Cessna Skyhawk Floaters Asobo" SourcePath="..\Asobo_C172SP_Classic_Floats" AltSourcePath="asobo-aircraft-c172sp-classic" SourceType="Deluxe" />
   <AircraftModel Name="Cessna Skyhawk Skis Asobo" SourcePath="..\Asobo_C172SP_Classic_Skis" AltSourcePath="asobo-aircraft-c172sp-classic" SourceType="Deluxe" />
   <AircraftModel Name="DA40 TDI Asobo" SourcePath="..\Asobo_DA40_TDI" AltSourcePath="asobo-aircraft-da40-tdi" SourceType="Deluxe" />
+  <AircraftModel Name="DCDesigns_Concorde" SourcePath="..\dcdesigns-aircraft-concorde" AltSourcePath="dcdesigns-aircraft-concorde" SourceType="Payware" />
+  <AircraftModel Name="DCDesigns Concorde Air France" BaseName="DCDesigns_Concorde" SourceType="Payware" />
+  <AircraftModel Name="DCDesigns Concorde BA 1997" BaseName="DCDesigns_Concorde" SourceType="Payware" />
+  <AircraftModel Name="DCDesigns Concorde Singapore Airlines" BaseName="DCDesigns_Concorde" SourceType="Payware" />
   <AircraftModel Name="Dornier DoJ Cabina" SourcePath="..\Microsoft_Dornier_DoJ_Cabina" AltSourcePath="microsoft-aircraft-dornier-doj" SourceType="Payware" />
   <AircraftModel Name="Dornier DoJ Cabina Aviators Club Livery" BaseName="Dornier DoJ Cabina" SourceType="Payware" />
   <AircraftModel Name="Dornier DoJ Cabina Xbox Aviators Club Livery" BaseName="Dornier DoJ Cabina" SourceType="Payware" />
