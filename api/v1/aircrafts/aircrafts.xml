@@ -1,5 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BushTripInjector xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <AircraftModel Name="A310-300 White Livery" SourcePath="..\microsoft_a310_300" AltSourcePath="microsoft-aircraft-a310-300" SourceType="Official" />
+  <AircraftModel Name="Airbus A310-300 Livery" BaseName="A310-300 White Livery" SourceType="Official" />
+  <AircraftModel Name="A310-300 Xbox Aviators Club" BaseName="A310-300 White Livery" SourceType="Official" />
+  <AircraftModel Name="A310-300 Aviators Club" BaseName="A310-300 White Livery" SourceType="Official" />
+  <AircraftModel Name="A310-300 Orbit airlines" BaseName="A310-300 White Livery" SourceType="Official" />
+  <AircraftModel Name="A310-300 World Travel Airlines" BaseName="A310-300 White Livery" SourceType="Official" />
   <AircraftModel Name="Asobo Aero L-39 Albatros Reno" SourcePath="..\Asobo_L39_Reno" AltSourcePath="asobo-aircraft-l39-reno" SourceType="Payware" />
   <AircraftModel Name="Asobo Aero L-39 Albatros Reno Livery 01" BaseName="Asobo Aero L-39 Albatros Reno" SourceType="Payware" />
   <AircraftModel Name="Asobo Aero L-39 Albatros Reno Livery 02" BaseName="Asobo Aero L-39 Albatros Reno" SourceType="Payware" />
