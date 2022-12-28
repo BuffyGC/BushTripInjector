@@ -15,11 +15,37 @@
   <CurrentVersion>
     <Major>2</Major>
     <Minor>1</Minor>
-    <Build>3</Build>
-    <Revision>3962</Revision>
+    <Build>4</Build>
+    <Revision>4006</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
-2.1.3.3962 &#xD;
+2.1.4.4006 &#xD;
+ ' *NOTAM:* '&#xD;
+ *Version 2.1 is the last version that supports the old file format with the INI file and direct loading of the Little Navmap file. If you have not yet converted your old projects to the new file format, now is a good time to do so.*&#xD;
+&#xD;
+FEATURE: *RefuelOptions:* Added a flightpath calculation to the refuel options. This is also the new default when creating new bush trips. It only covers airports that are max. 10NM away from the flight path.&#xD;
+FEATURE: *LegDetection:* Optimized the leg detection. With this, the leg could be determination also when joining the flight inside of a leg and not only on leg start.&#xD;
+UPDATE: *LegDetection:* Do not create leg detection triggers, when no leg detection is needed.&#xD;
+UPDATE: *Performance:* Optimized the usage of the simulators main thread when using many refuel airports to increase ingame FPS.&#xD;
+UPDATE: *SimVars:* Added "ELECTRICAL MASTER BATTERY" and "AVIONICS MASTER SWITCH" to available SimVars.&#xD;
+UPDATE: *SimWatcher:* For indexed SimVar, the one without any index is shown, too.&#xD;
+UPDATE: *WorldMap:* Added some more logging to rectangle creation to get more information about issues, some users cannot create free rectangles.&#xD;
+UPDATE: *Aircrafts:* Added the "DCDesigns Concorde" and "Airbus A310-300" to the aircreafts.&#xD;
+UPDATE: *LibraryObjects:* Added a "Show on Map" Button to the LibraryObjects.&#xD;
+UPDATE: *Text-to-speech:* Show all TTS rectangles and cylinders, if Ctrl-Key is hold while clicking on "Show in Map"&#xD;
+UPDATE: *Event&amp;amp;Triggers:* Show all area rectangles and cylinders, if Ctrl-Key is hold while clicking on "Show in Map"&#xD;
+UPDATE: *Create Backup:* The file must be saved before creating a backup copy.&#xD;
+BUGFIX: *Load/Save:* Fixed an issue with error handling when the file could not be parsed correctly.&#xD;
+BUGFIX: *ProjectShort:* Fixed an issue when modifying ProjectShort could result in compiler errors.&#xD;
+BUGFIX: *LegLandingTrigger:* Fixed an issue with detection of water runways to increase landing check speed.&#xD;
+BUGFIX: *Open LNM:* Fixed an issue when opening an old LittleNavmap-File to convert into BTI, when a waypoint has TTS and the previous WP is an airport which is not in database.&#xD;
+BUGFIX: *Open LNM:* When opening an old LittleNavmap file for conversion to BTI, the loading tips were not read correctly from the old ini file.&#xD;
+BUGFIX: *Open LNM:* When opening an old LittleNavmap file for conversion to BTI, the date time were not read correctly from the old ini file.&#xD;
+BUGFIX: *Waypoint-TTS:* Fixed an issue creating waypoint TTS, when previous waypoint is an airport which is not in database.&#xD;
+BUGFIX: *ImageGeneration:* Under certain conditions, PNG images were incorrectly created internally as jfif/jpeg.&#xD;
+&#xD;
+---&#xD;
+2.1.3.3962&#xD;
 FEATURE: *Plan:* Added support for VOR and NDB as flightplan entries as workaround for the WT G1000Nxi POI bug.&#xD;
 FEATURE: *Worldmap:* Create TTS-Rect from Worldmap by moving the mouse. Click middle button to start drawing rectangles. Scroll the wheel to resize the X-Axis (length).&#xD;
 USER-REQ: *ImageSheet:* The possibility to delete or reset images on the image sheet has been implemented.&#xD;
