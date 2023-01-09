@@ -15,11 +15,30 @@
   <CurrentVersion>
     <Major>2</Major>
     <Minor>1</Minor>
-    <Build>4</Build>
-    <Revision>4006</Revision>
+    <Build>5</Build>
+    <Revision>4044</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
-2.1.4.4006 &#xD;
+2.1.5.4044 &#xD;
+ ' *NOTAM:* '&#xD;
+ *Version 2.1 is the last version that supports the old file format with the INI file and direct loading of the Little Navmap file. If you have not yet converted your old projects to the new file format, now is a good time to do so.*&#xD;
+&#xD;
+FEATURE: *LandingChallenge:* The Event &amp; Triggers Editor and TTS (Intro and Rect from WorldMap) can now be used in LandingChallenges. There are some restrictions, e.g. no MissionFailure and no areas at the spawning point. &#xD;
+FEATURE: *Event&amp;Triggers:* The "PauseSim" action has been added to the available actions. You can pause and unpause the simulation with any trigger. Press the *F1*-Key after adding a PauseSim Trigger to see the details or click on &lt;a href="https://www.bushtripinjector.de/manual/events-triggers/#PauseSim"&gt;Event &amp; Triggers: PauseSim&lt;/a&gt;&#xD;
+FEATURE: *Multi-Aircraft:* Added FuelPercent for each aircraft. Set it to zero, to use global fuel percent.&#xD;
+UPDATE: *Flightplan: * Enabled spell check on flightplan comments, when they are unlocked and defined inside of BTI.&#xD;
+UPDATE: *Images:* Better info message, when BTI renames images because of "Ident" changes in LNM.&#xD;
+UPDATE: *TTS:* Added some more checks into preflight-check for TTS: Empty entries and sound files in combination with split by paragraph.&#xD;
+UPDATE: *Marketplace:* Optimized newline handling for marketplace description.&#xD;
+UPDATE: *Online-Help:* Updated the online-manual "&lt;a href="https://www.bushtripinjector.de/manual/basedata/"&gt;BaseData&lt;/a&gt;", "&lt;a href="https://www.bushtripinjector.de/manual/bundle/"&gt;Bundle&lt;/a&gt;", "&lt;a href="https://www.bushtripinjector.de/manual/flightplan/"&gt;Flightplan&lt;/a&gt;", "&lt;a href="https://www.bushtripinjector.de/manual/worldmap/"&gt;WorldMap&lt;/a&gt;", "&lt;a href="https://www.bushtripinjector.de/manual/text-to-speech/"&gt;Text-to-speech&lt;/a&gt;", "&lt;a href="https://www.bushtripinjector.de/manual/events-triggers/"&gt;Event &amp; Triggers&lt;/a&gt;", "&lt;a href="https://www.bushtripinjector.de/manual/actions-menu/"&gt;Actions-Menu&lt;/a&gt;", "&lt;a href="https://www.bushtripinjector.de/manual/translate/"&gt;Translate&lt;/a&gt;", "&lt;a href="https://www.bushtripinjector.de/manual/marketplace/"&gt;Business&amp;Marketplace&lt;/a&gt;", "&lt;a href="https://www.bushtripinjector.de/manual/flight-book/"&gt;Flightbook&lt;/a&gt;"  and "&lt;a href="https://www.bushtripinjector.de/manual/sim-settings/"&gt;Options&lt;/a&gt;" to current BTI version.&#xD;
+BUGFIX: *WorldMap:* An issue was fixed with the Ctrl handling of Show in Map for the TTS entries.&#xD;
+BUGFIX: *Messages:* Fixed some typos.&#xD;
+BUGFIX: *TTS-Optimization:* Fixed an issue which prevents generation, when a TTS does not have any text or sound.&#xD;
+BUGFIX: *Translate:* Fixed an issue with a null-pointer-reference when opening translate window and final waypoint is not an airport.&#xD;
+ *INTERNAL: Refactoring:* Improvements in internal code, cleaning up unused functions, ...&#xD;
+&#xD;
+---&#xD;
+2.1.4.4006&#xD;
  ' *NOTAM:* '&#xD;
  *Version 2.1 is the last version that supports the old file format with the INI file and direct loading of the Little Navmap file. If you have not yet converted your old projects to the new file format, now is a good time to do so.*&#xD;
 &#xD;
