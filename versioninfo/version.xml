@@ -14,12 +14,33 @@
   </PrevVersion>
   <CurrentVersion>
     <Major>2</Major>
-    <Minor>1</Minor>
-    <Build>5</Build>
-    <Revision>4044</Revision>
+    <Minor>2</Minor>
+    <Build>0</Build>
+    <Revision>4084</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
-2.1.5.4044 &#xD;
+2.2.0.4084 - Landing Challenges&#xD;
+ ' *NOTAM:* '&#xD;
+ *This version does not support the old file format with the INI file and direct loading of the Little Navmap file anymore. If you have not yet converted your old projects to the new file format, please use BTI 2.1 to migrate.*&#xD;
+&#xD;
+HIGHLIGHT: Landing Challenges&#xD;
+Landing Challenges have been unlocked as an *experimental* feature. Enable the experimental features in the options page. Please note: Not all features of E&amp;T and TTS are currently working, you can report issues on Discord.&#xD;
+&#xD;
+FEATURE: *Event&amp;Triggers:* Added ExecuteListAction to Event &amp; Triggers. With this action you can bundle multiple actions to one action and reference to the list in any trigger. For details visit "&lt;a href="https://www.bushtripinjector.de/manual/events-triggers/#ExecuteList"&gt;Manual: ExecuteList&lt;/a&gt;".&#xD;
+FEATURE: *Event&amp;Triggers:* Added ExecuteRPNAction to Event &amp; Triggers. With this action, you can modify A: (SimVars), L: (LocalVars), X: (CalculatorVars) and Z: (CustomVars). Calling of K: (KeyEvents) is also possible. For details visit "&lt;a href="https://www.bushtripinjector.de/manual/events-triggers/#ExecuteRPN"&gt;Manual: ExecuteRPN&lt;/a&gt;".&#xD;
+UPDATE: *Flightbook* Added the option to include some airport infos.&#xD;
+UPDATE: *WebView2:* Updated the WebView2 component to the most recent version.&#xD;
+UPDATE: *SimConnect:* Updated SimConnect to MSFS SDK Version 0.20.5.0 &#xD;
+UPDATE: *OpenDocument:* Updated the OpenDocument-Library to the most recent version.&#xD;
+UPDATE: *Images:* Updated the mass-image-import to support waypoints which has not a "WPxxx" prefix.&#xD;
+UPDATE: *Aircrafts:* Added the Honda Jet to the payware aircraft list.&#xD;
+UPDATE: *OldFileFormat:* Removed the old file format implementation. If you want to migrate your old projects, please migrate them with BTI 2.1 to the BTI-Fileformat.&#xD;
+UPDATE: *TextToSpeech:* A Paste button has been added to Rectangle-TTS to paste coordinates from the clipboard.&#xD;
+BUGFIX: *DropImages:* Fixed an issue where dragging and dropping images did not mark the current project as changed.&#xD;
+BUGFIX: *ConvertImages:* Fixed an issue where the current project was not marked as changed when converting images.&#xD;
+&#xD;
+---&#xD;
+2.1.5.4044&#xD;
  ' *NOTAM:* '&#xD;
  *Version 2.1 is the last version that supports the old file format with the INI file and direct loading of the Little Navmap file. If you have not yet converted your old projects to the new file format, now is a good time to do so.*&#xD;
 &#xD;
