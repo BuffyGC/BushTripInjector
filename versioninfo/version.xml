@@ -337,20 +337,20 @@ HIGHLIGHT: Fixes&#xD;
   </RequiredDbVersion>
   <CurrentMSFSDatabaseVersion>
     <Major>1</Major>
-    <Minor>29</Minor>
-    <Build>30</Build>
+    <Minor>30</Minor>
+    <Build>12</Build>
     <Revision>0</Revision>
   </CurrentMSFSDatabaseVersion>
   <CurrentMainDbVersion>
     <Major>1</Major>
-    <Minor>29</Minor>
-    <Build>30</Build>
+    <Minor>30</Minor>
+    <Build>12</Build>
     <Revision>0</Revision>
   </CurrentMainDbVersion>
   <CurrentParkingDbVersion>
     <Major>1</Major>
-    <Minor>29</Minor>
-    <Build>30</Build>
+    <Minor>30</Minor>
+    <Build>12</Build>
     <Revision>0</Revision>
   </CurrentParkingDbVersion>
 </BushTripInjector>
