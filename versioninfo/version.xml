@@ -1,24 +1,39 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BushTripInjector xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Id="BushTripInjector">
   <MinVersion>
-    <Major>1</Major>
-    <Minor>4</Minor>
-    <Build>4</Build>
-    <Revision>3308</Revision>
+    <Major>2</Major>
+    <Minor>1</Minor>
+    <Build>0</Build>
+    <Revision>3840</Revision>
   </MinVersion>
   <PrevVersion>
     <Major>2</Major>
-    <Minor>0</Minor>
+    <Minor>1</Minor>
     <Build>0</Build>
     <Revision>-1</Revision>
   </PrevVersion>
   <CurrentVersion>
     <Major>2</Major>
     <Minor>2</Minor>
-    <Build>0</Build>
-    <Revision>4084</Revision>
+    <Build>1</Build>
+    <Revision>4116</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+2.2.1.4116 - Individual Date, Time and ParkingBrake for each leg.&#xD;
+FEATURE: *Leg start:* Set the date and/or time for each leg of your bush trip. Learn more on "&lt;a href="https://www.bushtripinjector.de/manual/flightplan/"&gt;Manual-Flightplan&lt;/a&gt;".&#xD;
+FEATURE: *Leg start:* Set the parking brake for each leg of for all legs of your bush trip. Learn more on "&lt;a href="https://www.bushtripinjector.de/manual/flightplan/"&gt;Manual-Flightplan&lt;/a&gt;".&#xD;
+FEATURE: *Languages:* Added the support for ko-KR (Korean / 한국어) and tr-TR (Turkish / Türkçe) for the upcoming World Update 12. You can translate and publish your missions with Korean and Turkish already, it will be displayed in the sim only once it is available there.&#xD;
+UPDATE: *FLT-File:* Removed the tank selectors from default FLT files to prevent not running engines for some aircrafts.&#xD;
+UPDATE: *DeepL-API:* Added support for translation to and from Norwegian.&#xD;
+UPDATE: *Aircrafts:* Show the type of the aircraft if present.&#xD;
+UPDATE: *Databases:* Updated the main and parking database to Sim Version 1.30.12.0 AAU1 &amp; AIRAC 2301.&#xD;
+UPDATE: *Localization:* The localized files are created only for the languages used.&#xD;
+BUGFIX: *Compile:* Fixed an issue where the end of the compilation process was not detected correctly.&#xD;
+BUGFIX: *Recent Files:* Fixed an issue where BTI could not be started if the Recent-File-List was corrupt.&#xD;
+BUGFIX: *DeepL-API* Fixed an issue that caused the API key to be removed from the options when the DeepL-API returned errors.&#xD;
+BUGFIX: *DeepL-API* An issue with translating to pt-PT was fixed.&#xD;
+&#xD;
+---&#xD;
 2.2.0.4084 - Landing Challenges&#xD;
  ' *NOTAM:* '&#xD;
  *This version does not support the old file format with the INI file and direct loading of the Little Navmap file anymore. If you have not yet converted your old projects to the new file format, please use BTI 2.1 to migrate.*&#xD;
@@ -171,162 +186,6 @@ BUGFIX: *About-Window:* Fixed an issue that prevented the display of items in th
 BUGFIX: *Flightbook:* Fixed an issue that prevents the briefing and landing images from being inserted into the flight log in reverse.&#xD;
 BUGFIX: *Preferences:* Set the mission to changed when loading preferences.&#xD;
 &#xD;
-&#xD;
----&#xD;
-2.0.5.3760&#xD;
-FEATURE: *Bundles:* Generate the internal packages from the Bundle-Project!&#xD;
-UPDATE: *SU10/SU11:* Implemented a workaround to adjust incorrectly compiled localization files due to the new sim localization process preventing audio from playing. Toggleable via the options.&#xD;
-UPDATE: *LandingChallenge:* * _Behavior-Change:_* Added the option to check the spawn position to be over ground. You can edit the parameters, but the default is set to Enabled and 300ft AGL also for existing LC!&#xD;
-UPDATE: *GUI:* Added the possibility to reset the saved window and dialog position and sizes.&#xD;
-UPDATE: *GUI:* The possibility to open the SavedMission directory has been removed from the Window Menu, because the directory is no longer used since SU10.&#xD;
-UPDATE: *File &amp;rarr; New:* The suggested filename of the BTI file at BushTrips and LandingChallenges now corresponds to the LittleNavmap filename.&#xD;
-UPDATE: *Bundles:* If the BTI file of a package is not found, it is now also searched at the location of the bundle BTI file.&#xD;
-UPDATE: *Bundles:* Fixed several issues with wrong positive generation needed flags. Known issues: When changing sound files or images in packages, generation-needed will not shown as changed.&#xD;
-UPDATE: *Generate:* The BTI-File must be saved for the generation to start.&#xD;
-UPDATE: *GeneratorInfo.txt:* The information file is now also created on the first save.&#xD;
-UPDATE: *BaseDate:* Added a DatePicker Control to select the date of the mission.&#xD;
-UPDATE: *Internal:* Several optimizations and preparations for upcoming features.&#xD;
-BUGFIX: *Flightplan:* Fixed several issues on flightplan comment, when using unlocked comments. (Thanks to fsx-rwt)&#xD;
-BUGFIX: *Backup:* When backing up bundles, the BTI file and the Publish directory are no longer backed up twice.&#xD;
-BUGFIX: *Bundles:* Fixed an issue where the BTI file of a package may not be determined correctly.&#xD;
-BUGFIX: *Recording:* Fixed a CTD when using WASAPI-Loopback Recording for some speakers.&#xD;
-&#xD;
----&#xD;
-2.0.4.3722 - Sim Update 11&#xD;
- *The changes for the new localization system, which is mandatory from SU11, have been implemented.*&lt;br&gt;The localization files are stored in a new folder "Localization" in the mission folder. If you had your own individual additional loc files, BTI will move them automatically.&lt;br&gt;This is a breaking change by MS/Asobo, for more information please visit:&lt;br&gt;- &lt;a href="https://forums.flightsimulator.com/t/blog-october-20-2022-development-update/551243#sdk-update-4"&gt;Official Forum: [BLOG] October 20, 2022 Development Update - SDK Update&lt;/a&gt;&lt;br&gt;- &lt;a href="https://devsupport.flightsimulator.com/articles/11061/new-localisation-process.html"&gt;DevSupport: New Localization process&lt;/a&gt; &#xD;
-&#xD;
-UPDATE: *Bundle:* Added the possibility to define whether project dependencies should be included in the bundle or not.&#xD;
-UPDATE: *Bundle:* Some preparations for the new bundle types that will be introduced with the upcoming SU11.&#xD;
-UPDATE: *ProjectGroups:* Better handling and detection of invalid project group paths when assigning a path. Existing project groups are not affected.&#xD;
-BUGFIX: *Images:* Fixed an issue that occurred when selecting an image on the image sheet with the same path and file name.&#xD;
-BUGFIX: *Landmarks:* Fixed an issue with the mission's Changed flag when landmarks were added via the WorldMap.&#xD;
-BUGFIX: *LandingChallenge:* Fixed an issue with incorrect runway designations on arrival.&#xD;
-BUGFIX: *WorldMap:* Fixed an issue where after some time the layers (pins, mode) could not be changed.&#xD;
- *INTERNAL:* *BTI-File:* Added the possibility to read and rewrite attributes and elements of future BTI version.&#xD;
- *INTERNAL:* *BTI-File:* A version header has been added to the BTI file to handle different file formats.&#xD;
-&#xD;
----&#xD;
-2.0.3.3696 - Project Groups&#xD;
- *Project groups help you organize your missions in separate base folders.*&lt;br&gt;Each project group has a project group directory where BushTripInjector creates and compiles the source and code files. If a project group is specified, the general %ProjectRootFolder% is ignored and the directory from the project group is used. Of course, you can add the same project group for multiple projects.&lt;br&gt;Do not open the mission in an older version of BTI, when you have selected a project group!&#xD;
-&#xD;
-FEATURE: *LandingChallenge:* Added a field to select the current flight state (Default, Apron, Taxi, Runway, Climb, Cruise, Approach, Final) of the LandingChallenge. Default selects a state depending on AircraftType and flightpath length. (Thanks to Adventum)&#xD;
-&#xD;
-UPDATE: *Logging:* Added some more logging into sound file migration.&#xD;
-UPDATE: *Typos:* Fixed some typos. (thanks to oldmattila and Sandy).&#xD;
-UPDATE: *Presets/Preferences:* Added RefuelType to AircraftPresets. (thanks to oldmattila)&#xD;
-UPDATE: *Presets/Preferences:* Renamed ImageColorOptions to OtherOptions.&#xD;
-UPDATE: *Presets/Preferences:* Reward, Optimize and TranslateOptions to other Options.&#xD;
-UPDATE: *Translate-Window:* Solved a long-term request with column sizes in translate window.&#xD;
-UPDATE: *Flightplan:* Show distances of Flightpath and legs in leg selection control.&#xD;
-UPDATE: *Aircrafts:* Added the Beechcraft V35B Bonanza aircraft and liveries to the aircrafts list. (thanks to KillerBluesman)&#xD;
-UPDATE: *Preflight-Check:* Added a simple check for the complexity of project short into the preflight check.&#xD;
-UPDATE: *Flightplan:* Changed the order of Briefing and Landing image.&#xD;
-&#xD;
-BUGFIX: *Internal:* Fixed some smaller internal issues.&#xD;
-BUGFIX: *Glossaries:* Fixed an issue with the menu item not being visible when entering a DeepL API key and not restarting BTI. (thanks to FronTech)&#xD;
-BUGFIX: *Help-View Changelog:* Fixed an issue with the "Help &amp;rarr; View Changelog" Command. (thanks to FronTech)&#xD;
-BUGFIX: *FLT:* Fixed an unnecessary marking the mission as changed on FLT-Sheet.&#xD;
-BUGFIX: *Aircrafts:* Fixed an issue with aircraft loading when some aircraft files are not accessible (thanks to Solarwind)&#xD;
-BUGFIX: *WorldMap:* Fixed an issue with the Fuel-Flags on WorldMap.&#xD;
-BUGFIX: *Restore LNM-File:* Fixed an issue with a missing message in some conditions, when the LNM-File was not present and had to be restored.&#xD;
-BUGFIX: *Intro:* Fixed an issue with the introduction text, when the LNM-file has a flight plan remark the very first time. (thanks to ProfSC)&#xD;
-BUGFIX: *SU10:* Fixed an issue on the GUI with the AVGas and JetFuel flags, which are not longer provided by the Sim.&#xD;
-&#xD;
----&#xD;
-2.0.2.3648&#xD;
-FEATURE: *Backup:* Added a menu entry in actions to create a zip file with a full backup of all relevant files and folders.&#xD;
-USER-REQ: *Discovery:* Added a question when changing the spawning position if you also want to change the heading, too. (Thanks to Adventum)&#xD;
-USER-REQ: *Landmarks:* Added a question when adding TTS to E&amp;amp;T from landmarks and the TTS is already present. (Thanks to fsx-rwt)&#xD;
-USER-REQ: *Images:* Added the possibility to convert the images modified on the image sheet to the correct size (if mandatory) and type.&#xD;
-UPDATE: *MarketplaceData:* The tags must be in capital letters according to Microsoft's specifications.&#xD;
-UPDATE: *MarketplaceData:* The user is given a few more hints about what is allowed in the Marketplace and what is not.&#xD;
-UPDATE: *LandingChallenge:* Calculate the arrival runway based on last waypoint when creating a new landing challenge.&#xD;
-UPDATE: *Database:* The main and parking databases have been upgraded to the World Update 11 Canada version and are available as additional downloads.&#xD;
-UPDATE: *Worldmap:* Added a "Reset Map" button on Worldmap options.&#xD;
-BUGFIX: *Compile:* Due to a not considered combination in the flight plan, if several waypoints have the same ident and name, the project could not be compiled anymore. (Thanks to bhpowell for reporting)&#xD;
-BUGFIX: *GUI:* Fixed an issue with DatePickers which not shown the month correctly in some condition.&#xD;
-BUGFIX: *Generate:* An unnecessary marking of the BTI file as modified was fixed.&#xD;
-BUGFIX: *AssetGroups:* Correct formatting of the xml (added a line break between assetgroups in bundles). &#xD;
-&#xD;
----&#xD;
-2.0.1.3608&#xD;
-Pro-Version: *Marketplace:* Added the "zoom" and "HtmlPreview" to the description field.&#xD;
-Pro-Version: *Marketplace:* Fixed an issue with the Marketplace-template. IMPORTANT: Please generate your marketplace package of 2.0.0.3564 again!&#xD;
-USER-REQ: *GeneratorInfo:* Adding a "GeneratorInfo" file to the MissionRoot folder for those ladies and gentlemen who forgot where the BTI and LNM file was stored. (Thanks for the request)&#xD;
-USER-REQ: *Recent-Files*: Added the possibility to remove the selected or all items from the list of recent files. (Thanks to oldmattila)&#xD;
-FEATURE: *Drag and Drop:* On Flightplan-Sheet you can store several images from the file system. The assignment follows according to the rules: The file name is split into parts using " ", "-" and "_". If one of these parts contains "WPnnn" or "POInnn" the image is used as waypoint images to the corresponding waypoint. If one part contains the ICAO, another file name part must start with "BRIEF" or "LAND" and the image will be assigned to the airport as a briefing or landing image.&#xD;
-FEATURE: *Bundles:* Using the GenerateInfo idea, the individual projects of the bundles can be linked to the BTI file. With this information, it is now displayed whether the individual project must be regenerated and it can be opened directly by double-clicking.&#xD;
-UPDATE: *Bundles:* Added the possibility to add already compiled packages in bundles.&#xD;
-UPDATE: *Database:* Updated the *main* and *parking database* to sim version 1.27.21.0&#xD;
-UPDATE: *MapConfig:* Removed the Quadkey from mapcache to speed up map tiles cleanup.&#xD;
-UPDATE: *Internal:* Optimized memory handling for flight plan images.&#xD;
-UPDATE: *Generation:* More information about the current step is displayed during generation to avoid any confusion for the user.&#xD;
-UPDATE: *Spb-Viewer:* Updated the *PropertyDefinitions* to sim version 1.27.21.0&#xD;
-UPDATE: *OpenXml:* Updated the OpenXml component to the most recent version.&#xD;
-UPDATE: *SimConnect:* Updated the SimConnect components to MSFS SDK 19.3.&#xD;
-BUGFIX: *LandingChallenge:* Fixed an issue with starting position not updated after LNM change&#xD;
-BUGFIX: *Bundles:* Fixed an issue where the bundle was not marked as changed when a project was removed.&#xD;
-BUGFIX: *WorldMap:* Fixed an issue with coordinates view in release version.&#xD;
-BUGFIX: *WorldMap:* Fixed an CTD with WorldMap after loading a mission.&#xD;
-BUGFIX: *Misc.:* Fixed some small gui glitches for the "Misc." Sheet.&#xD;
-&#xD;
----&#xD;
-&lt;h2&gt;2.0.0.3564 - BushTripInector's second anniversary&lt;/h2&gt;&#xD;
-Pro-Version: *Marketplace:* Added the possibility to edit the tags.&#xD;
-Pro-Version: *Marketplace:* Added the option not to add the specifications (Mission#, Leg# a.s.o.).&#xD;
-Pro-Version: *Marketplace:* Added the option to resize MediaScroller and MediaSlider at higher resolutions if the aspect ratio is similar when adding images.&#xD;
-Pro-Version: *Marketplace:* Added Marketplace Company and Package Creator. Use of Blanks is now possible and MCP-Portal support is improved.&#xD;
-Pro-Version: *Marketplace:* Removed to edit the Reseller / Third Party Short Name. This is built by MCP-Portal automatically.&#xD;
-Pro-Version: *Marketplace:* Added the option to save and load Marketplace-Profiles. This will save all project independent values for an easy switch between different companies.&#xD;
-Pro-Version: *Landing-Challenge:* Made a simple possibility for Landing-Challenges available. There are currently less validations and no real support. But I'm happy to get your feedback and will improve it.&#xD;
-&#xD;
-HIGHLIGHT: GUI Improvements&#xD;
- *Event&amp;amp;Triggers:* Re-work of all tables. They are now smaller to get more information and are sortable.&#xD;
- *Event&amp;amp;Triggers:* All sections in Triggers, Actions, Areas and WorldObjects are resizable.&#xD;
- *Flightplan:* Re-work of the full flightplan Sheet. Added a detail view beside the table.&#xD;
- *Flightplan:* When you move the mouse pointer over an image, the image is displayed in large format.&#xD;
- *Worldmap:* Display the coordinates of current mouse position in the statusbar. (thanks to fsx-rwt)&#xD;
- *Text-to-speech:* Re-work of the full Text-to-Speech Sheet. Added a detail view beside the table.&#xD;
- *General:* Better and windows conform handling of text boxes.&#xD;
-&#xD;
-HIGHLIGHT: Features and Functions&#xD;
- *Event&amp;amp;Triggers:* Added editable Container Objects in WorldObjects.&#xD;
- *Event&amp;amp;Triggers:* Two new actions are available: *RequestTeleportAction* and *FadeToColorAction*.&#xD;
- *Event&amp;amp;Triggers:* Editable description field for all objects that is also entered into the xml and spb.&#xD;
- *Flightplan:* Added the option to filter the flight plan for a specific leg.&#xD;
- *Flightplan:* Added the possibility to edit the navlog entries. You can choose for each entry whether it is maintained in BushTripInjector or Little Navmap.&#xD;
- *Text-to-speech:* Added to option to select the speaker for TTS.&#xD;
- *Text-to-speech:* Added the option *Split by paragraph*! This allows you to split the text into separate TTS. Especially useful for long TTS when sub-titles turned on. Be aware: You need to translate the sentences also separate.&#xD;
- *BaseData:* You can now choose whether you want to edit the "Introduction" in Little Navmap or in BushTripInjector. Just select "Unlock" next to the "Introduction" field. (requested by several users)&#xD;
- *BaseData:* Revised "File" box&#xD;
- *Html-Editor:* For introduction and navlog texts a (very) simple html editor including live-preview is available now.&#xD;
- *Flightbook:* Added the option to include the texts from TTS attached to ProximityTriggers when they are not assigned to a waypoint.&#xD;
- *Flightbook:* Added the option to remove empty lines from the intro.&#xD;
- *Flightbook:* Keep the window open to create another one with other parameters. (thanks to oldmattila)&#xD;
- *Misc.:* Added a new sheet "Misc." and moved less used sheets to the new tab.&#xD;
- *Dependencies:* Removed the automatic creation of aircraft dependency introduced with 1.4.0.3181. You can do this manually on dependency sheet with "Add Aircraft" button. Please check your dependencies before publishing.&#xD;
- *ConvertImages:* Added a status screen during conversion to avoid making the user unnecessarily nervous.&#xD;
- *Aircrafts:* Added the 160 "Kodiak 100" planes and liveries and the "Got Friends Edgley EA-7 Optica" into payware aircraft list.&#xD;
-&#xD;
-HIGHLIGHT: Fixes&#xD;
- *Event&amp;amp;Triggers:* Fixed an issue with MissionFailureAction when it was not referenced by PropertyTrigger. (thanks to CitadelSkies for reporting)&#xD;
- *Text-to-speech:* Fixed an issue for TTS and InstructorDialogAction when no text is defined, only a sound file.&#xD;
- *Flightplan:* Fixed an issue removing a TTS from a waypoint which also removed the leg completion TTS.&#xD;
- *Flightplan:* Fixed an issue where adjusting the cruising altitude had no effect on the flight plan.&#xD;
- *Flightbook:* Fixed an issue with localized paragraph template names when using a custom template.&#xD;
- *SaveAs:* Invalidate the Guids of the Locale-entries to avoid conflicts in Bundles. (thanks to AdventumSims)&#xD;
- *Bundle:* Fixed an issue with duplicate AssetGroups when there are Landmarks or Sceneries in each package.&#xD;
- *Publish:* Do not continue with compile when pre-flight check fails. (thanks to FronTech)&#xD;
- *Landmark:* When adding landmarks, set also the file changed flag! (thanks to Nordheim Missions)&#xD;
- *IngameMarker:* Show the IngameMarker on the Worldmap! (thanks to fsx-rwt)&#xD;
- *Rename Project:* Fixed an issue with missing marketplace data after renaming a project.&#xD;
- *Starting-Position:* The magnetic deviation for calculating the heading is now calculated based on the position and not the departure airport.&#xD;
- *BushTrip:* The cruising altitude is now correctly loaded from file.&#xD;
- *flightsim.to* Fixed an issue with flightsim.to add-ons located at 0,0 / 0,0.&#xD;
- *Logging:* Fixed an issue with recursive log file locking when running multiple instances of BushTripInjector.&#xD;
- *MSFS Detection:* Fixed an issue, when multiple and wrong usercfg.opt are found. (Thanks to Biggyzee)&#xD;
- *BushTripInjector.ini:* Fixed an issue that created the bushtripinjector.ini file unnecessarily.&#xD;
- *BushTripInjector.ini:* Fixed an issue with using the obsolete INI file when selecting a weather file.&#xD;
 </ChangeLog>
   <Downloadlink>https://flightsim.to/file/4131/bushtripinjector</Downloadlink>
   <RequiredDbVersion>
@@ -337,20 +196,20 @@ HIGHLIGHT: Fixes&#xD;
   </RequiredDbVersion>
   <CurrentMSFSDatabaseVersion>
     <Major>1</Major>
-    <Minor>29</Minor>
-    <Build>30</Build>
+    <Minor>30</Minor>
+    <Build>12</Build>
     <Revision>0</Revision>
   </CurrentMSFSDatabaseVersion>
   <CurrentMainDbVersion>
     <Major>1</Major>
-    <Minor>29</Minor>
-    <Build>30</Build>
+    <Minor>30</Minor>
+    <Build>12</Build>
     <Revision>0</Revision>
   </CurrentMainDbVersion>
   <CurrentParkingDbVersion>
     <Major>1</Major>
-    <Minor>29</Minor>
-    <Build>30</Build>
+    <Minor>30</Minor>
+    <Build>12</Build>
     <Revision>0</Revision>
   </CurrentParkingDbVersion>
 </BushTripInjector>
