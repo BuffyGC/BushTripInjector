@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MissionChanger xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CurrentVersion>
+    <Major>1</Major>
+    <Minor>1</Minor>
+    <Build>3</Build>
+    <Revision>0</Revision>
+  </CurrentVersion>
+  <ChangeLog />
+  <Downloadlink>https://bushtripinjector.de/downloads</Downloadlink>
+</MissionChanger>
