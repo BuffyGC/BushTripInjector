@@ -6,6 +6,9 @@
     <Build>3</Build>
     <Revision>0</Revision>
   </CurrentVersion>
-  <ChangeLog />
+  <ChangeLog>- added updated check&#xD;
+- added language support for Korean and Turkish&#xD;
+&#xD;
+</ChangeLog>
   <Downloadlink>https://bushtripinjector.de/downloads</Downloadlink>
 </MissionChanger>
