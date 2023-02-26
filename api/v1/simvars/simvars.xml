@@ -89,6 +89,30 @@
     <NumIndex>0</NumIndex>
   </SimVarNamesObject>
   <SimVarNamesObject>
+    <Name>G FORCE</Name>
+    <Units>GForce</Units>
+    <Indexed>false</Indexed>
+    <Description>Current G force</Description>
+    <Group>Aircraft Flight Model Vaiables</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>MIN G FORCE</Name>
+    <Units>GForce</Units>
+    <Indexed>false</Indexed>
+    <Description>Minimum G force attained</Description>
+    <Group>Aircraft Flight Model Vaiables</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>MAX G FORCE</Name>
+    <Units>GForce</Units>
+    <Indexed>false</Indexed>
+    <Description>Maximum G force attained</Description>
+    <Group>Aircraft Flight Model Vaiables</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
     <Name>FUEL TOTAL CAPACITY</Name>
     <Units>Gallons</Units>
     <Indexed>false</Indexed>
