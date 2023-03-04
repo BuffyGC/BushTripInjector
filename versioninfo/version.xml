@@ -187,7 +187,7 @@ BUGFIX: *Flightbook:* Fixed an issue that prevents the briefing and landing imag
 BUGFIX: *Preferences:* Set the mission to changed when loading preferences.&#xD;
 &#xD;
 </ChangeLog>
-  <Downloadlink>https://flightsim.to/file/4131/bushtripinjector</Downloadlink>
+  <Downloadlink>https://bushtripinjector.de/downloads</Downloadlink>
   <RequiredDbVersion>
     <Major>1</Major>
     <Minor>14</Minor>

@@ -7,8 +7,10 @@
     <Revision>0</Revision>
   </CurrentVersion>
   <ChangeLog>- added updated check&#xD;
+- added support for another download server&#xD;
 - added language support for Korean and Turkish&#xD;
+- rework of message system&#xD;
 &#xD;
 </ChangeLog>
-  <Downloadlink>https://bushtripinjector.de/downloads</Downloadlink>
+  <Downloadlink>https://www.bushtripinjector.de/downloads/</Downloadlink>
 </MissionChanger>
