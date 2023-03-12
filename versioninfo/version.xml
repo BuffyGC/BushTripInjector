@@ -15,10 +15,33 @@
   <CurrentVersion>
     <Major>2</Major>
     <Minor>2</Minor>
-    <Build>1</Build>
-    <Revision>4116</Revision>
+    <Build>3</Build>
+    <Revision>4164</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+2.2.3.4164 - Support for Marketplace-Bundles &#xD;
+ ' *Attention: BushTripInjector is no longer available on flightsim.to.&lt;br&gt;You can download the application and the databases from "&lt;a href="https://www.bushtripinjector.de/downloads/"&gt;BushTripInjector Downloads&lt;/a&gt;"&lt;br&gt;If you press the "Download with Web Browser" button, you will be automatically redirected to the correct download page.*'&#xD;
+&#xD;
+FEATURE: *Bundle-Bundles:* Bundles of the type Bundle without Packages are now available for ingestion into the Marketplace. Including the single packages does not work in MCP yet and is therefore disabled. Pack are still not possible. &#xD;
+UPDATE: *Marketplace:* Package names are converted to lowercase, as required by the Marketplace since February 2023.&#xD;
+UPDATE: *Marketplace:* Show the number of characters of the marketplace description.&#xD;
+UPDATE: *Marketplace:* Changed the encoding of the PublishingGroupContent.Json to ANSI/UNIX without BOM.&#xD;
+UPDATE: *Marketplace:* The ThirdPartyShortName element was added back to PackageMetadata due to the changes in MCP in week 10. Maybe at some point they will finally decide whether it must, may, or may not be included.&#xD;
+UPDATE: *Database:* Updated the Main- and Parking-Database to World Update 12 New Zealand.&lt;br&gt; *Attention:* Several Airports and Runways were deleted. Check the db_changelog included in this package!&#xD;
+UPDATE: *SimVars:* Added the Min, Max and current G-Force simulation variables to SimVarWatcher and Event&amp;Triggers Editor.&#xD;
+UPDATE: *AdjustElevation:* The elevation data for Airports and Waypoints will no longer adjusted after loading a mission. For this, it is saved in the mission file. If you want to have updated elevations for your airports and waypoints, just click the button on basedata.&#xD;
+UPDATE: *Update-Check:* Changed download link.&#xD;
+UPDATE: *Help-Menu:* Removed Link to flightsim.to &#xD;
+UPDATE: *Backup:* Include the files for the MSFS-Bundles into the backup.&#xD;
+UPDATE: *Payware-Aircrafts*: Added the "DHC-4 Caribou" to the payware aircraft list.&#xD;
+BUGFIX: *AirportCreation:* Fixed an issue with runway slope.&#xD;
+BUGFIX: *Event&amp;Triggers:* Undo an unintentional change in a table heading.&#xD;
+BUGFIX: *Startup:* Fixed an issue that during the launch under certain conditions the aircraft was unintentionally changed.&#xD;
+BUGFIX: *Soundfiles:* Fixed an issue with a wrong error message when using a base-lng other than en-US and not all sound files are present in the base-lng sound folder.&#xD;
+BUGFIX: *Parking Spots:* Fixed an issue where the parking spots were not displayed after reloading the same mission.&#xD;
+ *INTERNAL: Clean-up:* Removed unnecessary code.&#xD;
+&#xD;
+---&#xD;
 2.2.1.4116 - Individual Date, Time and ParkingBrake for each leg.&#xD;
 FEATURE: *Leg start:* Set the date and/or time for each leg of your bush trip. Learn more on "&lt;a href="https://www.bushtripinjector.de/manual/flightplan/"&gt;Manual-Flightplan&lt;/a&gt;".&#xD;
 FEATURE: *Leg start:* Set the parking brake for each leg of for all legs of your bush trip. Learn more on "&lt;a href="https://www.bushtripinjector.de/manual/flightplan/"&gt;Manual-Flightplan&lt;/a&gt;".&#xD;
@@ -187,7 +210,7 @@ BUGFIX: *Flightbook:* Fixed an issue that prevents the briefing and landing imag
 BUGFIX: *Preferences:* Set the mission to changed when loading preferences.&#xD;
 &#xD;
 </ChangeLog>
-  <Downloadlink>https://bushtripinjector.de/downloads</Downloadlink>
+  <Downloadlink>https://www.bushtripinjector.de/downloads/</Downloadlink>
   <RequiredDbVersion>
     <Major>1</Major>
     <Minor>14</Minor>
