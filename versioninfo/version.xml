@@ -19,7 +19,7 @@
     <Revision>4156</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
-2.2.3.4164 - Support for Marketplace-Bundles &#xD;
+2.2.2.4156 - Support for Marketplace-Bundles &#xD;
  ' *Attention: BushTripInjector is no longer available on flightsim.to.&lt;br&gt;You can download the application and the databases from "&lt;a href="https://www.bushtripinjector.de/downloads/"&gt;BushTripInjector Downloads&lt;/a&gt;"&lt;br&gt;If you press the "Download with Web Browser" button, you will be automatically redirected to the correct download page.*'&#xD;
 &#xD;
 FEATURE: *Bundle-Bundles:* Bundles of the type Bundle without Packages are now available for ingestion into the Marketplace. Including the single packages does not work in MCP yet and is therefore disabled. Pack are still not possible. &#xD;
