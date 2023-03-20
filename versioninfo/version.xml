@@ -15,18 +15,26 @@
   <CurrentVersion>
     <Major>2</Major>
     <Minor>2</Minor>
-    <Build>2</Build>
-    <Revision>4156</Revision>
+    <Build>3</Build>
+    <Revision>4182</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+2.2.3.4182 - Sim Update 12&#xD;
+FEATURE: *Import Translation:* Added support to import MS Xml translation files. This is only available in advanced mode.&#xD;
+FEATURE: *Multi-Aircraft:* Enabled multi-aircraft selection for all users.&#xD;
+UPDATE: *Marketplace:* Show the number of characters used in the marketplace description.&#xD;
+UPDATE: *Marketplace:* Changed encoding of PublishingGroupContent.json to ANSI/UNIX without BOM.&#xD;
+UPDATE: *Marketplace:* Added ThirdPartyShortName element back to PackageMetadata due to changes in MCP in week 10. Maybe at some point they will finally decide whether it is required, optional or not.&#xD;
+UPDATE: *LandingChallenge:* The leaderboard is automatically removed when you are not creating missions for a world update or similar. You can re-enable it in the base data.&#xD;
+UPDATE: *SimConnect:* Updated to the latest SimConnect libraries from Sim Update 12.&#xD;
+BUGFIX: *Flightbook:* Fixed an issue with handling of some HTML entities.&#xD;
+&#xD;
+---&#xD;
 2.2.2.4156 - Support for Marketplace-Bundles &#xD;
  ' *Attention: BushTripInjector is no longer available on flightsim.to.&lt;br&gt;You can download the application and the databases from "&lt;a href="https://www.bushtripinjector.de/downloads/"&gt;BushTripInjector Downloads&lt;/a&gt;"&lt;br&gt;If you press the "Download with Web Browser" button, you will be automatically redirected to the correct download page.*'&#xD;
 &#xD;
 FEATURE: *Bundle-Bundles:* Bundles of the type Bundle without Packages are now available for ingestion into the Marketplace. Including the single packages does not work in MCP yet and is therefore disabled. Pack are still not possible. &#xD;
 UPDATE: *Marketplace:* Package names are converted to lowercase, as required by the Marketplace since February 2023.&#xD;
-UPDATE: *Marketplace:* Show the number of characters of the marketplace description.&#xD;
-UPDATE: *Marketplace:* Changed the encoding of the PublishingGroupContent.Json to ANSI/UNIX without BOM.&#xD;
-UPDATE: *Marketplace:* The ThirdPartyShortName element was added back to PackageMetadata due to the changes in MCP in week 10. Maybe at some point they will finally decide whether it must, may, or may not be included.&#xD;
 UPDATE: *Database:* Updated the Main- and Parking-Database to World Update 12 New Zealand.&lt;br&gt; *Attention:* Several Airports and Runways were deleted. Check the db_changelog included in this package!&#xD;
 UPDATE: *SimVars:* Added the Min, Max and current G-Force simulation variables to SimVarWatcher and Event&amp;Triggers Editor.&#xD;
 UPDATE: *AdjustElevation:* The elevation data for Airports and Waypoints will no longer adjusted after loading a mission. For this, it is saved in the mission file. If you want to have updated elevations for your airports and waypoints, just click the button on basedata.&#xD;
