@@ -268,6 +268,6 @@ BUGFIX: *Preferences:* Set the mission to changed when loading preferences.&#xD;
     <Major>1</Major>
     <Minor>32</Minor>
     <Build>7</Build>
-    <Revision>2</Revision>
+    <Revision>0</Revision>
   </CurrentNavAidsDbVersion>
 </BushTripInjector>
