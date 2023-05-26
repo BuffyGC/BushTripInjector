@@ -14,11 +14,26 @@
   </PrevVersion>
   <CurrentVersion>
     <Major>2</Major>
-    <Minor>3</Minor>
-    <Build>1</Build>
-    <Revision>4226</Revision>
+    <Minor>4</Minor>
+    <Build>0</Build>
+    <Revision>4277</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+2.4.0.4277 - Usage-Database&#xD;
+FEATURE: *Usage-Database:* A usage database has been added. You can check if airports, runways, parkings and other navigation aids like SID, STAR, Approaches (RNAV, ILS, GPS, LOC, ...) including transitions and Named Waypoints have been changed or deleted by an update of the simulator and thus the mission does not work as desired anymore. Check out the online manual: &lt;a href="https://www.bushtripinjector.de/manual/actions-menu/#usagedb"&gt;BushTripInjector Usage-Database&lt;/a&gt;&#xD;
+&#xD;
+Pro-Version: *Discovery-Flights:* Enabled the selection of the Discovery-Type&#xD;
+&#xD;
+UPDATE: *Marketplace:* Added a warning, if the desired release date is in the past.&#xD;
+UPDATE: *Weather:* Added the possibility to activate the visualization of 3D thermals.&#xD;
+&#xD;
+BUGFIX: Several typos and misleading sentences in messages have been corrected.&#xD;
+BUGFIX: Fixed some menu activations when no mission is loaded.&#xD;
+BUGFIX: Fixed an issue when creating a backup with external projects.&#xD;
+BUGFIX: Fixed an issue with the changelog window.&#xD;
+&#xD;
+&#xD;
+---&#xD;
 2.3.1.4226 - Departure Position Per Leg&#xD;
 USER-REQ: *Flightplan:* Define the position of the aircraft for the start of each leg! Choose the runway, the parking lot or the coordinates.&#xD;
 USER-REQ: *Master-Document:* Prepare internal processing for master document handling. Be curious.&#xD;
@@ -268,6 +283,6 @@ BUGFIX: *Preferences:* Set the mission to changed when loading preferences.&#xD;
     <Major>1</Major>
     <Minor>32</Minor>
     <Build>7</Build>
-    <Revision>2</Revision>
+    <Revision>0</Revision>
   </CurrentNavAidsDbVersion>
 </BushTripInjector>
