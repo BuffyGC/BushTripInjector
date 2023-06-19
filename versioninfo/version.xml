@@ -265,24 +265,24 @@ BUGFIX: *Preferences:* Set the mission to changed when loading preferences.&#xD;
     <Major>1</Major>
     <Minor>32</Minor>
     <Build>7</Build>
-    <Revision>0</Revision>
+    <Revision>1</Revision>
   </CurrentMSFSDatabaseVersion>
   <CurrentMainDbVersion>
     <Major>1</Major>
     <Minor>32</Minor>
     <Build>7</Build>
-    <Revision>0</Revision>
+    <Revision>1</Revision>
   </CurrentMainDbVersion>
   <CurrentParkingDbVersion>
     <Major>1</Major>
     <Minor>32</Minor>
     <Build>7</Build>
-    <Revision>0</Revision>
+    <Revision>1</Revision>
   </CurrentParkingDbVersion>
   <CurrentNavAidsDbVersion>
     <Major>1</Major>
     <Minor>32</Minor>
     <Build>7</Build>
-    <Revision>0</Revision>
+    <Revision>1</Revision>
   </CurrentNavAidsDbVersion>
 </BushTripInjector>
