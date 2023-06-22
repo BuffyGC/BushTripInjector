@@ -282,26 +282,26 @@ BUGFIX: *Preferences:* Set the mission to changed when loading preferences.&#xD;
   </RequiredDbVersion>
   <CurrentMSFSDatabaseVersion>
     <Major>1</Major>
-    <Minor>32</Minor>
-    <Build>7</Build>
-    <Revision>1</Revision>
+    <Minor>33</Minor>
+    <Build>8</Build>
+    <Revision>0</Revision>
   </CurrentMSFSDatabaseVersion>
   <CurrentMainDbVersion>
     <Major>1</Major>
-    <Minor>32</Minor>
-    <Build>7</Build>
-    <Revision>1</Revision>
+    <Minor>33</Minor>
+    <Build>8</Build>
+    <Revision>0</Revision>
   </CurrentMainDbVersion>
   <CurrentParkingDbVersion>
     <Major>1</Major>
-    <Minor>32</Minor>
-    <Build>7</Build>
-    <Revision>1</Revision>
+    <Minor>33</Minor>
+    <Build>8</Build>
+    <Revision>0</Revision>
   </CurrentParkingDbVersion>
   <CurrentNavAidsDbVersion>
     <Major>1</Major>
-    <Minor>32</Minor>
-    <Build>7</Build>
-    <Revision>1</Revision>
+    <Minor>33</Minor>
+    <Build>8</Build>
+    <Revision>0</Revision>
   </CurrentNavAidsDbVersion>
 </BushTripInjector>
