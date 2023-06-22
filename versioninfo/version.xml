@@ -15,10 +15,29 @@
   <CurrentVersion>
     <Major>2</Major>
     <Minor>4</Minor>
-    <Build>0</Build>
-    <Revision>4277</Revision>
+    <Build>1</Build>
+    <Revision>4312</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+2.4.1.4312&#xD;
+ *ATTENTION: You need to update the files from the "lib" folder too.*&#xD;
+&#xD;
+FEATURE: *Glider:* Bush trips with gliders are no longer checked for running out of fuel.&#xD;
+UPDATE: *Marketplace:* Check for not supported characters in tags.&#xD;
+UPDATE: *OpenDocument:* Updated to Version 2.20&#xD;
+UPDATE: *WebView2:* Updated to Version 1.0.1823.32 to support SmartScreen filtering when downloading files and templates for compile. This ensures that the templates downloaded from the BushTripInjector server have not been manipulated by third parties.&#xD;
+UPDATE: *SimConnect:* Updated to SDK Version 0.21.1&#xD;
+UPDATE: *Translations:* Using pt-PT for pr-BR and es-MX for es-ES if they are not filled. This is the vice versa function for the already existing functions pt-BR&amp;rarr;pt-PT and es-ES&amp;rarr;es-MX.&#xD;
+UPDATE: *Position Leg Start:* The precision of the position is increased from about 15 feet to 0.2 feet.&#xD;
+UPDATE: *AirportCreation:* Added a button to recalculate the runway start positions and the thresholds.&#xD;
+UPDATE: *LegDetection:* Added tolerance parameters for leg detection around waypoints and airports.&#xD;
+UPDATE: *Database:* Updated the main, parking and navigation database for City Update 2 France.&#xD;
+UPDATE: *Internal:* Several optimizations and preparations for upcoming features.&#xD;
+BUGFIX: *Flightplan:* Fixed a typo on flightplan sheet.&#xD;
+BUGFIX: *AirportCreation:* Fixed an issue with location of the airport reference point after changing the position in Little Navmap.&#xD;
+BUGFIX: *AirportCreation:* Fixed an issue with the zoom level when changing an airport.&#xD;
+&#xD;
+---&#xD;
 2.4.0.4277 - Usage-Database&#xD;
 FEATURE: *Usage-Database:* A usage database has been added. You can check if airports, runways, parkings and other navigation aids like SID, STAR, Approaches (RNAV, ILS, GPS, LOC, ...) including transitions and Named Waypoints have been changed or deleted by an update of the simulator and thus the mission does not work as desired anymore. Check out the online manual: &lt;a href="https://www.bushtripinjector.de/manual/actions-menu/#usagedb"&gt;BushTripInjector Usage-Database&lt;/a&gt;&#xD;
 &#xD;
