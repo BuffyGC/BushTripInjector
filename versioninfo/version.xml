@@ -15,10 +15,26 @@
   <CurrentVersion>
     <Major>2</Major>
     <Minor>4</Minor>
-    <Build>1</Build>
-    <Revision>4312</Revision>
+    <Build>2</Build>
+    <Revision>4345</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+2.4.2.4345&#xD;
+FEATURE: *Master document:* A master document feature has been enabled for selected users. Be curious.&#xD;
+UPDATE: *Flightplan:* Added the possibility to set all waypoints as TTS with only one click.&#xD;
+UPDATE: *Translation:* Optimized  Xml-Import for the Microsoft World Update Missions.&#xD;
+UPDATE: *BTI-Fileformat:* Added some internal features for multi-user usage of the same mission.&#xD;
+UPDATE: *LNM-Handling:* Improved handling in multi-user environments in context with the LNM file.&#xD;
+UPDATE: *Little Navmap:* Fixed an issue in the handling of the new header field "CruisingAltF" in Little Navmap file format 1.2.&#xD;
+UPDATE: *Database:* Updated the main, parking and navigation database for Aircraft &amp; Avionics Update 02.&#xD;
+UPDATE: *Database:* Updated the main, parking and navigation database for City Update 3 Texas.&#xD;
+UPDATE: *General:* Some small adjustments for Windows 11 23H2 Moment 3 Feature update.&#xD;
+BUGFIX: *Flight book:* Fixed an issue with the formatting of bold, italic, and underline.&#xD;
+BUGFIX: *Bundles:* Fixed an issue with external packages and with content info files that have been already compiled.&#xD;
+BUGFIX: *Sub-Missions:* Fixed an issue with generating partial missions when the departure airport is not present in the database.&#xD;
+BUGFIX: *Localization:* Fixed an issue where some languages were not included in the localization file.&#xD;
+&#xD;
+---&#xD;
 2.4.1.4312&#xD;
  *ATTENTION: You need to update the files from the "lib" folder too.*&#xD;
 &#xD;
