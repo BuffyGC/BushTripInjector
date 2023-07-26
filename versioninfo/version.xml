@@ -15,10 +15,17 @@
   <CurrentVersion>
     <Major>2</Major>
     <Minor>4</Minor>
-    <Build>2</Build>
-    <Revision>4345</Revision>
+    <Build>3</Build>
+    <Revision>4362</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+2.4.3.4362 - Maintenance Release&#xD;
+UPDATE: *Database:* Updated the main, parking and navigation database for World Update 14 Central Eastern Europe.&#xD;
+BUGFIX: *PositionPerLeg:* Fixed some issues with the positioning per leg where the aircraft was also set to the airport for waypoints.&#xD;
+BUGFIX: *PackageDefinition:* Fixed an issue with bundles when the title, package creator or release notes of a project contained an ampersand (&amp;).&#xD;
+BUGFIX: *Flightplan:* Fixed a glitch in the GUI of the flight plan details.&#xD;
+&#xD;
+---&#xD;
 2.4.2.4345&#xD;
 FEATURE: *Master document:* A master document feature has been enabled for selected users. Be curious.&#xD;
 UPDATE: *Flightplan:* Added the possibility to set all waypoints as TTS with only one click.&#xD;
@@ -300,24 +307,24 @@ BUGFIX: *Preferences:* Set the mission to changed when loading preferences.&#xD;
     <Major>1</Major>
     <Minor>33</Minor>
     <Build>8</Build>
-    <Revision>1</Revision>
+    <Revision>2</Revision>
   </CurrentMSFSDatabaseVersion>
   <CurrentMainDbVersion>
     <Major>1</Major>
     <Minor>33</Minor>
     <Build>8</Build>
-    <Revision>1</Revision>
+    <Revision>2</Revision>
   </CurrentMainDbVersion>
   <CurrentParkingDbVersion>
     <Major>1</Major>
     <Minor>33</Minor>
     <Build>8</Build>
-    <Revision>1</Revision>
+    <Revision>2</Revision>
   </CurrentParkingDbVersion>
   <CurrentNavAidsDbVersion>
     <Major>1</Major>
     <Minor>33</Minor>
     <Build>8</Build>
-    <Revision>1</Revision>
+    <Revision>2</Revision>
   </CurrentNavAidsDbVersion>
 </BushTripInjector>
