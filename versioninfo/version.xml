@@ -14,11 +14,27 @@
   </PrevVersion>
   <CurrentVersion>
     <Major>2</Major>
-    <Minor>4</Minor>
-    <Build>3</Build>
-    <Revision>4362</Revision>
+    <Minor>5</Minor>
+    <Build>0</Build>
+    <Revision>4396</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+2.5.0.4396&#xD;
+ *This Version has many changes in the core functionality of BushTripInjector. Despite intensive testing, bugs and problems may occur.&lt;br&gt;If you have an issue, please contact me on Discord: &lt;a href="http://discord.bushtripinjector.de"&gt;BushTripInjector Discord&lt;/a&gt;. Thank you very much.*&#xD;
+&#xD;
+UPDATE: *Database:* Suffixes for some parking positions have been added to the parking database. *Attention: Please check your usage database after updating your parking-database.* Several parking position has been renamed for this feature!&#xD;
+UPDATE: *Parkings:* Added support for suffixes in parking positions. You need at least parking-database version 1.33.8.4.&#xD;
+UPDATE: *Parkings:* Support for ApronType "Dock" has been added.&#xD;
+UPDATE: *Dependencies:* Support special liveries and include the base aircraft into the dependencies.&#xD;
+UPDATE: *Maintenance:* Removed some old code blocks.&#xD;
+UPDATE: *Bundles:* Improved handling in multi-user environments in context with bundles.&#xD;
+UPDATE: *LibraryObject:* Changed the default of the scale param to 1.0.&#xD;
+UPDATE: *Preflight-Check:* Added a check for the existence of the runways and parking positions.&#xD;
+UPDATE: *Airport-Creation:* Force the identifier (ICAO) to be written in upper case in the files for MSFS.&#xD;
+BUGFIX: *Environment:* Fixed an issue that prevented launching BTI when a default operating system environment path is not present. &#xD;
+BUGFIX: *Paste-Coords:* Fixed an issue parsing latitude and longitude from some DMS formats.&#xD;
+&#xD;
+---&#xD;
 2.4.3.4362 - Maintenance Release&#xD;
 UPDATE: *Database:* Updated the main, parking and navigation database for World Update 14 Central Eastern Europe.&#xD;
 BUGFIX: *PositionPerLeg:* Fixed some issues with the positioning per leg where the aircraft was also set to the airport for waypoints.&#xD;
@@ -307,7 +323,7 @@ BUGFIX: *Preferences:* Set the mission to changed when loading preferences.&#xD;
     <Major>1</Major>
     <Minor>33</Minor>
     <Build>8</Build>
-    <Revision>2</Revision>
+    <Revision>4</Revision>
   </CurrentMSFSDatabaseVersion>
   <CurrentMainDbVersion>
     <Major>1</Major>
@@ -319,7 +335,7 @@ BUGFIX: *Preferences:* Set the mission to changed when loading preferences.&#xD;
     <Major>1</Major>
     <Minor>33</Minor>
     <Build>8</Build>
-    <Revision>2</Revision>
+    <Revision>4</Revision>
   </CurrentParkingDbVersion>
   <CurrentNavAidsDbVersion>
     <Major>1</Major>
