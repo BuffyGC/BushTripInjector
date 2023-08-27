@@ -1,5 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BushTripInjector xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <AircraftModel Name="Aero Ae145 - OM-NHS" SourcePath="..\aerovodochody-aero145" AltSourcePath="microsoft-aircraft-aero45" SourceType="Payware" />
+  <AircraftModel Name="Aero Ae145 - PLAINWHITE" BaseName="Aero Ae145 - OM-NHS" SourceType="Payware" />
+  <AircraftModel Name="Aero Ae145 - Red-Cream" BaseName="Aero Ae145 - OM-NHS" SourceType="Payware" />
+  <AircraftModel Name="Aero Ae145 - SilverGold" BaseName="Aero Ae145 - OM-NHS" SourceType="Payware" />
+  <AircraftModel Name="Aero Ae145 - SP-LXH" BaseName="Aero Ae145 - OM-NHS" SourceType="Payware" />
+  <AircraftModel Name="Aero Ae45 - OK-FHA" SourcePath="..\aerovodochody-aero45" AltSourcePath="microsoft-aircraft-aero45" SourceType="Payware" />
+  <AircraftModel Name="Aero Ae45 - PLAINWHITE" BaseName="Aero Ae45 - OK-FHA" SourceType="Payware" />
+  <AircraftModel Name="Aero Ae45 - Polished" BaseName="Aero Ae45 - OK-FHA" SourceType="Payware" />
+  <AircraftModel Name="Aero Ae45 - Prototype" BaseName="Aero Ae45 - OK-FHA" SourceType="Payware" />
   <AircraftModel Name="A310-300 White Livery" SourcePath="..\microsoft_a310_300" AltSourcePath="microsoft-aircraft-a310-300" SourceType="Official" />
   <AircraftModel Name="Airbus A310-300 Livery" BaseName="A310-300 White Livery" SourceType="Official" />
   <AircraftModel Name="A310-300 Xbox Aviators Club" BaseName="A310-300 White Livery" SourceType="Official" />
