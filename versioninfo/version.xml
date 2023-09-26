@@ -13,12 +13,53 @@
     <Revision>-1</Revision>
   </PrevVersion>
   <CurrentVersion>
-    <Major>2</Major>
-    <Minor>5</Minor>
+    <Major>3</Major>
+    <Minor>0</Minor>
     <Build>0</Build>
-    <Revision>4396</Revision>
+    <Revision>4450</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+3.0.0.4450 - 3rd Anniversary of BushTripInjector&#xD;
+ *This Version has many changes in the core functionality of BushTripInjector. Despite intensive testing, bugs and problems may occur.&lt;br&gt;If you have an issue, please contact me on Discord: &lt;a href="http://discord.bushtripinjector.de"&gt;BushTripInjector Discord&lt;/a&gt;. Thank you very much.*&#xD;
+&#xD;
+ * 'GUI Improvements'* &#xD;
+ *MSF Intro-Screen:*&#xD;
+Shows the selected date and time and the corresponding lightness on the introduction screen if individual date and time information is used for the leg.&#xD;
+Shows the aircraft at the individual position on the introduction screen if the aircraft has a specific position for that leg.&#xD;
+&#xD;
+ *Event&amp;Triggers*&#xD;
+The *ShowOnMap* Button in Flightplan, Event&amp;Triggers-Editor and Database will not remove other objects from WorldMap when the Ctrl-Key is pressed.&#xD;
+&#xD;
+&#xD;
+ * 'Features and Functions'* &#xD;
+ *Compiler:* &#xD;
+BGL: Added the possibility to compile BGL of different types into the project. Add our BGL source folders into PackageSources\BGL.&#xD;
+VisualEffects: Added the possibility to compile VisualEffectLibraries into the project. Add our VisualEffectLib source folders into PackageSources\VisualEffectLibs.&#xD;
+&#xD;
+ *Event&amp;Triggers*&#xD;
+Added a "ExcludeLivingExclusion" to remove static aircraft, airport vehicles, freeway traffic and scheduled and random boats and ships.&#xD;
+Added "PlayMusic, ForceMusic and StopMusic" actions to Event&amp;Triggers Editor on request of a commercial customer. &#xD;
+The possibility to create a ProximityTrigger, ActivationObjects and Areas to LibraryObjects by clicking a button has been added.&#xD;
+&#xD;
+ *DiscoveryFlights:*&#xD;
+Implemented a solution for Microsoft World-Updates to play WWISE MusicTracks, MusicSegments and MusicPlaylistContainers from Wwise-MusicBank and Wwise-Package files.&#xD;
+&#xD;
+ *Marketplace:* &#xD;
+Added the possibility to add up to 4 more background images / base images.&#xD;
+&#xD;
+&#xD;
+ * 'Improvements and Fixes'* &#xD;
+ *Aircrafts:* Added Aero Ae45 + Ae145 to the payware aircraft list&#xD;
+ *Preflight-Check:* The latest SDK does not accept titles with more than 50 characters. The preflight check now verifies this.&#xD;
+ *Databases:* Updated the main, parking and navigation database to AIRAC 2309 (MSFS UPD Sept21)&#xD;
+ *Parking-Database:* Added the radius of the parking spot into the parking database.&#xD;
+ *Reposition per Leg:* When using parking spots for starting partial legs, other aircrafts are excluded from the use of these spots.&#xD;
+ *Landing Challenges:* Landing Challenges are now available for all users in non-experimental environments!&#xD;
+ *Release-Notes:* Fixed an issue with the window preventing all information from being visible under certain circumstances.&#xD;
+ *Wiki:* Fixed an issue reading specific items from Spanish Wikipedia server.&#xD;
+&#xD;
+&#xD;
+---&#xD;
 2.5.0.4396&#xD;
  *This Version has many changes in the core functionality of BushTripInjector. Despite intensive testing, bugs and problems may occur.&lt;br&gt;If you have an issue, please contact me on Discord: &lt;a href="http://discord.bushtripinjector.de"&gt;BushTripInjector Discord&lt;/a&gt;. Thank you very much.*&#xD;
 &#xD;
