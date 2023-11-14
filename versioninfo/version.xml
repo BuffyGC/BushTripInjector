@@ -14,12 +14,37 @@
   </PrevVersion>
   <CurrentVersion>
     <Major>3</Major>
-    <Minor>0</Minor>
-    <Build>1</Build>
-    <Revision>4460</Revision>
+    <Minor>1</Minor>
+    <Build>0</Build>
+    <Revision>4508</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
-3.0.1.4460 &#xD;
+3.1.0.4508 &#xD;
+PRO-VERSION: Added a query for loading a marketplace profile after creating a new project.&#xD;
+FEATURE: *MasterDocument:* Create a master document from the current mission. (available for selected users only)&#xD;
+FEATURE: *Adjust Altitude:* Added a "Round Up" option to the adjust altitude function.&#xD;
+FEATURE: *LandingChallenges:* Dynamic calculation of the distance to the destination airport to expand the action area. 3 options to choose from: Standard (MSFS), calculation by BTI and manual input.&#xD;
+FEATURE: *IFR-Flights:* Navigation waypoints designated as navaids by Little Navmap are passed to the sim as intersections in order to display them correctly in some FMS.&#xD;
+UPDATE: *Refuel-Airports:* Added a session cache for refueling airports to improve translation and generation performance.&#xD;
+UPDATE: *WorldMap:* Added a Zoom-Slider to the Map-Options.&#xD;
+UPDATE: *SimConnect:* Updated the simconnect libraries to SDK 0.22.3.&#xD;
+UPDATE: *WebView2* Updated the webview2 components to the most recent release version.&#xD;
+UPDATE: *Xaml.Behaviors* Updated the Xaml.Behaviors components to the most recent release version.&#xD;
+UPDATE: *Aircrafts:* Added the Blackbird Turbo Porter series to the payware aircraft list.&#xD;
+UPDATE: *Preflight-Check:* Added a warning when a departure location is more than 5 NM away from airport reference point.&#xD;
+UPDATE: *Preflight-Check:* Added some checks for the leg detection.&#xD;
+UPDATE: *Performance:* Added some more caches to the flightplan to improve general performance.&#xD;
+UPDATE: *Databases:* The databases were updated for World Update 15 Nordics and Greenland&#xD;
+BUGFIX: *Translations:* Fixed an issue where translations were not assigned correctly when there was a change in the text and the ident changed only in case.&#xD;
+BUGFIX: *Bundle:* Fixed an issue with sceneries in subprojects that resulted in a compiler warning.&#xD;
+BUGFIX: *Typos:* Fixed some typos.&#xD;
+BUGFIX: *Xml-File:* Fixed an issue where the additional Xml was not added in Discovery Flights or Landing Challenges in certain conditions.&#xD;
+BUGFIX: *Bundles:* Fixed an issue with external packages, when the directory of the package is invalid.&#xD;
+BUGFIX: *BushTrip:* Fixed an issue loading a LittleNavmap File without any airport.&#xD;
+BUGFIX: *Debug-Mode:* Fixed an issue with debug mode in combination with per-leg repositioning and parking brake that caused MSFS compiler errors with localization.&#xD;
+ &#xD;
+---&#xD;
+3.0.1.4460&#xD;
 UPDATE: *SPB-Viewer/Compiler:* Updated the property definitions to Sim Update 13 (1.34.16.0)&#xD;
 UPDATE: *Databases:* Updated the main, parking and navigational database to Sim Update 13 (1.34.16.0))&#xD;
 BUGFIX: *Preflight-Check:* Fixed an issue that prevented opening a BTI file with a title longer than 50 characters. This should not be so strict and only apply to the title of the marketplace product. All apologies!&#xD;
