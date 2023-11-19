@@ -609,6 +609,14 @@
     <NumIndex>2</NumIndex>
   </SimVarNamesObject>
   <SimVarNamesObject>
+    <Name>ATC CLEARED IFR</Name>
+    <Units>Bool</Units>
+    <Indexed>false</Indexed>
+    <Description>Returns whether or not the user has filed an IFR flightplan that has been cleared by the sim ATC</Description>
+    <Group>ATC</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
     <Name>ATC CLEARED LANDING</Name>
     <Units>Bool</Units>
     <Indexed>false</Indexed>
@@ -685,6 +693,14 @@
     <Units>Bool</Units>
     <Indexed>false</Indexed>
     <Description>This is a boolean corresponding to whether or not the ATC has pre-selected a runway for the player's plane. If this is false, every other ATC RUNWAY * Var will return default values</Description>
+    <Group>ATC</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
+    <Name>ATC TAXIPATH DISTANCE</Name>
+    <Units>Meters</Units>
+    <Indexed>false</Indexed>
+    <Description>Returns the lateral distance the user's plane is from the path of the currently issued ATC taxi instructions.</Description>
     <Group>ATC</Group>
     <NumIndex>0</NumIndex>
   </SimVarNamesObject>
