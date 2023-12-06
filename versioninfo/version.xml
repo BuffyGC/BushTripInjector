@@ -14,12 +14,25 @@
   </PrevVersion>
   <CurrentVersion>
     <Major>3</Major>
-    <Minor>1</Minor>
+    <Minor>2</Minor>
     <Build>0</Build>
-    <Revision>4508</Revision>
+    <Revision>4534</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
-3.1.0.4508 &#xD;
+3.2.0.4534 - Sim Update 14&#xD;
+UPDATE: *SU14/SPB-Decompiler* Added the new properties for missions and visual effects.&#xD;
+UPDATE: *SU14/Xml-Importer* Added the new properties for missions and visual effects.&#xD;
+UPDATE: *SU14/Text-to-speech:* Added the Speaker Full Name to Text-to-Speech.&#xD;
+UPDATE: *SU14/Event&amp;Triggers:* Added the Speaker Full Name to InstructorDialogAction and TextToSpeechAction.&#xD;
+UPDATE: *SU14/Databases:* No change detected in airports, runways, parking lots or navigation aids.&#xD;
+UPDATE: *Package-Title:* An optional title field has been added for the package. This is displayed in the Content Manager of the simulation. If it is empty, the marketplace title or the title of the project will be used as before, as Microsoft likes to have different titles for the same thing on different screens...&#xD;
+UPDATE: *Sim-Vars:* Added ATC CLEARED IFR + ATC TAXIPATH DISTANCE to the available simulation vars for Triggers and Sim-Watcher.&#xD;
+UPDATE: *Aircrafts:* Added the FAMOUS FLYER #6 FORD 4-AT TRIMOTOR to the payware aircraft list.&#xD;
+BUGFIX: *Typo:* Fixed a typo if the user creates a bundle of type pack.&#xD;
+BUGFIX: *LandingChallenge:* Fixed the broken context menu on WorldMap-Sheet for LandingChallenges&#xD;
+&#xD;
+---&#xD;
+3.1.0.4508&#xD;
 PRO-VERSION: Added a query for loading a marketplace profile after creating a new project.&#xD;
 FEATURE: *MasterDocument:* Create a master document from the current mission. (available for selected users only)&#xD;
 FEATURE: *Adjust Altitude:* Added a "Round Up" option to the adjust altitude function.&#xD;
