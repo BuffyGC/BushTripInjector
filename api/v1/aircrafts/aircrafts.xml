@@ -167,6 +167,33 @@
   <AircraftModel Name="Cessna Skyhawk Asobo" SourcePath="..\Asobo_C172sp_classic" AltSourcePath="asobo-aircraft-c172sp-classic" SourceType="Deluxe" />
   <AircraftModel Name="Cessna Skyhawk Floaters Asobo" SourcePath="..\Asobo_C172SP_Classic_Floats" AltSourcePath="asobo-aircraft-c172sp-classic" SourceType="Deluxe" />
   <AircraftModel Name="Cessna Skyhawk Skis Asobo" SourcePath="..\Asobo_C172SP_Classic_Skis" AltSourcePath="asobo-aircraft-c172sp-classic" SourceType="Deluxe" />
+  <AircraftModel Name="Cessna T207A Stationair 8 II 01" SourcePath="..\MSCarenado_C207_Stationair_II" AltSourcePath="microsoft-aircraft-c207-stationair-ii" SourceType="Payware" />
+  <AircraftModel Name="Cessna T207A Stationair 8 II 02" BaseName="Cessna T207A Stationair 8 II 01" SourceType="Payware" />
+  <AircraftModel Name="Cessna T207A Stationair 8 II 03" BaseName="Cessna T207A Stationair 8 II 01" SourceType="Payware" />
+  <AircraftModel Name="Cessna T207A Stationair 8 II 04" BaseName="Cessna T207A Stationair 8 II 01" SourceType="Payware" />
+  <AircraftModel Name="Cessna T207A Stationair 8 II 05" BaseName="Cessna T207A Stationair 8 II 01" SourceType="Payware" />
+  <AircraftModel Name="Cessna T207A Stationair 8 II 06" BaseName="Cessna T207A Stationair 8 II 01" SourceType="Payware" />
+  <AircraftModel Name="Cessna T207A Stationair 8 II 07" BaseName="Cessna T207A Stationair 8 II 01" SourceType="Payware" />
+  <AircraftModel Name="Cessna T207A Stationair 8 II 08" BaseName="Cessna T207A Stationair 8 II 01" SourceType="Payware" />
+  <AircraftModel Name="Cessna T207A Stationair 8 II White" BaseName="Cessna T207A Stationair 8 II 01" SourceType="Payware" />
+  <AircraftModel Name="Cessna T207A Stationair 8 II Aviators Club Livery" BaseName="Cessna T207A Stationair 8 II 01" SourceType="Payware" />
+  <AircraftModel Name="Cessna T207A Stationair 8 II Xbox Aviators Club Livery" BaseName="Cessna T207A Stationair 8 II 01" SourceType="Payware" />
+  <AircraftModel Name="Cessna T207A Stationair 8 II Cargo 01" SourcePath="..\MSCarenado_C207_Stationair_II_Cargo" AltSourcePath="microsoft-aircraft-c207-stationair-ii" SourceType="Payware" />
+  <AircraftModel Name="Cessna T207A Stationair 8 II Cargo 02" BaseName="Cessna T207A Stationair 8 II Cargo 01" SourceType="Payware" />
+  <AircraftModel Name="Cessna T207A Stationair 8 II Cargo 03" BaseName="Cessna T207A Stationair 8 II Cargo 01" SourceType="Payware" />
+  <AircraftModel Name="Cessna T207A Stationair 8 II Cargo 04" BaseName="Cessna T207A Stationair 8 II Cargo 01" SourceType="Payware" />
+  <AircraftModel Name="Cessna T207A Stationair 8 II Cargo 05" BaseName="Cessna T207A Stationair 8 II Cargo 01" SourceType="Payware" />
+  <AircraftModel Name="Cessna T207A Stationair 8 II Cargo White" BaseName="Cessna T207A Stationair 8 II Cargo 01" SourceType="Payware" />
+  <AircraftModel Name="Cessna T207A Stationair 8 II Cargo Aviators Club Livery" BaseName="Cessna T207A Stationair 8 II Cargo 01" SourceType="Payware" />
+  <AircraftModel Name="Cessna T207A Stationair 8 II Cargo Xbox Aviators Club Livery" BaseName="Cessna T207A Stationair 8 II Cargo 01" SourceType="Payware" />
+  <AircraftModel Name="Cessna T207A Stationair 8 II Skydiving 01" SourcePath="..\MSCarenado_C207_Stationair_II_SkyDive" AltSourcePath="microsoft-aircraft-c207-stationair-ii" SourceType="Payware" />
+  <AircraftModel Name="Cessna T207A Stationair 8 II Skydiving 02" BaseName="Cessna T207A Stationair 8 II Skydiving 01" SourceType="Payware" />
+  <AircraftModel Name="Cessna T207A Stationair 8 II Skydiving 03" BaseName="Cessna T207A Stationair 8 II Skydiving 01" SourceType="Payware" />
+  <AircraftModel Name="Cessna T207A Stationair 8 II Skydiving 04" BaseName="Cessna T207A Stationair 8 II Skydiving 01" SourceType="Payware" />
+  <AircraftModel Name="Cessna T207A Stationair 8 II Skydiving 05" BaseName="Cessna T207A Stationair 8 II Skydiving 01" SourceType="Payware" />
+  <AircraftModel Name="Cessna T207A Stationair 8 II Skydiving White" BaseName="Cessna T207A Stationair 8 II Skydiving 01" SourceType="Payware" />
+  <AircraftModel Name="Cessna T207A Stationair 8 II Skydiving Aviators Club Livery" BaseName="Cessna T207A Stationair 8 II Skydiving 01" SourceType="Payware" />
+  <AircraftModel Name="Cessna T207A Stationair 8 II Skydiving Xbox Aviators Club Livery" BaseName="Cessna T207A Stationair 8 II Skydiving 01" SourceType="Payware" />
   <AircraftModel Name="DA40 TDI Asobo" SourcePath="..\Asobo_DA40_TDI" AltSourcePath="asobo-aircraft-da40-tdi" SourceType="Deluxe" />
   <AircraftModel Name="DCDesigns_Concorde" SourcePath="..\dcdesigns-aircraft-concorde" AltSourcePath="dcdesigns-aircraft-concorde" SourceType="Payware" />
   <AircraftModel Name="DCDesigns Concorde Air France" BaseName="DCDesigns_Concorde" SourceType="Payware" />
