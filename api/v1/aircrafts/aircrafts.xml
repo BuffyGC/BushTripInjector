@@ -34,6 +34,18 @@
   <AircraftModel Name="Asobo Aero L-39 Albatros Sarance" SourcePath="..\Asobo_L39_Reno_Sarance" AltSourcePath="asobo-aircraft-l39-reno-sarance" SourceType="Payware" />
   <AircraftModel Name="Asobo Aero L-39 Albatros Tumbling Goose" SourcePath="..\Asobo_L39_Reno_TumblingGoose" AltSourcePath="asobo-aircraft-l39-reno-tumblinggoose" SourceType="Payware" />
   <AircraftModel Name="Asobo Baron G58" SourcePath="..\Asobo_Baron_G58" AltSourcePath="asobo-aircraft-baron-g58" SourceType="Deluxe" />
+  <AircraftModel Name="ATR 42-600 House Livery" SourcePath="..\Microsoft_ATR_42_600" AltSourcePath="microsoft-aircraft-atr" SourceType="Payware" />
+  <AircraftModel Name="ATR 42-600 Livery Air Saint Pierre" BaseName="ATR 42-600 House Livery" SourceType="Payware" />
+  <AircraftModel Name="ATR 42-600 Livery Silver Airways" BaseName="ATR 42-600 House Livery" SourceType="Payware" />
+  <AircraftModel Name="ATR 42-600 Highline" SourcePath="..\Microsoft_ATR_42_600_highline" AltSourcePath="microsoft-aircraft-atr" SourceType="Payware" />
+  <AircraftModel Name="ATR 72-600 House Livery" SourcePath="..\Microsoft_ATR_72_600" AltSourcePath="microsoft-aircraft-atr" SourceType="Payware" />
+  <AircraftModel Name="ATR 72-600 Livery AfriJet" BaseName="ATR 72-600 House Livery" SourceType="Payware" />
+  <AircraftModel Name="ATR 72-600 Livery Air Tahiti Tapuata" BaseName="ATR 72-600 House Livery" SourceType="Payware" />
+  <AircraftModel Name="ATR 72-600 Livery Air New Zealand" BaseName="ATR 72-600 House Livery" SourceType="Payware" />
+  <AircraftModel Name="ATR 72-600 Livery Air Tahiti Te Anuanua" BaseName="ATR 72-600 House Livery" SourceType="Payware" />
+  <AircraftModel Name="ATR 72-600 Livery Air Tahiti Ra'Ireva'" BaseName="ATR 72-600 House Livery" SourceType="Payware" />
+  <AircraftModel Name="ATR 72-600 Livery Silver Airways" BaseName="ATR 72-600 House Livery" SourceType="Payware" />
+  <AircraftModel Name="ATR 72-600 Highline" SourcePath="..\Microsoft_ATR_72_600_highline" AltSourcePath="microsoft-aircraft-atr" SourceType="Payware" />
   <AircraftModel Name="Beechcraft D17S Staggerwing N65268" SourcePath="..\MSCarenado_D17_Staggerwing" AltSourcePath="microsoft-aircraft-d17-staggerwing" SourceType="Payware" />
   <AircraftModel Name="Beechcraft D17S Staggerwing N115H" BaseName="Beechcraft D17S Staggerwing N65268" SourceType="Payware" />
   <AircraftModel Name="Beechcraft D17S Staggerwing N25BS" BaseName="Beechcraft D17S Staggerwing N65268" SourceType="Payware" />
