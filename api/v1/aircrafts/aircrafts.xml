@@ -206,6 +206,68 @@
   <AircraftModel Name="Cessna T207A Stationair 8 II Skydiving White" BaseName="Cessna T207A Stationair 8 II Skydiving 01" SourceType="Payware" />
   <AircraftModel Name="Cessna T207A Stationair 8 II Skydiving Aviators Club Livery" BaseName="Cessna T207A Stationair 8 II Skydiving 01" SourceType="Payware" />
   <AircraftModel Name="Cessna T207A Stationair 8 II Skydiving Xbox Aviators Club Livery" BaseName="Cessna T207A Stationair 8 II Skydiving 01" SourceType="Payware" />
+  <AircraftModel Name="CJ Simulations Rafale C EC 1/7 'Provence'" SourcePath="..\CJS_RAFALE_C" AltSourcePath="cjsimulations-aircraft-rafale" SourceType="Payware" />
+  <AircraftModel Name="CJ Simulations Rafale C 113IX Livery" BaseName="CJ Simulations Rafale C EC 1/7 'Provence'" SourceType="Payware" />
+  <AircraftModel Name="CJ Simulations Rafale C 30GN Livery" BaseName="CJ Simulations Rafale C EC 1/7 'Provence'" SourceType="Payware" />
+  <AircraftModel Name="CJ Simulations Rafale C 4-GI Livery" BaseName="CJ Simulations Rafale C EC 1/7 'Provence'" SourceType="Payware" />
+  <AircraftModel Name="CJ Simulations Rafale C 4IR Livery" BaseName="CJ Simulations Rafale C EC 1/7 'Provence'" SourceType="Payware" />
+  <AircraftModel Name="CJ Simulations Rafale C EC Livery" BaseName="CJ Simulations Rafale C EC 1/7 'Provence'" SourceType="Payware" />
+  <AircraftModel Name="CJ Simulations Rafale C EC1 30 Cote d argent'" BaseName="CJ Simulations Rafale C EC 1/7 'Provence'" SourceType="Payware" />
+  <AircraftModel Name="CJ Simulations Rafale C EC2 30 Normandie Niemen" BaseName="CJ Simulations Rafale C EC 1/7 'Provence'" SourceType="Payware" />
+  <AircraftModel Name="CJ Simulations Rafale C EC2 4 La Fayette" BaseName="CJ Simulations Rafale C EC 1/7 'Provence'" SourceType="Payware" />
+  <AircraftModel Name="CJ Simulations Rafale C EC3 30 Lorraine" BaseName="CJ Simulations Rafale C EC 1/7 'Provence'" SourceType="Payware" />
+  <AircraftModel Name="CJ Simulations Rafale C EG Livery" BaseName="CJ Simulations Rafale C EC 1/7 'Provence'" SourceType="Payware" />
+  <AircraftModel Name="CJ Simulations Rafale C EH Livery" BaseName="CJ Simulations Rafale C EC 1/7 'Provence'" SourceType="Payware" />
+  <AircraftModel Name="CJ Simulations Rafale C EI Livery" BaseName="CJ Simulations Rafale C EC 1/7 'Provence'" SourceType="Payware" />
+  <AircraftModel Name="CJ Simulations Rafale C EM Livery" BaseName="CJ Simulations Rafale C EC 1/7 'Provence'" SourceType="Payware" />
+  <AircraftModel Name="CJ Simulations Rafale C EQ Livery" BaseName="CJ Simulations Rafale C EC 1/7 'Provence'" SourceType="Payware" />
+  <AircraftModel Name="CJ Simulations Rafale C ETR3 4 Aquitaine" BaseName="CJ Simulations Rafale C EC 1/7 'Provence'" SourceType="Payware" />
+  <AircraftModel Name="CJ Simulations Rafale C EU Livery" BaseName="CJ Simulations Rafale C EC 1/7 'Provence'" SourceType="Payware" />
+  <AircraftModel Name="CJ Simulations Rafale C EC 1/7 'Provence', SS'" SourcePath="..\CJS_RAFALE_C_SS" AltSourcePath="cjsimulations-aircraft-rafale" SourceType="Payware" />
+  <AircraftModel Name="CJ Simulations Rafale C 113IX Livery, SS'" BaseName="CJ Simulations Rafale C EC 1/7 'Provence', SS'" SourceType="Payware" />
+  <AircraftModel Name="CJ Simulations Rafale C 30GN Livery, SS'" BaseName="CJ Simulations Rafale C EC 1/7 'Provence', SS'" SourceType="Payware" />
+  <AircraftModel Name="CJ Simulations Rafale C 4-GI Livery, SS'" BaseName="CJ Simulations Rafale C EC 1/7 'Provence', SS'" SourceType="Payware" />
+  <AircraftModel Name="CJ Simulations Rafale C 4IR Livery, SS" BaseName="CJ Simulations Rafale C EC 1/7 'Provence', SS'" SourceType="Payware" />
+  <AircraftModel Name="CJ Simulations Rafale C EC Livery, SS" BaseName="CJ Simulations Rafale C EC 1/7 'Provence', SS'" SourceType="Payware" />
+  <AircraftModel Name="CJ Simulations Rafale C EC1 30 Cote d argent, SS'" BaseName="CJ Simulations Rafale C EC 1/7 'Provence', SS'" SourceType="Payware" />
+  <AircraftModel Name="CJ Simulations Rafale C EC2 30 Normandie Niemen, SS'" BaseName="CJ Simulations Rafale C EC 1/7 'Provence', SS'" SourceType="Payware" />
+  <AircraftModel Name="CJ Simulations Rafale C EC2 4 La Fayette, SS'" BaseName="CJ Simulations Rafale C EC 1/7 'Provence', SS'" SourceType="Payware" />
+  <AircraftModel Name="CJ Simulations Rafale C EC3 30 Lorraine, SS'" BaseName="CJ Simulations Rafale C EC 1/7 'Provence', SS'" SourceType="Payware" />
+  <AircraftModel Name="CJ Simulations Rafale C EG Livery, SS'" BaseName="CJ Simulations Rafale C EC 1/7 'Provence', SS'" SourceType="Payware" />
+  <AircraftModel Name="CJ Simulations Rafale C EH Livery, SS'" BaseName="CJ Simulations Rafale C EC 1/7 'Provence', SS'" SourceType="Payware" />
+  <AircraftModel Name="CJ Simulations Rafale C EI Livery, SS'" BaseName="CJ Simulations Rafale C EC 1/7 'Provence', SS'" SourceType="Payware" />
+  <AircraftModel Name="CJ Simulations Rafale C EM Livery, SS'" BaseName="CJ Simulations Rafale C EC 1/7 'Provence', SS'" SourceType="Payware" />
+  <AircraftModel Name="CJ Simulations Rafale C EQ Livery, SS'" BaseName="CJ Simulations Rafale C EC 1/7 'Provence', SS'" SourceType="Payware" />
+  <AircraftModel Name="CJ Simulations Rafale C ETR3 4 Aquitaine, SS'" BaseName="CJ Simulations Rafale C EC 1/7 'Provence', SS'" SourceType="Payware" />
+  <AircraftModel Name="CJ Simulations Rafale C EU Livery, SS'" BaseName="CJ Simulations Rafale C EC 1/7 'Provence', SS'" SourceType="Payware" />
+  <AircraftModel Name="CJ Simulations Rafale M Main Base Livery" SourcePath="..\CJS_RAFALE_M" AltSourcePath="cjsimulations-aircraft-rafale" SourceType="Payware" />
+  <AircraftModel Name="CJ Simulations Rafale M 11F-100-10" BaseName="CJ Simulations Rafale M Main Base Livery" SourceType="Payware" />
+  <AircraftModel Name="CJ Simulations Rafale M 11F-100-11" BaseName="CJ Simulations Rafale M Main Base Livery" SourceType="Payware" />
+  <AircraftModel Name="CJ Simulations Rafale M 11F-100-32" BaseName="CJ Simulations Rafale M Main Base Livery" SourceType="Payware" />
+  <AircraftModel Name="CJ Simulations Rafale M 11F-100-35" BaseName="CJ Simulations Rafale M Main Base Livery" SourceType="Payware" />
+  <AircraftModel Name="CJ Simulations Rafale M 11F-100-37" BaseName="CJ Simulations Rafale M Main Base Livery" SourceType="Payware" />
+  <AircraftModel Name="CJ Simulations Rafale M 11F-27" BaseName="CJ Simulations Rafale M Main Base Livery" SourceType="Payware" />
+  <AircraftModel Name="CJ Simulations Rafale M 12F" BaseName="CJ Simulations Rafale M Main Base Livery" SourceType="Payware" />
+  <AircraftModel Name="CJ Simulations Rafale M 17F" BaseName="CJ Simulations Rafale M Main Base Livery" SourceType="Payware" />
+  <AircraftModel Name="CJ Simulations Rafale M 2014 Tiger" BaseName="CJ Simulations Rafale M Main Base Livery" SourceType="Payware" />
+  <AircraftModel Name="CJ Simulations Rafale M 2016 Tiger" BaseName="CJ Simulations Rafale M Main Base Livery" SourceType="Payware" />
+  <AircraftModel Name="CJ Simulations Rafale M 2017 Tiger" BaseName="CJ Simulations Rafale M Main Base Livery" SourceType="Payware" />
+  <AircraftModel Name="CJ Simulations Rafale M 65 years" BaseName="CJ Simulations Rafale M Main Base Livery" SourceType="Payware" />
+  <AircraftModel Name="CJ Simulations Rafale M 70 years" BaseName="CJ Simulations Rafale M Main Base Livery" SourceType="Payware" />
+  <AircraftModel Name="CJ Simulations Rafale M Main Base Livery, SS" SourcePath="..\CJS_RAFALE_M_SS" AltSourcePath="cjsimulations-aircraft-rafale" SourceType="Payware" />
+  <AircraftModel Name="CJ Simulations Rafale M 11F-100-10, SS" BaseName="CJ Simulations Rafale M Main Base Livery, SS" SourceType="Payware" />
+  <AircraftModel Name="CJ Simulations Rafale M 11F-100-11, SS" BaseName="CJ Simulations Rafale M Main Base Livery, SS" SourceType="Payware" />
+  <AircraftModel Name="CJ Simulations Rafale M 11F-100-32, SS" BaseName="CJ Simulations Rafale M Main Base Livery, SS" SourceType="Payware" />
+  <AircraftModel Name="CJ Simulations Rafale M 11F-100-35, SS" BaseName="CJ Simulations Rafale M Main Base Livery, SS" SourceType="Payware" />
+  <AircraftModel Name="CJ Simulations Rafale M 11F-100-37, SS" BaseName="CJ Simulations Rafale M Main Base Livery, SS" SourceType="Payware" />
+  <AircraftModel Name="CJ Simulations Rafale M 11F-27, SS" BaseName="CJ Simulations Rafale M Main Base Livery, SS" SourceType="Payware" />
+  <AircraftModel Name="CJ Simulations Rafale M 12F, SS" BaseName="CJ Simulations Rafale M Main Base Livery, SS" SourceType="Payware" />
+  <AircraftModel Name="CJ Simulations Rafale M 17F, SS" BaseName="CJ Simulations Rafale M Main Base Livery, SS" SourceType="Payware" />
+  <AircraftModel Name="CJ Simulations Rafale M 2014 Tiger, SS" BaseName="CJ Simulations Rafale M Main Base Livery, SS" SourceType="Payware" />
+  <AircraftModel Name="CJ Simulations Rafale M 2016 Tiger, SS" BaseName="CJ Simulations Rafale M Main Base Livery, SS" SourceType="Payware" />
+  <AircraftModel Name="CJ Simulations Rafale M 2017 Tiger, SS" BaseName="CJ Simulations Rafale M Main Base Livery, SS" SourceType="Payware" />
+  <AircraftModel Name="CJ Simulations Rafale M 65 years, SS" BaseName="CJ Simulations Rafale M Main Base Livery, SS" SourceType="Payware" />
+  <AircraftModel Name="CJ Simulations Rafale M 70 years, SS" BaseName="CJ Simulations Rafale M Main Base Livery, SS" SourceType="Payware" />
   <AircraftModel Name="DA40 TDI Asobo" SourcePath="..\Asobo_DA40_TDI" AltSourcePath="asobo-aircraft-da40-tdi" SourceType="Deluxe" />
   <AircraftModel Name="DCDesigns_Concorde" SourcePath="..\dcdesigns-aircraft-concorde" AltSourcePath="dcdesigns-aircraft-concorde" SourceType="Payware" />
   <AircraftModel Name="DCDesigns Concorde Air France" BaseName="DCDesigns_Concorde" SourceType="Payware" />
