@@ -297,6 +297,7 @@
   <AircraftModel Name="Edgley Optica: G-BLFC" BaseName="Edgley Optica: Default" SourceType="Payware" />
   <AircraftModel Name="Edgley Optica: MJ-420" BaseName="Edgley Optica: Default" SourceType="Payware" />
   <AircraftModel Name="Edgley Optica: VH-OPI" BaseName="Edgley Optica: Default" SourceType="Payware" />
+  <AircraftModel Name="Experimental Darkstar Asobo" SourcePath="..\Asobo_Darkstar" AltSourcePath="asobo-aircraft-darkstar" SourceType="Payware" />
   <AircraftModel Name="FFX Vision Jet Shuttle" SourcePath="..\visionjet" AltSourcePath="ffx-aircraft-visionjet" SourceType="Payware" />
   <AircraftModel Name="FFX Vision Jet Raven" BaseName="FFX Vision Jet Shuttle" SourceType="Payware" />
   <AircraftModel Name="FFX Vision Jet Uluru" BaseName="FFX Vision Jet Shuttle" SourceType="Payware" />
