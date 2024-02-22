@@ -142,6 +142,7 @@
   <AircraftModel Name="Blackbird Turbo Porter PK-UCF Wheels Glass" BaseName="Blackbird Turbo Porter S5-CMA Wheels Glass" SourcePath="..\Milviz_PC6_Glass_Wheels" AltSourcePath="milviz-aircraft-pc6" SourceType="Payware" />
   <AircraftModel Name="Blackbird Turbo Porter V-622 Wheels Glass" BaseName="Blackbird Turbo Porter S5-CMA Wheels Glass" SourcePath="..\Milviz_PC6_Glass_Wheels" AltSourcePath="milviz-aircraft-pc6" SourceType="Payware" />
   <AircraftModel Name="Boeing 787-10 Asobo" SourcePath="..\Asobo_B787_10" AltSourcePath="asobo-aircraft-b787-10" SourceType="PremiumDeluxe" />
+  <AircraftModel Name="Boeing F/A 18E Super Hornet Mrk Asobo" BaseName="Boeing F/A 18E Super Hornet Asobo" SourcePath="..\Asobo_FA18E_Mrk" AltSourcePath="asobo-aircraft-fa18e-livery-mrk" SourceType="Official" />
   <AircraftModel Name="Carenado C337H Skymaster II N842TU" SourcePath="..\Carenado_C337_Skymaster" AltSourcePath="carenado-aircraft-c337-skymaster" SourceType="Payware" />
   <AircraftModel Name="Carenado C337H Skymaster II N79252" BaseName="Carenado C337H Skymaster II N842TU" SourceType="Payware" />
   <AircraftModel Name="Carenado C337H Skymaster II N5JD" BaseName="Carenado C337H Skymaster II N842TU" SourceType="Payware" />
