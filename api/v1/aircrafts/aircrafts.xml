@@ -632,6 +632,7 @@
   <AircraftModel Name="North American T-6 Texan Asobo Reno Radial Velocity" SourcePath="..\Asobo_T6_Reno_RadialVelocity" AltSourcePath="asobo-aircraft-t6-reno-radialvelocity" SourceType="Payware" />
   <AircraftModel Name="North American T-6 Texan Asobo Reno Six Cat" SourcePath="..\Asobo_T6_Reno_SixCat" AltSourcePath="asobo-aircraft-t6-reno-sixcat" SourceType="Payware" />
   <AircraftModel Name="North American T-6 Texan Asobo Reno Undecided" SourcePath="..\Asobo_T6_Reno_Undecided" AltSourcePath="asobo-aircraft-t6-reno-undecided" SourceType="Payware" />
+  <AircraftModel Name="Ornithopter" SourcePath="..\Microsoft_Ornithopter" AltSourcePath="microsoft-aircraft-ornithopter" SourceType="Official" />
   <AircraftModel Name="PC-12 D-FESV" SourcePath="..\Carenado_PC12" AltSourcePath="carenado-aircraft-pc12" SourceType="Payware" />
   <AircraftModel Name="PC-12 D-FCAH" BaseName="PC-12 D-FESV" SourceType="Payware" />
   <AircraftModel Name="PC-12 HB-FPY" BaseName="PC-12 D-FESV" SourceType="Payware" />
@@ -659,7 +660,7 @@
   <AircraftModel Name="Savage Shock Ultra Asobo" SourcePath="..\Asobo_Savage_ShockUltra" AltSourcePath="asobo-aircraft-savage-shockultra" SourceType="PremiumDeluxe" />
   <AircraftModel Name="Savage Shock Ultra Asobo Skis" SourcePath="..\Asobo_Savage_ShockUltra_Skis" AltSourcePath="asobo-aircraft-savage-shockultra" SourceType="PremiumDeluxe" />
   <AircraftModel Name="Savage Shock Ultra Floats Asobo" SourcePath="..\Asobo_Savage_ShockUltra_Floats" AltSourcePath="asobo-aircraft-savage-shockultra" SourceType="PremiumDeluxe" />
-  <AircraftModel Name="SR22 Working Title" SourcePath="..\Asobo_SR22" AltSourcePath="asobo-aircraft-sr22" SourceType="PremiumDeluxe" />
+  <AircraftModel Name="SR22T Working Title" SourcePath="..\Asobo_SR22" AltSourcePath="asobo-aircraft-sr22" SourceType="PremiumDeluxe" />
   <AircraftModel Name="The BRG" SourcePath="..\bigradials-aircraft-goose" AltSourcePath="bigradials-goose" SourceType="Payware" />
   <AircraftModel Name="The BRG AIB" BaseName="The BRG" SourceType="Payware" />
   <AircraftModel Name="The BRG BR" BaseName="The BRG" SourceType="Payware" />
