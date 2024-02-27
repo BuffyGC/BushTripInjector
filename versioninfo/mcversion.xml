@@ -2,14 +2,14 @@
 <MissionChanger xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <CurrentVersion>
     <Major>1</Major>
-    <Minor>1</Minor>
-    <Build>4</Build>
+    <Minor>2</Minor>
+    <Build>0</Build>
     <Revision>0</Revision>
   </CurrentVersion>
-  <ChangeLog>- added updated check&#xD;
-- added support for another download server&#xD;
-- added language support for Korean and Turkish&#xD;
-- rework of message system&#xD;
+  <ChangeLog>- better aircraft detection&#xD;
+- added several payware aircrafts&#xD;
+- prepare for more mission types&#xD;
+- updated external components&#xD;
 &#xD;
 </ChangeLog>
   <Downloadlink>https://www.bushtripinjector.de/downloads/</Downloadlink>
