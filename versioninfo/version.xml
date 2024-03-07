@@ -14,11 +14,33 @@
   </PrevVersion>
   <CurrentVersion>
     <Major>3</Major>
-    <Minor>2</Minor>
+    <Minor>3</Minor>
     <Build>0</Build>
-    <Revision>4534</Revision>
+    <Revision>4580</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+3.3.0.4580 - World Update 16 Caribbean&#xD;
+FEATURE: *Little Navmap:* Open your Little Navmap file from the window menu.&#xD;
+UPDATE: *WU16/SPB-Decompiler* Added the new WU16 properties for missions and visual effects.&#xD;
+UPDATE: *WU16/Xml-Importer* Added the new WU16 properties for missions and visual effects.&#xD;
+UPDATE: *Translations:* Trim cells from Excel when importing an xlsx.&#xD;
+UPDATE: *3D Image Generation:* Some small changes to the "Land Here!" function for SU15.&#xD;
+UPDATE: *Preflight-Check:* Added a check for the marketplace media sizes.&#xD;
+UPDATE: *Aircrafts:* Changed the name of the premium deluxe aircraft SR22 from "SR22 Asobo" to "SR22T Working Title" to reflect the unannounced change in SU14.&#xD;
+UPDATE: *AdjustElevation:*  Added message box when waypoint elevations cannot be calculated.&#xD;
+UPDATE: *Aircrafts:* Added the Cessna T207A Stationair to the list of payware aircrafts.&#xD;
+UPDATE: *Aircrafts:* Added the ATR42 and ATR72 to the list of payware aircrafts.&#xD;
+UPDATE: *Aircrafts:* Added the CJ Simulations Rafale to the list of payware aircrafts.&#xD;
+UPDATE: *Aircrafts:* Added the Darkstar to the list of payware aircrafts.&#xD;
+UPDATE: *Aircrafts:* Added the Ornithopter to the list of payware aircrafts.&#xD;
+UPDATE: *Aircrafts:* Adjusted the name of the SR22 again because of MSFS changes.&#xD;
+UPDATE: *DeepL:* Added an option to define the export-import-splitter for DeepL translations with text files.&#xD;
+UPDATE: *WebView2:* Updated the webview2 runtime to the most recent version.&#xD;
+UPDATE: *SimConnect:* Updated the Simconnect libraries to the most recent SDK version 0.23.1&#xD;
+BUGFIX: *Backup-Zip:* Fixed an issue that prevented a backup if the last backup folder was inaccessible.&#xD;
+&#xD;
+&#xD;
+---&#xD;
 3.2.0.4534 - Sim Update 14&#xD;
 UPDATE: *SU14/SPB-Decompiler* Added the new properties for missions and visual effects.&#xD;
 UPDATE: *SU14/Xml-Importer* Added the new properties for missions and visual effects.&#xD;
