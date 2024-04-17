@@ -661,6 +661,17 @@
   <AircraftModel Name="Savage Shock Ultra Asobo Skis" SourcePath="..\Asobo_Savage_ShockUltra_Skis" AltSourcePath="asobo-aircraft-savage-shockultra" SourceType="PremiumDeluxe" />
   <AircraftModel Name="Savage Shock Ultra Floats Asobo" SourcePath="..\Asobo_Savage_ShockUltra_Floats" AltSourcePath="asobo-aircraft-savage-shockultra" SourceType="PremiumDeluxe" />
   <AircraftModel Name="SR22T Working Title" SourcePath="..\Asobo_SR22" AltSourcePath="asobo-aircraft-sr22" SourceType="PremiumDeluxe" />
+  <AircraftModel Name="Sting S4 by FSReborn" SourcePath="..\fsreborn-sting-s4" AltSourcePath="fsreborn-aircraft-stings4" SourceType="Payware" />
+  <AircraftModel Name="Sting S4 Blue Eagle" BaseName="Sting S4 by FSReborn" SourceType="Payware" />
+  <AircraftModel Name="Sting S4 Blue Wave" BaseName="Sting S4 by FSReborn" SourceType="Payware" />
+  <AircraftModel Name="Sting S4 Bronze Burgundy" BaseName="Sting S4 by FSReborn" SourceType="Payware" />
+  <AircraftModel Name="Sting S4 Checker" BaseName="Sting S4 by FSReborn" SourceType="Payware" />
+  <AircraftModel Name="Sting S4 Gold Eagle" BaseName="Sting S4 by FSReborn" SourceType="Payware" />
+  <AircraftModel Name="Sting S4 Green Yellow" BaseName="Sting S4 by FSReborn" SourceType="Payware" />
+  <AircraftModel Name="Sting S4 Orange Black" BaseName="Sting S4 by FSReborn" SourceType="Payware" />
+  <AircraftModel Name="Sting S4 Red Eagle" BaseName="Sting S4 by FSReborn" SourceType="Payware" />
+  <AircraftModel Name="Sting S4 Silver Sting" BaseName="Sting S4 by FSReborn" SourceType="Payware" />
+  <AircraftModel Name="Sting S4 Warmi" BaseName="Sting S4 by FSReborn" SourceType="Payware" />
   <AircraftModel Name="The BRG" SourcePath="..\bigradials-aircraft-goose" AltSourcePath="bigradials-goose" SourceType="Payware" />
   <AircraftModel Name="The BRG AIB" BaseName="The BRG" SourceType="Payware" />
   <AircraftModel Name="The BRG BR" BaseName="The BRG" SourceType="Payware" />
