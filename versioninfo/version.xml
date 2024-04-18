@@ -138,24 +138,24 @@ Added the possibility to add up to 4 more background images / base images.&#xD;
     <Major>1</Major>
     <Minor>36</Minor>
     <Build>2</Build>
-    <Revision>2</Revision>
+    <Revision>3</Revision>
   </CurrentMSFSDatabaseVersion>
   <CurrentMainDbVersion>
     <Major>1</Major>
     <Minor>36</Minor>
     <Build>2</Build>
-    <Revision>2</Revision>
+    <Revision>3</Revision>
   </CurrentMainDbVersion>
   <CurrentParkingDbVersion>
     <Major>1</Major>
     <Minor>36</Minor>
     <Build>2</Build>
-    <Revision>2</Revision>
+    <Revision>3</Revision>
   </CurrentParkingDbVersion>
   <CurrentNavAidsDbVersion>
     <Major>1</Major>
     <Minor>36</Minor>
     <Build>2</Build>
-    <Revision>2</Revision>
+    <Revision>3</Revision>
   </CurrentNavAidsDbVersion>
 </BushTripInjector>
