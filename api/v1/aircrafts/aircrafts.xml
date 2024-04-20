@@ -383,6 +383,18 @@
   <AircraftModel Name="HJET HA420 Elite White" BaseName="HJET HA420 Red" SourceType="Payware" />
   <AircraftModel Name="HJET HA420 AEROSOAR" BaseName="HJET HA420 Red" SourceType="Payware" />
   <AircraftModel Name="HJET E2" BaseName="HJET HA420 Red" SourceType="Payware" />
+  <AircraftModel Name="IRIS PC-21 - PILATUS 2022" SourcePath="..\iris-aircraft-pc21" AltSourcePath="iris-aircraft-pc21" SourceType="Payware" />
+  <AircraftModel Name="IRIS PC-21 - BLANK" BaseName="IRIS PC-21 - PILATUS 2022" SourceType="Payware" />
+  <AircraftModel Name="IRIS PC-21 - FAM2001" BaseName="IRIS PC-21 - PILATUS 2022" SourceType="Payware" />
+  <AircraftModel Name="IRIS PC-21 - Nyte Furys" BaseName="IRIS PC-21 - PILATUS 2022" SourceType="Payware" />
+  <AircraftModel Name="IRIS PC-21 - Nyte Furys - Dark" BaseName="IRIS PC-21 - PILATUS 2022" SourceType="Payware" />
+  <AircraftModel Name="IRIS PC-21 - PILATUS 2006" BaseName="IRIS PC-21 - PILATUS 2022" SourceType="Payware" />
+  <AircraftModel Name="IRIS PC-21 - PILATUS 75" BaseName="IRIS PC-21 - PILATUS 2022" SourceType="Payware" />
+  <AircraftModel Name="IRIS PC-21 - Purple Haze" BaseName="IRIS PC-21 - PILATUS 2022" SourceType="Payware" />
+  <AircraftModel Name="IRIS PC-21 - Silver Falcons Aerobatic Team" BaseName="IRIS PC-21 - PILATUS 2022" SourceType="Payware" />
+  <AircraftModel Name="IRIS PC-21 - VH-STM" BaseName="IRIS PC-21 - PILATUS 2022" SourceType="Payware" />
+  <AircraftModel Name="IRIS PC-21 - VH-SWD" BaseName="IRIS PC-21 - PILATUS 2022" SourceType="Payware" />
+  <AircraftModel Name="IRIS PC-21 - VH-TOK" BaseName="IRIS PC-21 - PILATUS 2022" SourceType="Payware" />
   <AircraftModel Name="Junkers Ju52/3m 1939" SourcePath="..\Microsoft_Junkers_Ju52_1939" AltSourcePath="microsoft-aircraft-junkers-ju52" SourceType="Payware" />
   <AircraftModel Name="Junkers Ju 52 Wheels Livery 01" BaseName="Junkers Ju52/3m 1939" SourceType="Payware" />
   <AircraftModel Name="Junkers Ju 52 Wheels Livery 02" BaseName="Junkers Ju52/3m 1939" SourceType="Payware" />
