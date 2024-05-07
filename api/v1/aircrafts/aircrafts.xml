@@ -626,6 +626,30 @@
   <AircraftModel Name="Milviz 310R N5077J" BaseName="Milviz 310R CGTER" SourceType="Payware" />
   <AircraftModel Name="Milviz 310R N5225J" BaseName="Milviz 310R CGTER" SourceType="Payware" />
   <AircraftModel Name="Milviz 310R NoTail" BaseName="Milviz 310R CGTER" SourceType="Payware" />
+  <AircraftModel Name="MonsterNX: Default" SourcePath="..\gotfriends-monster-nx" AltSourcePath="gotfriends-monster-nx" SourceType="Payware" />
+  <AircraftModel Name="MonsterNX: Glacier - Blue" BaseName="MonsterNX: Default" SourceType="Payware" />
+  <AircraftModel Name="MonsterNX: Black - Red" BaseName="MonsterNX: Default" SourceType="Payware" />
+  <AircraftModel Name="MonsterNX: Blue - Gold" BaseName="MonsterNX: Default" SourceType="Payware" />
+  <AircraftModel Name="MonsterNX: Blue - X" BaseName="MonsterNX: Default" SourceType="Payware" />
+  <AircraftModel Name="MonsterNX: Chrome" BaseName="MonsterNX: Default" SourceType="Payware" />
+  <AircraftModel Name="MonsterNX: Chrome - Pink" BaseName="MonsterNX: Default" SourceType="Payware" />
+  <AircraftModel Name="MonsterNX: Crimson - White" BaseName="MonsterNX: Default" SourceType="Payware" />
+  <AircraftModel Name="MonsterNX: Green - Yellow" BaseName="MonsterNX: Default" SourceType="Payware" />
+  <AircraftModel Name="MonsterNX: Gunmetal" BaseName="MonsterNX: Default" SourceType="Payware" />
+  <AircraftModel Name="MonsterNX: Matte - Black" BaseName="MonsterNX: Default" SourceType="Payware" />
+  <AircraftModel Name="MonsterNX: Matte - Green" BaseName="MonsterNX: Default" SourceType="Payware" />
+  <AircraftModel Name="MonsterNX: Matte - Grey" BaseName="MonsterNX: Default" SourceType="Payware" />
+  <AircraftModel Name="MonsterNX: Merlot - X" BaseName="MonsterNX: Default" SourceType="Payware" />
+  <AircraftModel Name="MonsterNX: Orange - X" BaseName="MonsterNX: Default" SourceType="Payware" />
+  <AircraftModel Name="MonsterNX: Purple - X" BaseName="MonsterNX: Default" SourceType="Payware" />
+  <AircraftModel Name="MonsterNX: Red - Silver" BaseName="MonsterNX: Default" SourceType="Payware" />
+  <AircraftModel Name="MonsterNX: Red - X" BaseName="MonsterNX: Default" SourceType="Payware" />
+  <AircraftModel Name="MonsterNX: Silver - Grey" BaseName="MonsterNX: Default" SourceType="Payware" />
+  <AircraftModel Name="MonsterNX: STOLA - BRG" BaseName="MonsterNX: Default" SourceType="Payware" />
+  <AircraftModel Name="MonsterNX: STOLA - RWB" BaseName="MonsterNX: Default" SourceType="Payware" />
+  <AircraftModel Name="MonsterNX: STOLA - X" BaseName="MonsterNX: Default" SourceType="Payware" />
+  <AircraftModel Name="MonsterNX: Sunset - Oasis" BaseName="MonsterNX: Default" SourceType="Payware" />
+  <AircraftModel Name="MonsterNX: Yellow - Black" BaseName="MonsterNX: Default" SourceType="Payware" />
   <AircraftModel Name="North American T-6 Texan Asobo Reno" SourcePath="..\Asobo_T6_Reno" AltSourcePath="asobo-aircraft-t6-reno" SourceType="Payware" />
   <AircraftModel Name="North American T-6 Texan Asobo Reno Livery 01" BaseName="North American T-6 Texan Asobo Reno" SourceType="Payware" />
   <AircraftModel Name="North American T-6 Texan Asobo Reno Livery 02" BaseName="North American T-6 Texan Asobo Reno" SourceType="Payware" />
