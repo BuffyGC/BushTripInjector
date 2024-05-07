@@ -14,11 +14,30 @@
   </PrevVersion>
   <CurrentVersion>
     <Major>3</Major>
-    <Minor>3</Minor>
+    <Minor>4</Minor>
     <Build>0</Build>
-    <Revision>4580</Revision>
+    <Revision>4632</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+3.4.0.4632 - Ingame POI Reader / Usage-Database&#xD;
+FEATURE: *Ingame-POI:* Added the ability to read POIs from MSFS and add-ons. Jump to the POI on the world map and export it for Little Navmap! &#xD;
+USER-REQ: *Date/Time:* Set the date/time of a mission to the current date and time when the mission is created.&#xD;
+USER-REQ: *Aircraft-List:* The Iris PC-21 - PILATUS has been added to the list of payware aircrafts.&#xD;
+USER-REQ: *Usage-Database:* Added the possibility to remove projects from the usage database.&#xD;
+USER-REQ: *Flightplan:* Added the landing option "On ATC Parking Spot" to the flight plan which allows you to define this option individually for each destination airport.&#xD;
+UPDATE: *Databases:* Updated the databases for City Update 6 South West Germany&#xD;
+UPDATE: *Databases:* Updated the databases to AIRAC 2404 and recent World-Hub changes.&#xD;
+UPDATE: *Marketplace-Profiles:* Some minor optimizations when loading marketplace profiles.&#xD;
+UPDATE: *License-Key:* Remove blanks from the key before checking it to avoid some user confusion after copying and pasting the key.&#xD;
+UPDATE: *Key-Request:* Added a cooldown period between requests to avoid license request spam!&#xD;
+BUGFIX: *CTD:* Fixed a crash to desktop on startup if the simulator was not detected correctly.&#xD;
+BUGFIX: *Airport-Creation:* In the north of France, for some reason, Bing Maps cannot provide elevation data. This prevented the creation of airfields at waypoints.&#xD;
+&#xD;
+ * 'Usage-Database'* &#xD;
+BUGFIX: *Usage-Database:* BTI incorrectly continued to list DME that was previously a VORDME and had been downgraded as a VOR.&lt;br&gt;Please *read the instructions* in USAGEDB-VORDME.txt included in this package to check the DME you are using in your missions.&#xD;
+&#xD;
+&#xD;
+---&#xD;
 3.3.0.4580 - World Update 16 Caribbean&#xD;
 FEATURE: *Little Navmap:* Open your Little Navmap file from the window menu.&#xD;
 UPDATE: *WU16/SPB-Decompiler* Added the new WU16 properties for missions and visual effects.&#xD;
