@@ -15,11 +15,17 @@
   <CurrentVersion>
     <Major>3</Major>
     <Minor>4</Minor>
-    <Build>0</Build>
-    <Revision>4632</Revision>
+    <Build>1</Build>
+    <Revision>4648</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
-3.4.0.4632 - Ingame POI Reader / Usage-Database&#xD;
+3.4.1.4648 &#xD;
+USER-REQ: *Aircraft-List:* The Gotfriends Monster NX has been added to the list of payware aircrafts.&#xD;
+BUGFIX: *Flightplan:* Fixed issue that prevented adding location information at a stopover airport when landing options were enabled.&#xD;
+&#xD;
+&#xD;
+---&#xD;
+3.4.0.4634 - Ingame POI Reader / Usage-Database&#xD;
 FEATURE: *Ingame-POI:* Added the ability to read POIs from MSFS and add-ons. Jump to the POI on the world map and export it for Little Navmap! &#xD;
 USER-REQ: *Date/Time:* Set the date/time of a mission to the current date and time when the mission is created.&#xD;
 USER-REQ: *Aircraft-List:* The Iris PC-21 - PILATUS has been added to the list of payware aircrafts.&#xD;
