@@ -241,6 +241,14 @@
     <NumIndex>4</NumIndex>
   </SimVarNamesObject>
   <SimVarNamesObject>
+    <Name>AMBIENT TEMPERATURE</Name>
+    <Units>Celsius</Units>
+    <Indexed>false</Indexed>
+    <Description>Ambient temperature.</Description>
+    <Group>Aircraft Miscellaneous Data</Group>
+    <NumIndex>0</NumIndex>
+  </SimVarNamesObject>
+  <SimVarNamesObject>
     <Name>IS SLEW ACTIVE</Name>
     <Units>Bool</Units>
     <Indexed>false</Indexed>
