@@ -348,7 +348,7 @@
   <AircraftModel Name="Ford-Trimotor-skis - EmeraldHarbour" BaseName="Ford-Trimotor-skis - NewGuinea" SourceType="Payware" />
   <AircraftModel Name="Ford-Trimotor-skis - SpanishRepublic" BaseName="Ford-Trimotor-skis - NewGuinea" SourceType="Payware" />
   <AircraftModel Name="Ford-Trimotor-skis - WorldTravel" BaseName="Ford-Trimotor-skis - NewGuinea" SourceType="Payware" />
-  <AircraftModel Name="Fox2 (915 iS - Stage 1)" SourcePath="..\p42_fox2" AltSourcePath="p42-freedomfox-xbox" AltSourcePath2="p42-fox2-base-xbox" SourceType="Payware" />
+  <AircraftModel Name="Fox2 (915 iS - Stage 1)" SourcePath="..\p42_fox2" AltSourcePath="p42-freedomfox-xbox" SourceType="Payware" />
   <AircraftModel Name="Fox2 Adventure Fox (915 iS - Stage 1)" BaseName="Fox2 (915 iS - Stage 1)" SourceType="Payware" />
   <AircraftModel Name="Fox2 Arctic (915 iS - Stage 1)" BaseName="Fox2 (915 iS - Stage 1)" SourceType="Payware" />
   <AircraftModel Name="Fox2 C-GFOX (915 iS - Stage 1)" BaseName="Fox2 (915 iS - Stage 1)" SourceType="Payware" />
