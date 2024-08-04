@@ -15,11 +15,35 @@
   <CurrentVersion>
     <Major>3</Major>
     <Minor>4</Minor>
-    <Build>1</Build>
-    <Revision>4648</Revision>
+    <Build>2</Build>
+    <Revision>4703</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
-3.4.1.4648 &#xD;
+3.4.2.4703 &#xD;
+USER-REQ: *Bushtrip:* The option to provide a requested flight plan to ATC has been added.&#xD;
+USER-REQ: *Waypoints:* Added an option to manually override the altitude of a waypoint to ignore all automated calculations by BTI or LNM. Usefull for altitude restrictions on Navaid-Waypoints or fictinal restrictions on your trip.&#xD;
+USER-REQ: *SimVars:* Added "AMBIENT TEMPERATURE" into SimVarWatcher and A-Vars for PropertyTrigger&#xD;
+FEATURE: *Aircrafts:* Added a cache for the installed aircrafts and liveries.&lt;br&gt; *Behaviour Change:* If you install or remove a new aircraft or livery, you need to update the cache manually via Menu &amp;rarr; Extras &amp;rarr; Load Liveries/Aircrafts.&#xD;
+UPDATE: *Databases:* Updated the Databases for City Update 7: European Cities II&#xD;
+UPDATE: *Assistance-Options:* Added the assistance option "ATC Enforce Flightplan".&#xD;
+UPDATE: *Translate DeepL-App:* Remove the note for free deepl-app from translated string and optimized the clipboard handling.&#xD;
+UPDATE: *Databases:* Updated the databases to Sim Update 15 (30.05.2024)&#xD;
+UPDATE: *Databases:* Updated the databases to Navdata (AIRAC 2406) + WorldHub (17.06.2024)&#xD;
+UPDATE: *Databases:* Updated the databases to City Update 8 - LasVegas (20.06.2024)&#xD;
+UPDATE: *Databases:* Updated the databases to City Update 9 - Northeast USA (02.07.2024)&#xD;
+UPDATE: *Databases:* Updated the databases to Navdata (AIRAC 2407) + World Hub Updates (11.07.2024)&#xD;
+UPDATE: *Databases:* Updated the databases to World Update 17 United Kingdom &amp; Ireland (23.07.2024)&#xD;
+UPDATE: *Marketplace:* Added a warning, if more than 5 tags are defined&#xD;
+UPDATE: *SimConnect:* Updated the MSFS SDK Components and SimConnect binaries to SDK Version 0.24.3.0.&#xD;
+UPDATE: *Components:* Updated the Microsoft.Xaml.Behaviors.Wpf to the most recent version.&#xD;
+UPDATE: *Components:* Updated the Microsoft.Web.WebView2 to the most recent version.&#xD;
+UPDATE: *Components:* Updated the DocumentFormat.OpenXml to the most recent version.&#xD;
+BUGFIX: *IngameMarker:* Fixed an issue where the IngameMarker texts were not read correctly from the language table and were fixed to the base language.&#xD;
+BUGFIX: *ParkingLot on Waypoints:* If you manage to add parking lots on waypoint (HOW????), a unnecessary warning appears about a LivingWorldExclusion.&#xD;
+&#xD;
+&#xD;
+---&#xD;
+3.4.1.4648&#xD;
 USER-REQ: *Aircraft-List:* The Gotfriends Monster NX has been added to the list of payware aircrafts.&#xD;
 BUGFIX: *Flightplan:* Fixed issue that prevented adding location information at a stopover airport when landing options were enabled.&#xD;
 &#xD;
