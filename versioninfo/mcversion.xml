@@ -3,13 +3,11 @@
   <CurrentVersion>
     <Major>1</Major>
     <Minor>2</Minor>
-    <Build>0</Build>
+    <Build>2</Build>
     <Revision>0</Revision>
   </CurrentVersion>
-  <ChangeLog>- better aircraft detection&#xD;
-- added several payware aircrafts&#xD;
-- prepare for more mission types&#xD;
-- updated external components&#xD;
+  <ChangeLog>- fixed some issues with malformed aircraft.cfg of some 3rd party developers&#xD;
+- updated external libs to the most recent version for security reasons&#xD;
 &#xD;
 </ChangeLog>
   <Downloadlink>https://www.bushtripinjector.de/downloads/</Downloadlink>
