@@ -1,25 +1,41 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BushTripInjector xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Id="BushTripInjector">
   <MinVersion>
-    <Major>2</Major>
+    <Major>3</Major>
     <Minor>4</Minor>
     <Build>0</Build>
-    <Revision>4276</Revision>
+    <Revision>4634</Revision>
   </MinVersion>
   <PrevVersion>
     <Major>3</Major>
-    <Minor>0</Minor>
+    <Minor>4</Minor>
     <Build>0</Build>
     <Revision>-1</Revision>
   </PrevVersion>
   <CurrentVersion>
     <Major>3</Major>
-    <Minor>4</Minor>
-    <Build>1</Build>
-    <Revision>4648</Revision>
+    <Minor>5</Minor>
+    <Build>0</Build>
+    <Revision>4714</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
-3.4.1.4648 &#xD;
+3.5.0.4714 &#xD;
+USER-REQ: *Bushtrip:* The option to provide a requested (an IFR) flight plan to the air traffic control has been added to the base data.&#xD;
+USER-REQ: *Waypoints:* Added an option to manually override the altitude of a waypoint to ignore any automatic calculations by BTI or LNM. Useful for altitude restrictions on Navaid waypoints or fictitious restrictions on your trip.&#xD;
+USER-REQ: *SimVars:* Added "AMBIENT TEMPERATURE" in SimVarWatcher and A-Vars for PropertyTrigger.&#xD;
+FEATURE: *Aircrafts:* Added a cache for the installed aircrafts and liveries.&lt;br&gt; *Behavior Change:* If you install or remove a new aircraft or livery, you need to update the cache manually via Menu &amp;rarr; Tools &amp;rarr; Load Liveries/Aircrafts.&#xD;
+UPDATE: *Assistance-Options:* Added the assistance option "ATC Enforce Flightplan".&#xD;
+UPDATE: *Translate DeepL-App:* Removal of the note for free DeepL app from the translated string and optimization of the clipboard handling.&#xD;
+UPDATE: *Databases:* Updated the databases to City Update 7: European Cities II, Sim Update 15 (30.05.2024), Navdata (AIRAC 2406) + WorldHub (17.06.2024), City Update 8 - LasVegas (20.06.2024), City Update 9 - Northeast USA (02.07.2024), Navdata (AIRAC 2407) + World Hub Updates (11.07.2024), World Update 17 United Kingdom &amp; Ireland (23.07.2024), Navdata (AIRAC 2408) + World Hub Updates (09.08.2024), World Update 18 Germany, Austria, and Switzerland (22.08.2024)&#xD;
+UPDATE: *Marketplace:* Added a warning message if there are more than 5 tags defined.&#xD;
+UPDATE: *SimConnect:* Updated the MSFS SDK Components and SimConnect binaries to SDK Version 0.24.3.0.&#xD;
+UPDATE: *Components:* Updated the Microsoft.Xaml.Behaviors.Wpf, Microsoft.Web.WebView2 and DocumentFormat.OpenXml to the most recent version.&#xD;
+BUGFIX: *IngameMarker:* Fixed an issue where the IngameMarker texts were not read correctly from the language table and were fixed to the base language.&#xD;
+BUGFIX: *ParkingLot on Waypoints:* An unnecessary warning about a LivingWorld exclusion no longer appears when you add parking lots to a waypoint (HOW????).&#xD;
+&#xD;
+&#xD;
+---&#xD;
+3.4.1.4648&#xD;
 USER-REQ: *Aircraft-List:* The Gotfriends Monster NX has been added to the list of payware aircrafts.&#xD;
 BUGFIX: *Flightplan:* Fixed issue that prevented adding location information at a stopover airport when landing options were enabled.&#xD;
 &#xD;
@@ -41,114 +57,6 @@ BUGFIX: *Airport-Creation:* In the north of France, for some reason, Bing Maps c
 &#xD;
  * 'Usage-Database'* &#xD;
 BUGFIX: *Usage-Database:* BTI incorrectly continued to list DME that was previously a VORDME and had been downgraded as a VOR.&lt;br&gt;Please *read the instructions* in USAGEDB-VORDME.txt included in this package to check the DME you are using in your missions.&#xD;
-&#xD;
-&#xD;
----&#xD;
-3.3.0.4580 - World Update 16 Caribbean&#xD;
-FEATURE: *Little Navmap:* Open your Little Navmap file from the window menu.&#xD;
-UPDATE: *WU16/SPB-Decompiler* Added the new WU16 properties for missions and visual effects.&#xD;
-UPDATE: *WU16/Xml-Importer* Added the new WU16 properties for missions and visual effects.&#xD;
-UPDATE: *Translations:* Trim cells from Excel when importing an xlsx.&#xD;
-UPDATE: *3D Image Generation:* Some small changes to the "Land Here!" function for SU15.&#xD;
-UPDATE: *Preflight-Check:* Added a check for the marketplace media sizes.&#xD;
-UPDATE: *Aircrafts:* Changed the name of the premium deluxe aircraft SR22 from "SR22 Asobo" to "SR22T Working Title" to reflect the unannounced change in SU14.&#xD;
-UPDATE: *AdjustElevation:*  Added message box when waypoint elevations cannot be calculated.&#xD;
-UPDATE: *Aircrafts:* Added the Cessna T207A Stationair to the list of payware aircrafts.&#xD;
-UPDATE: *Aircrafts:* Added the ATR42 and ATR72 to the list of payware aircrafts.&#xD;
-UPDATE: *Aircrafts:* Added the CJ Simulations Rafale to the list of payware aircrafts.&#xD;
-UPDATE: *Aircrafts:* Added the Darkstar to the list of payware aircrafts.&#xD;
-UPDATE: *Aircrafts:* Added the Ornithopter to the list of payware aircrafts.&#xD;
-UPDATE: *Aircrafts:* Adjusted the name of the SR22 again because of MSFS changes.&#xD;
-UPDATE: *DeepL:* Added an option to define the export-import-splitter for DeepL translations with text files.&#xD;
-UPDATE: *WebView2:* Updated the webview2 runtime to the most recent version.&#xD;
-UPDATE: *SimConnect:* Updated the Simconnect libraries to the most recent SDK version 0.23.1&#xD;
-BUGFIX: *Backup-Zip:* Fixed an issue that prevented a backup if the last backup folder was inaccessible.&#xD;
-&#xD;
-&#xD;
----&#xD;
-3.2.0.4534 - Sim Update 14&#xD;
-UPDATE: *SU14/SPB-Decompiler* Added the new properties for missions and visual effects.&#xD;
-UPDATE: *SU14/Xml-Importer* Added the new properties for missions and visual effects.&#xD;
-UPDATE: *SU14/Text-to-speech:* Added the Speaker Full Name to Text-to-Speech.&#xD;
-UPDATE: *SU14/Event&amp;Triggers:* Added the Speaker Full Name to InstructorDialogAction and TextToSpeechAction.&#xD;
-UPDATE: *SU14/Databases:* No change detected in airports, runways, parking lots or navigation aids.&#xD;
-UPDATE: *Package-Title:* An optional title field has been added for the package. This is displayed in the Content Manager of the simulation. If it is empty, the marketplace title or the title of the project will be used as before, as Microsoft likes to have different titles for the same thing on different screens...&#xD;
-UPDATE: *Sim-Vars:* Added ATC CLEARED IFR + ATC TAXIPATH DISTANCE to the available simulation vars for Triggers and Sim-Watcher.&#xD;
-UPDATE: *Aircrafts:* Added the FAMOUS FLYER #6 FORD 4-AT TRIMOTOR to the payware aircraft list.&#xD;
-BUGFIX: *Typo:* Fixed a typo if the user creates a bundle of type pack.&#xD;
-BUGFIX: *LandingChallenge:* Fixed the broken context menu on WorldMap-Sheet for LandingChallenges&#xD;
-&#xD;
----&#xD;
-3.1.0.4508&#xD;
-PRO-VERSION: Added a query for loading a marketplace profile after creating a new project.&#xD;
-FEATURE: *MasterDocument:* Create a master document from the current mission. (available for selected users only)&#xD;
-FEATURE: *Adjust Altitude:* Added a "Round Up" option to the adjust altitude function.&#xD;
-FEATURE: *LandingChallenges:* Dynamic calculation of the distance to the destination airport to expand the action area. 3 options to choose from: Standard (MSFS), calculation by BTI and manual input.&#xD;
-FEATURE: *IFR-Flights:* Navigation waypoints designated as navaids by Little Navmap are passed to the sim as intersections in order to display them correctly in some FMS.&#xD;
-UPDATE: *Refuel-Airports:* Added a session cache for refueling airports to improve translation and generation performance.&#xD;
-UPDATE: *WorldMap:* Added a Zoom-Slider to the Map-Options.&#xD;
-UPDATE: *SimConnect:* Updated the simconnect libraries to SDK 0.22.3.&#xD;
-UPDATE: *WebView2* Updated the webview2 components to the most recent release version.&#xD;
-UPDATE: *Xaml.Behaviors* Updated the Xaml.Behaviors components to the most recent release version.&#xD;
-UPDATE: *Aircrafts:* Added the Blackbird Turbo Porter series to the payware aircraft list.&#xD;
-UPDATE: *Preflight-Check:* Added a warning when a departure location is more than 5 NM away from airport reference point.&#xD;
-UPDATE: *Preflight-Check:* Added some checks for the leg detection.&#xD;
-UPDATE: *Performance:* Added some more caches to the flightplan to improve general performance.&#xD;
-UPDATE: *Databases:* The databases were updated for World Update 15 Nordics and Greenland&#xD;
-BUGFIX: *Translations:* Fixed an issue where translations were not assigned correctly when there was a change in the text and the ident changed only in case.&#xD;
-BUGFIX: *Bundle:* Fixed an issue with sceneries in subprojects that resulted in a compiler warning.&#xD;
-BUGFIX: *Typos:* Fixed some typos.&#xD;
-BUGFIX: *Xml-File:* Fixed an issue where the additional Xml was not added in Discovery Flights or Landing Challenges in certain conditions.&#xD;
-BUGFIX: *Bundles:* Fixed an issue with external packages, when the directory of the package is invalid.&#xD;
-BUGFIX: *BushTrip:* Fixed an issue loading a LittleNavmap File without any airport.&#xD;
-BUGFIX: *Debug-Mode:* Fixed an issue with debug mode in combination with per-leg repositioning and parking brake that caused MSFS compiler errors with localization.&#xD;
- &#xD;
----&#xD;
-3.0.1.4460&#xD;
-UPDATE: *SPB-Viewer/Compiler:* Updated the property definitions to Sim Update 13 (1.34.16.0)&#xD;
-UPDATE: *Databases:* Updated the main, parking and navigational database to Sim Update 13 (1.34.16.0))&#xD;
-BUGFIX: *Preflight-Check:* Fixed an issue that prevented opening a BTI file with a title longer than 50 characters. This should not be so strict and only apply to the title of the marketplace product. All apologies!&#xD;
-&#xD;
-&#xD;
----&#xD;
-3.0.0.4450 - 3rd Anniversary of BushTripInjector&#xD;
- *This Version has many changes in the core functionality of BushTripInjector. Despite intensive testing, bugs and problems may occur.&lt;br&gt;If you have an issue, please contact me on Discord: &lt;a href="http://discord.bushtripinjector.de"&gt;BushTripInjector Discord&lt;/a&gt;. Thank you very much.*&#xD;
-&#xD;
- * 'GUI Improvements'* &#xD;
- *MSF Intro-Screen:*&#xD;
-Shows the selected date and time and the corresponding lightness on the introduction screen if individual date and time information is used for the leg.&#xD;
-Shows the aircraft at the individual position on the introduction screen if the aircraft has a specific position for that leg.&#xD;
-&#xD;
- *Event&amp;Triggers*&#xD;
-The *ShowOnMap* Button in Flightplan, Event&amp;Triggers-Editor and Database will not remove other objects from WorldMap when the Ctrl-Key is pressed.&#xD;
-&#xD;
-&#xD;
- * 'Features and Functions'* &#xD;
- *Compiler:* &#xD;
-BGL: Added the possibility to compile BGL of different types into the project. Add our BGL source folders into PackageSources\BGL.&#xD;
-VisualEffects: Added the possibility to compile VisualEffectLibraries into the project. Add our VisualEffectLib source folders into PackageSources\VisualEffectLibs.&#xD;
-&#xD;
- *Event&amp;Triggers*&#xD;
-Added a "ExcludeLivingExclusion" to remove static aircraft, airport vehicles, freeway traffic and scheduled and random boats and ships.&#xD;
-Added "PlayMusic, ForceMusic and StopMusic" actions to Event&amp;Triggers Editor on request of a commercial customer. &#xD;
-The possibility to create a ProximityTrigger, ActivationObjects and Areas to LibraryObjects by clicking a button has been added.&#xD;
-&#xD;
- *DiscoveryFlights:*&#xD;
-Implemented a solution for Microsoft World-Updates to play WWISE MusicTracks, MusicSegments and MusicPlaylistContainers from Wwise-MusicBank and Wwise-Package files.&#xD;
-&#xD;
- *Marketplace:* &#xD;
-Added the possibility to add up to 4 more background images / base images.&#xD;
-&#xD;
-&#xD;
- * 'Improvements and Fixes'* &#xD;
- *Aircrafts:* Added Aero Ae45 + Ae145 to the payware aircraft list&#xD;
- *Preflight-Check:* The latest SDK does not accept titles with more than 50 characters. The preflight check now verifies this.&#xD;
- *Databases:* Updated the main, parking and navigation database to AIRAC 2309 (MSFS UPD Sept21)&#xD;
- *Parking-Database:* Added the radius of the parking spot into the parking database.&#xD;
- *Reposition per Leg:* When using parking spots for starting partial legs, other aircrafts are excluded from the use of these spots.&#xD;
- *Landing Challenges:* Landing Challenges are now available for all users in non-experimental environments!&#xD;
- *Release-Notes:* Fixed an issue with the window preventing all information from being visible under certain circumstances.&#xD;
- *Wiki:* Fixed an issue reading specific items from Spanish Wikipedia server.&#xD;
 &#xD;
 &#xD;
 </ChangeLog>
