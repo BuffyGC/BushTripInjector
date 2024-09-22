@@ -71,24 +71,24 @@ BUGFIX: *Usage-Database:* BTI incorrectly continued to list DME that was previou
     <Major>1</Major>
     <Minor>37</Minor>
     <Build>19</Build>
-    <Revision>4</Revision>
+    <Revision>5</Revision>
   </CurrentMSFSDatabaseVersion>
   <CurrentMainDbVersion>
     <Major>1</Major>
     <Minor>37</Minor>
     <Build>19</Build>
-    <Revision>4</Revision>
+    <Revision>5</Revision>
   </CurrentMainDbVersion>
   <CurrentParkingDbVersion>
     <Major>1</Major>
     <Minor>37</Minor>
     <Build>19</Build>
-    <Revision>4</Revision>
+    <Revision>5</Revision>
   </CurrentParkingDbVersion>
   <CurrentNavAidsDbVersion>
     <Major>1</Major>
     <Minor>37</Minor>
     <Build>19</Build>
-    <Revision>4</Revision>
+    <Revision>5</Revision>
   </CurrentNavAidsDbVersion>
 </BushTripInjector>
