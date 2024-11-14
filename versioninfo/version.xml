@@ -13,13 +13,56 @@
     <Revision>-1</Revision>
   </PrevVersion>
   <CurrentVersion>
-    <Major>3</Major>
-    <Minor>5</Minor>
+    <Major>4</Major>
+    <Minor>0</Minor>
     <Build>0</Build>
-    <Revision>4714</Revision>
+    <Revision>4771</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
-3.5.0.4714 &#xD;
+4.0.0.4771 - Microsoft Flightsimulator 2024&#xD;
+ *Basic version to support generation and compilation of MSFS 2024 Bush Trips, Landing Challenges and Discover Flights*&#xD;
+&lt;ul&gt;&#xD;
+&lt;li&gt;Detect Microsoft Flightsimulator 2024 Store-Version&lt;/li&gt;&#xD;
+&lt;li&gt;Detect Microsoft Flightsimulator 2024 Steam-Version&lt;/li&gt;&#xD;
+&lt;li&gt;Configuration for compiling missions with SDK or without SDK&lt;/li&gt;&#xD;
+&lt;li&gt;Start MSFS 2024 via App Invoker for MS Store Version with Faststart Option&lt;/li&gt;&#xD;
+&lt;li&gt;Start MSFS 2024 via Steam App Invoker or FlightSimulator.exe for Steam Version with Faststart Option&lt;/li&gt;&#xD;
+&lt;li&gt;Create new User-Xml-Files for Missions when generating for MSFS 2024&lt;/li&gt;&#xD;
+&lt;li&gt;Adjustments for the manifest.json in MSFS 2024&lt;/li&gt;&#xD;
+&lt;li&gt;Several adjustments in Windows and Menus&lt;/li&gt;&#xD;
+&lt;li&gt;Updated to SimConnect 2024&lt;/li&gt;&#xD;
+&lt;li&gt;Simulator version added to the user database for future use&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+&#xD;
+ *Things that have not yet been implemented, but would be required for smooth operation with MSFS 2024:*&#xD;
+&lt;ul&gt;&#xD;
+&lt;li&gt;Marketplace changes for MSFS 2024&lt;/li&gt;&#xD;
+&lt;li&gt;SPB Decompiler for MSFS 2024&lt;/li&gt;&#xD;
+&lt;li&gt;Xml-Importer for MSFS 2024&lt;/li&gt;&#xD;
+&lt;li&gt;MSFS 2024 Database Handling&lt;/li&gt;&#xD;
+&lt;li&gt;MSFS 2024 POI Handling&lt;/li&gt;&#xD;
+&lt;li&gt;Aircraft and Livery Support for MSFS 2024&lt;/li&gt;&#xD;
+&lt;li&gt;Dependency Handling&lt;/li&gt;&#xD;
+&lt;li&gt;Magnetic Declination for MSFS 2024&lt;/li&gt;&#xD;
+&lt;li&gt;Different Usage Database for MSFS 2024&lt;/li&gt;&#xD;
+&lt;li&gt;and much more, ...&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+&#xD;
+ *other changes and fixes:*&#xD;
+&lt;ul&gt;&#xD;
+&lt;li&gt;UPDATE: *PropDefs:* Updated to the most recent Property Definitions of MSFS2020 to avoid conflicts in SPB-Decompiler&lt;/li&gt;&#xD;
+&lt;li&gt;UPDATE: *Database:* Updated the Database to AIRAC 2410&lt;/li&gt;&#xD;
+&lt;li&gt;UPDATE: *Database:* Updated the Database for AAU3&lt;/li&gt;&#xD;
+&lt;li&gt;UPDATE: *Adjust Elevation:* Modified the handling, when no elevation data is available.&lt;/li&gt;&#xD;
+&lt;li&gt;UPDATE: *Maintenance:* Unnecessary code has been removed&lt;/li&gt;&#xD;
+&lt;li&gt;UPDATE: *Components:* Updated the WebView2 Runtime, OpenDocument components and Xaml-Behaviors components to the most recent version&lt;/li&gt;&#xD;
+&lt;li&gt;BUGFIX: *LoadLiveries:* Fixed a null-pointer exception on startup, if there are not well designed liveries or aircrafts in the community folder&lt;/li&gt;&#xD;
+&lt;li&gt;BUGFIX: *Marketplace-Data:* Fixed a CTD when editing a heading tag without a heading number in the marketplace description preview window.&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+&#xD;
+&#xD;
+---&#xD;
+3.5.0.4714&#xD;
 USER-REQ: *Bushtrip:* The option to provide a requested (an IFR) flight plan to the air traffic control has been added to the base data.&#xD;
 USER-REQ: *Waypoints:* Added an option to manually override the altitude of a waypoint to ignore any automatic calculations by BTI or LNM. Useful for altitude restrictions on Navaid waypoints or fictitious restrictions on your trip.&#xD;
 USER-REQ: *SimVars:* Added "AMBIENT TEMPERATURE" in SimVarWatcher and A-Vars for PropertyTrigger.&#xD;
@@ -69,26 +112,26 @@ BUGFIX: *Usage-Database:* BTI incorrectly continued to list DME that was previou
   </RequiredDbVersion>
   <CurrentMSFSDatabaseVersion>
     <Major>1</Major>
-    <Minor>37</Minor>
-    <Build>19</Build>
-    <Revision>5</Revision>
+    <Minor>38</Minor>
+    <Build>2</Build>
+    <Revision>0</Revision>
   </CurrentMSFSDatabaseVersion>
   <CurrentMainDbVersion>
     <Major>1</Major>
-    <Minor>37</Minor>
-    <Build>19</Build>
-    <Revision>5</Revision>
+    <Minor>38</Minor>
+    <Build>2</Build>
+    <Revision>0</Revision>
   </CurrentMainDbVersion>
   <CurrentParkingDbVersion>
     <Major>1</Major>
-    <Minor>37</Minor>
-    <Build>19</Build>
-    <Revision>5</Revision>
+    <Minor>38</Minor>
+    <Build>2</Build>
+    <Revision>0</Revision>
   </CurrentParkingDbVersion>
   <CurrentNavAidsDbVersion>
     <Major>1</Major>
-    <Minor>37</Minor>
-    <Build>19</Build>
-    <Revision>5</Revision>
+    <Minor>38</Minor>
+    <Build>2</Build>
+    <Revision>0</Revision>
   </CurrentNavAidsDbVersion>
 </BushTripInjector>
