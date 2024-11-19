@@ -14,11 +14,31 @@
   </PrevVersion>
   <CurrentVersion>
     <Major>4</Major>
-    <Minor>0</Minor>
+    <Minor>1</Minor>
     <Build>0</Build>
-    <Revision>4771</Revision>
+    <Revision>4790</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+4.1.0.4790 - Microsoft Flightsimulator 2024 Part II&#xD;
+ 'Fixes:'&#xD;
+&lt;ul&gt;&#xD;
+&lt;li&gt; *Start-Up:* Fixed a CTD on Startup with a strange combination of MSFS2020 and MSFS2024 installations.&lt;/li&gt;&#xD;
+&lt;li&gt; *Sim-Detection:* Fixed some minor issues detecting MSFS2024 with Steam and Store/li&gt;&#xD;
+&lt;li&gt; *Sim-Detection:* Fixed an issue detecting MSFS2020 with Steam/li&gt;&#xD;
+&lt;li&gt; *Options:* An issue with overlapping fields in the options sheet has been fixed.&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+ 'Features:'&#xD;
+&lt;ul&gt;&#xD;
+&lt;li&gt; *Bundles:* Added basic support for Bundles with Flightsimulator 2024&lt;/li&gt;&#xD;
+&lt;li&gt; *SPB-Decompiler:* The option to decode MSFS 2024 SimPropBinary files (*.spb) has been added.&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+ 'Updates:'&#xD;
+&lt;ul&gt;&#xD;
+&lt;li&gt; *Bundles:* Invalid packages and packages with different simulator versions can be recreated when the bundle is generated&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+&#xD;
+&#xD;
+---&#xD;
 4.0.0.4771 - Microsoft Flightsimulator 2024&#xD;
  *Basic version to support generation and compilation of MSFS 2024 Bush Trips, Landing Challenges and Discover Flights*&#xD;
 &lt;ul&gt;&#xD;
@@ -37,7 +57,7 @@
  *Things that have not yet been implemented, but would be required for smooth operation with MSFS 2024:*&#xD;
 &lt;ul&gt;&#xD;
 &lt;li&gt;Marketplace changes for MSFS 2024&lt;/li&gt;&#xD;
-&lt;li&gt;SPB Decompiler for MSFS 2024&lt;/li&gt;&#xD;
+&lt;li&gt;&lt;s&gt;SPB Decompiler for MSFS 2024&lt;/s&gt;&lt;/li&gt;&#xD;
 &lt;li&gt;Xml-Importer for MSFS 2024&lt;/li&gt;&#xD;
 &lt;li&gt;MSFS 2024 Database Handling&lt;/li&gt;&#xD;
 &lt;li&gt;MSFS 2024 POI Handling&lt;/li&gt;&#xD;
