@@ -15,10 +15,21 @@
   <CurrentVersion>
     <Major>4</Major>
     <Minor>1</Minor>
-    <Build>0</Build>
-    <Revision>4790</Revision>
+    <Build>1</Build>
+    <Revision>4805</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+4.1.1.4805 - Microsoft Flightsimulator 2024 Part III: MSFS2024 Release&#xD;
+ 'Updates:'&#xD;
+&lt;ul&gt;&#xD;
+&lt;li&gt; *User-Interface:* Some restructuring of the menu. I would appreciate feedback on Discord.&lt;/li&gt;&#xD;
+&lt;li&gt; *Aircrafts:* The option to link between MSFS2020 and MSFS2024 aircraft names has been added internally. You can contribute by adding the *Name2024* attribute to an aircraft in the list of aircrafts on Github: &lt;a href="https://github.com/BuffyGC/BushTripInjector/blob/main/api/v1/aircrafts/aircrafts.xml"&gt;Aircraftlist on Github&lt;/a&gt;. See the Baron G58 for an example. For these changes to take effect, you must reload the list via *Extras* &amp;rarr; *Load Liveries/Aircrafts*&lt;/li&gt;&#xD;
+&lt;li&gt; *PropertyDefinitions:* Updated to MSFS2024 1.1.7.0&lt;/li&gt;&#xD;
+&lt;li&gt; *SimConnect:* Updated to MSFS2024 SDK 1.0.0&lt;/li&gt;&#xD;
+&lt;li&gt; *Maintenance:* Some minor stability changes.&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+&#xD;
+---&#xD;
 4.1.0.4790 - Microsoft Flightsimulator 2024 Part II&#xD;
  'Fixes:'&#xD;
 &lt;ul&gt;&#xD;
