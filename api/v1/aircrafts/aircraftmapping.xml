@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BushTripInjector xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <AircraftMappingModel Name2020="Asobo Baron G58" Name2024="Beech Baron G58" />
+</BushTripInjector>
