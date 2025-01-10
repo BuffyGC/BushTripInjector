@@ -14,11 +14,38 @@
   </PrevVersion>
   <CurrentVersion>
     <Major>4</Major>
-    <Minor>1</Minor>
-    <Build>1</Build>
-    <Revision>4805</Revision>
+    <Minor>2</Minor>
+    <Build>0</Build>
+    <Revision>4844</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+4.2.0.4844 - Microsoft Flightsimulator 2024 Part IV&#xD;
+ 'Features:'&#xD;
+&lt;ul&gt;&#xD;
+&lt;li&gt; *Aircrafts:* Reading the list of installed aircraft and liveries from MSFS 2024. Note that using a livery will not work due to a bug in MSFS 2024.&lt;/li&gt;&#xD;
+&lt;li&gt; *Covers:* Added the possibility to define the covers to be mounted on the aircraft before the flight.&lt;/li&gt;&#xD;
+&lt;/ul&gt; &#xD;
+&#xD;
+ 'Updates:'&#xD;
+&lt;ul&gt;&#xD;
+&lt;li&gt; *Preflight-Check:* A warning has been added to the preflight check if the title can presumably not be displayed completely in MSFS 2024.&lt;/li&gt;&#xD;
+&lt;li&gt; *3D Image Generation:* Added the option to start MSFS 2020 and MSFS 2024.&lt;/li&gt;&#xD;
+&lt;li&gt; *Aircrafts&amp;Liveries:* Added UI output when reading aircraft and liveries.&lt;/li&gt;&#xD;
+&lt;li&gt; *Aircrafts&amp;Liveries:* The aircraft mapping has been moved from the aircraft database to a separate file on Github: &lt;a href="https://github.com/BuffyGC/BushTripInjector/blob/main/api/v1/aircrafts/aircraftmapping.xml"&gt;Aircraft Mapping on Github&lt;/a&gt;. Contribute by creating a branch, adding the mapping and creating a pull request. I'll review it and then merge the PR.&lt;/li&gt;&#xD;
+&lt;li&gt; *License-Checks:* Added *www.* prefix to all license check calls to avoid redirecting from the server and speed up the query.&lt;/li&gt;&#xD;
+&lt;li&gt; *License-Checks:* To speed up the query, all calls to the licence check have been moved to a different endpoint.&lt;/li&gt;&#xD;
+&lt;li&gt; *Databases:* Updated the databases to AIRAC 2413. Please note: About 10% of the VOR/NDB has been removed. Please check your Usage-Db!&lt;/li&gt;&#xD;
+&lt;li&gt; *SimConnect:* Updated to MSFS2024 SDK 1.1.2&lt;/li&gt;&#xD;
+&lt;li&gt; *SimWatcher:* Added the functionality for MSFS 2024&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+&#xD;
+ 'Fixes:'&#xD;
+&lt;ul&gt;&#xD;
+&lt;li&gt; *Landmarks:* Fixed an issue that prevented the creation of IGM in Event &amp; Trigger from the Landmarks sheet.&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+&#xD;
+&#xD;
+---&#xD;
 4.1.1.4805 - Microsoft Flightsimulator 2024 Part III: MSFS2024 Release&#xD;
  'Updates:'&#xD;
 &lt;ul&gt;&#xD;
