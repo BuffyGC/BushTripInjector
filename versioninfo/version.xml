@@ -14,11 +14,37 @@
   </PrevVersion>
   <CurrentVersion>
     <Major>4</Major>
-    <Minor>2</Minor>
+    <Minor>3</Minor>
     <Build>0</Build>
-    <Revision>4844</Revision>
+    <Revision>4866</Revision>
   </CurrentVersion>
   <ChangeLog>&lt;meta http-equiv='Content-Type' content='text/html;charset=UTF-8'&gt;&#xD;
+4.3.0.4866 - Microsoft Flightsimulator 2024 Part V&#xD;
+This Version has many changes in the core functionality of BushTripInjector. Despite intensive testing, bugs and problems may occur.&#xD;
+If you have an issue, please contact me on Discord: BushTripInjector Discord. Thank you very much.&#xD;
+&#xD;
+ 'Features:'&#xD;
+&lt;ul&gt;&#xD;
+&lt;li&gt; *Intersections:* Add the ICAO Airport to Intersections (named/unnamed waypoints, RNAV, ...) in PLN file when navaid database is installed.&lt;/li&gt;&#xD;
+&lt;li&gt; *Intersections:* Choose whether Intersections should always be changed to User-WP, or if they do not exist, or not at all.&lt;/li&gt;&#xD;
+&lt;li&gt; *User-WP:* The option to choose whether the ident should be added to the user waypoints has been added.&lt;/li&gt;&#xD;
+&lt;/ul&gt; &#xD;
+&#xD;
+ 'Updates:'&#xD;
+&lt;ul&gt;&#xD;
+&lt;li&gt; *PLN Generation:* Several changes in the generated PLN file for better GPS handling in MSFS2020 and MSFS2024.&lt;/li&gt;&#xD;
+&lt;li&gt; *Covers:* Removed some unnecessary entries in the BTI file when no covers were set.&lt;/li&gt;&#xD;
+&lt;li&gt; *Preflight-Check:* A check has been added to validate if an intersection waypoint is included in the navigation database.&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+&#xD;
+ 'Fixes:'&#xD;
+&lt;ul&gt;&#xD;
+&lt;li&gt; *Generate-Submission:* Fixed an issue where creating sub-missions for MSFS 2024 would select the wrong simulator. &lt;/li&gt;&#xD;
+&lt;li&gt; *Covers:* An issue with the visibility of the cover options in non-bush trip missions has been fixed.&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+&#xD;
+&#xD;
+---&#xD;
 4.2.0.4844 - Microsoft Flightsimulator 2024 Part IV&#xD;
  'Features:'&#xD;
 &lt;ul&gt;&#xD;
